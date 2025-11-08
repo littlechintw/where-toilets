@@ -1,0 +1,134 @@
+name: Update Toilet Data
+
+on:
+  # 每週日 UTC 0 點執行（台灣時間週日早上 8 點）
+  schedule:
+    - cron: '0 0 * * 0'
+  
+  # 手動觸發
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: '強制更新資料'
+        required: false
+        default: false
+        type: boolean
+
+# 設定權限
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Create data directory
+      run: mkdir -p public/data
+    
+    - name: Fetch toilet data
+      env:
+        MOENV_API_KEY: ${{ secrets.MOENV_API_KEY }}
+      run: node scripts/fetch-toilets.js
+    
+    - name: Normalize data
+      run: node scripts/normalize-data.js
+    
+    - name: List generated files
+      run: |
+        echo "📂 Generated data files:"
+        ls -lh public/data/ || echo "No data directory found"
+    
+    - name: Create deployment flag
+      run: |
+        echo "{\"updated_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"trigger_deploy\": true}" > public/data/deploy-flag.json
+        echo "✅ Deployment flag created"
+    
+    - name: Check for data changes
+      id: check-changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 先 add 所有變更來檢查
+        git add public/data/
+        
+        # 檢查是否有變更
+        if git diff --cached --quiet HEAD -- public/data/; then
+          echo "❌ No data changes detected"
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "✅ Data changes detected"
+          echo "changes=true" >> $GITHUB_OUTPUT
+          
+          # 顯示變更的檔案
+          echo "Changed files:"
+          git diff --cached --name-only HEAD -- public/data/
+          
+          echo ""
+          echo "File changes summary:"
+          git diff --cached --stat HEAD -- public/data/
+        fi
+    
+    - name: Commit and push data changes
+      if: steps.check-changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add public/data/
+        
+        # 檢查是否真的有東西要 commit
+        if git diff --cached --quiet; then
+          echo "⚠️ No changes to commit"
+          
+          # 如果是強制更新，建立一個空 commit 來觸發部署
+          if [[ "${{ github.event.inputs.force_update }}" == "true" ]]; then
+            echo "🔄 Creating empty commit to trigger deployment..."
+            git commit --allow-empty -m "🔄 Force deploy - $(date +'%Y-%m-%d %H:%M:%S')"
+          fi
+        else
+          git commit -m "📊 Auto-update toilet data - $(date +'%Y-%m-%d %H:%M:%S')"
+        fi
+        
+        echo "🚀 Pushing changes to repository..."
+        git push origin main || git push origin HEAD:main
+    
+    - name: Verify changes were pushed
+      if: steps.check-changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        echo "🔍 Verifying remote repository..."
+        git fetch origin
+        LOCAL=$(git rev-parse HEAD)
+        REMOTE=$(git rev-parse origin/main)
+        
+        if [ "$LOCAL" = "$REMOTE" ]; then
+          echo "✅ Changes successfully pushed to remote repository"
+        else
+          echo "⚠️ Warning: Local and remote commits differ"
+          echo "Local:  $LOCAL"
+          echo "Remote: $REMOTE"
+        fi
+    
+    - name: Output summary
+      run: |
+        if [[ "${{ steps.check-changes.outputs.changes }}" == "true" || "${{ github.event.inputs.force_update }}" == "true" ]]; then
+          echo "✅ 資料已更新，將觸發網站部署"
+          echo "📝 查看最新 commit: https://github.com/${{ github.repository }}/commit/$(git rev-parse HEAD)"
+        else
+          echo "ℹ️ 資料無變更，跳過部署"
+        fi

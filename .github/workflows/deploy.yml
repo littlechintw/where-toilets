@@ -1,0 +1,167 @@
+name: Deploy Website
+
+on:
+  # 當 main 分支的特定檔案發生變更時觸發
+  push:
+    branches: [ main ]
+    paths:
+      - 'public/data/deploy-flag.json'  # 資料更新標記檔案
+      - 'src/**'                        # 前端程式碼變更
+      - 'public/**'                     # 靜態資源變更（除了資料檔案）
+      - 'package.json'                  # 依賴變更
+      - 'vite.config.js'               # 建置設定變更
+      - '.github/workflows/deploy.yml' # 工作流程自身變更
+
+  # 手動觸發部署
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '部署原因'
+        required: false
+        default: '手動觸發部署'
+        type: string
+
+# 設定權限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 確保同時間只有一個部署工作流程執行
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # 檢查是否需要部署
+  check-deploy:
+    runs-on: ubuntu-latest
+    outputs:
+      should-deploy: ${{ steps.check.outputs.should-deploy }}
+      deploy-reason: ${{ steps.check.outputs.reason }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Check deployment trigger
+      id: check
+      run: |
+        SHOULD_DEPLOY="false"
+        REASON="未知原因"
+        
+        # 檢查是否有 deploy-flag.json
+        if [[ -f "public/data/deploy-flag.json" ]]; then
+          echo "發現資料更新標記檔案"
+          SHOULD_DEPLOY="true"
+          REASON="資料更新觸發"
+        fi
+        
+        # 檢查是否為手動觸發
+        if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+          echo "手動觸發部署"
+          SHOULD_DEPLOY="true"
+          REASON="${{ github.event.inputs.reason }}"
+        fi
+        
+        # 檢查是否有程式碼變更
+        if [[ "${{ github.event_name }}" == "push" ]]; then
+          # 檢查本次 push 是否包含程式碼相關檔案
+          git diff --name-only HEAD^ HEAD | grep -E "(src/|package\.json|vite\.config\.js)" > /dev/null
+          if [[ $? -eq 0 ]]; then
+            echo "程式碼變更觸發部署"
+            SHOULD_DEPLOY="true"
+            REASON="程式碼更新"
+          fi
+        fi
+        
+        echo "should-deploy=$SHOULD_DEPLOY" >> $GITHUB_OUTPUT
+        echo "reason=$REASON" >> $GITHUB_OUTPUT
+        echo "部署決定: $SHOULD_DEPLOY ($REASON)"
+
+  # 建置和部署作業
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    needs: [check-deploy]
+    if: needs.check-deploy.outputs.should-deploy == 'true'
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Build application
+      run: npm run build
+    
+    - name: Remove deploy flag after successful build
+      run: |
+        if [[ -f "public/data/deploy-flag.json" ]]; then
+          echo "移除部署標記檔案"
+          rm -f public/data/deploy-flag.json
+        fi
+    
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './dist'
+    
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+      with:
+        cname: toilets.littlechin.tw
+    
+    - name: Clean up deploy flag from repository
+      if: always()
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 如果 deploy-flag.json 仍存在，將其從 repository 中移除
+        if [[ -f "public/data/deploy-flag.json" ]]; then
+          git rm public/data/deploy-flag.json
+          git commit -m "🧹 Remove deploy flag after deployment" || echo "No deploy flag to remove"
+          git push || echo "Nothing to push"
+        fi
+    
+    - name: Deployment summary
+      run: |
+        echo "✅ 網站部署完成！"
+        echo "🔗 網站網址: https://toilets.littlechin.tw"
+        echo "📅 部署時間: $(date +'%Y-%m-%d %H:%M:%S')"
+        echo "🚀 觸發原因: ${{ needs.check-deploy.outputs.deploy-reason }}"
+        echo "📊 提交: ${{ github.sha }}"
+
+  # 部署失敗處理
+  handle-failure:
+    runs-on: ubuntu-latest
+    needs: [check-deploy, build-and-deploy]
+    if: always() && needs.check-deploy.outputs.should-deploy == 'true' && needs.build-and-deploy.result == 'failure'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Handle deployment failure
+      run: |
+        echo "❌ 部署失敗！"
+        echo "🔍 檢查建置日誌以了解錯誤原因"
+        echo "⏰ 失敗時間: $(date +'%Y-%m-%d %H:%M:%S')"
+        
+        # 可選：發送通知或建立 Issue
+        # 這裡可以加入 Slack 通知、Email 或建立 GitHub Issue 的邏輯

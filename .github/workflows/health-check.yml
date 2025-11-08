@@ -1,0 +1,73 @@
+name: Health Check
+
+on:
+  # 每天檢查一次網站狀態
+  schedule:
+    - cron: '0 6 * * *'  # 每天 UTC 6 點（台灣時間下午 2 點）
+  
+  # 手動觸發
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check website status
+      run: |
+        echo "🔍 檢查網站健康狀態..."
+        
+        # 檢查主頁面
+        if curl -f -s -o /dev/null "https://toilets.littlechin.tw/"; then
+          echo "✅ 主頁面正常"
+        else
+          echo "❌ 主頁面無法訪問"
+          exit 1
+        fi
+        
+        # 檢查地圖頁面
+        if curl -f -s -o /dev/null "https://toilets.littlechin.tw/map"; then
+          echo "✅ 地圖頁面正常"
+        else
+          echo "⚠️ 地圖頁面可能有問題（SPA 路由問題為正常現象）"
+        fi
+        
+        # 檢查資料索引檔案
+        if curl -f -s -o /dev/null "https://toilets.littlechin.tw/data/index.json"; then
+          echo "✅ 資料索引檔案正常"
+        else
+          echo "❌ 資料索引檔案無法訪問"
+          exit 1
+        fi
+        
+        echo "🎉 健康檢查完成"
+    
+    - name: Check data freshness
+      run: |
+        echo "📅 檢查資料新鮮度..."
+        
+        # 下載索引檔案檢查更新時間
+        curl -s "https://toilets.littlechin.tw/data/index.json" > index.json
+        
+        if [[ -f index.json ]]; then
+          last_updated=$(cat index.json | grep -o '"last_updated":"[^"]*' | cut -d'"' -f4)
+          echo "📊 資料最後更新時間: $last_updated"
+          
+          # 檢查是否超過 10 天未更新
+          if [[ -n "$last_updated" ]]; then
+            last_timestamp=$(date -d "$last_updated" +%s 2>/dev/null || echo "0")
+            current_timestamp=$(date +%s)
+            days_diff=$(( (current_timestamp - last_timestamp) / 86400 ))
+            
+            echo "📈 資料已 $days_diff 天未更新"
+            
+            if [[ $days_diff -gt 10 ]]; then
+              echo "⚠️ 資料超過 10 天未更新，建議檢查自動更新流程"
+            else
+              echo "✅ 資料更新時間正常"
+            fi
+          fi
+        fi

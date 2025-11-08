@@ -1,0 +1,36 @@
+{
+  "name": "where-toilet",
+  "version": "1.0.0",
+  "description": "台灣廁所地圖 - 快速找到附近廁所",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch-data": "node scripts/fetch-toilets.js",
+    "normalize-data": "node scripts/normalize-data.js",
+    "process-data": "npm run fetch-data && npm run normalize-data",
+    "clean-data": "rm -rf public/data/counties/*.json public/data/raw-toilets.json public/data/deploy-flag.json",
+    "check-deploy-flag": "test -f public/data/deploy-flag.json && echo 'Deploy flag exists' || echo 'No deploy flag'"
+  },
+  "dependencies": {
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "leaflet": "^1.9.4",
+    "vue-i18n": "^9.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "vite": "^5.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "toilet",
+    "map",
+    "taiwan",
+    "vue",
+    "public-service"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
