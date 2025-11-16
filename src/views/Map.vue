@@ -883,7 +883,7 @@ const updateMapMarkers = () => {
 
   const toiletCount = filteredToilets.value.length
   const currentZoom = map.value.getZoom()
-  
+
   // 根據縮放層級和廁所密度動態決定聚合距離
   let baseClusterDistance = 30
   if (currentZoom >= 18) {
@@ -913,7 +913,7 @@ const updateMapMarkers = () => {
 
   // 執行智能聚合
   const clusters = createToiletClusters(filteredToilets.value, clusterDistance, currentZoom)
-  
+
   // 渲染聚合結果
   clusters.forEach(cluster => {
     if (cluster.toilets.length === 1) {
@@ -960,7 +960,7 @@ const createClusterMarker = (cluster) => {
   let iconSize = 40
   let fontSize = 14
   let bgGradient = 'linear-gradient(135deg, #007bff, #0056b3)'
-  
+
   if (count >= 100) {
     iconSize = 60
     fontSize = 16
@@ -997,7 +997,7 @@ const createClusterMarker = (cluster) => {
         </div>
       `,
       iconSize: [iconSize, iconSize],
-      iconAnchor: [iconSize/2, iconSize/2]
+      iconAnchor: [iconSize / 2, iconSize / 2]
     })
   })
 
@@ -2173,7 +2173,7 @@ onUnmounted(() => {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   border-radius: 50%;
   pointer-events: none;
 }

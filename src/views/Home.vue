@@ -32,23 +32,6 @@
             </div>
           </div>
         </div>
-        
-        <div class="hero-image">
-          <div class="phone-mockup">
-            <div class="phone-screen">
-              <div class="mock-map">
-                <div class="mock-marker" v-for="n in 8" :key="n" 
-                     :style="{ 
-                       top: Math.random() * 80 + '%', 
-                       left: Math.random() * 80 + '%' 
-                     }">
-                  🚽
-                </div>
-                <div class="mock-user-location">📍</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -211,13 +194,10 @@ onMounted(async () => {
 }
 
 .hero-container {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+  text-align: center;
   position: relative;
   z-index: 1;
 }
@@ -283,6 +263,7 @@ onMounted(async () => {
 .stats {
   display: flex;
   gap: 2rem;
+  justify-content: center;
 }
 
 .stat-item {
@@ -303,62 +284,7 @@ onMounted(async () => {
   margin-top: 0.5rem;
 }
 
-/* Phone Mockup */
-.phone-mockup {
-  perspective: 1000px;
-  transform-style: preserve-3d;
-}
 
-.phone-screen {
-  width: 250px;
-  height: 450px;
-  background: #333;
-  border-radius: 25px;
-  padding: 20px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-  transform: rotateY(-15deg) rotateX(5deg);
-  animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: rotateY(-15deg) rotateX(5deg) translateY(0px); }
-  50% { transform: rotateY(-15deg) rotateX(5deg) translateY(-20px); }
-}
-
-.mock-map {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg, #e8f5e8, #f0f8ff);
-  border-radius: 15px;
-  position: relative;
-  overflow: hidden;
-}
-
-.mock-marker {
-  position: absolute;
-  font-size: 1.2rem;
-  animation: bounce 2s infinite;
-}
-
-.mock-user-location {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.5rem;
-  color: #ff4444;
-  animation: pulse 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
-}
-
-@keyframes pulse {
-  0%, 100% { transform: translate(-50%, -50%) scale(1); }
-  50% { transform: translate(-50%, -50%) scale(1.2); }
-}
 
 /* Features Section */
 .features {
@@ -492,23 +418,12 @@ onMounted(async () => {
 
 /* 響應式設計 */
 @media (max-width: 768px) {
-  .hero-container {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 2rem;
-  }
-  
   .hero-title {
     font-size: 2.5rem;
   }
   
   .stats {
     justify-content: center;
-  }
-  
-  .phone-screen {
-    width: 200px;
-    height: 350px;
   }
   
   .about-content {
