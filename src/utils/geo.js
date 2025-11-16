@@ -57,15 +57,51 @@ export function detectUserCounty(userLocation, counties) {
   
   for (const county of counties) {
     const { bounds } = county;
+    const cb = sanitizeBounds(bounds)
     if (
-      lat >= bounds.minLat && lat <= bounds.maxLat &&
-      lng >= bounds.minLng && lng <= bounds.maxLng
+      lat >= cb.minLat && lat <= cb.maxLat &&
+      lng >= cb.minLng && lng <= cb.maxLng
     ) {
       return county.name_en;
     }
   }
   
   return null;
+}
+
+/**
+ * 清理與校正縣市 bounds（處理欄位錯置或範圍錯誤）
+ * @param {Object} bounds
+ * @returns {{minLat:number,maxLat:number,minLng:number,maxLng:number}}
+ */
+export function sanitizeBounds(bounds = {}) {
+  let minLat = Number(bounds.minLat)
+  let maxLat = Number(bounds.maxLat)
+  let minLng = Number(bounds.minLng)
+  let maxLng = Number(bounds.maxLng)
+
+  // 如果有 NaN，用極端值填補以避免拋錯
+  if (Number.isNaN(minLat)) minLat = -90
+  if (Number.isNaN(maxLat)) maxLat = 90
+  if (Number.isNaN(minLng)) minLng = -180
+  if (Number.isNaN(maxLng)) maxLng = 180
+
+  // 假如看起來 lat/lng 被放錯位置（例如 maxLat > 90），嘗試交換
+  const looksLikeSwapped = maxLat > 90 || minLat < -90 || minLng > 180 || maxLng > 180
+  if (looksLikeSwapped) {
+    // 嘗試交換 pair (minLat <-> minLng, maxLat <-> maxLng)
+    const tMinLat = minLat, tMaxLat = maxLat
+    minLat = minLng
+    maxLat = maxLng
+    minLng = tMinLat
+    maxLng = tMaxLat
+  }
+
+  // 保證大小順序正確
+  if (minLat > maxLat) [minLat, maxLat] = [Math.min(minLat, maxLat), Math.max(minLat, maxLat)]
+  if (minLng > maxLng) [minLng, maxLng] = [Math.min(minLng, maxLng), Math.max(minLng, maxLng)]
+
+  return { minLat, maxLat, minLng, maxLng }
 }
 
 /**
@@ -87,8 +123,9 @@ export function getNearbyCounties(currentCounty, counties, userLocation) {
   const nearbyCounties = counties
     .filter(county => county.name_en !== currentCounty)
     .map(county => {
-      const centerLat = (county.bounds.minLat + county.bounds.maxLat) / 2;
-      const centerLng = (county.bounds.minLng + county.bounds.maxLng) / 2;
+      const sb = sanitizeBounds(county.bounds)
+      const centerLat = (sb.minLat + sb.maxLat) / 2;
+      const centerLng = (sb.minLng + sb.maxLng) / 2;
       const distance = haversineDistance(userLat, userLng, centerLat, centerLng);
       
       return {

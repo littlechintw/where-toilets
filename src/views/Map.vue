@@ -8,18 +8,14 @@
           {{ isPanelCollapsed ? '▶' : '◀' }}
         </button>
       </div>
-      
+
       <div class="panel-content" v-show="!isPanelCollapsed">
         <!-- 自訂位置搜尋 -->
         <div class="custom-location">
           <h3>{{ $t('map.customLocation.title') }}</h3>
           <div class="location-input">
-            <input 
-              v-model="customLocationInput" 
-              @keyup.enter="searchCustomLocation"
-              :placeholder="$t('map.customLocation.placeholder')"
-              class="location-search-input"
-            >
+            <input v-model="customLocationInput" @keyup.enter="searchCustomLocation"
+              :placeholder="$t('map.customLocation.placeholder')" class="location-search-input">
             <button @click="searchCustomLocation" class="btn-search" :disabled="isSearching">
               {{ isSearching ? '🔄' : '🔍' }}
             </button>
@@ -31,14 +27,14 @@
             {{ searchError }}
           </div>
         </div>
-        
+
         <!-- 定位按鈕 -->
         <button @click="locateUser" class="btn btn-primary" :disabled="isLocating">
           <span v-if="isLocating">🔄</span>
           <span v-else>📍</span>
           {{ isLocating ? $t('map.locating') : $t('map.locate') }}
         </button>
-        
+
         <!-- 使用說明 -->
         <div class="usage-tips">
           <div class="usage-tips-header" @click="showUsageTips = !showUsageTips">
@@ -56,11 +52,11 @@
             </ul>
           </div>
         </div>
-        
+
         <!-- 篩選器 -->
         <div class="filters">
           <h3>{{ $t('map.filters.title') }}</h3>
-          
+
           <div class="filter-group">
             <label>{{ $t('map.filters.grade.label') }}</label>
             <select v-model="filters.grade">
@@ -72,7 +68,7 @@
               <option value="不合格">{{ $t('map.filters.grade.fail') }}</option>
             </select>
           </div>
-          
+
           <div class="filter-group">
             <label>{{ $t('map.filters.type.label') }}</label>
             <select v-model="filters.type">
@@ -84,103 +80,23 @@
               <option value="親子">{{ $t('map.filters.type.family') }}</option>
             </select>
           </div>
-          
+
           <div class="filter-group">
             <label>
               <input type="checkbox" v-model="filters.hasDiaper">
               {{ $t('map.filters.diaper') }}
             </label>
           </div>
-          
+
           <div class="filter-group">
             <button @click="resetFilters" class="btn-reset">
               🔄 {{ $t('map.filters.reset') }}
             </button>
           </div>
         </div>
-        
-        <!-- 效能設定 -->
-        <div class="performance-settings">
-          <div class="performance-settings-header" @click="showPerformanceSettings = !showPerformanceSettings">
-            <h3>⚡ 效能設定</h3>
-            <span class="toggle-icon">{{ showPerformanceSettings ? '▼' : '▶' }}</span>
-          </div>
-          
-          <div v-show="showPerformanceSettings" class="performance-settings-content">
-            <div class="setting-item">
-              <label>
-                <input type="checkbox" v-model="performanceSettings.enableHighPerformanceMode" @change="onPerformanceSettingChange">
-                🚀 高效能模式 (建議開啟)
-              </label>
-              <small class="setting-description">載入較少資料，提升流暢度。預設開啟以確保最佳體驗。</small>
-            </div>
-            
-            <div class="setting-item">
-              <label>每區域最大廁所數量: {{ performanceSettings.maxToiletsPerArea }}</label>
-              <input 
-                type="range" 
-                v-model="performanceSettings.maxToiletsPerArea"
-                @input="onPerformanceSettingChange"
-                min="50" 
-                max="1000" 
-                step="50"
-                class="range-slider"
-              >
-              <div class="range-labels">
-                <span>50</span>
-                <span>1000</span>
-              </div>
-            </div>
-            
-            <div class="setting-item">
-              <label>地圖最大標記數量: {{ performanceSettings.maxVisibleMarkers }}</label>
-              <input 
-                type="range" 
-                v-model="performanceSettings.maxVisibleMarkers"
-                @input="onPerformanceSettingChange"
-                min="50" 
-                max="500" 
-                step="25"
-                class="range-slider"
-              >
-              <div class="range-labels">
-                <span>50</span>
-                <span>500</span>
-              </div>
-            </div>
-            
-            <div class="performance-info">
-              <small>💡 已啟用高效能模式以確保流暢體驗。如需查看更多廁所，可調高數值或關閉高效能模式。</small>
-            </div>
-            
-            <button @click="resetPerformanceSettings" class="btn-reset-small">
-              🔄 恢復預設值
-            </button>
-          </div>
-        </div>
-        
-        <!-- 效能警告 -->
-        <div v-if="performanceWarning" class="performance-warning">
-          <div class="warning-icon">⚠️</div>
-          <div class="warning-content">
-            <strong>效能提示</strong>
-            <p>{{ performanceWarning }}</p>
-            <button v-if="!performanceSettings.enableHighPerformanceMode" 
-                    @click="enableHighPerformanceMode" 
-                    class="btn-warning-action">
-              啟用高效能模式
-            </button>
-            <button v-else-if="performanceWarning.includes('縮小查看範圍')" 
-                    @click="zoomInForBetterPerformance" 
-                    class="btn-warning-action">
-              縮小查看範圍
-            </button>
-            <button @click="dismissPerformanceWarning" class="btn-dismiss">
-              知道了
-            </button>
-          </div>
-        </div>
-        
+
+        <!-- 移除效能警告和設定 - 不再限制廁所顯示數量 -->
+
         <!-- 地圖範圍資訊 
         <div class="map-range-info">
           <h3>🗺️ 地圖範圍資訊</h3>
@@ -212,19 +128,16 @@
             </small>
           </div>
         </div>-->
-        
+
         <!-- 廁所列表 -->
         <div class="toilet-list" v-if="filteredToilets.length > 0">
           <h3>{{ $t('map.toiletList.title') }} ({{ filteredToilets.length }}個)</h3>
-          
+
           <!-- 控制面板列表（總是只顯示前5個） -->
           <div class="control-panel-list">
-            <div class="toilet-item" 
-                 v-for="toilet in displayedToilets" 
-                 :key="toilet.id"
-                 @click="focusToilet(toilet)"
-                 :class="{ active: selectedToilet?.id === toilet.id }">
-              
+            <div class="toilet-item" v-for="toilet in displayedToilets" :key="toilet.id" @click="focusToilet(toilet)"
+              :class="{ active: selectedToilet?.id === toilet.id }">
+
               <div class="toilet-compact-info">
                 <div class="toilet-name-row">
                   <h4>{{ toilet.name_zh }}</h4>
@@ -242,24 +155,21 @@
               </div>
             </div>
           </div>
-          
+
           <!-- 查看全部按鈕（當有更多項目時顯示） -->
           <div class="view-all-btn-container" v-if="filteredToilets.length > displayLimit">
             <button @click="showAllToiletsList = true" class="btn-view-all">
               {{ $t('map.toiletList.viewAll') }} {{ filteredToilets.length }} 個廁所
             </button>
           </div>
-          
-          <!-- 效能提示 -->
-          <div v-if="filteredToilets.length > 100" class="performance-notice">
-            <small>💡 資料量較大，已啟用優化顯示模式</small>
-          </div>
+
+          <!-- 移除效能提示 - 不再限制顯示模式 -->
         </div>
-        
+
         <div v-else-if="!isLoading && filteredToilets.length === 0" class="no-data">
           <p>{{ userLocation ? $t('map.toiletList.noData') : $t('map.toiletList.needLocation') }}</p>
         </div>
-        
+
         <div v-if="isLoading" class="loading">
           <div class="loading-spinner"></div>
           <p>{{ $t('common.loading') }}...</p>
@@ -270,11 +180,11 @@
         </div>
       </div>
     </div>
-    
+
     <!-- 地圖容器 -->
     <div class="map-container">
       <div id="map" ref="mapContainer"></div>
-      
+
       <!-- 地圖控制 -->
       <div class="map-controls">
         <button @click="locateUser" class="map-control-btn" :disabled="isLocating">
@@ -282,20 +192,18 @@
         </button>
       </div>
     </div>
-    
+
     <!-- 聚合廁所列表彈窗 -->
     <div v-if="showClusterList" class="toilet-modal" @click="closeClusterModal">
       <div class="modal-content cluster-modal" @click.stop>
         <button @click="closeClusterModal" class="close-btn">✕</button>
-        
-        <h3>📍 {{ $t('map.toiletList.cluster.title') }} ({{ clusteredToilets.length }}個)</h3>
-        
+
+        <h3>📍 這個位置有 {{ clusteredToilets.length }} 個廁所</h3>
+
         <div class="cluster-toilet-list">
-          <div class="cluster-toilet-item" 
-               v-for="toilet in clusteredToilets" 
-               :key="toilet.id"
-               @click="selectClusterToilet(toilet)">
-            
+          <div class="cluster-toilet-item" v-for="toilet in clusteredToilets" :key="toilet.id"
+            @click="selectClusterToilet(toilet)">
+
             <div class="toilet-info">
               <h4>{{ toilet.name_zh }}</h4>
               <p class="address">{{ toilet.address_zh }}</p>
@@ -306,7 +214,7 @@
                 <span class="distance" v-if="toilet.distance">{{ formatDistance(toilet.distance) }}</span>
               </div>
             </div>
-            
+
             <div class="toilet-actions">
               <button @click.stop="openNavigation(toilet)" class="btn-nav">
                 🧭 導航
@@ -316,20 +224,18 @@
         </div>
       </div>
     </div>
-    
+
     <!-- 全部廁所列表彈窗 -->
     <div v-if="showAllToiletsList" class="toilet-modal" @click="closeAllToiletsModal">
       <div class="modal-content all-toilets-modal" @click.stop>
         <button @click="closeAllToiletsModal" class="close-btn">✕</button>
-        
+
         <h3>🗺️ {{ $t('map.toiletList.title') }} ({{ filteredToilets.length }}個)</h3>
-        
+
         <div class="all-toilets-list">
-          <div class="all-toilet-item" 
-               v-for="toilet in filteredToilets" 
-               :key="toilet.id"
-               @click="selectToiletFromList(toilet)">
-            
+          <div class="all-toilet-item" v-for="toilet in filteredToilets" :key="toilet.id"
+            @click="selectToiletFromList(toilet)">
+
             <div class="toilet-compact-info">
               <div class="toilet-name-row">
                 <h4>{{ toilet.name_zh }}</h4>
@@ -349,15 +255,15 @@
         </div>
       </div>
     </div>
-    
+
     <!-- 廁所詳情彈窗 -->
     <div v-if="selectedToilet" class="toilet-modal" @click="closeModal">
       <div class="modal-content" @click.stop>
         <button @click="closeModal" class="close-btn">✕</button>
-        
+
         <h3>{{ selectedToilet.name_zh }}</h3>
         <p class="address">{{ selectedToilet.address_zh }}</p>
-        
+
         <div class="toilet-details">
           <div class="detail-item">
             <strong>{{ $t('map.toiletInfo.grade') }}：</strong>
@@ -384,7 +290,7 @@
             {{ selectedToilet.manager }}
           </div>
         </div>
-        
+
         <div class="modal-actions">
           <button @click="openNavigation(selectedToilet)" class="btn btn-primary">
             🧭 {{ $t('map.toiletInfo.navigation') }}
@@ -399,7 +305,7 @@
 import { ref, onMounted, onUnmounted, watch, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import L from 'leaflet'
-import { getUserLocation, findNearestToilets, detectUserCounty, getNearbyCounties, formatDistance } from '../utils/geo'
+import { getUserLocation, findNearestToilets, detectUserCounty, getNearbyCounties, formatDistance, sanitizeBounds } from '../utils/geo'
 
 const { t } = useI18n()
 
@@ -412,7 +318,7 @@ const centerMarker = ref(null) // 中心點拖曳標記
 const toiletMarkers = ref([])
 const nearbyToilets = ref([])
 const selectedToilet = ref(null)
-const clusteredToilets = ref([]) // 聚合廁所列表（改名避免衝突）
+const clusteredToilets = ref([]) // 聚合廁所列表
 const showClusterList = ref(false) // 顯示聚合列表
 const showAllToiletsList = ref(false) // 顯示所有廁所列表彈窗
 const displayLimit = ref(5) // 預設顯示數量
@@ -422,32 +328,27 @@ const isLoading = ref(false)
 const isLocating = ref(false)
 const isPanelCollapsed = ref(false)
 
-// 載入狀態和錯誤處理
+// 載入狀態
 const loadingStatus = ref('')
-const performanceWarning = ref('')
 
 // 地圖範圍統計
 const totalLoadedToilets = ref(0) // 總載入廁所數量
 const visibleToiletsCount = ref(0) // 可見範圍內廁所數量  
 const mapMarkersCount = ref(0) // 地圖標記數量
 
-// 效能控制設定
-const performanceSettings = ref({
-  maxToiletsPerArea: 300, // 每個區域最大廁所數量（預設啟用高效能）
-  maxVisibleMarkers: 150, // 地圖上最大標記數量（預設啟用高效能）
-  autoClusterThreshold: 50, // 自動聚合閾值（預設啟用高效能）
-  enableHighPerformanceMode: true // 高效能模式（預設開啟）
-})
+// 移除效能限制 - 不再根據縮放層級限制廁所數量
 
 // 自訂位置搜尋
 const customLocationInput = ref('')
 const isSearching = ref(false)
 const searchError = ref('')
 const showUsageTips = ref(false) // 控制使用說明的顯示/隱藏
-const showPerformanceSettings = ref(false) // 控制效能設定的顯示/隱藏
+// (已移除) showPerformanceSettings
 
 // 更新延遲計時器
 let updateTimeout = null
+// 用來標記非同步載入請求，避免舊的結果覆蓋新的畫面狀態
+let currentUpdateRequestId = 0
 
 // 篩選器
 const filters = ref({
@@ -460,69 +361,69 @@ const filters = ref({
 const filteredToilets = computed(() => {
   console.log('開始篩選, 原始廁所數量:', nearbyToilets.value.length)
   console.log('篩選條件:', filters.value)
-  
+
   if (nearbyToilets.value.length > 0) {
     console.log('第一個廁所範例:', nearbyToilets.value[0])
   }
-  
+
   const filtered = nearbyToilets.value.filter(toilet => {
     // 等級篩選 - 使用包含匹配而不是完全匹配
     if (filters.value.grade) {
       const toiletGrade = toilet.grade || toilet.level || toilet.rating || ''
-      const gradeMatch = toiletGrade.includes(filters.value.grade) || 
-                        filters.value.grade.includes(toiletGrade) ||
-                        toiletGrade === filters.value.grade
+      const gradeMatch = toiletGrade.includes(filters.value.grade) ||
+        filters.value.grade.includes(toiletGrade) ||
+        toiletGrade === filters.value.grade
       if (!gradeMatch) {
         console.log('等級篩選失敗:', toiletGrade, 'vs', filters.value.grade)
         return false
       }
     }
-    
+
     // 類型篩選 - 根據名稱和類型欄位智慧判斷
     if (filters.value.type) {
       const toiletType = toilet.type || toilet.toilet_type || toilet.category || ''
       const toiletName = toilet.name_zh || toilet.name || ''
-      
+
       let typeMatch = false
-      
+
       // 根據篩選條件檢查
       if (filters.value.type === '女') {
-        typeMatch = toiletName.includes('女') || 
-                   toiletType === 'female' || 
-                   toiletType.includes('female')
+        typeMatch = toiletName.includes('女') ||
+          toiletType === 'female' ||
+          toiletType.includes('female')
       } else if (filters.value.type === '男') {
-        typeMatch = toiletName.includes('男') || 
-                   toiletType === 'male' || 
-                   toiletType.includes('male')
+        typeMatch = toiletName.includes('男') ||
+          toiletType === 'male' ||
+          toiletType.includes('male')
       } else if (filters.value.type === '男女') {
-        typeMatch = (toiletName.includes('男') && toiletName.includes('女')) || 
-                   toiletType === 'mixed' || 
-                   toiletType === 'unisex' ||
-                   toiletType.includes('mixed')
+        typeMatch = (toiletName.includes('男') && toiletName.includes('女')) ||
+          toiletType === 'mixed' ||
+          toiletType === 'unisex' ||
+          toiletType.includes('mixed')
       } else if (filters.value.type === '無障礙') {
-        typeMatch = toiletName.includes('無障礙') || 
-                   toiletName.includes('身障') || 
-                   toiletType === 'accessible' ||
-                   toiletType.includes('accessible')
+        typeMatch = toiletName.includes('無障礙') ||
+          toiletName.includes('身障') ||
+          toiletType === 'accessible' ||
+          toiletType.includes('accessible')
       } else if (filters.value.type === '親子') {
-        typeMatch = toiletName.includes('親子') || 
-                   toiletName.includes('育嬰') ||
-                   toiletName.includes('baby') ||
-                   toiletType === 'family' ||
-                   toiletType.includes('family')
+        typeMatch = toiletName.includes('親子') ||
+          toiletName.includes('育嬰') ||
+          toiletName.includes('baby') ||
+          toiletType === 'family' ||
+          toiletType.includes('family')
       } else {
         // 一般包含匹配
         typeMatch = toiletType.includes(filters.value.type) ||
-                   filters.value.type.includes(toiletType) ||
-                   toiletName.includes(filters.value.type)
+          filters.value.type.includes(toiletType) ||
+          toiletName.includes(filters.value.type)
       }
-      
+
       if (!typeMatch) {
         console.log('類型篩選失敗:', toiletType, 'name:', toiletName, 'vs', filters.value.type)
         return false
       }
     }
-    
+
     // 尿布台篩選 - 使用智慧判斷函數
     if (filters.value.hasDiaper) {
       if (!hasChangingTable(toilet)) {
@@ -530,10 +431,10 @@ const filteredToilets = computed(() => {
         return false
       }
     }
-    
+
     return true
   })
-  
+
   console.log('篩選後廁所數量:', filtered.length)
   return filtered
 })
@@ -554,7 +455,7 @@ const calculateVirtualList = () => {
   const visibleCount = Math.ceil(containerHeight / itemHeight) + 2 // 多渲染2個作為緩衝
   const startIndex = Math.floor(virtualListSettings.value.scrollTop / itemHeight)
   const endIndex = Math.min(startIndex + visibleCount, filteredToilets.value.length)
-  
+
   virtualListSettings.value.visibleCount = visibleCount
   virtualListSettings.value.startIndex = Math.max(0, startIndex)
   virtualListSettings.value.endIndex = endIndex
@@ -565,7 +466,7 @@ const virtualizedToilets = computed(() => {
   // 虛擬列表只在大量項目時使用，此時應該顯示所有項目（用於modal）
   calculateVirtualList()
   return filteredToilets.value.slice(
-    virtualListSettings.value.startIndex, 
+    virtualListSettings.value.startIndex,
     virtualListSettings.value.endIndex
   )
 })
@@ -606,27 +507,26 @@ const displayedToilets = computed(() => {
 const initMap = () => {
   // 統一使用 zoom 16 作為標準找廁所層級
   map.value = L.map(mapContainer.value).setView([23.8, 121], 12)
-  
+
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
   }).addTo(map.value)
-  
+
   // 建立可拖曳的中心標記，初始位置在台北，使用標準縮放層級
   createCenterMarker([25.0330, 121.5654])
-  
+
   // 地圖點擊事件
   map.value.on('click', () => {
     selectedToilet.value = null
   })
-  
+
   // 縮放或移動改變時重新載入廁所
   map.value.on('zoomend moveend', () => {
-    updateMapMarkers()
     // 延遲更新廁所列表以避免過於頻繁的請求
     clearTimeout(updateTimeout)
     updateTimeout = setTimeout(updateNearbyToilets, 500)
   })
-  
+
   // 移除地圖移動和縮放的自動更新事件
 }
 
@@ -641,22 +541,22 @@ const createCenterMarker = (position) => {
       iconAnchor: [20, 20]
     })
   }).addTo(map.value)
-  
+
   // 立即將地圖移動到台北並放大到實用層級
   map.value.setView(position, 16)
-  
+
   // 拖曳結束事件
   centerMarker.value.on('dragend', async () => {
     const position = centerMarker.value.getLatLng()
     userLocation.value = [position.lat, position.lng]
-    
+
     // 拖曳時只更新位置，不改變縮放層級
     // 移除自動縮放，讓用戶控制縮放
-    
+
     // 自動載入該位置的附近廁所
     await updateNearbyToilets()
   })
-  
+
   // 設定初始搜尋位置
   userLocation.value = position
 }
@@ -682,43 +582,47 @@ const loadCounties = async () => {
 // 載入廁所資料
 const loadToiletData = async (countyList) => {
   const allToilets = []
-  
+
   for (const county of countyList) {
     try {
+      console.info('loadToiletData - fetching:', county.filename)
       const response = await fetch(`./data/counties/${county.filename}`)
       if (response.ok) {
         const toilets = await response.json()
         allToilets.push(...toilets)
       }
+      else {
+        console.warn('loadToiletData - fetch failed for', county.filename, 'status', response.status)
+      }
     } catch (error) {
       console.warn(`載入 ${county.name_zh} 資料失敗:`, error)
     }
   }
-  
+
   return allToilets
 }
 
 // 使用者定位
 const locateUser = async () => {
   isLocating.value = true
-  
+
   try {
     const location = await getUserLocation()
-    
+
     // 統一使用 zoom 16，找廁所的最佳層級
     map.value.setView(location, 16)
     centerMarker.value.setLatLng(location)
     userLocation.value = location
-    
+
     // 移除舊的使用者標記（如果存在）
     if (userMarker.value) {
       map.value.removeLayer(userMarker.value)
       userMarker.value = null
     }
-    
+
     // 載入附近廁所
     await updateNearbyToilets()
-    
+
   } catch (error) {
     alert(`定位失敗: ${error.message}`)
   } finally {
@@ -729,23 +633,23 @@ const locateUser = async () => {
 // 搜尋自訂位置
 const searchCustomLocation = async () => {
   if (!customLocationInput.value.trim()) return
-  
+
   isSearching.value = true
   searchError.value = ''
-  
+
   try {
     let location = null
     const input = customLocationInput.value.trim()
-    
+
     // 檢查是否為座標格式 (緯度,經度)
     const coordPattern = /^(-?\d+\.?\d*),\s*(-?\d+\.?\d*)$/
     const coordMatch = input.match(coordPattern)
-    
+
     if (coordMatch) {
       // 直接使用座標
       const lat = parseFloat(coordMatch[1])
       const lng = parseFloat(coordMatch[2])
-      
+
       // 驗證座標範圍（台灣範圍）
       if (lat >= 20 && lat <= 26 && lng >= 118 && lng <= 122) {
         location = [lat, lng]
@@ -756,28 +660,28 @@ const searchCustomLocation = async () => {
       // 使用地理編碼服務搜尋地址
       location = await geocodeAddress(input)
     }
-    
+
     if (location) {
       // 設定為新的搜尋位置
       userLocation.value = location
-      
+
       // 統一使用 zoom 16
       map.value.setView(location, 16)
       centerMarker.value.setLatLng(location)
-      
+
       // 移除舊的使用者標記（如果存在）
       if (userMarker.value) {
         map.value.removeLayer(userMarker.value)
         userMarker.value = null
       }
-      
+
       // 載入附近廁所
       await updateNearbyToilets()
-      
+
       // 清空搜尋框
       customLocationInput.value = ''
     }
-    
+
   } catch (error) {
     searchError.value = error.message || '搜尋失敗，請檢查輸入格式'
   } finally {
@@ -792,20 +696,20 @@ const geocodeAddress = async (address) => {
     const response = await fetch(
       `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address + ', 台灣')}&format=json&limit=1&countrycodes=tw`
     )
-    
+
     if (!response.ok) {
       throw new Error('地理編碼服務無法連接')
     }
-    
+
     const data = await response.json()
-    
+
     if (data.length === 0) {
       throw new Error(t('map.customLocation.errorNotFound'))
     }
-    
+
     const result = data[0]
     return [parseFloat(result.lat), parseFloat(result.lon)]
-    
+
   } catch (error) {
     throw new Error('地址搜尋失敗：' + error.message)
   }
@@ -814,132 +718,108 @@ const geocodeAddress = async (address) => {
 // 更新地圖範圍內的廁所
 const updateNearbyToilets = async () => {
   if (!map.value || counties.value.length === 0) return
-  
+
   isLoading.value = true
   loadingStatus.value = '正在定位縣市...'
   const loadingStartTime = Date.now()
-  
+
   try {
-    // 取得地圖可見範圍
+    // 取得地圖可見範圍與中心，搜尋依據目前畫面（map center & bounds）
     const bounds = map.value.getBounds()
     const center = map.value.getCenter()
-    
+
     // 判斷地圖中心所在縣市
     currentCounty.value = detectUserCounty([center.lat, center.lng], counties.value)
+    console.info('updateNearbyToilets center:', { lat: center.lat, lng: center.lng }, 'currentCounty:', currentCounty.value)
     loadingStatus.value = `正在載入 ${currentCounty.value || '附近'} 的廁所資料...`
-    
-    // 根據縮放層級動態調整載入策略
-    const currentZoom = map.value.getZoom()
-    let maxToiletsToLoad = performanceSettings.value.maxToiletsPerArea
-    
-    // 根據縮放層級調整載入數量
-    if (currentZoom >= 16) {
-      maxToiletsToLoad = Math.min(300, maxToiletsToLoad) // 近距離查看
-    } else if (currentZoom >= 14) {
-      maxToiletsToLoad = Math.min(200, maxToiletsToLoad) // 中距離
-    } else if (currentZoom >= 12) {
-      maxToiletsToLoad = Math.min(150, maxToiletsToLoad) // 遠距離
-    } else {
-      maxToiletsToLoad = Math.min(100, maxToiletsToLoad) // 很遠距離
-    }
-    
-    // 高效能模式進一步限制
-    if (performanceSettings.value.enableHighPerformanceMode) {
-      maxToiletsToLoad = Math.floor(maxToiletsToLoad * 0.6)
-    }
-    
+
+    // 不再限制載入數量 - 載入地圖範圍內的所有廁所
+
     // 取得需要載入的縣市（當前縣市 + 鄰近縣市）
     const countiesToLoad = [currentCounty.value]
     if (currentCounty.value) {
       const nearbyCounties = getNearbyCounties(currentCounty.value, counties.value, [center.lat, center.lng])
-      // 限制同時載入的縣市數量
-      const maxCounties = currentZoom >= 14 ? 3 : 2
-      countiesToLoad.push(...nearbyCounties.slice(0, maxCounties - 1).map(c => c.name_en))
+      // 載入當前縣市加上最多2個鄰近縣市
+      countiesToLoad.push(...nearbyCounties.slice(0, 2).map(c => c.name_en))
     }
-    
-    // 如果無法判斷縣市，載入少量資料作為備案
-    const countiesData = countiesToLoad.length > 1 
-      ? counties.value.filter(c => countiesToLoad.includes(c.name_en))
-      : counties.value.slice(0, 2) // 只載入前2個縣市作為備案
-    
+    console.info('countiesToLoad:', countiesToLoad)
+
+    // 如果無法判斷縣市，載入與地圖視窗有交集的縣市作為備案（避免固定第一個縣市導致找不到資料）
+    let countiesData = []
+    if (countiesToLoad.length > 1) {
+      countiesData = counties.value.filter(c => countiesToLoad.includes(c.name_en))
+    } else {
+      // 找出與當前地圖 bounds 有交集的縣市
+      const overlap = counties.value.filter(c => {
+        const cb = sanitizeBounds(c.bounds)
+        const countyMinLat = cb.minLat
+        const countyMaxLat = cb.maxLat
+        const countyMinLng = cb.minLng
+        const countyMaxLng = cb.maxLng
+
+        // map bounds
+        const mapSouth = bounds.getSouth()
+        const mapNorth = bounds.getNorth()
+        const mapWest = bounds.getWest()
+        const mapEast = bounds.getEast()
+
+        // 判斷矩形是否相交
+        const latOverlap = !(countyMaxLat < mapSouth || countyMinLat > mapNorth)
+        const lngOverlap = !(countyMaxLng < mapWest || countyMinLng > mapEast)
+        return latOverlap && lngOverlap
+      })
+
+      if (overlap.length > 0) {
+        // 取最多前三個與地圖重疊的縣市
+        countiesData = overlap.slice(0, 3)
+      } else {
+        // 回退：如果找不到重疊的縣市，改用與地圖中心距離最近的幾個縣市，而非固定前兩個
+        // 這能在某些 bounds metadata 錯誤或不完整時較穩定地選到正確縣市
+        const centerLat = center.lat
+        const centerLng = center.lng
+        const scored = counties.value.map(c => {
+          const sb = sanitizeBounds(c.bounds)
+          const cLat = (sb.minLat + sb.maxLat) / 2
+          const cLng = (sb.minLng + sb.maxLng) / 2
+          const dist = calculateDistance(centerLat, centerLng, cLat, cLng)
+          return { county: c, dist }
+        }).sort((a, b) => a.dist - b.dist)
+
+        countiesData = scored.slice(0, 3).map(s => s.county)
+      }
+    }
+    console.info('countiesData to load:', countiesData.map(c => ({ name_en: c.name_en, filename: c.filename })))
+
     loadingStatus.value = '正在處理資料...'
-    
+
+    // 每次更新都增加 requestId，接收結果時檢查是否為最後一次請求，避免 race condition
+    const thisRequestId = ++currentUpdateRequestId
+
     // 載入廁所資料
     const toilets = await loadToiletData(countiesData)
+
+    // 如果在等待資料期間已有更新請求發出，放棄使用這次舊的結果
+    if (thisRequestId !== currentUpdateRequestId) {
+      console.info('updateNearbyToilets - 遺失的舊請求結果已被忽略', { thisRequestId, currentUpdateRequestId })
+      return
+    }
     totalLoadedToilets.value = toilets.length
-    
+
     // 篩選地圖可見範圍內的廁所
     const visibleToilets = toilets.filter(toilet => {
       return bounds.contains([toilet.latitude, toilet.longitude])
     })
-    
+
     visibleToiletsCount.value = visibleToilets.length
-    
+
     console.log(`載入了 ${toilets.length} 個廁所，可見範圍內有 ${visibleToilets.length} 個`)
-    
-    // 檢查是否需要效能警告
-    if (performanceSettings.value.enableHighPerformanceMode) {
-      // 高效能模式下的警告
-      if (visibleToilets.length > 3000) {
-        performanceWarning.value = `目前區域找到 ${visibleToilets.length} 個廁所，數量極多。建議縮小查看範圍以獲得最佳體驗。`
-      } else if (visibleToilets.length > 1000) {
-        performanceWarning.value = `目前區域找到 ${visibleToilets.length} 個廁所，已啟用高效能模式確保流暢運行。⚠️ 關閉高效能模式可能導致速度變慢。`
-      }
-    } else {
-      // 非高效能模式下的警告
-      if (visibleToilets.length > 800) {
-        performanceWarning.value = `目前區域找到 ${visibleToilets.length} 個廁所，未啟用高效能模式可能影響效能。強烈建議啟用高效能模式。`
-      }
-    }
-    
-    loadingStatus.value = '正在優化顯示...'
-    
-    // 智慧限制：如果廁所數量過多，優先保留高品質和離用戶較近的廁所
+
+    // 不再需要效能警告 - 顯示所有廁所
+    loadingStatus.value = '正在處理廁所資料...'
+
+    // 移除智慧限制 - 顯示地圖範圍內的所有廁所
     let finalToilets = visibleToilets
-    if (visibleToilets.length > maxToiletsToLoad) {
-      console.warn(`廁所數量過多 (${visibleToilets.length})，啟用智慧篩選，限制為 ${maxToiletsToLoad} 個`)
-      
-      // 如果有用戶位置，計算距離
-      if (userLocation.value) {
-        visibleToilets.forEach(toilet => {
-          toilet.distance = calculateDistance(
-            userLocation.value[0],
-            userLocation.value[1],
-            toilet.latitude,
-            toilet.longitude
-          )
-          
-          // 計算綜合評分（距離 + 品質）
-          let qualityScore = 0
-          if (toilet.grade === '特優級' || toilet.grade === '特優') qualityScore = 5
-          else if (toilet.grade === '優等' || toilet.grade === '優') qualityScore = 4
-          else if (toilet.grade === '普通') qualityScore = 3
-          else if (toilet.grade === '加強') qualityScore = 2
-          else qualityScore = 1
-          
-          // 距離分數 (越近分數越高，最大10分)
-          const maxDistance = 5 // 5公里
-          const distanceScore = Math.max(0, 10 - (toilet.distance / maxDistance) * 10)
-          
-          // 綜合評分 = 品質分數 * 0.3 + 距離分數 * 0.7
-          toilet.combinedScore = qualityScore * 0.3 + distanceScore * 0.7
-        })
-        
-        // 按綜合評分排序並取前N個
-        finalToilets = visibleToilets
-          .sort((a, b) => b.combinedScore - a.combinedScore)
-          .slice(0, maxToiletsToLoad)
-      } else {
-        // 沒有用戶位置時，優先顯示高品質廁所
-        finalToilets = visibleToilets
-          .sort((a, b) => {
-            const gradeOrder = { '特優級': 5, '特優': 5, '優等': 4, '優': 4, '普通': 3, '加強': 2, '不合格': 1 }
-            return (gradeOrder[b.grade] || 1) - (gradeOrder[a.grade] || 1)
-          })
-          .slice(0, maxToiletsToLoad)
-      }
-    }
-    
+
     // 如果有用戶位置，計算距離並排序，否則按名稱排序
     if (userLocation.value && !finalToilets[0]?.distance) {
       finalToilets.forEach(toilet => {
@@ -954,38 +834,22 @@ const updateNearbyToilets = async () => {
     } else if (!userLocation.value) {
       finalToilets.sort((a, b) => (a.name_zh || a.name || '').localeCompare(b.name_zh || b.name || ''))
     }
-    
+
     nearbyToilets.value = finalToilets
-    
+
     // 更新地圖標記
     updateMapMarkers()
-    
-    // 載入時間分析
+
+    // 載入時間分析（僅記錄，不再顯示警告）
     const loadingTime = Date.now() - loadingStartTime
-    if (performanceSettings.value.enableHighPerformanceMode) {
-      // 高效能模式下的載入時間警告
-      if (loadingTime > 8000) {
-        performanceWarning.value = `資料載入耗時 ${Math.round(loadingTime/1000)}秒，建議縮小查看範圍或檢查網路連線。`
-      }
-    } else {
-      // 非高效能模式下的載入時間警告  
-      if (loadingTime > 4000) {
-        performanceWarning.value = `資料載入耗時 ${Math.round(loadingTime/1000)}秒，強烈建議啟用高效能模式以提升速度。⚠️ 當前設定可能導致應用程式變慢或當機。`
-      }
-    }
-    
+    console.log(`資料載入完成，耗時：${loadingTime}ms`)
+
     loadingStatus.value = '載入完成'
-    
+
   } catch (error) {
     console.error('更新地圖範圍廁所失敗:', error)
-    loadingStatus.value = '載入失敗，請稍後重試'
-    
-    // 自動重試機制
-    setTimeout(() => {
-      if (map.value && counties.value.length > 0) {
-        updateNearbyToilets()
-      }
-    }, 3000)
+    loadingStatus.value = '載入失敗'
+    // 移除自動重試機制 - 避免無限循環
   } finally {
     isLoading.value = false
     setTimeout(() => {
@@ -999,103 +863,74 @@ const calculateDistance = (lat1, lng1, lat2, lng2) => {
   const R = 6371 // 地球半徑（公里）
   const dLat = (lat2 - lat1) * Math.PI / 180
   const dLng = (lng2 - lng1) * Math.PI / 180
-  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-    Math.sin(dLng/2) * Math.sin(dLng/2)
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
+    Math.sin(dLng / 2) * Math.sin(dLng / 2)
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
   return R * c
 }
 
-// 更新地圖標記
+// 更新地圖標記 - 智能聚合以優化渲染效能
 const updateMapMarkers = () => {
   // 清除現有標記
   toiletMarkers.value.forEach(marker => map.value.removeLayer(marker))
   toiletMarkers.value = []
-  
+
   if (filteredToilets.value.length === 0) {
     mapMarkersCount.value = 0
     return
   }
-  
-  const currentZoom = map.value.getZoom()
-  const toiletCount = filteredToilets.value.length
-  
-  // 智慧決定是否需要聚合
-  let shouldCluster = false
-  let clusterDistance = 30
-  
-  // 高密度區域或大量標記時強制聚合
-  if (toiletCount > performanceSettings.value.autoClusterThreshold) {
-    shouldCluster = true
-    // 根據數量動態調整聚合距離
-    if (toiletCount > 300) clusterDistance = 80
-    else if (toiletCount > 200) clusterDistance = 60
-    else if (toiletCount > 100) clusterDistance = 40
-    else clusterDistance = 30
-  } else {
-    // 根據縮放層級決定聚合距離
-    if (currentZoom >= 17) {
-      clusterDistance = 15 // 很近距離才聚合
-      shouldCluster = toiletCount > 20
-    } else if (currentZoom >= 15) {
-      clusterDistance = 25 // 中等距離聚合
-      shouldCluster = toiletCount > 15
-    } else if (currentZoom >= 13) {
-      clusterDistance = 40 // 較遠距離聚合
-      shouldCluster = toiletCount > 10
-    } else {
-      clusterDistance = 60 // 很遠距離聚合
-      shouldCluster = true
-    }
-  }
-  
-  // 高效能模式下更積極聚合
-  if (performanceSettings.value.enableHighPerformanceMode) {
-    shouldCluster = toiletCount > 10
-    clusterDistance += 20
-  }
-  
-  console.log(`標記更新: ${toiletCount} 個廁所, zoom: ${currentZoom}, 聚合: ${shouldCluster}, 距離: ${clusterDistance}`)
-  
-  if (shouldCluster) {
-    createClusteredMarkers(clusterDistance)
-  } else {
-    // 直接顯示個別標記，但仍要限制數量避免效能問題
-    const markersToShow = Math.min(toiletCount, performanceSettings.value.maxVisibleMarkers)
-    const toiletsToShow = filteredToilets.value.slice(0, markersToShow)
-    
-    toiletsToShow.forEach(toilet => {
-      createSingleToiletMarker(toilet)
-    })
-    
-    if (markersToShow < toiletCount) {
-      console.warn(`僅顯示前 ${markersToShow} 個標記，共有 ${toiletCount} 個廁所`)
-    }
-  }
-  
-  // 更新標記數量統計
-  mapMarkersCount.value = toiletMarkers.value.length
-}
 
-// 建立聚合標記
-const createClusteredMarkers = (clusterDistance = 50) => {
-  const clusters = clusterToilets(filteredToilets.value, clusterDistance)
+  const toiletCount = filteredToilets.value.length
+  const currentZoom = map.value.getZoom()
   
+  // 根據縮放層級和廁所密度動態決定聚合距離
+  let baseClusterDistance = 30
+  if (currentZoom >= 18) {
+    baseClusterDistance = 12 // 極高縮放：最小聚合
+  } else if (currentZoom >= 17) {
+    baseClusterDistance = 18 // 很高縮放：減少聚合
+  } else if (currentZoom >= 16) {
+    baseClusterDistance = 25 // 高縮放：適度聚合
+  } else if (currentZoom >= 15) {
+    baseClusterDistance = 35 // 中高縮放
+  } else if (currentZoom >= 14) {
+    baseClusterDistance = 45 // 中縮放
+  } else if (currentZoom >= 13) {
+    baseClusterDistance = 60 // 中低縮放
+  } else if (currentZoom >= 12) {
+    baseClusterDistance = 80 // 低縮放
+  } else {
+    baseClusterDistance = 100 // 極低縮放：最大聚合
+  }
+
+  // 根據廁所密度動態調整聚合距離
+  const density = toiletCount / 1000 // 每1000個廁所為基準
+  const densityFactor = Math.min(2, Math.max(0.5, 1 + density * 0.3)) // 密度係數 0.5-2
+  const clusterDistance = baseClusterDistance * densityFactor
+
+  console.log(`標記更新: ${toiletCount} 個廁所, zoom: ${currentZoom}, 聚合距離: ${clusterDistance}px`)
+
+  // 執行智能聚合
+  const clusters = createToiletClusters(filteredToilets.value, clusterDistance, currentZoom)
+  
+  // 渲染聚合結果
   clusters.forEach(cluster => {
     if (cluster.toilets.length === 1) {
-      // 單個廁所，建立普通標記
+      // 單個廁所，顯示普通標記
       createSingleToiletMarker(cluster.toilets[0])
     } else {
-      // 多個廁所，建立聚合標記
+      // 多個廁所，顯示聚合標記
       createClusterMarker(cluster)
     }
   })
-  
+
   // 更新標記數量統計
   mapMarkersCount.value = toiletMarkers.value.length
+  console.log(`實際渲染標記數: ${mapMarkersCount.value}, 聚合數: ${clusters.length}`)
 }
 
-// 移除不再使用的 createIndividualMarkers 函數
+// 移除聚合標記函數 - 不再使用
 
 // 建立單個廁所標記
 const createSingleToiletMarker = (toilet) => {
@@ -1107,105 +942,191 @@ const createSingleToiletMarker = (toilet) => {
       iconAnchor: [12, 12]
     })
   })
-  
+
   marker.on('click', () => {
     selectedToilet.value = toilet
   })
-  
+
   marker.addTo(map.value)
   toiletMarkers.value.push(marker)
 }
 
-// 建立聚合標記
+// 建立聚合標記 - 動態大小和顏色
 const createClusterMarker = (cluster) => {
   const count = cluster.toilets.length
   const center = cluster.center
+
+  // 根據聚合數量決定標記大小和顏色
+  let iconSize = 40
+  let fontSize = 14
+  let bgGradient = 'linear-gradient(135deg, #007bff, #0056b3)'
   
+  if (count >= 100) {
+    iconSize = 60
+    fontSize = 16
+    bgGradient = 'linear-gradient(135deg, #dc3545, #c82333)' // 紅色：超大聚合
+  } else if (count >= 50) {
+    iconSize = 55
+    fontSize = 15
+    bgGradient = 'linear-gradient(135deg, #fd7e14, #e8590c)' // 橙色：大聚合
+  } else if (count >= 20) {
+    iconSize = 50
+    fontSize = 14
+    bgGradient = 'linear-gradient(135deg, #ffc107, #e0a800)' // 黃色：中聚合
+  } else if (count >= 10) {
+    iconSize = 45
+    fontSize = 14
+    bgGradient = 'linear-gradient(135deg, #28a745, #1e7e34)' // 綠色：小聚合
+  } else {
+    iconSize = 40
+    fontSize = 13
+    bgGradient = 'linear-gradient(135deg, #007bff, #0056b3)' // 藍色：微聚合
+  }
+
   const marker = L.marker([center.lat, center.lng], {
     icon: L.divIcon({
       className: 'cluster-marker',
       html: `
-        <div class="cluster-icon">
-          <span class="cluster-count">${count}</span>
-          <span class="cluster-emoji">🚽</span>
+        <div class="cluster-icon" style="
+          background: ${bgGradient} !important; 
+          width: ${iconSize}px !important; 
+          height: ${iconSize}px !important;
+        ">
+          <span class="cluster-count" style="font-size: ${fontSize}px !important;">${count}</span>
+          <span class="cluster-emoji" style="font-size: ${Math.max(10, fontSize - 2)}px !important;">🚽</span>
         </div>
       `,
-      iconSize: [40, 40],
-      iconAnchor: [20, 20]
+      iconSize: [iconSize, iconSize],
+      iconAnchor: [iconSize/2, iconSize/2]
     })
   })
-  
+
   marker.on('click', () => {
     showClusterModal(cluster.toilets)
   })
-  
+
   marker.addTo(map.value)
   toiletMarkers.value.push(marker)
 }
 
-// 廁所聚合算法
-const clusterToilets = (toilets, pixelDistance) => {
-  const clusters = []
+// 智能廁所聚合算法 - 多輪動態聚合優化
+const createToiletClusters = (toilets, pixelDistance, currentZoom) => {
+  let clusters = []
   const processed = new Set()
-  
-  // 高效能模式：預先過濾距離過遠的廁所
-  if (performanceSettings.value.enableHighPerformanceMode && userLocation.value) {
-    const maxDistance = 10 // 10公里範圍
-    toilets = toilets.filter(toilet => {
-      const distance = calculateDistance(
-        userLocation.value[0],
-        userLocation.value[1],
-        toilet.latitude,
-        toilet.longitude
-      )
-      return distance <= maxDistance
-    })
-  }
-  
+
+  // 第一輪：基礎聚合
   toilets.forEach((toilet, index) => {
     if (processed.has(index)) return
-    
+
     const cluster = {
       toilets: [toilet],
       center: { lat: toilet.latitude, lng: toilet.longitude }
     }
-    
-    // 尋找附近的廁所 - 優化搜尋範圍
-    const searchRange = Math.min(toilets.length, index + 50) // 限制搜尋範圍提升效能
-    
-    for (let i = index + 1; i < searchRange; i++) {
+
+    // 尋找附近的廁所進行聚合
+    for (let i = index + 1; i < toilets.length; i++) {
       if (processed.has(i)) continue
-      
+
       const other = toilets[i]
-      const distance = getPixelDistance(
+      const distance = calculatePixelDistance(
         { lat: toilet.latitude, lng: toilet.longitude },
         { lat: other.latitude, lng: other.longitude }
       )
-      
-      // 如果距離很近就聚合
+
+      // 如果在聚合距離內就聚合
       if (distance < pixelDistance) {
         cluster.toilets.push(other)
         processed.add(i)
-        
-        // 更新聚合中心（加權平均，優質廁所權重更高）
+
+        // 更新聚合中心（簡單平均）
         updateClusterCenter(cluster)
-        
-        // 防止聚合過大影響效能
-        if (cluster.toilets.length >= 20) break
+
+        // 根據縮放層級動態限制聚合大小
+        let maxClusterSize
+        if (currentZoom >= 18) {
+          maxClusterSize = 15
+        } else if (currentZoom >= 16) {
+          maxClusterSize = 30
+        } else if (currentZoom >= 14) {
+          maxClusterSize = 60
+        } else if (currentZoom >= 12) {
+          maxClusterSize = 100
+        } else {
+          maxClusterSize = 200
+        }
+        if (cluster.toilets.length >= maxClusterSize) break
       }
     }
-    
+
     clusters.push(cluster)
     processed.add(index)
   })
-  
+
+  // 第二輪：聚合群組間的二次聚合
+  clusters = performSecondaryCluster(clusters, pixelDistance * 1.5, currentZoom)
+
   return clusters
 }
 
-// 計算兩點在當前縮放層級下的像素距離 - 優化算法
-const getPixelDistance = (point1, point2) => {
+// 二次聚合：處理相近的聚合群組
+const performSecondaryCluster = (initialClusters, secondaryDistance, currentZoom) => {
+  if (initialClusters.length <= 1) return initialClusters
+
+  const finalClusters = []
+  const processed = new Set()
+
+  initialClusters.forEach((cluster, index) => {
+    if (processed.has(index)) return
+
+    let mergedCluster = { ...cluster, toilets: [...cluster.toilets] }
+
+    // 尋找可以合併的其他聚合群組
+    for (let i = index + 1; i < initialClusters.length; i++) {
+      if (processed.has(i)) continue
+
+      const otherCluster = initialClusters[i]
+      const distance = calculatePixelDistance(
+        mergedCluster.center,
+        otherCluster.center
+      )
+
+      // 如果兩個聚合群組很近，就合併它們
+      if (distance < secondaryDistance) {
+        // 合併聚合群組
+        mergedCluster.toilets.push(...otherCluster.toilets)
+        processed.add(i)
+
+        // 重新計算中心點
+        updateClusterCenter(mergedCluster)
+
+        // 檢查合併後的大小限制
+        let maxTotalSize
+        if (currentZoom >= 16) {
+          maxTotalSize = 50
+        } else if (currentZoom >= 14) {
+          maxTotalSize = 100
+        } else if (currentZoom >= 12) {
+          maxTotalSize = 150
+        } else {
+          maxTotalSize = 300
+        }
+
+        // 如果合併後太大就停止
+        if (mergedCluster.toilets.length >= maxTotalSize) break
+      }
+    }
+
+    finalClusters.push(mergedCluster)
+    processed.add(index)
+  })
+
+  return finalClusters
+}
+
+// 計算兩點在當前縮放層級下的像素距離
+const calculatePixelDistance = (point1, point2) => {
   if (!map.value) return Infinity
-  
+
   try {
     const p1 = map.value.latLngToLayerPoint([point1.lat, point1.lng])
     const p2 = map.value.latLngToLayerPoint([point2.lat, point2.lng])
@@ -1218,27 +1139,19 @@ const getPixelDistance = (point1, point2) => {
   }
 }
 
-// 更新聚合中心點（加權平均）
+// 更新聚合中心點（簡單平均）
 const updateClusterCenter = (cluster) => {
   let totalLat = 0
   let totalLng = 0
-  let totalWeight = 0
-  
+
   cluster.toilets.forEach(toilet => {
-    // 根據廁所品質設定權重
-    let weight = 1
-    if (toilet.grade === '特優級' || toilet.grade === '特優') weight = 1.5
-    else if (toilet.grade === '優等' || toilet.grade === '優') weight = 1.3
-    else if (toilet.grade === '普通') weight = 1.1
-    
-    totalLat += toilet.latitude * weight
-    totalLng += toilet.longitude * weight
-    totalWeight += weight
+    totalLat += toilet.latitude
+    totalLng += toilet.longitude
   })
-  
+
   cluster.center = {
-    lat: totalLat / totalWeight,
-    lng: totalLng / totalWeight
+    lat: totalLat / cluster.toilets.length,
+    lng: totalLng / cluster.toilets.length
   }
 }
 
@@ -1273,87 +1186,44 @@ const resetFilters = () => {
   console.log('篩選條件已重置')
 }
 
-// 效能設定變更處理
-const onPerformanceSettingChange = () => {
-  // 延遲更新避免過於頻繁的重繪
-  clearTimeout(updateTimeout)
-  updateTimeout = setTimeout(() => {
-    updateMapMarkers()
-    console.log('效能設定已更新:', performanceSettings.value)
-  }, 300)
-}
+// (已移除) 與手動效能設定相關的處理函式
 
-// 重置效能設定
-const resetPerformanceSettings = () => {
-  performanceSettings.value = {
-    maxToiletsPerArea: 300, // 保持高效能預設值
-    maxVisibleMarkers: 150, // 保持高效能預設值
-    autoClusterThreshold: 50, // 保持高效能預設值
-    enableHighPerformanceMode: true // 保持預設開啟
-  }
-  updateMapMarkers()
-  console.log('效能設定已重置為高效能模式')
-}
-
-// 啟用高效能模式
-const enableHighPerformanceMode = () => {
-  performanceSettings.value.enableHighPerformanceMode = true
-  performanceSettings.value.maxToiletsPerArea = 300
-  performanceSettings.value.maxVisibleMarkers = 150
-  performanceSettings.value.autoClusterThreshold = 50
-  performanceWarning.value = ''
-  updateNearbyToilets()
-  console.log('已啟用高效能模式')
-}
-
-// 關閉效能警告
-const dismissPerformanceWarning = () => {
-  performanceWarning.value = ''
-}
-
-// 縮小查看範圍以提升效能
-const zoomInForBetterPerformance = () => {
-  if (map.value) {
-    const currentZoom = map.value.getZoom()
-    map.value.setZoom(currentZoom + 2) // 放大2個層級
-    performanceWarning.value = ''
-  }
-}
+// 移除效能警告相關函數 - 不再使用
 
 // 智慧判斷是否有尿布台
 const hasChangingTable = (toilet) => {
   const toiletName = toilet.name_zh || toilet.name || ''
-  
+
   // 如果明確標示有尿布台
-  if (toilet.has_diaper === true || 
-      toilet.has_diaper === 'true' ||
-      toilet.has_diaper === '是' ||
-      toilet.diaper === true ||
-      toilet.baby_care === true) {
+  if (toilet.has_diaper === true ||
+    toilet.has_diaper === 'true' ||
+    toilet.has_diaper === '是' ||
+    toilet.diaper === true ||
+    toilet.baby_care === true) {
     return true
   }
-  
+
   // 根據名稱或類型推斷
   if (toiletName.includes('親子') ||
-      toiletName.includes('育嬰') ||
-      toiletName.includes('尿布') ||
-      toiletName.includes('baby') ||
-      toilet.type === 'family') {
+    toiletName.includes('育嬰') ||
+    toiletName.includes('尿布') ||
+    toiletName.includes('baby') ||
+    toilet.type === 'family') {
     return true
   }
-  
+
   // 如果明確標示無尿布台
   if (toilet.has_diaper === false ||
-      toilet.has_diaper === 'false' ||
-      toilet.has_diaper === '無' ||
-      toilet.has_diaper === 'no') {
+    toilet.has_diaper === 'false' ||
+    toilet.has_diaper === '無' ||
+    toilet.has_diaper === 'no') {
     // 但如果是親子廁所，仍然認為有尿布台（資料可能有誤）
     if (toiletName.includes('親子') || toilet.type === 'family') {
       return true
     }
     return false
   }
-  
+
   // 預設值：沒有明確資料時返回 false
   return false
 }
@@ -1380,8 +1250,8 @@ const selectClusterToilet = (toilet) => {
   selectedToilet.value = toilet
   showClusterList.value = false
   clusteredToilets.value = []
-  
-  // 聚焦到選定的廁所，使用統一的縮放層級
+
+  // 聚焦到選定的廁所
   map.value.setView([toilet.latitude, toilet.longitude], 16)
 }
 
@@ -1394,7 +1264,7 @@ const closeAllToiletsModal = () => {
 const selectToiletFromList = (toilet) => {
   selectedToilet.value = toilet
   showAllToiletsList.value = false
-  
+
   // 聚焦到選定的廁所，使用統一的縮放層級
   map.value.setView([toilet.latitude, toilet.longitude], 16)
 }
@@ -1408,10 +1278,10 @@ watch(filters, () => {
 onMounted(async () => {
   await loadCounties()
   initMap()
-  
+
   // 載入初始位置的廁所資料
   await updateNearbyToilets()
-  
+
   // 嘗試自動定位（如果使用者之前允許過）
   if (navigator.permissions) {
     try {
@@ -1438,7 +1308,8 @@ onUnmounted(() => {
 <style scoped>
 .map-page {
   display: flex;
-  height: calc(100vh - 115px); /* 減去 navbar 和更矮的 footer 的高度 */
+  height: calc(100vh - 115px);
+  /* 減去 navbar 和更矮的 footer 的高度 */
   position: relative;
 }
 
@@ -1599,6 +1470,7 @@ onUnmounted(() => {
     opacity: 0;
     max-height: 0;
   }
+
   to {
     opacity: 1;
     max-height: 200px;
@@ -1808,8 +1680,13 @@ onUnmounted(() => {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .loading-progress {
@@ -1828,88 +1705,22 @@ onUnmounted(() => {
 }
 
 @keyframes progress {
-  0% { width: 0%; }
-  50% { width: 70%; }
-  100% { width: 100%; }
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: 70%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
 
-/* 效能警告樣式 */
-.performance-warning {
-  background: #fff3cd;
-  border: 1px solid #ffeaa7;
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 1rem 0;
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-}
+/* 移除效能警告樣式 - 不再使用 */
 
-.warning-icon {
-  font-size: 1.2rem;
-  flex-shrink: 0;
-}
-
-.warning-content {
-  flex: 1;
-}
-
-.warning-content strong {
-  color: #856404;
-  font-size: 0.9rem;
-}
-
-.warning-content p {
-  margin: 0.5rem 0;
-  color: #856404;
-  font-size: 0.85rem;
-  line-height: 1.4;
-}
-
-.btn-warning-action {
-  background: #ffc107;
-  color: #212529;
-  border: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.8rem;
-  margin-right: 0.5rem;
-  transition: background-color 0.3s;
-}
-
-.btn-warning-action:hover {
-  background: #e0a800;
-}
-
-.btn-dismiss {
-  background: transparent;
-  color: #856404;
-  border: 1px solid #856404;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.8rem;
-  transition: all 0.3s;
-}
-
-.btn-dismiss:hover {
-  background: #856404;
-  color: white;
-}
-
-.performance-notice {
-  background: #e8f5e8;
-  padding: 0.5rem;
-  border-radius: 4px;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-.performance-notice small {
-  color: #2d5016;
-  font-style: italic;
-}
+/* 移除效能提示樣式 - 不再使用 */
 
 /* 地圖範圍資訊樣式 */
 .map-range-info {
@@ -2036,6 +1847,7 @@ onUnmounted(() => {
   margin: 0 0 0.4rem 0;
   line-height: 1.2;
   display: -webkit-box;
+  line-clamp: 1;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -2048,7 +1860,8 @@ onUnmounted(() => {
   flex-wrap: wrap;
 }
 
-.grade-compact, .type-compact {
+.grade-compact,
+.type-compact {
   font-size: 0.7rem;
   padding: 0.15rem 0.3rem;
   border-radius: 8px;
@@ -2057,11 +1870,30 @@ onUnmounted(() => {
   white-space: nowrap;
 }
 
-.grade-compact.excellent { background: #d4edda; color: #155724; }
-.grade-compact.good { background: #d1ecf1; color: #0c5460; }
-.grade-compact.fair { background: #fff3cd; color: #856404; }
-.grade-compact.needs_improvement { background: #f8d7da; color: #721c24; }
-.grade-compact.fail { background: #f5c6cb; color: #721c24; }
+.grade-compact.excellent {
+  background: #d4edda;
+  color: #155724;
+}
+
+.grade-compact.good {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.grade-compact.fair {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.grade-compact.needs_improvement {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.grade-compact.fail {
+  background: #f5c6cb;
+  color: #721c24;
+}
 
 .feature-compact {
   font-size: 0.8rem;
@@ -2133,7 +1965,7 @@ onUnmounted(() => {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .toilet-modal {
@@ -2142,7 +1974,7 @@ onUnmounted(() => {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2184,7 +2016,8 @@ onUnmounted(() => {
   margin-top: 1.5rem;
 }
 
-.loading, .no-data {
+.loading,
+.no-data {
   text-align: center;
   color: #666;
   margin: 2rem 0;
@@ -2194,38 +2027,39 @@ onUnmounted(() => {
 @media (max-width: 768px) {
   .map-page {
     flex-direction: column;
-    height: calc(100vh - 115px); /* 調整手機版高度 */
+    height: calc(100vh - 115px);
+    /* 調整手機版高度 */
   }
-  
+
   .control-panel {
     width: 100%;
     height: 45%;
     border-right: none;
     border-bottom: 1px solid #ddd;
   }
-  
+
   .control-panel.collapsed {
     height: 60px;
     width: 100%;
   }
-  
+
   .map-container {
     height: 55%;
   }
-  
+
   .location-input {
     flex-direction: column;
     gap: 0.75rem;
   }
-  
+
   .location-search-input {
     width: 100%;
   }
-  
+
   .btn-search {
     width: 100%;
   }
-  
+
   .modal-content {
     margin: 1rem;
     width: calc(100% - 2rem);
@@ -2247,7 +2081,7 @@ onUnmounted(() => {
   background: rgba(255, 255, 255, 0.9) !important;
   border: 2px solid #28a745 !important;
   border-radius: 50% !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
 .center-marker {
@@ -2257,7 +2091,7 @@ onUnmounted(() => {
   text-align: center;
   line-height: 34px;
   font-size: 24px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
   cursor: move !important;
   z-index: 1000 !important;
   position: relative !important;
@@ -2270,12 +2104,19 @@ onUnmounted(() => {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-5px);
   }
+
   60% {
     transform: translateY(-3px);
   }
@@ -2313,13 +2154,28 @@ onUnmounted(() => {
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
   cursor: pointer !important;
-  transition: transform 0.2s ease !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden !important;
+  position: relative !important;
 }
 
 .cluster-icon:hover {
-  transform: scale(1.1) !important;
+  transform: scale(1.15) !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+.cluster-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  border-radius: 50%;
+  pointer-events: none;
 }
 
 .cluster-count {
