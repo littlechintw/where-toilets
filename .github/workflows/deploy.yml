@@ -4,21 +4,14 @@ on:
   # 當 main 分支的特定檔案發生變更時觸發
   push:
     branches: [ main ]
-    paths:
-      - 'public/data/deploy-flag.json'  # 資料更新標記檔案
-      - 'src/**'                        # 前端程式碼變更
-      - 'public/**'                     # 靜態資源變更（除了資料檔案）
-      - 'package.json'                  # 依賴變更
-      - 'vite.config.js'               # 建置設定變更
-      - '.github/workflows/deploy.yml' # 工作流程自身變更
 
   # 手動觸發部署
   workflow_dispatch:
     inputs:
       reason:
-        description: '部署原因'
+        description: 'Deploy'
         required: false
-        default: '手動觸發部署'
+        default: 'Manual'
         type: string
 
 # 設定權限
