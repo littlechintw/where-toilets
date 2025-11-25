@@ -26,56 +26,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 檢查是否需要部署
-  check-deploy:
-    runs-on: ubuntu-latest
-    outputs:
-      should-deploy: ${{ steps.check.outputs.should-deploy }}
-      deploy-reason: ${{ steps.check.outputs.reason }}
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    
-    - name: Check deployment trigger
-      id: check
-      run: |
-        SHOULD_DEPLOY="false"
-        REASON="未知原因"
-        
-        # 檢查是否有 deploy-flag.json
-        if [[ -f "public/data/deploy-flag.json" ]]; then
-          echo "發現資料更新標記檔案"
-          SHOULD_DEPLOY="true"
-          REASON="資料更新觸發"
-        fi
-        
-        # 檢查是否為手動觸發
-        if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-          echo "手動觸發部署"
-          SHOULD_DEPLOY="true"
-          REASON="${{ github.event.inputs.reason }}"
-        fi
-        
-        # 檢查是否有程式碼變更
-        if [[ "${{ github.event_name }}" == "push" ]]; then
-          # 檢查本次 push 是否包含程式碼相關檔案
-          git diff --name-only HEAD^ HEAD | grep -E "(src/|package\.json|vite\.config\.js)" > /dev/null
-          if [[ $? -eq 0 ]]; then
-            echo "程式碼變更觸發部署"
-            SHOULD_DEPLOY="true"
-            REASON="程式碼更新"
-          fi
-        fi
-        
-        echo "should-deploy=$SHOULD_DEPLOY" >> $GITHUB_OUTPUT
-        echo "reason=$REASON" >> $GITHUB_OUTPUT
-        echo "部署決定: $SHOULD_DEPLOY ($REASON)"
-
   # 建置和部署作業
   build-and-deploy:
     runs-on: ubuntu-latest
-    needs: [check-deploy]
     if: needs.check-deploy.outputs.should-deploy == 'true'
     
     environment:
@@ -143,7 +96,7 @@ jobs:
   # 部署失敗處理
   handle-failure:
     runs-on: ubuntu-latest
-    needs: [check-deploy, build-and-deploy]
+    needs: [build-and-deploy]
     if: always() && needs.check-deploy.outputs.should-deploy == 'true' && needs.build-and-deploy.result == 'failure'
     
     steps:
