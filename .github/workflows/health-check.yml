@@ -53,9 +53,11 @@ jobs:
         curl -s "https://toilets.littlechin.tw/data/index.json" > index.json
         
         if [[ -f index.json ]]; then
-          last_updated=$(cat index.json | grep -o '"last_updated":"[^"]*' | cut -d'"' -f4)
-          echo "📊 Data last updated at: $last_updated"
+          # Use jq to reliably parse the JSON and extract the last_updated value
+          last_updated=$(jq -r '.last_updated' index.json)
           
+          echo "📊 Data last updated at: $last_updated"
+
           # Check if the data is older than 10 days
           if [[ -n "$last_updated" ]]; then
             last_timestamp=$(date -d "$last_updated" +%s 2>/dev/null || echo "0")
