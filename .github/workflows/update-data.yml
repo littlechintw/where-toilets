@@ -1,20 +1,20 @@
 name: Update Toilet Data
 
 on:
-  # 每週日 UTC 0 點執行（台灣時間週日早上 8 點）
+  # Schedule: Run every Sunday at 00:00 UTC
   schedule:
     - cron: '0 0 * * 0'
   
-  # 手動觸發
+  # Manual Trigger
   workflow_dispatch:
     inputs:
       force_update:
-        description: '強制更新資料'
+        description: 'Force update data'
         required: false
         default: false
         type: boolean
 
-# 設定權限
+# Set permissions
 permissions:
   contents: write
 
@@ -64,10 +64,10 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # 先 add 所有變更來檢查
+        # Add all changes to check them
         git add public/data/
         
-        # 檢查是否有變更
+        # Check if there are any staged changes
         if git diff --cached --quiet HEAD -- public/data/; then
           echo "❌ No data changes detected"
           echo "changes=false" >> $GITHUB_OUTPUT
@@ -75,7 +75,7 @@ jobs:
           echo "✅ Data changes detected"
           echo "changes=true" >> $GITHUB_OUTPUT
           
-          # 顯示變更的檔案
+          # Display the changed files
           echo "Changed files:"
           git diff --cached --name-only HEAD -- public/data/
           
@@ -92,17 +92,17 @@ jobs:
         
         git add public/data/
         
-        # 檢查是否真的有東西要 commit
+        # Check if there are any changes to commit
         if git diff --cached --quiet; then
           echo "⚠️ No changes to commit"
           
-          # 如果是強制更新，建立一個空 commit 來觸發部署
+          # If force_update is true, create an empty commit to trigger deployment
           if [[ "${{ github.event.inputs.force_update }}" == "true" ]]; then
             echo "🔄 Creating empty commit to trigger deployment..."
-            git commit --allow-empty -m "🔄 Force deploy - $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit --allow-empty -m "chore(data): Force deploy trigger - $(date +'%Y-%m-%d %H:%M:%S')"
           fi
         else
-          git commit -m "📊 Auto-update toilet data - $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "feat(data): Auto-update toilet data - $(date +'%Y-%m-%d %H:%M:%S')"
         fi
         
         echo "🚀 Pushing changes to repository..."
@@ -127,8 +127,8 @@ jobs:
     - name: Output summary
       run: |
         if [[ "${{ steps.check-changes.outputs.changes }}" == "true" || "${{ github.event.inputs.force_update }}" == "true" ]]; then
-          echo "✅ 資料已更新，將觸發網站部署"
-          echo "📝 查看最新 commit: https://github.com/${{ github.repository }}/commit/$(git rev-parse HEAD)"
+          echo "✅ Data updated, which will trigger website deployment."
+          echo "📝 View the latest commit: https://github.com/${{ github.repository }}/commit/$(git rev-parse HEAD)"
         else
-          echo "ℹ️ 資料無變更，跳過部署"
+          echo "ℹ️ No data changes, skipping deployment."
         fi

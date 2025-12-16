@@ -1,11 +1,11 @@
 name: Health Check
 
 on:
-  # 每天檢查一次網站狀態
+  # Schedule: Run once a day at 6:00 UTC
   schedule:
-    - cron: '0 6 * * *'  # 每天 UTC 6 點（台灣時間下午 2 點）
+    - cron: '0 6 * * *'
   
-  # 手動觸發
+  # Manual Trigger
   workflow_dispatch:
 
 permissions:
@@ -18,56 +18,58 @@ jobs:
     steps:
     - name: Check website status
       run: |
-        echo "🔍 檢查網站健康狀態..."
+        echo "🔍 Checking website health status..."
         
-        # 檢查主頁面
+        # Check the main page
         if curl -f -s -o /dev/null "https://toilets.littlechin.tw/"; then
-          echo "✅ 主頁面正常"
+          echo "✅ Main page is accessible."
         else
-          echo "❌ 主頁面無法訪問"
+          echo "❌ Main page is not accessible."
           exit 1
         fi
         
-        # 檢查地圖頁面
+        # Check the map page
         if curl -f -s -o /dev/null "https://toilets.littlechin.tw/map"; then
-          echo "✅ 地圖頁面正常"
+          echo "✅ Map page is accessible."
         else
-          echo "⚠️ 地圖頁面可能有問題（SPA 路由問題為正常現象）"
+          echo "⚠️ Map page might have issues (this is normal for SPA routing)."
         fi
         
-        # 檢查資料索引檔案
+        # Check the data index file
         if curl -f -s -o /dev/null "https://toilets.littlechin.tw/data/index.json"; then
-          echo "✅ 資料索引檔案正常"
+          echo "✅ Data index file is accessible."
         else
-          echo "❌ 資料索引檔案無法訪問"
+          echo "❌ Data index file is not accessible."
           exit 1
         fi
         
-        echo "🎉 健康檢查完成"
+        echo "🎉 Health check complete."
     
     - name: Check data freshness
       run: |
-        echo "📅 檢查資料新鮮度..."
+        echo "📅 Checking data freshness..."
         
-        # 下載索引檔案檢查更新時間
+        # Download the index file to check the last updated timestamp
         curl -s "https://toilets.littlechin.tw/data/index.json" > index.json
         
         if [[ -f index.json ]]; then
-          last_updated=$(cat index.json | grep -o '"last_updated":"[^"]*' | cut -d'"' -f4)
-          echo "📊 資料最後更新時間: $last_updated"
+          # Use jq to reliably parse the JSON and extract the last_updated value
+          last_updated=$(jq -r '.last_updated' index.json)
           
-          # 檢查是否超過 10 天未更新
+          echo "📊 Data last updated at: $last_updated"
+
+          # Check if the data is older than 10 days
           if [[ -n "$last_updated" ]]; then
             last_timestamp=$(date -d "$last_updated" +%s 2>/dev/null || echo "0")
             current_timestamp=$(date +%s)
             days_diff=$(( (current_timestamp - last_timestamp) / 86400 ))
             
-            echo "📈 資料已 $days_diff 天未更新"
+            echo "📈 Data is $days_diff days old."
             
             if [[ $days_diff -gt 10 ]]; then
-              echo "⚠️ 資料超過 10 天未更新，建議檢查自動更新流程"
+              echo "⚠️ Data is older than 10 days. Please check the auto-update workflow."
             else
-              echo "✅ 資料更新時間正常"
+              echo "✅ Data freshness is normal."
             fi
           fi
         fi
