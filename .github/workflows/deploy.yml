@@ -9,6 +9,7 @@ on:
     paths:
       - 'src/**'
       - 'public/**'
+      - '!public/data/deploy-flag.json'
       - 'scripts/**'
       - 'index.html'
       - 'package.json'
