@@ -1,7 +1,9 @@
 name: Deploy Website
 
 on:
-  # Trigger on pushes to the main branch that affect website files
+  # Trigger on pushes to the main branch that affect website files.
+  # While the 'public/**' path could trigger a loop from the deploy-flag cleanup commit,
+  # the 'check-deploy' job below is the primary mechanism to prevent this by inspecting the commit message.
   push:
     branches: [ main ]
     paths:
@@ -57,7 +59,7 @@ jobs:
         # Prevent deployment loops by checking the commit message.
         # The deploy job creates a commit with this message to clean up a flag file.
         COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-        if [[ "$COMMIT_MESSAGE" == *"Chore: Remove deploy flag after deployment"* ]]; then
+        if [[ "$COMMIT_MESSAGE" == *"🧹 Chore: Remove deploy flag after deployment"* ]]; then
           SHOULD_DEPLOY="false"
           REASON="Skipping deployment for deploy flag cleanup commit."
         fi
@@ -93,13 +95,6 @@ jobs:
     - name: Build application
       run: npm run build
     
-    - name: Remove deploy flag after successful build
-      run: |
-        if [[ -f "public/data/deploy-flag.json" ]]; then
-          echo "Removing deployment flag file..."
-          rm -f public/data/deploy-flag.json
-        fi
-    
     - name: Setup Pages
       uses: actions/configure-pages@v4
     
@@ -119,9 +114,9 @@ jobs:
         git config --local user.name "GitHub Action"
         
         # If deploy-flag.json exists, remove it from the repository to prevent deployment loops.
-        if git ls-files --error-unmatch public/data/deploy-flag.json > /dev/null 2>&1; then
+        if [[ -f "public/data/deploy-flag.json" ]]; then
           echo "Found deploy-flag.json, removing from repository..."
-          git rm --cached public/data/deploy-flag.json
+          git rm public/data/deploy-flag.json
           git commit -m "🧹 Chore: Remove deploy flag after deployment"
           git push
         else
