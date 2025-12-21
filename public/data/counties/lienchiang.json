@@ -9,7 +9,7 @@
     "county_en": "Lienchiang",
     "area_zh": "后沃村",
     "latitude": 26.22295995,
-    "longitude": 120.00659913,
+    "longitude": 120.0065991,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -19,7 +19,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000025",
@@ -31,7 +31,7 @@
     "county_en": "Lienchiang",
     "area_zh": "后沃村",
     "latitude": 26.22295273,
-    "longitude": 120.00657499,
+    "longitude": 120.006575,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -41,7 +41,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000011",
@@ -53,7 +53,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22339065,
-    "longitude": 119.99946445,
+    "longitude": 119.9994645,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -63,7 +63,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "北竿機場",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000010",
@@ -75,7 +75,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22350968,
-    "longitude": 119.99949603,
+    "longitude": 119.999496,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -85,7 +85,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "北竿機場",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000009",
@@ -97,7 +97,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22350968,
-    "longitude": 119.99949603,
+    "longitude": 119.999496,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -107,7 +107,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "北竿機場",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000013",
@@ -119,7 +119,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22338584,
-    "longitude": 119.99936387,
+    "longitude": 119.9993639,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -129,7 +129,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "北竿機場",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000012",
@@ -141,7 +141,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22342554,
-    "longitude": 119.99932632,
+    "longitude": 119.9993263,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -151,7 +151,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "北竿機場",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000020",
@@ -163,7 +163,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22317121,
-    "longitude": 119.99875367,
+    "longitude": 119.9987537,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -173,7 +173,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000019",
@@ -185,7 +185,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22293829,
-    "longitude": 119.99829769,
+    "longitude": 119.9982977,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -195,7 +195,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000007",
@@ -207,7 +207,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22295634,
-    "longitude": 119.99768883,
+    "longitude": 119.9976888,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -217,7 +217,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000006",
@@ -239,7 +239,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000014",
@@ -251,7 +251,7 @@
     "county_en": "Lienchiang",
     "area_zh": "塘岐村",
     "latitude": 26.22338463,
-    "longitude": 119.99717653,
+    "longitude": 119.9971765,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -261,7 +261,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000030",
@@ -273,7 +273,7 @@
     "county_en": "Lienchiang",
     "area_zh": "芹壁村",
     "latitude": 26.22430739,
-    "longitude": 119.98202741,
+    "longitude": 119.9820274,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -283,7 +283,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000028",
@@ -295,7 +295,7 @@
     "county_en": "Lienchiang",
     "area_zh": "芹壁村",
     "latitude": 26.22430498,
-    "longitude": 119.98202339,
+    "longitude": 119.9820234,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -305,7 +305,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000029",
@@ -317,7 +317,7 @@
     "county_en": "Lienchiang",
     "area_zh": "芹壁村",
     "latitude": 26.2243122,
-    "longitude": 119.98201668,
+    "longitude": 119.9820167,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -327,7 +327,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "北竿鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000031",
@@ -339,7 +339,7 @@
     "county_en": "Lienchiang",
     "area_zh": "坂里村",
     "latitude": 26.21594217,
-    "longitude": 119.97463524,
+    "longitude": 119.9746352,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -349,7 +349,7 @@
     "has_diaper": true,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z020000004",
@@ -361,7 +361,7 @@
     "county_en": "Lienchiang",
     "area_zh": "白沙村",
     "latitude": 26.20582683,
-    "longitude": 119.96922255,
+    "longitude": 119.9692226,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -371,7 +371,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000021",
@@ -383,7 +383,7 @@
     "county_en": "Lienchiang",
     "area_zh": "復興村",
     "latitude": 26.15737092,
-    "longitude": 119.95778561,
+    "longitude": 119.9577856,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -393,7 +393,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000071",
@@ -415,7 +415,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000070",
@@ -427,7 +427,7 @@
     "county_en": "Lienchiang",
     "area_zh": "復興村",
     "latitude": 26.15873531,
-    "longitude": 119.95568275,
+    "longitude": 119.9556828,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -437,7 +437,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000018",
@@ -449,7 +449,7 @@
     "county_en": "Lienchiang",
     "area_zh": "復興村",
     "latitude": 26.15813199,
-    "longitude": 119.95568275,
+    "longitude": 119.9556828,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -459,7 +459,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000020",
@@ -471,7 +471,7 @@
     "county_en": "Lienchiang",
     "area_zh": "復興村",
     "latitude": 26.15755058,
-    "longitude": 119.95558888,
+    "longitude": 119.9555889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -481,7 +481,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000022",
@@ -493,7 +493,7 @@
     "county_en": "Lienchiang",
     "area_zh": "復興村",
     "latitude": 26.15754697,
-    "longitude": 119.95554328,
+    "longitude": 119.9555433,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -503,7 +503,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000019",
@@ -515,7 +515,7 @@
     "county_en": "Lienchiang",
     "area_zh": "復興村",
     "latitude": 26.15757104,
-    "longitude": 119.95536089,
+    "longitude": 119.9553609,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -525,7 +525,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000069",
@@ -537,7 +537,7 @@
     "county_en": "Lienchiang",
     "area_zh": "復興村",
     "latitude": 26.15741022,
-    "longitude": 119.95533943,
+    "longitude": 119.9553394,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -547,7 +547,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "交通部民用航空局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000017",
@@ -559,7 +559,7 @@
     "county_en": "Lienchiang",
     "area_zh": "介壽村",
     "latitude": 26.15517554,
-    "longitude": 119.95137513,
+    "longitude": 119.9513751,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -569,7 +569,7 @@
     "has_diaper": true,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000015",
@@ -581,7 +581,7 @@
     "county_en": "Lienchiang",
     "area_zh": "介壽村",
     "latitude": 26.15506239,
-    "longitude": 119.95132148,
+    "longitude": 119.9513215,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -591,7 +591,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000041",
@@ -613,7 +613,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000034",
@@ -625,7 +625,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16023853,
-    "longitude": 119.94444698,
+    "longitude": 119.944447,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -635,7 +635,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣政府港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000030",
@@ -647,7 +647,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16015668,
-    "longitude": 119.94442552,
+    "longitude": 119.9444255,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -657,7 +657,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000035",
@@ -669,7 +669,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16023853,
-    "longitude": 119.94439602,
+    "longitude": 119.944396,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -679,7 +679,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000032",
@@ -691,7 +691,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16020242,
-    "longitude": 119.94438529,
+    "longitude": 119.9443853,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -701,7 +701,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000031",
@@ -713,7 +713,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16013261,
-    "longitude": 119.94436249,
+    "longitude": 119.9443625,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -723,7 +723,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣政府港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000033",
@@ -735,7 +735,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16029631,
-    "longitude": 119.94432628,
+    "longitude": 119.9443263,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -745,7 +745,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000029",
@@ -757,7 +757,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16014224,
-    "longitude": 119.94432092,
+    "longitude": 119.9443209,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -767,7 +767,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000040",
@@ -779,7 +779,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.1604865,
-    "longitude": 119.94417205,
+    "longitude": 119.9441721,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -789,7 +789,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000027",
@@ -801,7 +801,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16019279,
-    "longitude": 119.94415998,
+    "longitude": 119.94416,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -811,7 +811,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000028",
@@ -823,7 +823,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16011094,
-    "longitude": 119.94413182,
+    "longitude": 119.9441318,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -833,7 +833,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000039",
@@ -845,7 +845,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16045761,
-    "longitude": 119.94410902,
+    "longitude": 119.944109,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -855,7 +855,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000038",
@@ -867,7 +867,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16033483,
-    "longitude": 119.94408488,
+    "longitude": 119.9440849,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -877,7 +877,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000037",
@@ -889,7 +889,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16035891,
-    "longitude": 119.94406611,
+    "longitude": 119.9440661,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -899,7 +899,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000036",
@@ -911,7 +911,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.16033242,
-    "longitude": 119.94403392,
+    "longitude": 119.9440339,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -921,7 +921,7 @@
     "has_diaper": false,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000043",
@@ -933,7 +933,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.15907813,
-    "longitude": 119.94354844,
+    "longitude": 119.9435484,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -943,7 +943,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000042",
@@ -955,7 +955,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.15912147,
-    "longitude": 119.94353235,
+    "longitude": 119.9435324,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -965,7 +965,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000048",
@@ -977,7 +977,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.15751808,
-    "longitude": 119.94099498,
+    "longitude": 119.940995,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -987,7 +987,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000047",
@@ -999,7 +999,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.15750845,
-    "longitude": 119.94097888,
+    "longitude": 119.9409789,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1009,7 +1009,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000046",
@@ -1021,7 +1021,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.15749039,
-    "longitude": 119.94080722,
+    "longitude": 119.9408072,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1031,7 +1031,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000026",
@@ -1043,7 +1043,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.15541871,
-    "longitude": 119.94025469,
+    "longitude": 119.9402547,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1053,7 +1053,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣交通旅遊局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000025",
@@ -1065,7 +1065,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福沃村",
     "latitude": 26.15553186,
-    "longitude": 119.94023591,
+    "longitude": 119.9402359,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1075,7 +1075,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣交通旅遊局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000051",
@@ -1087,7 +1087,7 @@
     "county_en": "Lienchiang",
     "area_zh": "清水村",
     "latitude": 26.15414149,
-    "longitude": 119.93758321,
+    "longitude": 119.9375832,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1097,7 +1097,7 @@
     "has_diaper": false,
     "administration": "清水境白馬尊王廟宇管理委員會",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000050",
@@ -1109,7 +1109,7 @@
     "county_en": "Lienchiang",
     "area_zh": "清水村",
     "latitude": 26.15413668,
-    "longitude": 119.93754297,
+    "longitude": 119.937543,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1119,7 +1119,7 @@
     "has_diaper": false,
     "administration": "清水境白馬尊王廟宇管理委員會",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000049",
@@ -1131,7 +1131,7 @@
     "county_en": "Lienchiang",
     "area_zh": "清水村",
     "latitude": 26.15413066,
-    "longitude": 119.93754297,
+    "longitude": 119.937543,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1141,7 +1141,7 @@
     "has_diaper": false,
     "administration": "清水境白馬尊王廟宇管理委員會",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000066",
@@ -1153,7 +1153,7 @@
     "county_en": "Lienchiang",
     "area_zh": "珠螺村",
     "latitude": 26.15834626,
-    "longitude": 119.93032515,
+    "longitude": 119.9303252,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1163,7 +1163,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000067",
@@ -1175,7 +1175,7 @@
     "county_en": "Lienchiang",
     "area_zh": "珠螺村",
     "latitude": 26.15834144,
-    "longitude": 119.93031979,
+    "longitude": 119.9303198,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1185,7 +1185,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000065",
@@ -1197,7 +1197,7 @@
     "county_en": "Lienchiang",
     "area_zh": "珠螺村",
     "latitude": 26.15834385,
-    "longitude": 119.93030906,
+    "longitude": 119.9303091,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1207,7 +1207,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000053",
@@ -1219,7 +1219,7 @@
     "county_en": "Lienchiang",
     "area_zh": "仁愛村",
     "latitude": 26.14241478,
-    "longitude": 119.92868364,
+    "longitude": 119.9286836,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1229,7 +1229,7 @@
     "has_diaper": true,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000073",
@@ -1241,7 +1241,7 @@
     "county_en": "Lienchiang",
     "area_zh": "仁愛村",
     "latitude": 26.1411603,
-    "longitude": 119.92727548,
+    "longitude": 119.9272755,
     "grade": "fail",
     "grade_zh": "不合格",
     "type": "mixed",
@@ -1251,7 +1251,7 @@
     "has_diaper": false,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000072",
@@ -1263,7 +1263,7 @@
     "county_en": "Lienchiang",
     "area_zh": "仁愛村",
     "latitude": 26.1411603,
-    "longitude": 119.92727548,
+    "longitude": 119.9272755,
     "grade": "fail",
     "grade_zh": "不合格",
     "type": "mixed",
@@ -1273,7 +1273,7 @@
     "has_diaper": false,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000052",
@@ -1285,7 +1285,7 @@
     "county_en": "Lienchiang",
     "area_zh": "仁愛村",
     "latitude": 26.1411603,
-    "longitude": 119.92727548,
+    "longitude": 119.9272755,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1295,7 +1295,7 @@
     "has_diaper": false,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000062",
@@ -1307,7 +1307,7 @@
     "county_en": "Lienchiang",
     "area_zh": "馬祖村",
     "latitude": 26.15844015,
-    "longitude": 119.91833031,
+    "longitude": 119.9183303,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1317,7 +1317,7 @@
     "has_diaper": false,
     "administration": "馬祖境天后宮廟宇管理委員會",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000063",
@@ -1329,7 +1329,7 @@
     "county_en": "Lienchiang",
     "area_zh": "馬祖村",
     "latitude": 26.15842811,
-    "longitude": 119.91830349,
+    "longitude": 119.9183035,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1339,7 +1339,7 @@
     "has_diaper": false,
     "administration": "馬祖境天后宮廟宇管理委員會",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000061",
@@ -1351,7 +1351,7 @@
     "county_en": "Lienchiang",
     "area_zh": "馬祖村",
     "latitude": 26.15844978,
-    "longitude": 119.91825789,
+    "longitude": 119.9182579,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1361,7 +1361,7 @@
     "has_diaper": false,
     "administration": "馬祖境天后宮廟宇管理委員會",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000068",
@@ -1373,7 +1373,7 @@
     "county_en": "Lienchiang",
     "area_zh": "四維村",
     "latitude": 26.16876543,
-    "longitude": 119.91753235,
+    "longitude": 119.9175324,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1383,7 +1383,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000021",
@@ -1395,7 +1395,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福正村",
     "latitude": 25.96934013,
-    "longitude": 119.98448968,
+    "longitude": 119.9844897,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1405,7 +1405,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000058",
@@ -1417,7 +1417,7 @@
     "county_en": "Lienchiang",
     "area_zh": "津沙村",
     "latitude": 26.14567733,
-    "longitude": 119.91236776,
+    "longitude": 119.9123678,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1427,7 +1427,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z010000057",
@@ -1439,7 +1439,7 @@
     "county_en": "Lienchiang",
     "area_zh": "津沙村",
     "latitude": 26.14567131,
-    "longitude": 119.91236508,
+    "longitude": 119.9123651,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1449,7 +1449,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣環境資源局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000020",
@@ -1461,7 +1461,7 @@
     "county_en": "Lienchiang",
     "area_zh": "福正村",
     "latitude": 25.96526656,
-    "longitude": 119.98112692,
+    "longitude": 119.9811269,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1471,7 +1471,7 @@
     "has_diaper": false,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000026",
@@ -1483,7 +1483,7 @@
     "county_en": "Lienchiang",
     "area_zh": "大坪村",
     "latitude": 25.96288709,
-    "longitude": 119.97531652,
+    "longitude": 119.9753165,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1493,7 +1493,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000027",
@@ -1515,7 +1515,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000025",
@@ -1527,7 +1527,7 @@
     "county_en": "Lienchiang",
     "area_zh": "大坪村",
     "latitude": 25.96117008,
-    "longitude": 119.97039199,
+    "longitude": 119.970392,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1537,7 +1537,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000024",
@@ -1549,7 +1549,7 @@
     "county_en": "Lienchiang",
     "area_zh": "大坪村",
     "latitude": 25.9552134,
-    "longitude": 119.97332633,
+    "longitude": 119.9733263,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1559,7 +1559,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000022",
@@ -1571,7 +1571,7 @@
     "county_en": "Lienchiang",
     "area_zh": "大坪村",
     "latitude": 25.94975687,
-    "longitude": 119.96274233,
+    "longitude": 119.9627423,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1581,7 +1581,7 @@
     "has_diaper": false,
     "administration": "連江縣政府文化處",
     "manager": "連江縣政府文化處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000016",
@@ -1593,7 +1593,7 @@
     "county_en": "Lienchiang",
     "area_zh": "田沃村",
     "latitude": 25.97586997,
-    "longitude": 119.94118273,
+    "longitude": 119.9411827,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1603,7 +1603,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000017",
@@ -1625,7 +1625,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000015",
@@ -1647,7 +1647,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000011",
@@ -1669,7 +1669,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000006",
@@ -1681,7 +1681,7 @@
     "county_en": "Lienchiang",
     "area_zh": "青帆村",
     "latitude": 25.97179489,
-    "longitude": 119.93286252,
+    "longitude": 119.9328625,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1691,7 +1691,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000005",
@@ -1703,7 +1703,7 @@
     "county_en": "Lienchiang",
     "area_zh": "青帆村",
     "latitude": 25.9716695,
-    "longitude": 119.93292153,
+    "longitude": 119.9329215,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1713,7 +1713,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000010",
@@ -1725,7 +1725,7 @@
     "county_en": "Lienchiang",
     "area_zh": "青帆村",
     "latitude": 25.97196369,
-    "longitude": 119.93239045,
+    "longitude": 119.9323905,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1735,7 +1735,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000007",
@@ -1747,7 +1747,7 @@
     "county_en": "Lienchiang",
     "area_zh": "青帆村",
     "latitude": 25.97147177,
-    "longitude": 119.93232608,
+    "longitude": 119.9323261,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1757,7 +1757,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000008",
@@ -1769,7 +1769,7 @@
     "county_en": "Lienchiang",
     "area_zh": "青帆村",
     "latitude": 25.97133433,
-    "longitude": 119.93236095,
+    "longitude": 119.932361,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1779,7 +1779,7 @@
     "has_diaper": false,
     "administration": "莒光鄉公所",
     "manager": "莒光鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z030000001",
@@ -1791,7 +1791,7 @@
     "county_en": "Lienchiang",
     "area_zh": "青帆村",
     "latitude": 25.967663,
-    "longitude": 119.93326217,
+    "longitude": 119.9332622,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1801,7 +1801,7 @@
     "has_diaper": true,
     "administration": "連江縣港務處-西莒港務站 ",
     "manager": "連江縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000014",
@@ -1813,7 +1813,7 @@
     "county_en": "Lienchiang",
     "area_zh": "樂華村",
     "latitude": 26.36000847,
-    "longitude": 120.48374802,
+    "longitude": 120.483748,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1823,7 +1823,7 @@
     "has_diaper": true,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000019",
@@ -1835,7 +1835,7 @@
     "county_en": "Lienchiang",
     "area_zh": "樂華村",
     "latitude": 26.36566169,
-    "longitude": 120.48658864,
+    "longitude": 120.4865886,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1845,7 +1845,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000018",
@@ -1857,7 +1857,7 @@
     "county_en": "Lienchiang",
     "area_zh": "樂華村",
     "latitude": 26.36566169,
-    "longitude": 120.48658864,
+    "longitude": 120.4865886,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1867,7 +1867,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000009",
@@ -1879,7 +1879,7 @@
     "county_en": "Lienchiang",
     "area_zh": "中柳村",
     "latitude": 26.36707882,
-    "longitude": 120.48647314,
+    "longitude": 120.4864731,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1889,7 +1889,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "連江縣東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000005",
@@ -1901,7 +1901,7 @@
     "county_en": "Lienchiang",
     "area_zh": "樂華村",
     "latitude": 26.36255115,
-    "longitude": 120.49007803,
+    "longitude": 120.490078,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1911,7 +1911,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000022",
@@ -1933,7 +1933,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000015",
@@ -1945,7 +1945,7 @@
     "county_en": "Lienchiang",
     "area_zh": "樂華村",
     "latitude": 26.36650446,
-    "longitude": 120.48718929,
+    "longitude": 120.4871893,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1955,7 +1955,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000007",
@@ -1967,7 +1967,7 @@
     "county_en": "Lienchiang",
     "area_zh": "中柳村",
     "latitude": 26.3678286,
-    "longitude": 120.48695058,
+    "longitude": 120.4869506,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1977,7 +1977,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000003",
@@ -1989,7 +1989,7 @@
     "county_en": "Lienchiang",
     "area_zh": "中柳村",
     "latitude": 26.36841978,
-    "longitude": 120.48795372,
+    "longitude": 120.4879537,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1999,7 +1999,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000004",
@@ -2011,7 +2011,7 @@
     "county_en": "Lienchiang",
     "area_zh": "中柳村",
     "latitude": 26.36802086,
-    "longitude": 120.49134806,
+    "longitude": 120.4913481,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2021,7 +2021,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "東引鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "Z040000017",
@@ -2033,7 +2033,7 @@
     "county_en": "Lienchiang",
     "area_zh": "樂華村",
     "latitude": 26.36709083,
-    "longitude": 120.50777793,
+    "longitude": 120.5077779,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2043,6 +2043,6 @@
     "has_diaper": true,
     "administration": "馬祖國家風景區管理處",
     "manager": "馬祖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   }
 ]

@@ -19,7 +19,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000019",
@@ -41,7 +41,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000039",
@@ -53,7 +53,7 @@
     "county_en": "Kinmen",
     "area_zh": "后盤村",
     "latitude": 24.44378705,
-    "longitude": 118.35344755,
+    "longitude": 118.3534476,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -63,7 +63,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000028",
@@ -75,7 +75,7 @@
     "county_en": "Kinmen",
     "area_zh": "后盤村",
     "latitude": 24.44378705,
-    "longitude": 118.35344755,
+    "longitude": 118.3534476,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -85,7 +85,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000001",
@@ -97,7 +97,7 @@
     "county_en": "Kinmen",
     "area_zh": "后盤村",
     "latitude": 24.44378705,
-    "longitude": 118.35344755,
+    "longitude": 118.3534476,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -105,9 +105,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
-    "administration": "內政部國公園署",
+    "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000051",
@@ -129,7 +129,7 @@
     "has_diaper": false,
     "administration": "家樂福股份有限公司金門分公司",
     "manager": "家樂福金門店安全課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000050",
@@ -151,7 +151,7 @@
     "has_diaper": false,
     "administration": "家樂福股份有限公司金門分公司",
     "manager": "家樂福金門店安全課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000049",
@@ -173,7 +173,7 @@
     "has_diaper": false,
     "administration": "家樂福股份有限公司金門分公司",
     "manager": "家樂福金門店安全課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000044",
@@ -185,7 +185,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43926669,
-    "longitude": 118.33426118,
+    "longitude": 118.3342612,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -195,7 +195,7 @@
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000043",
@@ -207,7 +207,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43926669,
-    "longitude": 118.33426118,
+    "longitude": 118.3342612,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -217,7 +217,7 @@
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000013",
@@ -229,7 +229,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43926669,
-    "longitude": 118.33426118,
+    "longitude": 118.3342612,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -239,7 +239,7 @@
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000092",
@@ -251,7 +251,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.44340621,
-    "longitude": 118.32594356,
+    "longitude": 118.3259436,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -261,7 +261,7 @@
     "has_diaper": false,
     "administration": "統精股份有限公司",
     "manager": "統精股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000008",
@@ -273,7 +273,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.44340621,
-    "longitude": 118.32594356,
+    "longitude": 118.3259436,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -283,7 +283,7 @@
     "has_diaper": false,
     "administration": "統精股份有限公司",
     "manager": "統精股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000040",
@@ -295,7 +295,7 @@
     "county_en": "Kinmen",
     "area_zh": "盤山村",
     "latitude": 24.43708466,
-    "longitude": 118.35366606,
+    "longitude": 118.3536661,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -305,7 +305,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000002",
@@ -317,7 +317,7 @@
     "county_en": "Kinmen",
     "area_zh": "盤山村",
     "latitude": 24.43708466,
-    "longitude": 118.35366606,
+    "longitude": 118.3536661,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -327,7 +327,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000027",
@@ -349,7 +349,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000041",
@@ -361,7 +361,7 @@
     "county_en": "Kinmen",
     "area_zh": "盤山村",
     "latitude": 24.43671334,
-    "longitude": 118.35338834,
+    "longitude": 118.3533883,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -371,7 +371,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處解說教育科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000029",
@@ -383,7 +383,7 @@
     "county_en": "Kinmen",
     "area_zh": "盤山村",
     "latitude": 24.43671334,
-    "longitude": 118.35338834,
+    "longitude": 118.3533883,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -393,7 +393,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處解說教育科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000011",
@@ -405,7 +405,7 @@
     "county_en": "Kinmen",
     "area_zh": "盤山村",
     "latitude": 24.43671334,
-    "longitude": 118.35338834,
+    "longitude": 118.3533883,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -415,7 +415,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處解說教育科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000013",
@@ -427,7 +427,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.44097831,
-    "longitude": 118.32308553,
+    "longitude": 118.3230855,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -437,7 +437,7 @@
     "has_diaper": false,
     "administration": "金門縣文化局",
     "manager": "金門縣文化局行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000014",
@@ -449,7 +449,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.44097831,
-    "longitude": 118.32308553,
+    "longitude": 118.3230855,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -459,7 +459,7 @@
     "has_diaper": false,
     "administration": "金門縣文化局",
     "manager": "金門縣文化局行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000016",
@@ -471,7 +471,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43234192,
-    "longitude": 118.34324055,
+    "longitude": 118.3432406,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -481,7 +481,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000015",
@@ -493,7 +493,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43234192,
-    "longitude": 118.34324055,
+    "longitude": 118.3432406,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -503,7 +503,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000048",
@@ -515,7 +515,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43212308,
-    "longitude": 118.34260366,
+    "longitude": 118.3426037,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -525,7 +525,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000047",
@@ -537,7 +537,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43212308,
-    "longitude": 118.34260366,
+    "longitude": 118.3426037,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -547,7 +547,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000046",
@@ -559,7 +559,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43212308,
-    "longitude": 118.34260366,
+    "longitude": 118.3426037,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -569,7 +569,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000025",
@@ -591,7 +591,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000008",
@@ -613,7 +613,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000042",
@@ -625,7 +625,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43591642,
-    "longitude": 118.32726052,
+    "longitude": 118.3272605,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -635,7 +635,7 @@
     "has_diaper": false,
     "administration": "安佳信股份有限公司",
     "manager": "安佳信股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000012",
@@ -647,7 +647,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.43591642,
-    "longitude": 118.32726052,
+    "longitude": 118.3272605,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -657,7 +657,7 @@
     "has_diaper": false,
     "administration": "安佳信股份有限公司",
     "manager": "安佳信股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000035",
@@ -669,7 +669,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4767045,
-    "longitude": 118.31685742,
+    "longitude": 118.3168574,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -679,7 +679,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000034",
@@ -691,7 +691,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4767045,
-    "longitude": 118.31685742,
+    "longitude": 118.3168574,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -701,7 +701,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000033",
@@ -713,7 +713,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4767045,
-    "longitude": 118.31685742,
+    "longitude": 118.3168574,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -723,7 +723,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000059",
@@ -743,9 +743,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000061",
@@ -757,7 +757,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.43731245,
-    "longitude": 118.31955585,
+    "longitude": 118.3195559,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -765,9 +765,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000060",
@@ -779,7 +779,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.43731245,
-    "longitude": 118.31955585,
+    "longitude": 118.3195559,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -787,9 +787,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000112",
@@ -809,9 +809,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000058",
@@ -823,7 +823,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.43706324,
-    "longitude": 118.31965827,
+    "longitude": 118.3196583,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -831,9 +831,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000121",
@@ -853,9 +853,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000120",
@@ -875,9 +875,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000063",
@@ -889,7 +889,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.43728267,
-    "longitude": 118.31900213,
+    "longitude": 118.3190021,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -897,9 +897,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000062",
@@ -911,7 +911,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.43728267,
-    "longitude": 118.31900213,
+    "longitude": 118.3190021,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -919,9 +919,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000005",
@@ -933,7 +933,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4832288,
-    "longitude": 118.32089777,
+    "longitude": 118.3208978,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -943,7 +943,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000003",
@@ -955,7 +955,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4832288,
-    "longitude": 118.32089777,
+    "longitude": 118.3208978,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -965,7 +965,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000004",
@@ -977,7 +977,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4832288,
-    "longitude": 118.32089777,
+    "longitude": 118.3208978,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -987,7 +987,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000075",
@@ -999,7 +999,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.44025597,
-    "longitude": 118.36959676,
+    "longitude": 118.3695968,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1007,9 +1007,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": true,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局行政科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000074",
@@ -1021,7 +1021,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.44025597,
-    "longitude": 118.36959676,
+    "longitude": 118.3695968,
     "grade": "普通級",
     "grade_zh": "普通級",
     "type": "mixed",
@@ -1029,9 +1029,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局行政科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000025",
@@ -1043,7 +1043,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.44025597,
-    "longitude": 118.36959676,
+    "longitude": 118.3695968,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1051,9 +1051,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局行政科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000132",
@@ -1073,9 +1073,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局行政科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000017",
@@ -1095,9 +1095,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局行政科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000016",
@@ -1117,9 +1117,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局行政科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000057",
@@ -1131,7 +1131,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43282982,
-    "longitude": 118.32068981,
+    "longitude": 118.3206898,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1141,7 +1141,7 @@
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所觀光課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000056",
@@ -1153,7 +1153,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43282982,
-    "longitude": 118.32068981,
+    "longitude": 118.3206898,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1163,7 +1163,7 @@
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所觀光課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000028",
@@ -1175,7 +1175,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43282982,
-    "longitude": 118.32068981,
+    "longitude": 118.3206898,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1185,7 +1185,7 @@
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所觀光課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000055",
@@ -1197,7 +1197,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43323118,
-    "longitude": 118.32006985,
+    "longitude": 118.3200699,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1207,7 +1207,7 @@
     "has_diaper": true,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000054",
@@ -1219,7 +1219,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43323118,
-    "longitude": 118.32006985,
+    "longitude": 118.3200699,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1229,7 +1229,7 @@
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000024",
@@ -1241,7 +1241,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43323118,
-    "longitude": 118.32006985,
+    "longitude": 118.3200699,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1251,7 +1251,7 @@
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000087",
@@ -1263,7 +1263,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43307019,
-    "longitude": 118.32021757,
+    "longitude": 118.3202176,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1271,9 +1271,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000086",
@@ -1285,7 +1285,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43307019,
-    "longitude": 118.32021757,
+    "longitude": 118.3202176,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1293,9 +1293,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000021",
@@ -1317,7 +1317,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000019",
@@ -1339,7 +1339,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000020",
@@ -1361,7 +1361,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000126",
@@ -1383,7 +1383,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000077",
@@ -1395,7 +1395,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.43757542,
-    "longitude": 118.36967268,
+    "longitude": 118.3696727,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1403,9 +1403,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局空保科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000076",
@@ -1417,7 +1417,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.43757542,
-    "longitude": 118.36967268,
+    "longitude": 118.3696727,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1425,9 +1425,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣環境保護局",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣環境保護局",
+    "manager": "金門縣環境保護局空保科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000131",
@@ -1449,7 +1449,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000130",
@@ -1471,7 +1471,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000129",
@@ -1493,7 +1493,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000128",
@@ -1515,7 +1515,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000127",
@@ -1537,7 +1537,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000073",
@@ -1559,7 +1559,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000072",
@@ -1581,7 +1581,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000071",
@@ -1603,7 +1603,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000070",
@@ -1625,7 +1625,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000069",
@@ -1647,7 +1647,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000068",
@@ -1669,7 +1669,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000067",
@@ -1691,7 +1691,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000066",
@@ -1713,7 +1713,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000065",
@@ -1735,7 +1735,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000064",
@@ -1757,7 +1757,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000063",
@@ -1779,7 +1779,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000062",
@@ -1801,7 +1801,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000061",
@@ -1823,7 +1823,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000024",
@@ -1845,7 +1845,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000023",
@@ -1867,7 +1867,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000022",
@@ -1889,7 +1889,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000026",
@@ -1901,7 +1901,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43266032,
-    "longitude": 118.31890884,
+    "longitude": 118.3189088,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1909,9 +1909,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000025",
@@ -1923,7 +1923,7 @@
     "county_en": "Kinmen",
     "area_zh": "北門里",
     "latitude": 24.43266032,
-    "longitude": 118.31890884,
+    "longitude": 118.3189088,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1931,9 +1931,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000080",
@@ -1945,7 +1945,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42957687,
-    "longitude": 118.32126235,
+    "longitude": 118.3212624,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -1953,9 +1953,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000079",
@@ -1967,7 +1967,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42957687,
-    "longitude": 118.32126235,
+    "longitude": 118.3212624,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1975,9 +1975,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000076",
@@ -1989,7 +1989,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42957687,
-    "longitude": 118.32126235,
+    "longitude": 118.3212624,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1997,9 +1997,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000022",
@@ -2011,7 +2011,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42957687,
-    "longitude": 118.32126235,
+    "longitude": 118.3212624,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2019,9 +2019,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000038",
@@ -2033,7 +2033,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4762044,
-    "longitude": 118.30995272,
+    "longitude": 118.3099527,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2043,7 +2043,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000037",
@@ -2055,7 +2055,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4762044,
-    "longitude": 118.30995272,
+    "longitude": 118.3099527,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2065,7 +2065,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000036",
@@ -2077,7 +2077,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4762044,
-    "longitude": 118.30995272,
+    "longitude": 118.3099527,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2087,7 +2087,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000085",
@@ -2099,7 +2099,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.43704528,
-    "longitude": 118.31233977,
+    "longitude": 118.3123398,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2107,9 +2107,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000026",
@@ -2121,7 +2121,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.43704528,
-    "longitude": 118.31233977,
+    "longitude": 118.3123398,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2131,7 +2131,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000007",
@@ -2143,7 +2143,7 @@
     "county_en": "Kinmen",
     "area_zh": "西門里",
     "latitude": 24.43704528,
-    "longitude": 118.31233977,
+    "longitude": 118.3123398,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2151,9 +2151,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000082",
@@ -2165,7 +2165,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42938849,
-    "longitude": 118.31828112,
+    "longitude": 118.3182811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -2173,9 +2173,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000081",
@@ -2187,7 +2187,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42938849,
-    "longitude": 118.31828112,
+    "longitude": 118.3182811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2195,9 +2195,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000077",
@@ -2209,7 +2209,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42938849,
-    "longitude": 118.31828112,
+    "longitude": 118.3182811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2217,9 +2217,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000005",
@@ -2231,7 +2231,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42938849,
-    "longitude": 118.31828112,
+    "longitude": 118.3182811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2239,9 +2239,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000086",
@@ -2253,7 +2253,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2263,7 +2263,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000085",
@@ -2275,7 +2275,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2285,7 +2285,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000084",
@@ -2297,7 +2297,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2307,7 +2307,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000083",
@@ -2319,7 +2319,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2329,7 +2329,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000082",
@@ -2341,7 +2341,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2351,7 +2351,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000035",
@@ -2363,7 +2363,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2373,7 +2373,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000036",
@@ -2385,7 +2385,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2395,7 +2395,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000034",
@@ -2407,7 +2407,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
-    "longitude": 118.38090154,
+    "longitude": 118.3809015,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2417,7 +2417,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000037",
@@ -2439,7 +2439,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000016",
@@ -2451,7 +2451,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43724834,
-    "longitude": 118.30972522,
+    "longitude": 118.3097252,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2459,9 +2459,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000015",
@@ -2473,7 +2473,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43724834,
-    "longitude": 118.30972522,
+    "longitude": 118.3097252,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2481,9 +2481,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000084",
@@ -2495,7 +2495,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42900448,
-    "longitude": 118.31571778,
+    "longitude": 118.3157178,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -2503,9 +2503,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000083",
@@ -2517,7 +2517,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42900448,
-    "longitude": 118.31571778,
+    "longitude": 118.3157178,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2525,9 +2525,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000078",
@@ -2539,7 +2539,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42900448,
-    "longitude": 118.31571778,
+    "longitude": 118.3157178,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2547,9 +2547,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000006",
@@ -2561,7 +2561,7 @@
     "county_en": "Kinmen",
     "area_zh": "東門里",
     "latitude": 24.42900448,
-    "longitude": 118.31571778,
+    "longitude": 118.3157178,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2569,9 +2569,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000093",
@@ -2583,7 +2583,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43012638,
-    "longitude": 118.31430383,
+    "longitude": 118.3143038,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2591,9 +2591,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣立體育場",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000019",
@@ -2605,7 +2605,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43012638,
-    "longitude": 118.31430383,
+    "longitude": 118.3143038,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2613,9 +2613,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000018",
@@ -2627,7 +2627,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43012638,
-    "longitude": 118.31430383,
+    "longitude": 118.3143038,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2635,9 +2635,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000053",
@@ -2649,7 +2649,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42670708,
-    "longitude": 118.31802991,
+    "longitude": 118.3180299,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2657,9 +2657,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000052",
@@ -2671,7 +2671,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42670708,
-    "longitude": 118.31802991,
+    "longitude": 118.3180299,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2679,9 +2679,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000044",
@@ -2693,7 +2693,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42670708,
-    "longitude": 118.31802991,
+    "longitude": 118.3180299,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2701,9 +2701,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000021",
@@ -2723,9 +2723,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000020",
@@ -2737,7 +2737,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42976496,
-    "longitude": 118.31432638,
+    "longitude": 118.3143264,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2745,9 +2745,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000051",
@@ -2759,7 +2759,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42544251,
-    "longitude": 118.31923441,
+    "longitude": 118.3192344,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2767,9 +2767,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000050",
@@ -2781,7 +2781,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42544251,
-    "longitude": 118.31923441,
+    "longitude": 118.3192344,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2789,9 +2789,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000049",
@@ -2803,7 +2803,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.42544251,
-    "longitude": 118.31923441,
+    "longitude": 118.3192344,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2811,9 +2811,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣政府觀光處",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處觀光業務科",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000073",
@@ -2825,7 +2825,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43012394,
-    "longitude": 118.31248924,
+    "longitude": 118.3124892,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -2833,9 +2833,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000023",
@@ -2847,7 +2847,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43017519,
-    "longitude": 118.31240414,
+    "longitude": 118.3124041,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2857,7 +2857,7 @@
     "has_diaper": false,
     "administration": "金門縣立體育場",
     "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000071",
@@ -2869,7 +2869,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43117111,
-    "longitude": 118.31136181,
+    "longitude": 118.3113618,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2877,9 +2877,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000070",
@@ -2891,7 +2891,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43117111,
-    "longitude": 118.31136181,
+    "longitude": 118.3113618,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2899,9 +2899,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000094",
@@ -2913,7 +2913,7 @@
     "county_en": "Kinmen",
     "area_zh": "南門里",
     "latitude": 24.43004013,
-    "longitude": 118.31241449,
+    "longitude": 118.3124145,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2921,9 +2921,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000113",
@@ -2935,7 +2935,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45080499,
-    "longitude": 118.38360427,
+    "longitude": 118.3836043,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2943,9 +2943,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000112",
@@ -2957,7 +2957,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45080499,
-    "longitude": 118.38360427,
+    "longitude": 118.3836043,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2965,9 +2965,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000111",
@@ -2979,7 +2979,7 @@
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
     "latitude": 24.45080499,
-    "longitude": 118.38360427,
+    "longitude": 118.3836043,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2987,9 +2987,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000072",
@@ -3009,9 +3009,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2025-12-16"
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000045",
@@ -3023,7 +3023,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.41650068,
-    "longitude": 118.34450134,
+    "longitude": 118.3445013,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3031,9 +3031,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000030",
@@ -3045,7 +3045,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.41650068,
-    "longitude": 118.34450134,
+    "longitude": 118.3445013,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3053,9 +3053,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000014",
@@ -3067,7 +3067,7 @@
     "county_en": "Kinmen",
     "area_zh": "榜林村",
     "latitude": 24.41650068,
-    "longitude": 118.34450134,
+    "longitude": 118.3445013,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3075,9 +3075,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000048",
@@ -3097,9 +3097,9 @@
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000047",
@@ -3119,9 +3119,9 @@
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000046",
@@ -3141,9 +3141,9 @@
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000069",
@@ -3165,7 +3165,7 @@
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所觀光課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000068",
@@ -3187,7 +3187,7 @@
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所觀光課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000067",
@@ -3209,7 +3209,7 @@
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所觀光課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000119",
@@ -3231,7 +3231,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000032",
@@ -3253,7 +3253,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000031",
@@ -3275,7 +3275,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000009",
@@ -3287,7 +3287,7 @@
     "county_en": "Kinmen",
     "area_zh": "古寧村",
     "latitude": 24.4652781,
-    "longitude": 118.29733639,
+    "longitude": 118.2973364,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3297,7 +3297,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W040000032",
@@ -3319,7 +3319,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000060",
@@ -3331,7 +3331,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.4359525,
-    "longitude": 118.38692721,
+    "longitude": 118.3869272,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3339,9 +3339,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000059",
@@ -3353,7 +3353,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.4359525,
-    "longitude": 118.38692721,
+    "longitude": 118.3869272,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3361,9 +3361,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000018",
@@ -3375,7 +3375,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.4359525,
-    "longitude": 118.38692721,
+    "longitude": 118.3869272,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3383,9 +3383,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000066",
@@ -3397,7 +3397,7 @@
     "county_en": "Kinmen",
     "area_zh": "賢庵里",
     "latitude": 24.42439432,
-    "longitude": 118.30511402,
+    "longitude": 118.305114,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3405,9 +3405,9 @@
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000043",
@@ -3419,7 +3419,7 @@
     "county_en": "Kinmen",
     "area_zh": "賢庵里",
     "latitude": 24.42439432,
-    "longitude": 118.30511402,
+    "longitude": 118.305114,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3427,9 +3427,9 @@
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000042",
@@ -3441,7 +3441,7 @@
     "county_en": "Kinmen",
     "area_zh": "賢庵里",
     "latitude": 24.42439432,
-    "longitude": 118.30511402,
+    "longitude": 118.305114,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3449,9 +3449,9 @@
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000118",
@@ -3463,7 +3463,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.43734437,
-    "longitude": 118.39001474,
+    "longitude": 118.3900147,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3471,9 +3471,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000015",
@@ -3485,7 +3485,7 @@
     "county_en": "Kinmen",
     "area_zh": "正義里",
     "latitude": 24.43734437,
-    "longitude": 118.39001474,
+    "longitude": 118.3900147,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3493,9 +3493,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000047",
@@ -3507,7 +3507,7 @@
     "county_en": "Kinmen",
     "area_zh": "浦山里",
     "latitude": 24.48551815,
-    "longitude": 118.38888911,
+    "longitude": 118.3888891,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3517,7 +3517,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000046",
@@ -3529,7 +3529,7 @@
     "county_en": "Kinmen",
     "area_zh": "浦山里",
     "latitude": 24.48551815,
-    "longitude": 118.38888911,
+    "longitude": 118.3888891,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3539,7 +3539,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000045",
@@ -3551,7 +3551,7 @@
     "county_en": "Kinmen",
     "area_zh": "浦山里",
     "latitude": 24.48551815,
-    "longitude": 118.38888911,
+    "longitude": 118.3888891,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3561,7 +3561,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000115",
@@ -3583,7 +3583,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000114",
@@ -3605,7 +3605,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000002",
@@ -3617,7 +3617,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.45612284,
-    "longitude": 118.40260996,
+    "longitude": 118.40261,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3625,9 +3625,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
-    "administration": "國家公園署",
+    "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000003",
@@ -3647,9 +3647,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
-    "administration": "國家公園署",
+    "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000064",
@@ -3661,7 +3661,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40976246,
-    "longitude": 118.29884588,
+    "longitude": 118.2988459,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3671,7 +3671,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000038",
@@ -3683,7 +3683,7 @@
     "county_en": "Kinmen",
     "area_zh": "新湖里",
     "latitude": 24.43859286,
-    "longitude": 118.40518569,
+    "longitude": 118.4051857,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3693,7 +3693,7 @@
     "has_diaper": false,
     "administration": "北基國際股份有限公司",
     "manager": "北基國際股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000091",
@@ -3705,7 +3705,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40955565,
-    "longitude": 118.29856875,
+    "longitude": 118.2985688,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3715,7 +3715,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000090",
@@ -3727,7 +3727,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40955565,
-    "longitude": 118.29856875,
+    "longitude": 118.2985688,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3737,7 +3737,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000039",
@@ -3749,7 +3749,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40947069,
-    "longitude": 118.29808426,
+    "longitude": 118.2980843,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3759,7 +3759,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000032",
@@ -3771,7 +3771,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40947069,
-    "longitude": 118.29808426,
+    "longitude": 118.2980843,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3781,7 +3781,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000033",
@@ -3793,7 +3793,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40947069,
-    "longitude": 118.29808426,
+    "longitude": 118.2980843,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3803,7 +3803,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000094",
@@ -3825,7 +3825,7 @@
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000014",
@@ -3847,7 +3847,7 @@
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000039",
@@ -3869,7 +3869,7 @@
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000088",
@@ -3891,7 +3891,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000029",
@@ -3913,7 +3913,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000030",
@@ -3935,7 +3935,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000096",
@@ -3947,7 +3947,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.41530125,
-    "longitude": 118.28667921,
+    "longitude": 118.2866792,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3957,7 +3957,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000095",
@@ -3969,7 +3969,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.41530125,
-    "longitude": 118.28667921,
+    "longitude": 118.2866792,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3979,7 +3979,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000038",
@@ -3991,7 +3991,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.41530125,
-    "longitude": 118.28667921,
+    "longitude": 118.2866792,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4001,7 +4001,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000037",
@@ -4013,7 +4013,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.41530125,
-    "longitude": 118.28667921,
+    "longitude": 118.2866792,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4023,7 +4023,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000034",
@@ -4035,7 +4035,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.41530125,
-    "longitude": 118.28667921,
+    "longitude": 118.2866792,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4045,7 +4045,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000036",
@@ -4057,7 +4057,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.41530125,
-    "longitude": 118.28667921,
+    "longitude": 118.2866792,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4067,7 +4067,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000035",
@@ -4079,7 +4079,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.41530125,
-    "longitude": 118.28667921,
+    "longitude": 118.2866792,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4089,7 +4089,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000106",
@@ -4111,7 +4111,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000105",
@@ -4133,7 +4133,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000104",
@@ -4155,7 +4155,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000103",
@@ -4177,7 +4177,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000102",
@@ -4199,7 +4199,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000101",
@@ -4221,7 +4221,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000100",
@@ -4243,7 +4243,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000099",
@@ -4265,7 +4265,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000098",
@@ -4287,7 +4287,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000097",
@@ -4309,7 +4309,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000028",
@@ -4321,7 +4321,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49869039,
-    "longitude": 118.40229931,
+    "longitude": 118.4022993,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4330,8 +4330,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000027",
@@ -4343,7 +4343,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49869039,
-    "longitude": 118.40229931,
+    "longitude": 118.4022993,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4352,8 +4352,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000026",
@@ -4365,7 +4365,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49869039,
-    "longitude": 118.40229931,
+    "longitude": 118.4022993,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4374,8 +4374,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000025",
@@ -4387,7 +4387,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49869039,
-    "longitude": 118.40229931,
+    "longitude": 118.4022993,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4396,8 +4396,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000024",
@@ -4409,7 +4409,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49869039,
-    "longitude": 118.40229931,
+    "longitude": 118.4022993,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4418,8 +4418,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000023",
@@ -4431,7 +4431,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49869039,
-    "longitude": 118.40229931,
+    "longitude": 118.4022993,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4440,8 +4440,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000089",
@@ -4453,7 +4453,7 @@
     "county_en": "Kinmen",
     "area_zh": "古城里",
     "latitude": 24.39066917,
-    "longitude": 118.32065855,
+    "longitude": 118.3206586,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4463,7 +4463,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000075",
@@ -4475,7 +4475,7 @@
     "county_en": "Kinmen",
     "area_zh": "古城里",
     "latitude": 24.39066917,
-    "longitude": 118.32065855,
+    "longitude": 118.3206586,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4485,7 +4485,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000074",
@@ -4497,7 +4497,7 @@
     "county_en": "Kinmen",
     "area_zh": "古城里",
     "latitude": 24.39066917,
-    "longitude": 118.32065855,
+    "longitude": 118.3206586,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4507,7 +4507,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000087",
@@ -4527,9 +4527,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000089",
@@ -4541,7 +4541,7 @@
     "county_en": "Kinmen",
     "area_zh": "新湖里",
     "latitude": 24.43949128,
-    "longitude": 118.41163445,
+    "longitude": 118.4116345,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4549,9 +4549,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000041",
@@ -4563,7 +4563,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49786494,
-    "longitude": 118.40303814,
+    "longitude": 118.4030381,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4572,8 +4572,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000040",
@@ -4585,7 +4585,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49786494,
-    "longitude": 118.40303814,
+    "longitude": 118.4030381,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4594,8 +4594,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000088",
@@ -4607,7 +4607,7 @@
     "county_en": "Kinmen",
     "area_zh": "新湖里",
     "latitude": 24.43958565,
-    "longitude": 118.41170543,
+    "longitude": 118.4117054,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4615,9 +4615,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000065",
@@ -4629,7 +4629,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40943199,
-    "longitude": 118.29032239,
+    "longitude": 118.2903224,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4639,7 +4639,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W010000031",
@@ -4651,7 +4651,7 @@
     "county_en": "Kinmen",
     "area_zh": "金水里",
     "latitude": 24.40943199,
-    "longitude": 118.29032239,
+    "longitude": 118.2903224,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4661,7 +4661,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000056",
@@ -4673,7 +4673,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44169565,
-    "longitude": 118.41296653,
+    "longitude": 118.4129665,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4681,9 +4681,9 @@
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000125",
@@ -4703,9 +4703,9 @@
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000124",
@@ -4725,9 +4725,9 @@
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000047",
@@ -4747,9 +4747,9 @@
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000031",
@@ -4761,7 +4761,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49932205,
-    "longitude": 118.40357004,
+    "longitude": 118.40357,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4770,8 +4770,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000030",
@@ -4783,7 +4783,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49932205,
-    "longitude": 118.40357004,
+    "longitude": 118.40357,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4792,8 +4792,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000029",
@@ -4805,7 +4805,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49932205,
-    "longitude": 118.40357004,
+    "longitude": 118.40357,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4814,8 +4814,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000034",
@@ -4836,8 +4836,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000051",
@@ -4849,7 +4849,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44210306,
-    "longitude": 118.41367077,
+    "longitude": 118.4136708,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4859,7 +4859,7 @@
     "has_diaper": true,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000050",
@@ -4871,7 +4871,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44210306,
-    "longitude": 118.41367077,
+    "longitude": 118.4136708,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4881,7 +4881,7 @@
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000049",
@@ -4893,7 +4893,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44210306,
-    "longitude": 118.41367077,
+    "longitude": 118.4136708,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -4903,7 +4903,7 @@
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000036",
@@ -4915,7 +4915,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49957163,
-    "longitude": 118.40360272,
+    "longitude": 118.4036027,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4925,7 +4925,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000035",
@@ -4937,7 +4937,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49957163,
-    "longitude": 118.40360272,
+    "longitude": 118.4036027,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4946,8 +4946,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000033",
@@ -4959,7 +4959,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49957163,
-    "longitude": 118.40360272,
+    "longitude": 118.4036027,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4968,8 +4968,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000032",
@@ -4981,7 +4981,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49957163,
-    "longitude": 118.40360272,
+    "longitude": 118.4036027,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4990,8 +4990,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000039",
@@ -5003,7 +5003,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49865443,
-    "longitude": 118.40426298,
+    "longitude": 118.404263,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5012,8 +5012,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000038",
@@ -5025,7 +5025,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49865443,
-    "longitude": 118.40426298,
+    "longitude": 118.404263,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5034,8 +5034,8 @@
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
-    "manager": "金門闗文化園區管理所行政組",
-    "last_updated": "2025-12-16"
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000037",
@@ -5047,7 +5047,7 @@
     "county_en": "Kinmen",
     "area_zh": "西園里",
     "latitude": 24.49865443,
-    "longitude": 118.40426298,
+    "longitude": 118.404263,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5057,7 +5057,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000046",
@@ -5069,7 +5069,7 @@
     "county_en": "Kinmen",
     "area_zh": "新市里",
     "latitude": 24.44068812,
-    "longitude": 118.41443588,
+    "longitude": 118.4144359,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5077,9 +5077,9 @@
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000006",
@@ -5091,7 +5091,7 @@
     "county_en": "Kinmen",
     "area_zh": "新市里",
     "latitude": 24.44068812,
-    "longitude": 118.41443588,
+    "longitude": 118.4144359,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5099,9 +5099,9 @@
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000058",
@@ -5113,7 +5113,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.49061784,
-    "longitude": 118.40998731,
+    "longitude": 118.4099873,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5123,7 +5123,7 @@
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000057",
@@ -5135,7 +5135,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.49061784,
-    "longitude": 118.40998731,
+    "longitude": 118.4099873,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5145,7 +5145,7 @@
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000002",
@@ -5157,7 +5157,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.49061784,
-    "longitude": 118.40998731,
+    "longitude": 118.4099873,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -5167,7 +5167,7 @@
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000054",
@@ -5189,7 +5189,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000053",
@@ -5211,7 +5211,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000052",
@@ -5233,7 +5233,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000107",
@@ -5253,9 +5253,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000106",
@@ -5275,9 +5275,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000105",
@@ -5297,9 +5297,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000104",
@@ -5319,9 +5319,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000103",
@@ -5341,9 +5341,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000102",
@@ -5363,9 +5363,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000101",
@@ -5385,9 +5385,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000100",
@@ -5407,9 +5407,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000048",
@@ -5429,9 +5429,9 @@
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000117",
@@ -5443,7 +5443,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44785192,
-    "longitude": 118.41793801,
+    "longitude": 118.417938,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5453,7 +5453,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000116",
@@ -5465,7 +5465,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44785192,
-    "longitude": 118.41793801,
+    "longitude": 118.417938,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5475,7 +5475,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000013",
@@ -5487,7 +5487,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44785192,
-    "longitude": 118.41793801,
+    "longitude": 118.417938,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5497,7 +5497,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000019",
@@ -5509,7 +5509,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.48907633,
-    "longitude": 118.41321792,
+    "longitude": 118.4132179,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5519,7 +5519,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000006",
@@ -5531,7 +5531,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.48907633,
-    "longitude": 118.41321792,
+    "longitude": 118.4132179,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5541,7 +5541,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000017",
@@ -5553,7 +5553,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.48903566,
-    "longitude": 118.41332178,
+    "longitude": 118.4133218,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5561,9 +5561,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000016",
@@ -5575,7 +5575,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.48903566,
-    "longitude": 118.41332178,
+    "longitude": 118.4133218,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5583,9 +5583,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000001",
@@ -5605,9 +5605,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000018",
@@ -5629,7 +5629,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000003",
@@ -5649,9 +5649,9 @@
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000008",
@@ -5673,7 +5673,7 @@
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000007",
@@ -5695,7 +5695,7 @@
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "金門縣衛生福利部",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000004",
@@ -5707,7 +5707,7 @@
     "county_en": "Kinmen",
     "area_zh": "新市里",
     "latitude": 24.43756878,
-    "longitude": 118.42374865,
+    "longitude": 118.4237487,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5715,9 +5715,9 @@
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000005",
@@ -5729,7 +5729,7 @@
     "county_en": "Kinmen",
     "area_zh": "新市里",
     "latitude": 24.43756878,
-    "longitude": 118.42374865,
+    "longitude": 118.4237487,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5737,9 +5737,9 @@
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000026",
@@ -5751,7 +5751,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42551541,
-    "longitude": 118.26314446,
+    "longitude": 118.2631445,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5761,7 +5761,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000025",
@@ -5773,7 +5773,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42551541,
-    "longitude": 118.26314446,
+    "longitude": 118.2631445,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5783,7 +5783,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000024",
@@ -5795,7 +5795,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42551541,
-    "longitude": 118.26314446,
+    "longitude": 118.2631445,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5805,7 +5805,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000123",
@@ -5827,7 +5827,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000122",
@@ -5849,7 +5849,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000049",
@@ -5861,7 +5861,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.4242948,
-    "longitude": 118.26239433,
+    "longitude": 118.2623943,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5871,7 +5871,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000048",
@@ -5883,7 +5883,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.4242948,
-    "longitude": 118.26239433,
+    "longitude": 118.2623943,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5893,7 +5893,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000047",
@@ -5905,7 +5905,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.4242948,
-    "longitude": 118.26239433,
+    "longitude": 118.2623943,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5915,7 +5915,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000044",
@@ -5937,7 +5937,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000060",
@@ -5949,7 +5949,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.49955502,
-    "longitude": 118.42118113,
+    "longitude": 118.4211811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5959,7 +5959,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000059",
@@ -5971,7 +5971,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.49955502,
-    "longitude": 118.42118113,
+    "longitude": 118.4211811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -5981,7 +5981,7 @@
     "has_diaper": true,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000043",
@@ -5993,7 +5993,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.49955502,
-    "longitude": 118.42118113,
+    "longitude": 118.4211811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6003,7 +6003,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000042",
@@ -6015,7 +6015,7 @@
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
     "latitude": 24.49955502,
-    "longitude": 118.42118113,
+    "longitude": 118.4211811,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6025,7 +6025,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000058",
@@ -6037,7 +6037,7 @@
     "county_en": "Kinmen",
     "area_zh": "黃埔村",
     "latitude": 24.44639387,
-    "longitude": 118.25445816,
+    "longitude": 118.2544582,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6047,7 +6047,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000057",
@@ -6059,7 +6059,7 @@
     "county_en": "Kinmen",
     "area_zh": "黃埔村",
     "latitude": 24.44636335,
-    "longitude": 118.25445682,
+    "longitude": 118.2544568,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6069,7 +6069,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000056",
@@ -6081,7 +6081,7 @@
     "county_en": "Kinmen",
     "area_zh": "黃埔村",
     "latitude": 24.44635847,
-    "longitude": 118.25445682,
+    "longitude": 118.2544568,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -6091,7 +6091,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000110",
@@ -6103,7 +6103,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44370288,
-    "longitude": 118.43013279,
+    "longitude": 118.4301328,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6113,7 +6113,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000055",
@@ -6125,7 +6125,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44370288,
-    "longitude": 118.43013279,
+    "longitude": 118.4301328,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6135,7 +6135,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000012",
@@ -6147,7 +6147,7 @@
     "county_en": "Kinmen",
     "area_zh": "山外里",
     "latitude": 24.44370288,
-    "longitude": 118.43013279,
+    "longitude": 118.4301328,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -6157,7 +6157,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000037",
@@ -6169,7 +6169,7 @@
     "county_en": "Kinmen",
     "area_zh": "黃埔村",
     "latitude": 24.44744894,
-    "longitude": 118.25215421,
+    "longitude": 118.2521542,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6179,7 +6179,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000036",
@@ -6191,7 +6191,7 @@
     "county_en": "Kinmen",
     "area_zh": "黃埔村",
     "latitude": 24.44744894,
-    "longitude": 118.25215421,
+    "longitude": 118.2521542,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6201,7 +6201,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000019",
@@ -6223,7 +6223,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000018",
@@ -6245,7 +6245,7 @@
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000079",
@@ -6257,7 +6257,7 @@
     "county_en": "Kinmen",
     "area_zh": "新湖里",
     "latitude": 24.42491873,
-    "longitude": 118.42759877,
+    "longitude": 118.4275988,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6265,9 +6265,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000078",
@@ -6279,7 +6279,7 @@
     "county_en": "Kinmen",
     "area_zh": "新湖里",
     "latitude": 24.42491873,
-    "longitude": 118.42759877,
+    "longitude": 118.4275988,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6287,9 +6287,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000027",
@@ -6301,7 +6301,7 @@
     "county_en": "Kinmen",
     "area_zh": "新湖里",
     "latitude": 24.42491873,
-    "longitude": 118.42759877,
+    "longitude": 118.4275988,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6309,9 +6309,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000056",
@@ -6323,7 +6323,7 @@
     "county_en": "Kinmen",
     "area_zh": "官嶼里",
     "latitude": 24.5275034,
-    "longitude": 118.40829584,
+    "longitude": 118.4082958,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6333,7 +6333,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000013",
@@ -6345,7 +6345,7 @@
     "county_en": "Kinmen",
     "area_zh": "官嶼里",
     "latitude": 24.5275034,
-    "longitude": 118.40829584,
+    "longitude": 118.4082958,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6355,7 +6355,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000039",
@@ -6367,7 +6367,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42509757,
-    "longitude": 118.25104668,
+    "longitude": 118.2510467,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6377,7 +6377,7 @@
     "has_diaper": true,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000023",
@@ -6389,7 +6389,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42509757,
-    "longitude": 118.25104668,
+    "longitude": 118.2510467,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6399,7 +6399,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000011",
@@ -6411,7 +6411,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42509757,
-    "longitude": 118.25104668,
+    "longitude": 118.2510467,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6421,7 +6421,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000097",
@@ -6433,7 +6433,7 @@
     "county_en": "Kinmen",
     "area_zh": "蓮庵里",
     "latitude": 24.43336897,
-    "longitude": 118.43838688,
+    "longitude": 118.4383869,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6441,9 +6441,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000096",
@@ -6455,7 +6455,7 @@
     "county_en": "Kinmen",
     "area_zh": "蓮庵里",
     "latitude": 24.43336897,
-    "longitude": 118.43838688,
+    "longitude": 118.4383869,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6463,9 +6463,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000095",
@@ -6477,7 +6477,7 @@
     "county_en": "Kinmen",
     "area_zh": "蓮庵里",
     "latitude": 24.43336897,
-    "longitude": 118.43838688,
+    "longitude": 118.4383869,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6485,9 +6485,9 @@
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000081",
@@ -6499,7 +6499,7 @@
     "county_en": "Kinmen",
     "area_zh": "料羅里",
     "latitude": 24.40788481,
-    "longitude": 118.42782268,
+    "longitude": 118.4278227,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6509,7 +6509,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000080",
@@ -6521,7 +6521,7 @@
     "county_en": "Kinmen",
     "area_zh": "料羅里",
     "latitude": 24.40788481,
-    "longitude": 118.42782268,
+    "longitude": 118.4278227,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6531,7 +6531,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000028",
@@ -6543,7 +6543,7 @@
     "county_en": "Kinmen",
     "area_zh": "料羅里",
     "latitude": 24.40788481,
-    "longitude": 118.42782268,
+    "longitude": 118.4278227,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6553,7 +6553,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000021",
@@ -6565,7 +6565,7 @@
     "county_en": "Kinmen",
     "area_zh": "大洋里",
     "latitude": 24.45887351,
-    "longitude": 118.44244905,
+    "longitude": 118.4424491,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6575,7 +6575,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000020",
@@ -6587,7 +6587,7 @@
     "county_en": "Kinmen",
     "area_zh": "大洋里",
     "latitude": 24.45887351,
-    "longitude": 118.44244905,
+    "longitude": 118.4424491,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6597,7 +6597,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000012",
@@ -6609,7 +6609,7 @@
     "county_en": "Kinmen",
     "area_zh": "大洋里",
     "latitude": 24.45887351,
-    "longitude": 118.44244905,
+    "longitude": 118.4424491,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6619,7 +6619,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000010",
@@ -6631,7 +6631,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.43000195,
-    "longitude": 118.24616296,
+    "longitude": 118.246163,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6641,7 +6641,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000009",
@@ -6653,7 +6653,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.43000195,
-    "longitude": 118.24616296,
+    "longitude": 118.246163,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6663,7 +6663,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000008",
@@ -6675,7 +6675,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.43000195,
-    "longitude": 118.24616296,
+    "longitude": 118.246163,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6685,7 +6685,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000109",
@@ -6697,7 +6697,7 @@
     "county_en": "Kinmen",
     "area_zh": "蓮庵里",
     "latitude": 24.43480955,
-    "longitude": 118.44012669,
+    "longitude": 118.4401267,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6705,9 +6705,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000108",
@@ -6719,7 +6719,7 @@
     "county_en": "Kinmen",
     "area_zh": "蓮庵里",
     "latitude": 24.43480955,
-    "longitude": 118.44012669,
+    "longitude": 118.4401267,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6727,9 +6727,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000050",
@@ -6741,7 +6741,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.49971376,
-    "longitude": 118.43454145,
+    "longitude": 118.4345415,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6751,7 +6751,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000049",
@@ -6763,7 +6763,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.49971376,
-    "longitude": 118.43454145,
+    "longitude": 118.4345415,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6773,7 +6773,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000048",
@@ -6785,7 +6785,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.49971376,
-    "longitude": 118.43454145,
+    "longitude": 118.4345415,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6795,7 +6795,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000099",
@@ -6807,7 +6807,7 @@
     "county_en": "Kinmen",
     "area_zh": "料羅里",
     "latitude": 24.41634658,
-    "longitude": 118.43413876,
+    "longitude": 118.4341388,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6815,9 +6815,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000098",
@@ -6829,7 +6829,7 @@
     "county_en": "Kinmen",
     "area_zh": "料羅里",
     "latitude": 24.41634658,
-    "longitude": 118.43413876,
+    "longitude": 118.4341388,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6837,9 +6837,9 @@
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000093",
@@ -6861,7 +6861,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000029",
@@ -6883,7 +6883,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000022",
@@ -6895,7 +6895,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.43122691,
-    "longitude": 118.24486767,
+    "longitude": 118.2448677,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6905,7 +6905,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000021",
@@ -6917,7 +6917,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.43122691,
-    "longitude": 118.24486767,
+    "longitude": 118.2448677,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6927,7 +6927,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000020",
@@ -6939,7 +6939,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.43122691,
-    "longitude": 118.24486767,
+    "longitude": 118.2448677,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6949,7 +6949,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000035",
@@ -6961,7 +6961,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6971,7 +6971,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000034",
@@ -6983,7 +6983,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6993,7 +6993,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000033",
@@ -7005,7 +7005,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7015,7 +7015,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000031",
@@ -7027,7 +7027,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7037,7 +7037,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000030",
@@ -7049,7 +7049,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7059,7 +7059,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000029",
@@ -7071,7 +7071,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7081,7 +7081,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000028",
@@ -7093,7 +7093,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7103,7 +7103,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000027",
@@ -7115,7 +7115,7 @@
     "county_en": "Kinmen",
     "area_zh": "林湖村",
     "latitude": 24.42964365,
-    "longitude": 118.24458892,
+    "longitude": 118.2445889,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7125,7 +7125,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000051",
@@ -7137,7 +7137,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.43090065,
-    "longitude": 118.24249501,
+    "longitude": 118.242495,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7147,7 +7147,7 @@
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000050",
@@ -7159,7 +7159,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.43090065,
-    "longitude": 118.24249501,
+    "longitude": 118.242495,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7169,7 +7169,7 @@
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000003",
@@ -7181,7 +7181,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.43090065,
-    "longitude": 118.24249501,
+    "longitude": 118.242495,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -7191,7 +7191,7 @@
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000044",
@@ -7203,7 +7203,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.42907306,
-    "longitude": 118.24294552,
+    "longitude": 118.2429455,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7213,7 +7213,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000042",
@@ -7225,7 +7225,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.42907306,
-    "longitude": 118.24294552,
+    "longitude": 118.2429455,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7235,7 +7235,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000040",
@@ -7247,7 +7247,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.42907306,
-    "longitude": 118.24294552,
+    "longitude": 118.2429455,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7257,7 +7257,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000043",
@@ -7279,7 +7279,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000041",
@@ -7301,7 +7301,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000053",
@@ -7313,7 +7313,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.50389826,
-    "longitude": 118.43700918,
+    "longitude": 118.4370092,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7321,9 +7321,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000052",
@@ -7335,7 +7335,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.50389826,
-    "longitude": 118.43700918,
+    "longitude": 118.4370092,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7343,9 +7343,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000051",
@@ -7357,7 +7357,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.50389826,
-    "longitude": 118.43700918,
+    "longitude": 118.4370092,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7365,9 +7365,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "縣市政府",
+    "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000040",
@@ -7389,7 +7389,7 @@
     "has_diaper": false,
     "administration": "金門縣農業試驗所",
     "manager": "金門縣農業試驗所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000041",
@@ -7401,7 +7401,7 @@
     "county_en": "Kinmen",
     "area_zh": "溪湖里",
     "latitude": 24.44666706,
-    "longitude": 118.44714163,
+    "longitude": 118.4471416,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7411,7 +7411,7 @@
     "has_diaper": false,
     "administration": "金門縣農產試驗所",
     "manager": "金門縣農產試驗所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000055",
@@ -7423,7 +7423,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.49286832,
-    "longitude": 118.44459437,
+    "longitude": 118.4445944,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7433,7 +7433,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000054",
@@ -7445,7 +7445,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.49286832,
-    "longitude": 118.44459437,
+    "longitude": 118.4445944,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7455,7 +7455,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000010",
@@ -7467,7 +7467,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.49286832,
-    "longitude": 118.44459437,
+    "longitude": 118.4445944,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7477,7 +7477,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000009",
@@ -7489,7 +7489,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.50430347,
-    "longitude": 118.44096182,
+    "longitude": 118.4409618,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7499,7 +7499,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000007",
@@ -7511,7 +7511,7 @@
     "county_en": "Kinmen",
     "area_zh": "三山里",
     "latitude": 24.50430347,
-    "longitude": 118.44096182,
+    "longitude": 118.4409618,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7521,7 +7521,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W020000008",
@@ -7543,7 +7543,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000046",
@@ -7555,7 +7555,7 @@
     "county_en": "Kinmen",
     "area_zh": "西口村",
     "latitude": 24.44659804,
-    "longitude": 118.23163845,
+    "longitude": 118.2316385,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7565,7 +7565,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000017",
@@ -7577,7 +7577,7 @@
     "county_en": "Kinmen",
     "area_zh": "西口村",
     "latitude": 24.44659804,
-    "longitude": 118.23163845,
+    "longitude": 118.2316385,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7587,7 +7587,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000006",
@@ -7599,7 +7599,7 @@
     "county_en": "Kinmen",
     "area_zh": "西口村",
     "latitude": 24.44659804,
-    "longitude": 118.23163845,
+    "longitude": 118.2316385,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7609,7 +7609,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000045",
@@ -7621,7 +7621,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.42850424,
-    "longitude": 118.22848919,
+    "longitude": 118.2284892,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7631,7 +7631,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000002",
@@ -7643,7 +7643,7 @@
     "county_en": "Kinmen",
     "area_zh": "上林村",
     "latitude": 24.42850424,
-    "longitude": 118.22848919,
+    "longitude": 118.2284892,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7653,7 +7653,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000092",
@@ -7665,7 +7665,7 @@
     "county_en": "Kinmen",
     "area_zh": "溪湖里",
     "latitude": 24.44686921,
-    "longitude": 118.47179406,
+    "longitude": 118.4717941,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7673,9 +7673,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "金門縣市政府",
+    "administration": "縣市政府",
     "manager": "金門區漁會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000091",
@@ -7687,7 +7687,7 @@
     "county_en": "Kinmen",
     "area_zh": "溪湖里",
     "latitude": 24.44686921,
-    "longitude": 118.47179406,
+    "longitude": 118.4717941,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7695,9 +7695,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "金門縣市政府",
+    "administration": "縣市政府",
     "manager": "金門區漁會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W030000090",
@@ -7709,7 +7709,7 @@
     "county_en": "Kinmen",
     "area_zh": "溪湖里",
     "latitude": 24.44686921,
-    "longitude": 118.47179406,
+    "longitude": 118.4717941,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7717,9 +7717,9 @@
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
-    "administration": "金門縣市政府",
+    "administration": "縣市政府",
     "manager": "金門區漁會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000016",
@@ -7731,7 +7731,7 @@
     "county_en": "Kinmen",
     "area_zh": "上岐村",
     "latitude": 24.41162758,
-    "longitude": 118.21308172,
+    "longitude": 118.2130817,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7741,7 +7741,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "W050000015",
@@ -7753,7 +7753,7 @@
     "county_en": "Kinmen",
     "area_zh": "上岐村",
     "latitude": 24.41162758,
-    "longitude": 118.21308172,
+    "longitude": 118.2130817,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7763,6 +7763,6 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   }
 ]

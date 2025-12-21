@@ -19,7 +19,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000124",
@@ -41,7 +41,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000123",
@@ -63,7 +63,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000132",
@@ -75,7 +75,7 @@
     "county_en": "Penghu",
     "area_zh": "菓葉村",
     "latitude": 23.5799569,
-    "longitude": 119.68042374,
+    "longitude": 119.6804237,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -85,7 +85,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000133",
@@ -97,7 +97,7 @@
     "county_en": "Penghu",
     "area_zh": "菓葉村",
     "latitude": 23.58035022,
-    "longitude": 119.68008041,
+    "longitude": 119.6800804,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -107,7 +107,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000128",
@@ -129,7 +129,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000127",
@@ -151,7 +151,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000131",
@@ -173,7 +173,7 @@
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000130",
@@ -195,7 +195,7 @@
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000129",
@@ -217,7 +217,7 @@
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000126",
@@ -229,7 +229,7 @@
     "county_en": "Penghu",
     "area_zh": "龍門村",
     "latitude": 23.55574581,
-    "longitude": 119.67567086,
+    "longitude": 119.6756709,
     "grade": "普通級",
     "grade_zh": "普通級",
     "type": "mixed",
@@ -239,7 +239,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000032",
@@ -261,7 +261,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000031",
@@ -283,7 +283,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000033",
@@ -305,7 +305,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000003",
@@ -327,7 +327,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司湖西站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000002",
@@ -339,7 +339,7 @@
     "county_en": "Penghu",
     "area_zh": "湖西村",
     "latitude": 23.58416536,
-    "longitude": 119.65524316,
+    "longitude": 119.6552432,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -349,7 +349,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司湖西站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000001",
@@ -361,7 +361,7 @@
     "county_en": "Penghu",
     "area_zh": "湖西村",
     "latitude": 23.58420469,
-    "longitude": 119.65523243,
+    "longitude": 119.6552324,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -371,19 +371,19 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司湖西站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000027",
     "name_zh": "湖西鄉公所殘廁",
     "name_en": "",
-    "address_zh": "澎湖縣湖西鄉湖西村43-11號 ",
+    "address_zh": "澎湖縣湖西鄉湖西村43-11號",
     "address_en": "",
     "county_zh": "澎湖縣",
     "county_en": "Penghu",
     "area_zh": "湖西村",
     "latitude": 23.58416045,
-    "longitude": 119.65250731,
+    "longitude": 119.6525073,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -393,7 +393,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "湖西鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000026",
@@ -405,7 +405,7 @@
     "county_en": "Penghu",
     "area_zh": "湖西村",
     "latitude": 23.58420961,
-    "longitude": 119.65245366,
+    "longitude": 119.6524537,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -415,13 +415,13 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "湖西鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000025",
     "name_zh": "湖西鄉公所男廁",
     "name_en": "",
-    "address_zh": "澎湖縣湖西鄉湖西村43-11號 ",
+    "address_zh": "澎湖縣湖西鄉湖西村43-11號",
     "address_en": "",
     "county_zh": "澎湖縣",
     "county_en": "Penghu",
@@ -437,7 +437,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "湖西鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000117",
@@ -459,7 +459,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000115",
@@ -481,7 +481,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000116",
@@ -503,7 +503,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000112",
@@ -525,7 +525,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000114",
@@ -547,7 +547,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000113",
@@ -569,7 +569,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000141",
@@ -591,7 +591,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000140",
@@ -613,7 +613,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000058",
@@ -625,7 +625,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55483117,
-    "longitude": 119.63842034,
+    "longitude": 119.6384203,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -635,7 +635,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000059",
@@ -647,7 +647,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55480658,
-    "longitude": 119.63831574,
+    "longitude": 119.6383157,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -657,7 +657,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000057",
@@ -669,7 +669,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55482133,
-    "longitude": 119.63830233,
+    "longitude": 119.6383023,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -679,7 +679,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000077",
@@ -691,7 +691,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56034842,
-    "longitude": 119.63047028,
+    "longitude": 119.6304703,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -701,7 +701,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000076",
@@ -713,7 +713,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56032875,
-    "longitude": 119.63044882,
+    "longitude": 119.6304488,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -723,7 +723,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000075",
@@ -735,7 +735,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56046644,
-    "longitude": 119.63038445,
+    "longitude": 119.6303845,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -745,7 +745,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000083",
@@ -757,7 +757,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55999438,
-    "longitude": 119.63034153,
+    "longitude": 119.6303415,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -767,7 +767,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000086",
@@ -779,7 +779,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55995504,
-    "longitude": 119.63032007,
+    "longitude": 119.6303201,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -789,7 +789,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000084",
@@ -801,7 +801,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56003372,
-    "longitude": 119.63032007,
+    "longitude": 119.6303201,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -811,7 +811,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000080",
@@ -823,7 +823,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56052544,
-    "longitude": 119.63029861,
+    "longitude": 119.6302986,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -833,7 +833,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000079",
@@ -845,7 +845,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55995504,
-    "longitude": 119.63027716,
+    "longitude": 119.6302772,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -855,7 +855,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000081",
@@ -877,7 +877,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000074",
@@ -899,7 +899,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000085",
@@ -911,7 +911,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55997471,
-    "longitude": 119.63023424,
+    "longitude": 119.6302342,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -921,7 +921,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000078",
@@ -933,7 +933,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56013698,
-    "longitude": 119.63023424,
+    "longitude": 119.6302342,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -943,7 +943,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000082",
@@ -955,7 +955,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56013206,
-    "longitude": 119.63021278,
+    "longitude": 119.6302128,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -965,7 +965,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000089",
@@ -977,7 +977,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.5601714,
-    "longitude": 119.63021278,
+    "longitude": 119.6302128,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -987,7 +987,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000090",
@@ -999,7 +999,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55997471,
-    "longitude": 119.63016987,
+    "longitude": 119.6301699,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1009,7 +1009,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000088",
@@ -1021,7 +1021,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56001405,
-    "longitude": 119.63016987,
+    "longitude": 119.6301699,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1031,7 +1031,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000087",
@@ -1043,7 +1043,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.55991571,
-    "longitude": 119.62996602,
+    "longitude": 119.629966,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1053,7 +1053,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000060",
@@ -1065,7 +1065,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56103683,
-    "longitude": 119.62982655,
+    "longitude": 119.6298266,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1075,7 +1075,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000061",
@@ -1097,7 +1097,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000062",
@@ -1109,7 +1109,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56093849,
-    "longitude": 119.62966561,
+    "longitude": 119.6296656,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1119,7 +1119,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000063",
@@ -1131,7 +1131,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56080081,
-    "longitude": 119.62955832,
+    "longitude": 119.6295583,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1141,7 +1141,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000067",
@@ -1153,7 +1153,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56087457,
-    "longitude": 119.62952077,
+    "longitude": 119.6295208,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1163,7 +1163,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000065",
@@ -1175,7 +1175,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56056478,
-    "longitude": 119.62947249,
+    "longitude": 119.6294725,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -1185,7 +1185,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000064",
@@ -1197,7 +1197,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56067296,
-    "longitude": 119.62947249,
+    "longitude": 119.6294725,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1207,7 +1207,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000072",
@@ -1229,7 +1229,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000066",
@@ -1241,7 +1241,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56055495,
-    "longitude": 119.62945104,
+    "longitude": 119.629451,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1251,7 +1251,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000068",
@@ -1263,7 +1263,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56063362,
-    "longitude": 119.62943494,
+    "longitude": 119.6294349,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1273,7 +1273,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000071",
@@ -1285,7 +1285,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56049594,
-    "longitude": 119.62940812,
+    "longitude": 119.6294081,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1295,7 +1295,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000069",
@@ -1307,7 +1307,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56055003,
-    "longitude": 119.62940276,
+    "longitude": 119.6294028,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1317,7 +1317,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000070",
@@ -1329,7 +1329,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56049102,
-    "longitude": 119.62938666,
+    "longitude": 119.6293867,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1339,7 +1339,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000073",
@@ -1351,7 +1351,7 @@
     "county_en": "Penghu",
     "area_zh": "隘門村",
     "latitude": 23.56034842,
-    "longitude": 119.62936521,
+    "longitude": 119.6293652,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1361,7 +1361,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局馬公航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000056",
@@ -1373,7 +1373,7 @@
     "county_en": "Penghu",
     "area_zh": "城北村",
     "latitude": 23.5619416,
-    "longitude": 119.61317539,
+    "longitude": 119.6131754,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1383,7 +1383,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000053",
@@ -1395,7 +1395,7 @@
     "county_en": "Penghu",
     "area_zh": "城北村",
     "latitude": 23.56186292,
-    "longitude": 119.61308956,
+    "longitude": 119.6130896,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1405,7 +1405,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000052",
@@ -1417,7 +1417,7 @@
     "county_en": "Penghu",
     "area_zh": "城北村",
     "latitude": 23.56202027,
-    "longitude": 119.61308956,
+    "longitude": 119.6130896,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1427,7 +1427,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000051",
@@ -1439,7 +1439,7 @@
     "county_en": "Penghu",
     "area_zh": "城北村",
     "latitude": 23.56139087,
-    "longitude": 119.61304665,
+    "longitude": 119.6130467,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1449,7 +1449,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000055",
@@ -1461,7 +1461,7 @@
     "county_en": "Penghu",
     "area_zh": "城北村",
     "latitude": 23.56190226,
-    "longitude": 119.61304665,
+    "longitude": 119.6130467,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1471,7 +1471,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000054",
@@ -1483,7 +1483,7 @@
     "county_en": "Penghu",
     "area_zh": "城北村",
     "latitude": 23.56217762,
-    "longitude": 119.61304665,
+    "longitude": 119.6130467,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1493,7 +1493,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000100",
@@ -1515,7 +1515,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000093",
@@ -1537,7 +1537,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000094",
@@ -1549,7 +1549,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.74145659,
-    "longitude": 119.61279452,
+    "longitude": 119.6127945,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1559,7 +1559,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000089",
@@ -1571,7 +1571,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.73887982,
-    "longitude": 119.61197376,
+    "longitude": 119.6119738,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1581,7 +1581,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000090",
@@ -1593,7 +1593,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.73903695,
-    "longitude": 119.61193085,
+    "longitude": 119.6119309,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1603,7 +1603,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000088",
@@ -1615,7 +1615,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.73899767,
-    "longitude": 119.61133003,
+    "longitude": 119.61133,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1625,7 +1625,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000418",
@@ -1647,7 +1647,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000038",
@@ -1659,7 +1659,7 @@
     "county_en": "Penghu",
     "area_zh": "岐頭村",
     "latitude": 23.65165925,
-    "longitude": 119.60999966,
+    "longitude": 119.6099997,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1669,7 +1669,7 @@
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000036",
@@ -1681,7 +1681,7 @@
     "county_en": "Penghu",
     "area_zh": "岐頭村",
     "latitude": 23.65195408,
-    "longitude": 119.60935593,
+    "longitude": 119.6093559,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1691,7 +1691,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000037",
@@ -1713,7 +1713,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000115",
@@ -1725,7 +1725,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.75324724,
-    "longitude": 119.61024642,
+    "longitude": 119.6102464,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1735,7 +1735,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區北海管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000116",
@@ -1757,7 +1757,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區北海管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000415",
@@ -1779,7 +1779,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000059",
@@ -1801,7 +1801,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000114",
@@ -1813,7 +1813,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.75305084,
-    "longitude": 119.60963488,
+    "longitude": 119.6096349,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1823,7 +1823,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區北海管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000042",
@@ -1835,7 +1835,7 @@
     "county_en": "Penghu",
     "area_zh": "潭邊村",
     "latitude": 23.59482971,
-    "longitude": 119.60793704,
+    "longitude": 119.607937,
     "grade": "fail",
     "grade_zh": "不合格",
     "type": "mixed",
@@ -1845,7 +1845,7 @@
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "潭邊社區發展協會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000417",
@@ -1857,7 +1857,7 @@
     "county_en": "Penghu",
     "area_zh": "光華里",
     "latitude": 23.55784061,
-    "longitude": 119.60738182,
+    "longitude": 119.6073818,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1867,7 +1867,7 @@
     "has_diaper": false,
     "administration": "林務公園管理所",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000463",
@@ -1889,7 +1889,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000419",
@@ -1901,7 +1901,7 @@
     "county_en": "Penghu",
     "area_zh": "光華里",
     "latitude": 23.55795862,
-    "longitude": 119.60710287,
+    "longitude": 119.6071029,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1911,7 +1911,7 @@
     "has_diaper": false,
     "administration": "林務公園管理所",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000465",
@@ -1933,7 +1933,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000464",
@@ -1955,7 +1955,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000096",
@@ -1967,7 +1967,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.73887982,
-    "longitude": 119.60802555,
+    "longitude": 119.6080256,
     "grade": "fail",
     "grade_zh": "不合格",
     "type": "mixed",
@@ -1977,7 +1977,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000413",
@@ -1999,7 +1999,7 @@
     "has_diaper": true,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000412",
@@ -2021,7 +2021,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000481",
@@ -2043,7 +2043,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000480",
@@ -2065,7 +2065,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000414",
@@ -2077,7 +2077,7 @@
     "county_en": "Penghu",
     "area_zh": "光華里",
     "latitude": 23.55802747,
-    "longitude": 119.60454941,
+    "longitude": 119.6045494,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2087,7 +2087,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000416",
@@ -2099,7 +2099,7 @@
     "county_en": "Penghu",
     "area_zh": "光華里",
     "latitude": 23.55795862,
-    "longitude": 119.60420609,
+    "longitude": 119.6042061,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2109,7 +2109,7 @@
     "has_diaper": true,
     "administration": "林務公園管理所",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000035",
@@ -2131,7 +2131,7 @@
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000034",
@@ -2153,7 +2153,7 @@
     "has_diaper": true,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000033",
@@ -2175,7 +2175,7 @@
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000032",
@@ -2197,7 +2197,7 @@
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000031",
@@ -2219,7 +2219,7 @@
     "has_diaper": true,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000030",
@@ -2241,7 +2241,7 @@
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000029",
@@ -2263,7 +2263,7 @@
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000028",
@@ -2285,7 +2285,7 @@
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000027",
@@ -2307,7 +2307,7 @@
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000496",
@@ -2319,7 +2319,7 @@
     "county_en": "Penghu",
     "area_zh": "鎖港里",
     "latitude": 23.52846119,
-    "longitude": 119.60276842,
+    "longitude": 119.6027684,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2329,7 +2329,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000495",
@@ -2341,7 +2341,7 @@
     "county_en": "Penghu",
     "area_zh": "鎖港里",
     "latitude": 23.52844151,
-    "longitude": 119.60268259,
+    "longitude": 119.6026826,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2351,7 +2351,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000497",
@@ -2363,7 +2363,7 @@
     "county_en": "Penghu",
     "area_zh": "鎖港里",
     "latitude": 23.52852021,
-    "longitude": 119.60268259,
+    "longitude": 119.6026826,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2373,7 +2373,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000041",
@@ -2385,7 +2385,7 @@
     "county_en": "Penghu",
     "area_zh": "赤崁村",
     "latitude": 23.66752991,
-    "longitude": 119.60297227,
+    "longitude": 119.6029723,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2395,7 +2395,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "中油公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000043",
@@ -2407,7 +2407,7 @@
     "county_en": "Penghu",
     "area_zh": "赤崁村",
     "latitude": 23.66687154,
-    "longitude": 119.60268259,
+    "longitude": 119.6026826,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2417,7 +2417,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "中油公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000042",
@@ -2429,7 +2429,7 @@
     "county_en": "Penghu",
     "area_zh": "赤崁村",
     "latitude": 23.66687154,
-    "longitude": 119.60268259,
+    "longitude": 119.6026826,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2439,7 +2439,7 @@
     "has_diaper": false,
     "administration": "中油公司",
     "manager": "中油公司",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000095",
@@ -2451,7 +2451,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.73346093,
-    "longitude": 119.60331559,
+    "longitude": 119.6033156,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2461,7 +2461,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000061",
@@ -2473,7 +2473,7 @@
     "county_en": "Penghu",
     "area_zh": "赤崁村",
     "latitude": 23.66728425,
-    "longitude": 119.60197449,
+    "longitude": 119.6019745,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -2483,7 +2483,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000060",
@@ -2495,7 +2495,7 @@
     "county_en": "Penghu",
     "area_zh": "赤崁村",
     "latitude": 23.66713685,
-    "longitude": 119.60148096,
+    "longitude": 119.601481,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2505,7 +2505,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000411",
@@ -2527,7 +2527,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000019",
@@ -2539,7 +2539,7 @@
     "county_en": "Penghu",
     "area_zh": "港子村",
     "latitude": 23.64936448,
-    "longitude": 119.60061193,
+    "longitude": 119.6006119,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2549,7 +2549,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000087",
@@ -2561,7 +2561,7 @@
     "county_en": "Penghu",
     "area_zh": "吉貝村",
     "latitude": 23.73396919,
-    "longitude": 119.60137367,
+    "longitude": 119.6013737,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2571,7 +2571,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000018",
@@ -2593,7 +2593,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000021",
@@ -2605,7 +2605,7 @@
     "county_en": "Penghu",
     "area_zh": "港子村",
     "latitude": 23.64900576,
-    "longitude": 119.59965706,
+    "longitude": 119.5996571,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2615,7 +2615,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000022",
@@ -2627,7 +2627,7 @@
     "county_en": "Penghu",
     "area_zh": "港子村",
     "latitude": 23.64900576,
-    "longitude": 119.59961414,
+    "longitude": 119.5996141,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2637,7 +2637,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000474",
@@ -2649,7 +2649,7 @@
     "county_en": "Penghu",
     "area_zh": "菜園里",
     "latitude": 23.55174543,
-    "longitude": 119.59878802,
+    "longitude": 119.598788,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2659,7 +2659,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000476",
@@ -2681,7 +2681,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000475",
@@ -2693,7 +2693,7 @@
     "county_en": "Penghu",
     "area_zh": "東衛里",
     "latitude": 23.57068897,
-    "longitude": 119.59785461,
+    "longitude": 119.5978546,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2703,7 +2703,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000057",
@@ -2715,7 +2715,7 @@
     "county_en": "Penghu",
     "area_zh": "赤崁村",
     "latitude": 23.66633108,
-    "longitude": 119.59852517,
+    "longitude": 119.5985252,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2725,7 +2725,7 @@
     "has_diaper": true,
     "administration": "縣市政府",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000056",
@@ -2737,7 +2737,7 @@
     "county_en": "Penghu",
     "area_zh": "赤崁村",
     "latitude": 23.66632617,
-    "longitude": 119.59848225,
+    "longitude": 119.5984823,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2747,7 +2747,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000477",
@@ -2759,7 +2759,7 @@
     "county_en": "Penghu",
     "area_zh": "東衛里",
     "latitude": 23.5710184,
-    "longitude": 119.59768295,
+    "longitude": 119.597683,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2769,7 +2769,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000040",
@@ -2781,7 +2781,7 @@
     "county_en": "Penghu",
     "area_zh": "小赤村",
     "latitude": 23.65977416,
-    "longitude": 119.59755957,
+    "longitude": 119.5975596,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2791,7 +2791,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000039",
@@ -2803,7 +2803,7 @@
     "county_en": "Penghu",
     "area_zh": "小赤村",
     "latitude": 23.6597152,
-    "longitude": 119.59754884,
+    "longitude": 119.5975488,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2813,7 +2813,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000471",
@@ -2835,7 +2835,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000470",
@@ -2857,7 +2857,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000469",
@@ -2879,7 +2879,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處管理處",
     "manager": "澎湖國家風景區管理處管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000485",
@@ -2901,7 +2901,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000484",
@@ -2923,7 +2923,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000473",
@@ -2935,7 +2935,7 @@
     "county_en": "Penghu",
     "area_zh": "菜園里",
     "latitude": 23.54926204,
-    "longitude": 119.59544599,
+    "longitude": 119.595446,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2945,7 +2945,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000472",
@@ -2957,7 +2957,7 @@
     "county_en": "Penghu",
     "area_zh": "菜園里",
     "latitude": 23.54925221,
-    "longitude": 119.59544063,
+    "longitude": 119.5954406,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2967,7 +2967,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000564",
@@ -2989,7 +2989,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000562",
@@ -3011,7 +3011,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000563",
@@ -3033,7 +3033,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000062",
@@ -3055,7 +3055,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000486",
@@ -3067,7 +3067,7 @@
     "county_en": "Penghu",
     "area_zh": "山水里",
     "latitude": 23.5125819,
-    "longitude": 119.58770692,
+    "longitude": 119.5877069,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3077,7 +3077,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000064",
@@ -3089,7 +3089,7 @@
     "county_en": "Penghu",
     "area_zh": "瓦硐村",
     "latitude": 23.6564096,
-    "longitude": 119.58832338,
+    "longitude": 119.5883234,
     "grade": "fail",
     "grade_zh": "不合格",
     "type": "mixed",
@@ -3099,7 +3099,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000063",
@@ -3111,7 +3111,7 @@
     "county_en": "Penghu",
     "area_zh": "瓦硐村",
     "latitude": 23.65638257,
-    "longitude": 119.58802029,
+    "longitude": 119.5880203,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -3121,7 +3121,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000426",
@@ -3143,7 +3143,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000425",
@@ -3165,7 +3165,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000427",
@@ -3177,7 +3177,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55470331,
-    "longitude": 119.58498001,
+    "longitude": 119.58498,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3187,7 +3187,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000441",
@@ -3209,7 +3209,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000444",
@@ -3221,7 +3221,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55470331,
-    "longitude": 119.58429337,
+    "longitude": 119.5842934,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3231,7 +3231,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000436",
@@ -3243,7 +3243,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55446727,
-    "longitude": 119.58420753,
+    "longitude": 119.5842075,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3253,7 +3253,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000442",
@@ -3265,7 +3265,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55470331,
-    "longitude": 119.58420753,
+    "longitude": 119.5842075,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3275,7 +3275,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000437",
@@ -3287,7 +3287,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55486067,
-    "longitude": 119.58420753,
+    "longitude": 119.5842075,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3297,7 +3297,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000434",
@@ -3309,7 +3309,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55466397,
-    "longitude": 119.58407879,
+    "longitude": 119.5840788,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3319,7 +3319,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000443",
@@ -3331,7 +3331,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55458529,
-    "longitude": 119.58403587,
+    "longitude": 119.5840359,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3341,7 +3341,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000435",
@@ -3353,7 +3353,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55462463,
-    "longitude": 119.58399296,
+    "longitude": 119.583993,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3363,7 +3363,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000432",
@@ -3375,7 +3375,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55458529,
-    "longitude": 119.58395004,
+    "longitude": 119.58395,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3385,7 +3385,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000431",
@@ -3397,7 +3397,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55458529,
-    "longitude": 119.58395004,
+    "longitude": 119.58395,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3407,7 +3407,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000445",
@@ -3419,7 +3419,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55450661,
-    "longitude": 119.58390713,
+    "longitude": 119.5839071,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3429,7 +3429,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000433",
@@ -3441,7 +3441,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55448694,
-    "longitude": 119.58386421,
+    "longitude": 119.5838642,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3451,7 +3451,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000429",
@@ -3463,7 +3463,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55450661,
-    "longitude": 119.58386421,
+    "longitude": 119.5838642,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3473,7 +3473,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000438",
@@ -3485,7 +3485,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55462463,
-    "longitude": 119.58386421,
+    "longitude": 119.5838642,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3495,7 +3495,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000430",
@@ -3507,7 +3507,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55462463,
-    "longitude": 119.58386421,
+    "longitude": 119.5838642,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3517,7 +3517,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000440",
@@ -3539,7 +3539,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000428",
@@ -3551,7 +3551,7 @@
     "county_en": "Penghu",
     "area_zh": "前寮里",
     "latitude": 23.55434926,
-    "longitude": 119.58377838,
+    "longitude": 119.5837784,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3561,7 +3561,7 @@
     "has_diaper": false,
     "administration": "國防部",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000366",
@@ -3583,7 +3583,7 @@
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000367",
@@ -3605,7 +3605,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000371",
@@ -3627,7 +3627,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000369",
@@ -3649,7 +3649,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000574",
@@ -3671,7 +3671,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000573",
@@ -3693,7 +3693,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000572",
@@ -3715,7 +3715,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000571",
@@ -3737,7 +3737,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000570",
@@ -3759,7 +3759,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000569",
@@ -3781,7 +3781,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000568",
@@ -3803,7 +3803,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000567",
@@ -3825,7 +3825,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000565",
@@ -3847,7 +3847,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000368",
@@ -3869,7 +3869,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000370",
@@ -3891,7 +3891,7 @@
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000396",
@@ -3903,7 +3903,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.5671537,
-    "longitude": 119.57955122,
+    "longitude": 119.5795512,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -3913,7 +3913,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000395",
@@ -3935,7 +3935,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000407",
@@ -3947,7 +3947,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56705536,
-    "longitude": 119.57948685,
+    "longitude": 119.5794869,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3957,7 +3957,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000403",
@@ -3969,7 +3969,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.5670947,
-    "longitude": 119.57948685,
+    "longitude": 119.5794869,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3979,7 +3979,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000402",
@@ -3991,7 +3991,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.5670947,
-    "longitude": 119.57948685,
+    "longitude": 119.5794869,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4001,7 +4001,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000397",
@@ -4013,7 +4013,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.5670947,
-    "longitude": 119.57946539,
+    "longitude": 119.5794654,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4023,7 +4023,7 @@
     "has_diaper": true,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000399",
@@ -4035,7 +4035,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56711437,
-    "longitude": 119.57946539,
+    "longitude": 119.5794654,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4045,7 +4045,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000400",
@@ -4057,7 +4057,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56717337,
-    "longitude": 119.57946539,
+    "longitude": 119.5794654,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4067,7 +4067,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000398",
@@ -4079,7 +4079,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56707503,
-    "longitude": 119.57944393,
+    "longitude": 119.5794439,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4089,7 +4089,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000401",
@@ -4101,7 +4101,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.5670947,
-    "longitude": 119.57944393,
+    "longitude": 119.5794439,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4111,7 +4111,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000404",
@@ -4123,7 +4123,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56711437,
-    "longitude": 119.57944393,
+    "longitude": 119.5794439,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4133,7 +4133,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000394",
@@ -4145,7 +4145,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56710453,
-    "longitude": 119.57941175,
+    "longitude": 119.5794118,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4155,7 +4155,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000406",
@@ -4167,7 +4167,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56707503,
-    "longitude": 119.57940102,
+    "longitude": 119.579401,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4177,7 +4177,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000408",
@@ -4199,7 +4199,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000405",
@@ -4211,7 +4211,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56704553,
-    "longitude": 119.57934737,
+    "longitude": 119.5793474,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4221,7 +4221,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000410",
@@ -4243,7 +4243,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000409",
@@ -4265,7 +4265,7 @@
     "has_diaper": false,
     "administration": "澎湖縣旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000350",
@@ -4277,7 +4277,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57154941,
-    "longitude": 119.57825303,
+    "longitude": 119.578253,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4287,7 +4287,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000351",
@@ -4299,7 +4299,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57149041,
-    "longitude": 119.57823157,
+    "longitude": 119.5782316,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4309,7 +4309,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000349",
@@ -4321,7 +4321,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57148058,
-    "longitude": 119.57818866,
+    "longitude": 119.5781887,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4331,7 +4331,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000354",
@@ -4343,7 +4343,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57157891,
-    "longitude": 119.57814574,
+    "longitude": 119.5781457,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4353,7 +4353,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000353",
@@ -4365,7 +4365,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57140191,
-    "longitude": 119.57811356,
+    "longitude": 119.5781136,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4375,7 +4375,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000352",
@@ -4397,7 +4397,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000359",
@@ -4409,7 +4409,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57018253,
-    "longitude": 119.57800627,
+    "longitude": 119.5780063,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4419,7 +4419,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000355",
@@ -4441,7 +4441,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000357",
@@ -4453,7 +4453,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57028087,
-    "longitude": 119.57798481,
+    "longitude": 119.5779848,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4463,7 +4463,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000356",
@@ -4475,7 +4475,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.5703202,
-    "longitude": 119.57796335,
+    "longitude": 119.5779634,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4485,7 +4485,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000358",
@@ -4497,7 +4497,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57016286,
-    "longitude": 119.57794189,
+    "longitude": 119.5779419,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4507,7 +4507,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000360",
@@ -4519,7 +4519,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57024153,
-    "longitude": 119.57792044,
+    "longitude": 119.5779204,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4529,7 +4529,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000552",
@@ -4541,7 +4541,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.5670947,
-    "longitude": 119.57779169,
+    "longitude": 119.5777917,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4551,7 +4551,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府工務處",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000557",
@@ -4563,7 +4563,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56668167,
-    "longitude": 119.57772732,
+    "longitude": 119.5777273,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4573,7 +4573,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000556",
@@ -4585,7 +4585,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56669151,
-    "longitude": 119.57764149,
+    "longitude": 119.5776415,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4595,7 +4595,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000555",
@@ -4607,7 +4607,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56679476,
-    "longitude": 119.57763612,
+    "longitude": 119.5776361,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4617,7 +4617,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000361",
@@ -4629,7 +4629,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57132324,
-    "longitude": 119.57756639,
+    "longitude": 119.5775664,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4639,7 +4639,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000362",
@@ -4651,7 +4651,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57150024,
-    "longitude": 119.57744837,
+    "longitude": 119.5774484,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4661,7 +4661,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000553",
@@ -4673,7 +4673,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56738972,
-    "longitude": 119.57654715,
+    "longitude": 119.5765472,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4683,7 +4683,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000554",
@@ -4695,7 +4695,7 @@
     "county_en": "Penghu",
     "area_zh": "西文里",
     "latitude": 23.56749789,
-    "longitude": 119.57636476,
+    "longitude": 119.5763648,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4705,7 +4705,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000307",
@@ -4717,7 +4717,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57190342,
-    "longitude": 119.57455158,
+    "longitude": 119.5745516,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4727,7 +4727,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "統一超商揚光門市",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000075",
@@ -4749,7 +4749,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000074",
@@ -4761,7 +4761,7 @@
     "county_en": "Penghu",
     "area_zh": "後寮村",
     "latitude": 23.66706807,
-    "longitude": 119.57503438,
+    "longitude": 119.5750344,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4771,7 +4771,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000077",
@@ -4793,7 +4793,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000566",
@@ -4815,7 +4815,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000076",
@@ -4827,7 +4827,7 @@
     "county_en": "Penghu",
     "area_zh": "後寮村",
     "latitude": 23.66284262,
-    "longitude": 119.57473397,
+    "longitude": 119.574734,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4837,7 +4837,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000109",
@@ -4859,7 +4859,7 @@
     "has_diaper": true,
     "administration": "縣市政府",
     "manager": "澎湖縣政府車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000108",
@@ -4881,7 +4881,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000107",
@@ -4903,7 +4903,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000110",
@@ -4915,7 +4915,7 @@
     "county_en": "Penghu",
     "area_zh": "光復里",
     "latitude": 23.56672101,
-    "longitude": 119.57270086,
+    "longitude": 119.5727009,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4925,7 +4925,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000101",
@@ -4937,7 +4937,7 @@
     "county_en": "Penghu",
     "area_zh": "光復里",
     "latitude": 23.56683902,
-    "longitude": 119.57254529,
+    "longitude": 119.5725453,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4947,7 +4947,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000104",
@@ -4959,7 +4959,7 @@
     "county_en": "Penghu",
     "area_zh": "光復里",
     "latitude": 23.5668046,
-    "longitude": 119.57253993,
+    "longitude": 119.5725399,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4969,7 +4969,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部觀光局澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000551",
@@ -4991,7 +4991,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000550",
@@ -5013,7 +5013,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000549",
@@ -5035,7 +5035,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000548",
@@ -5057,7 +5057,7 @@
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000105",
@@ -5069,7 +5069,7 @@
     "county_en": "Penghu",
     "area_zh": "光復里",
     "latitude": 23.56635715,
-    "longitude": 119.57211614,
+    "longitude": 119.5721161,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5079,7 +5079,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部觀光局澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000102",
@@ -5101,7 +5101,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000304",
@@ -5113,7 +5113,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57011861,
-    "longitude": 119.57205176,
+    "longitude": 119.5720518,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5123,7 +5123,7 @@
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000103",
@@ -5145,7 +5145,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000106",
@@ -5157,7 +5157,7 @@
     "county_en": "Penghu",
     "area_zh": "光復里",
     "latitude": 23.56613097,
-    "longitude": 119.57182646,
+    "longitude": 119.5718265,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5167,7 +5167,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部觀光局澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000303",
@@ -5179,7 +5179,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.56965642,
-    "longitude": 119.57169771,
+    "longitude": 119.5716977,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5189,7 +5189,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000306",
@@ -5201,7 +5201,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57085122,
-    "longitude": 119.57089841,
+    "longitude": 119.5708984,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5211,7 +5211,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000305",
@@ -5223,7 +5223,7 @@
     "county_en": "Penghu",
     "area_zh": "陽明里",
     "latitude": 23.57083156,
-    "longitude": 119.57087159,
+    "longitude": 119.5708716,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5233,7 +5233,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "馬公市公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000065",
@@ -5245,7 +5245,7 @@
     "county_en": "Penghu",
     "area_zh": "後寮村",
     "latitude": 23.67072346,
-    "longitude": 119.57075357,
+    "longitude": 119.5707536,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5255,7 +5255,7 @@
     "has_diaper": false,
     "administration": "交通部澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000098",
@@ -5267,7 +5267,7 @@
     "county_en": "Penghu",
     "area_zh": "光復里",
     "latitude": 23.56579661,
-    "longitude": 119.56989527,
+    "longitude": 119.5698953,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5277,7 +5277,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣漁會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000586",
@@ -5299,7 +5299,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000585",
@@ -5321,7 +5321,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000584",
@@ -5343,7 +5343,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000583",
@@ -5365,7 +5365,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000582",
@@ -5387,7 +5387,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000581",
@@ -5409,7 +5409,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000580",
@@ -5431,7 +5431,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000579",
@@ -5453,7 +5453,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000578",
@@ -5475,7 +5475,7 @@
     "has_diaper": true,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000577",
@@ -5497,7 +5497,7 @@
     "has_diaper": true,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000576",
@@ -5519,7 +5519,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000575",
@@ -5541,7 +5541,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000066",
@@ -5553,7 +5553,7 @@
     "county_en": "Penghu",
     "area_zh": "後寮村",
     "latitude": 23.67069398,
-    "longitude": 119.57060337,
+    "longitude": 119.5706034,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5563,7 +5563,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000067",
@@ -5575,7 +5575,7 @@
     "county_en": "Penghu",
     "area_zh": "後寮村",
     "latitude": 23.67068416,
-    "longitude": 119.57058191,
+    "longitude": 119.5705819,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5585,7 +5585,7 @@
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000023",
@@ -5607,7 +5607,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司馬公站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000022",
@@ -5629,7 +5629,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司馬公站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000083",
@@ -5651,7 +5651,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000082",
@@ -5673,7 +5673,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000087",
@@ -5695,7 +5695,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000086",
@@ -5717,7 +5717,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000089",
@@ -5739,7 +5739,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000088",
@@ -5761,7 +5761,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000085",
@@ -5783,7 +5783,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000084",
@@ -5805,7 +5805,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000091",
@@ -5827,7 +5827,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000090",
@@ -5849,7 +5849,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000590",
@@ -5871,7 +5871,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000587",
@@ -5893,7 +5893,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000589",
@@ -5915,7 +5915,7 @@
     "has_diaper": true,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000588",
@@ -5937,7 +5937,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "湖縣政府旅遊處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000012",
@@ -5959,7 +5959,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000013",
@@ -5971,7 +5971,7 @@
     "county_en": "Penghu",
     "area_zh": "長安里",
     "latitude": 23.56736795,
-    "longitude": 119.56455029,
+    "longitude": 119.5645503,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5981,7 +5981,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000014",
@@ -6003,7 +6003,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府公共車船管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000007",
@@ -6015,7 +6015,7 @@
     "county_en": "Penghu",
     "area_zh": "啟明里",
     "latitude": 23.56301846,
-    "longitude": 119.56443429,
+    "longitude": 119.5644343,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6025,7 +6025,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "臺灣港務股份有限公司高雄港務公司馬公營運處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000008",
@@ -6037,7 +6037,7 @@
     "county_en": "Penghu",
     "area_zh": "啟明里",
     "latitude": 23.56299387,
-    "longitude": 119.56440747,
+    "longitude": 119.5644075,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6047,7 +6047,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "臺灣港務股份有限公司高雄港務公司馬公營運處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000009",
@@ -6059,7 +6059,7 @@
     "county_en": "Penghu",
     "area_zh": "啟明里",
     "latitude": 23.56298404,
-    "longitude": 119.56439137,
+    "longitude": 119.5643914,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6069,7 +6069,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "臺灣港務股份有限公司高雄港務公司馬公營運處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000020",
@@ -6091,7 +6091,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000019",
@@ -6113,7 +6113,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000021",
@@ -6135,7 +6135,7 @@
     "has_diaper": true,
     "administration": "縣市政府",
     "manager": "澎湖縣文化局展演科",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000093",
@@ -6147,7 +6147,7 @@
     "county_en": "Penghu",
     "area_zh": "中興里",
     "latitude": 23.56851078,
-    "longitude": 119.56371546,
+    "longitude": 119.5637155,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6157,7 +6157,7 @@
     "has_diaper": false,
     "administration": "救國團總部",
     "manager": "救國團總部",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000092",
@@ -6169,7 +6169,7 @@
     "county_en": "Penghu",
     "area_zh": "中興里",
     "latitude": 23.56855012,
-    "longitude": 119.56371546,
+    "longitude": 119.5637155,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6179,7 +6179,7 @@
     "has_diaper": false,
     "administration": "救國團總部",
     "manager": "救國團總部",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000031",
@@ -6201,7 +6201,7 @@
     "has_diaper": false,
     "administration": "林務公園管理所",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000030",
@@ -6223,7 +6223,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000032",
@@ -6245,7 +6245,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000028",
@@ -6267,7 +6267,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000029",
@@ -6279,7 +6279,7 @@
     "county_en": "Penghu",
     "area_zh": "中興里",
     "latitude": 23.56898281,
-    "longitude": 119.56279278,
+    "longitude": 119.5627928,
     "grade": "優等級",
     "grade_zh": "優等級",
     "type": "mixed",
@@ -6289,7 +6289,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "林務公園管理所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000082",
@@ -6301,7 +6301,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.6595506,
-    "longitude": 119.56296444,
+    "longitude": 119.5629644,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6311,7 +6311,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司通梁站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000081",
@@ -6323,7 +6323,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65958008,
-    "longitude": 119.56294298,
+    "longitude": 119.562943,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6333,7 +6333,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司通梁站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000083",
@@ -6345,7 +6345,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65954569,
-    "longitude": 119.56277132,
+    "longitude": 119.5627713,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6355,7 +6355,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油通樑加油站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000096",
@@ -6377,7 +6377,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000095",
@@ -6399,7 +6399,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000094",
@@ -6421,7 +6421,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000085",
@@ -6433,7 +6433,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65617006,
-    "longitude": 119.55755711,
+    "longitude": 119.5575571,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6443,7 +6443,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000084",
@@ -6455,7 +6455,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65618971,
-    "longitude": 119.55753565,
+    "longitude": 119.5575357,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6465,7 +6465,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000086",
@@ -6477,7 +6477,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65613075,
-    "longitude": 119.55749273,
+    "longitude": 119.5574927,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6487,7 +6487,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000078",
@@ -6499,7 +6499,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65836644,
-    "longitude": 119.55455303,
+    "longitude": 119.554553,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6509,7 +6509,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000080",
@@ -6521,7 +6521,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65833204,
-    "longitude": 119.55452621,
+    "longitude": 119.5545262,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6531,7 +6531,7 @@
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X030000079",
@@ -6543,7 +6543,7 @@
     "county_en": "Penghu",
     "area_zh": "通梁村",
     "latitude": 23.65830747,
-    "longitude": 119.55447257,
+    "longitude": 119.5544726,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6553,7 +6553,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000002",
@@ -6575,7 +6575,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000001",
@@ -6597,7 +6597,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000018",
@@ -6619,7 +6619,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "大義宮管委會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000019",
@@ -6631,7 +6631,7 @@
     "county_en": "Penghu",
     "area_zh": "竹灣村",
     "latitude": 23.63237602,
-    "longitude": 119.52060699,
+    "longitude": 119.520607,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6641,7 +6641,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "大義宮管委會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000082",
@@ -6663,7 +6663,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000081",
@@ -6685,7 +6685,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000080",
@@ -6707,7 +6707,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000079",
@@ -6729,7 +6729,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000022",
@@ -6741,7 +6741,7 @@
     "county_en": "Penghu",
     "area_zh": "二崁村",
     "latitude": 23.60407014,
-    "longitude": 119.51836467,
+    "longitude": 119.5183647,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6751,7 +6751,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000024",
@@ -6763,7 +6763,7 @@
     "county_en": "Penghu",
     "area_zh": "二崁村",
     "latitude": 23.60400624,
-    "longitude": 119.51830029,
+    "longitude": 119.5183003,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6773,7 +6773,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000023",
@@ -6785,7 +6785,7 @@
     "county_en": "Penghu",
     "area_zh": "二崁村",
     "latitude": 23.60400624,
-    "longitude": 119.51817155,
+    "longitude": 119.5181716,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6795,7 +6795,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000539",
@@ -6807,7 +6807,7 @@
     "county_en": "Penghu",
     "area_zh": "桶盤里",
     "latitude": 23.51233266,
-    "longitude": 119.51765656,
+    "longitude": 119.5176566,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6817,7 +6817,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000540",
@@ -6829,7 +6829,7 @@
     "county_en": "Penghu",
     "area_zh": "桶盤里",
     "latitude": 23.51233389,
-    "longitude": 119.51764852,
+    "longitude": 119.5176485,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6839,7 +6839,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000533",
@@ -6851,7 +6851,7 @@
     "county_en": "Penghu",
     "area_zh": "虎井里",
     "latitude": 23.48758268,
-    "longitude": 119.51760292,
+    "longitude": 119.5176029,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6861,7 +6861,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000535",
@@ -6873,7 +6873,7 @@
     "county_en": "Penghu",
     "area_zh": "虎井里",
     "latitude": 23.48766632,
-    "longitude": 119.51750636,
+    "longitude": 119.5175064,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6883,7 +6883,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000534",
@@ -6895,7 +6895,7 @@
     "county_en": "Penghu",
     "area_zh": "虎井里",
     "latitude": 23.48771552,
-    "longitude": 119.51750636,
+    "longitude": 119.5175064,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6905,7 +6905,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000011",
@@ -6917,7 +6917,7 @@
     "county_en": "Penghu",
     "area_zh": "小門村",
     "latitude": 23.65138408,
-    "longitude": 119.51820374,
+    "longitude": 119.5182037,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6927,7 +6927,7 @@
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000541",
@@ -6949,7 +6949,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000010",
@@ -6971,7 +6971,7 @@
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000012",
@@ -6983,7 +6983,7 @@
     "county_en": "Penghu",
     "area_zh": "小門村",
     "latitude": 23.65137425,
-    "longitude": 119.51806426,
+    "longitude": 119.5180643,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6993,7 +6993,7 @@
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000009",
@@ -7015,7 +7015,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000008",
@@ -7037,7 +7037,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000007",
@@ -7059,7 +7059,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000015",
@@ -7081,7 +7081,7 @@
     "has_diaper": false,
     "administration": "西嶼福利館",
     "manager": "西嶼福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000013",
@@ -7103,7 +7103,7 @@
     "has_diaper": false,
     "administration": "西嶼福利館",
     "manager": "西嶼福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000014",
@@ -7115,7 +7115,7 @@
     "county_en": "Penghu",
     "area_zh": "小門村",
     "latitude": 23.65410877,
-    "longitude": 119.51661587,
+    "longitude": 119.5166159,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7125,7 +7125,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "西嶼福利館",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000536",
@@ -7147,7 +7147,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000538",
@@ -7159,7 +7159,7 @@
     "county_en": "Penghu",
     "area_zh": "虎井里",
     "latitude": 23.48716449,
-    "longitude": 119.51107979,
+    "longitude": 119.5110798,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7169,7 +7169,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X010000537",
@@ -7181,7 +7181,7 @@
     "county_en": "Penghu",
     "area_zh": "虎井里",
     "latitude": 23.48724321,
-    "longitude": 119.51106906,
+    "longitude": 119.5110691,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7191,7 +7191,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處管理課",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000030",
@@ -7203,7 +7203,7 @@
     "county_en": "Penghu",
     "area_zh": "池東村",
     "latitude": 23.60375062,
-    "longitude": 119.51127291,
+    "longitude": 119.5112729,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7213,7 +7213,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司池東站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000029",
@@ -7225,7 +7225,7 @@
     "county_en": "Penghu",
     "area_zh": "池東村",
     "latitude": 23.60390792,
-    "longitude": 119.51120853,
+    "longitude": 119.5112085,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7235,7 +7235,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司池東站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000014",
@@ -7247,7 +7247,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.36368929,
-    "longitude": 119.50760365,
+    "longitude": 119.5076037,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7257,7 +7257,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司望安站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000016",
@@ -7269,7 +7269,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.36217251,
-    "longitude": 119.50751781,
+    "longitude": 119.5075178,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7279,7 +7279,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000018",
@@ -7291,7 +7291,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.36215281,
-    "longitude": 119.50749636,
+    "longitude": 119.5074964,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7301,7 +7301,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000017",
@@ -7313,7 +7313,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.36210357,
-    "longitude": 119.50745344,
+    "longitude": 119.5074534,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7323,7 +7323,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000015",
@@ -7335,7 +7335,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.36284226,
-    "longitude": 119.50729251,
+    "longitude": 119.5072925,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7345,29 +7345,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司望安站",
-    "last_updated": "2025-12-16"
-  },
-  {
-    "id": "X040000060",
-    "name_zh": "東昌營區公廁男廁",
-    "name_en": "",
-    "address_zh": "澎湖縣西嶼鄉內垵村東昌營區",
-    "address_en": "",
-    "county_zh": "澎湖縣",
-    "county_en": "Penghu",
-    "area_zh": "內垵村",
-    "latitude": 23.56865829,
-    "longitude": 119.50689554,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "交通部",
-    "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000055",
@@ -7389,7 +7367,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000021",
@@ -7411,7 +7389,7 @@
     "has_diaper": false,
     "administration": "其他",
     "manager": "治安宮管理委員會",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000003",
@@ -7433,7 +7411,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000002",
@@ -7455,7 +7433,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000006",
@@ -7477,7 +7455,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000005",
@@ -7499,7 +7477,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000004",
@@ -7521,29 +7499,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
-  },
-  {
-    "id": "X040000062",
-    "name_zh": "東昌營區無障礙廁所",
-    "name_en": "",
-    "address_zh": "澎湖縣西嶼鄉內垵村東昌營區",
-    "address_en": "",
-    "county_zh": "澎湖縣",
-    "county_en": "Penghu",
-    "area_zh": "內垵村",
-    "latitude": 23.56862879,
-    "longitude": 119.50668097,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": true,
-    "administration": "交通部",
-    "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000056",
@@ -7555,7 +7511,7 @@
     "county_en": "Penghu",
     "area_zh": "赤馬村",
     "latitude": 23.58438168,
-    "longitude": 119.50674534,
+    "longitude": 119.5067453,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7565,29 +7521,7 @@
     "has_diaper": true,
     "administration": "縣市政府",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
-  },
-  {
-    "id": "X040000061",
-    "name_zh": "東昌營區公廁女廁",
-    "name_en": "",
-    "address_zh": "澎湖縣西嶼鄉內垵村東昌營區",
-    "address_en": "",
-    "county_zh": "澎湖縣",
-    "county_en": "Penghu",
-    "area_zh": "內垵村",
-    "latitude": 23.5687763,
-    "longitude": 119.50657368,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "交通部",
-    "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000054",
@@ -7599,7 +7533,7 @@
     "county_en": "Penghu",
     "area_zh": "赤馬村",
     "latitude": 23.58399821,
-    "longitude": 119.50508237,
+    "longitude": 119.5050824,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7609,7 +7543,7 @@
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000011",
@@ -7621,7 +7555,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.35640073,
-    "longitude": 119.50303853,
+    "longitude": 119.5030385,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7631,7 +7565,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000013",
@@ -7643,7 +7577,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.35642043,
-    "longitude": 119.50301707,
+    "longitude": 119.5030171,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -7653,7 +7587,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000012",
@@ -7665,7 +7599,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.35640073,
-    "longitude": 119.50301707,
+    "longitude": 119.5030171,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7675,7 +7609,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000026",
@@ -7687,7 +7621,7 @@
     "county_en": "Penghu",
     "area_zh": "中社村",
     "latitude": 23.36743191,
-    "longitude": 119.50198174,
+    "longitude": 119.5019817,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7697,7 +7631,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局望安航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000025",
@@ -7709,7 +7643,7 @@
     "county_en": "Penghu",
     "area_zh": "中社村",
     "latitude": 23.3675107,
-    "longitude": 119.50193882,
+    "longitude": 119.5019388,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7719,7 +7653,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局望安航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000024",
@@ -7731,7 +7665,7 @@
     "county_en": "Penghu",
     "area_zh": "中社村",
     "latitude": 23.36760426,
-    "longitude": 119.50181544,
+    "longitude": 119.5018154,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7741,7 +7675,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局望安航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000010",
@@ -7763,7 +7697,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000008",
@@ -7785,7 +7719,73 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
+  },
+  {
+    "id": "X040000059",
+    "name_zh": "內垵遊憩區無障礙廁所",
+    "name_en": "",
+    "address_zh": "澎湖縣西嶼鄉內垵村內垵",
+    "address_en": "",
+    "county_zh": "澎湖縣",
+    "county_en": "Penghu",
+    "area_zh": "內垵村",
+    "latitude": 23.5701254,
+    "longitude": 119.5011633,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "交通部",
+    "manager": "澎湖國家風景區管理處",
+    "last_updated": "2025-12-21"
+  },
+  {
+    "id": "X040000057",
+    "name_zh": "內垵遊憩區男廁",
+    "name_en": "",
+    "address_zh": "澎湖縣西嶼鄉內垵村內垵",
+    "address_en": "",
+    "county_zh": "澎湖縣",
+    "county_en": "Penghu",
+    "area_zh": "內垵村",
+    "latitude": 23.5701254,
+    "longitude": 119.5011633,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "交通部",
+    "manager": "澎湖國家風景區管理處",
+    "last_updated": "2025-12-21"
+  },
+  {
+    "id": "X040000058",
+    "name_zh": "內垵遊憩區女廁",
+    "name_en": "",
+    "address_zh": "澎湖縣西嶼鄉內垵村內垵",
+    "address_en": "",
+    "county_zh": "澎湖縣",
+    "county_en": "Penghu",
+    "area_zh": "內垵村",
+    "latitude": 23.570278,
+    "longitude": 119.4971751,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "交通部",
+    "manager": "澎湖國家風景區管理處",
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000021",
@@ -7807,7 +7807,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000022",
@@ -7829,7 +7829,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000023",
@@ -7841,7 +7841,7 @@
     "county_en": "Penghu",
     "area_zh": "水垵村",
     "latitude": 23.38104233,
-    "longitude": 119.49488997,
+    "longitude": 119.49489,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "family",
@@ -7851,73 +7851,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
-  },
-  {
-    "id": "X040000058",
-    "name_zh": "內垵遊憩區女廁",
-    "name_en": "",
-    "address_zh": "澎湖縣西嶼鄉內垵村內垵",
-    "address_en": "",
-    "county_zh": "澎湖縣",
-    "county_en": "Penghu",
-    "area_zh": "內垵村",
-    "latitude": 23.56973509,
-    "longitude": 119.49393511,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "交通部",
-    "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
-  },
-  {
-    "id": "X040000057",
-    "name_zh": "內垵遊憩區男廁",
-    "name_en": "",
-    "address_zh": "澎湖縣西嶼鄉內垵村內垵",
-    "address_en": "",
-    "county_zh": "澎湖縣",
-    "county_en": "Penghu",
-    "area_zh": "內垵村",
-    "latitude": 23.56981254,
-    "longitude": 119.49392706,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "交通部",
-    "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
-  },
-  {
-    "id": "X040000059",
-    "name_zh": "內垵遊憩區無障礙廁所",
-    "name_en": "",
-    "address_zh": "澎湖縣西嶼鄉內垵村內垵",
-    "address_en": "",
-    "county_zh": "澎湖縣",
-    "county_en": "Penghu",
-    "area_zh": "內垵村",
-    "latitude": 23.56968101,
-    "longitude": 119.4937849,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "交通部",
-    "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000072",
@@ -7939,7 +7873,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000073",
@@ -7951,7 +7885,7 @@
     "county_en": "Penghu",
     "area_zh": "外垵村",
     "latitude": 23.56520656,
-    "longitude": 119.48812008,
+    "longitude": 119.4881201,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7961,7 +7895,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000074",
@@ -7973,7 +7907,7 @@
     "county_en": "Penghu",
     "area_zh": "外垵村",
     "latitude": 23.56520656,
-    "longitude": 119.48803425,
+    "longitude": 119.4880343,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7983,7 +7917,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000087",
@@ -8005,7 +7939,7 @@
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000088",
@@ -8027,7 +7961,7 @@
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000086",
@@ -8049,7 +7983,7 @@
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000085",
@@ -8071,7 +8005,7 @@
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X040000075",
@@ -8093,7 +8027,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "中油公司外垵加油站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000002",
@@ -8105,7 +8039,7 @@
     "county_en": "Penghu",
     "area_zh": "東湖村",
     "latitude": 23.2194591,
-    "longitude": 119.44612741,
+    "longitude": 119.4461274,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8115,7 +8049,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000003",
@@ -8127,7 +8061,7 @@
     "county_en": "Penghu",
     "area_zh": "東湖村",
     "latitude": 23.21941966,
-    "longitude": 119.44606304,
+    "longitude": 119.446063,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8137,7 +8071,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000001",
@@ -8159,7 +8093,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000030",
@@ -8171,7 +8105,7 @@
     "county_en": "Penghu",
     "area_zh": "中和村",
     "latitude": 23.20616741,
-    "longitude": 119.43134308,
+    "longitude": 119.4313431,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8181,7 +8115,7 @@
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000031",
@@ -8193,7 +8127,7 @@
     "county_en": "Penghu",
     "area_zh": "中和村",
     "latitude": 23.20664073,
-    "longitude": 119.43108559,
+    "longitude": 119.4310856,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8203,7 +8137,7 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000032",
@@ -8215,7 +8149,7 @@
     "county_en": "Penghu",
     "area_zh": "中和村",
     "latitude": 23.20648296,
-    "longitude": 119.43104267,
+    "longitude": 119.4310427,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8225,7 +8159,7 @@
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000014",
@@ -8237,7 +8171,7 @@
     "county_en": "Penghu",
     "area_zh": "南港村",
     "latitude": 23.19239117,
-    "longitude": 119.42720175,
+    "longitude": 119.4272018,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8247,7 +8181,7 @@
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000015",
@@ -8259,7 +8193,7 @@
     "county_en": "Penghu",
     "area_zh": "南港村",
     "latitude": 23.19228269,
-    "longitude": 119.42696571,
+    "longitude": 119.4269657,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8269,7 +8203,7 @@
     "has_diaper": true,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000013",
@@ -8281,7 +8215,7 @@
     "county_en": "Penghu",
     "area_zh": "南港村",
     "latitude": 23.19250951,
-    "longitude": 119.42694426,
+    "longitude": 119.4269443,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8291,7 +8225,7 @@
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000004",
@@ -8303,7 +8237,7 @@
     "county_en": "Penghu",
     "area_zh": "中和村",
     "latitude": 23.20661361,
-    "longitude": 119.42448735,
+    "longitude": 119.4244874,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8313,7 +8247,7 @@
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000006",
@@ -8325,7 +8259,7 @@
     "county_en": "Penghu",
     "area_zh": "中和村",
     "latitude": 23.20728661,
-    "longitude": 119.42444444,
+    "longitude": 119.4244444,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8335,7 +8269,7 @@
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000005",
@@ -8347,7 +8281,7 @@
     "county_en": "Penghu",
     "area_zh": "中和村",
     "latitude": 23.20712883,
-    "longitude": 119.42430496,
+    "longitude": 119.424305,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8357,7 +8291,7 @@
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000016",
@@ -8369,7 +8303,7 @@
     "county_en": "Penghu",
     "area_zh": "南港村",
     "latitude": 23.1947777,
-    "longitude": 119.42212701,
+    "longitude": 119.422127,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8379,7 +8313,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司七美站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000017",
@@ -8391,7 +8325,7 @@
     "county_en": "Penghu",
     "area_zh": "南港村",
     "latitude": 23.19476784,
-    "longitude": 119.42211628,
+    "longitude": 119.4221163,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8401,7 +8335,7 @@
     "has_diaper": false,
     "administration": "經濟部",
     "manager": "台灣中油公司七美站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000012",
@@ -8423,7 +8357,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部觀光局澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000011",
@@ -8445,7 +8379,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000010",
@@ -8467,7 +8401,7 @@
     "has_diaper": true,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000009",
@@ -8479,7 +8413,7 @@
     "county_en": "Penghu",
     "area_zh": "平和村",
     "latitude": 23.21220208,
-    "longitude": 119.41778183,
+    "longitude": 119.4177818,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8489,7 +8423,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局七美航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000007",
@@ -8501,7 +8435,7 @@
     "county_en": "Penghu",
     "area_zh": "平和村",
     "latitude": 23.21188655,
-    "longitude": 119.41773891,
+    "longitude": 119.4177389,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8511,7 +8445,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局七美航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X060000008",
@@ -8523,7 +8457,7 @@
     "county_en": "Penghu",
     "area_zh": "平和村",
     "latitude": 23.21186683,
-    "longitude": 119.41771746,
+    "longitude": 119.4177175,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8533,7 +8467,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "交通部民用航空局七美航空站",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X020000142",
@@ -8555,7 +8489,7 @@
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000009",
@@ -8567,7 +8501,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.21538726,
-    "longitude": 119.30249243,
+    "longitude": 119.3024924,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8577,7 +8511,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000007",
@@ -8589,7 +8523,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.21538726,
-    "longitude": 119.30249243,
+    "longitude": 119.3024924,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8599,7 +8533,7 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   },
   {
     "id": "X050000001",
@@ -8611,7 +8545,7 @@
     "county_en": "Penghu",
     "area_zh": "東安村",
     "latitude": 23.21538726,
-    "longitude": 119.30249243,
+    "longitude": 119.3024924,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -8621,6 +8555,6 @@
     "has_diaper": false,
     "administration": "交通部",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2025-12-16"
+    "last_updated": "2025-12-21"
   }
 ]
