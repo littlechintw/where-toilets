@@ -401,7 +401,7 @@ async function normalizeData() {
       last_updated: new Date().toISOString(),
       total_count: normalizedData.length,
       counties: countyList.sort((a, b) => a.name_zh.localeCompare(b.name_zh, 'zh-TW')),
-      data_source: '環保署開放資料',
+      data_source: '環境部環境管理署',
       version: '1.0.0'
     };
     
