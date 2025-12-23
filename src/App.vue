@@ -96,7 +96,7 @@ body {
 }
 
 .lang-toggle {
-  background: #3498db;
+  background: #2980b9; /* 加深顏色以提高對比度，原為 #3498db */
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -106,7 +106,7 @@ body {
 }
 
 .lang-toggle:hover {
-  background: #2980b9;
+  background: #1c5a85; /* 對應加深 hover 顏色 */
 }
 
 .main-content {
