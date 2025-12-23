@@ -92,7 +92,7 @@ body {
 
 .nav-link:hover,
 .nav-link.router-link-active {
-  color: #3498db;
+  color: #66b1ff; /* 提高對比度，原為 #3498db */
 }
 
 .lang-toggle {
@@ -133,7 +133,7 @@ body {
 }
 
 .footer a {
-  color: #74b9ff;
+  color: #8dc6ff; /* 提高對比度，原為 #74b9ff */
   text-decoration: none;
 }
 
