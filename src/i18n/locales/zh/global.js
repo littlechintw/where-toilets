@@ -6,7 +6,7 @@ export default {
   },
   footer: {
     dataSource: '資料來源',
-    epa: '環保署開放資料',
+    epa: '環境部環境管理署',
     author: '作者',
     lastUpdate: '最後更新'
   },
