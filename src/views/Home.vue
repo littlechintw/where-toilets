@@ -388,7 +388,7 @@ onMounted(async () => {
 }
 
 .tech-tag {
-  background: #667eea;
+  background: #4a69bd; /* 加深顏色以提高對比度，原為 #667eea */
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 25px;
