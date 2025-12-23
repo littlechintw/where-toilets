@@ -11,7 +11,7 @@
     </main>
     
     <footer style="background: #34495e; color: white; text-align: center; padding: 1rem;">
-      <p>資料來源：環保署開放資料</p>
+      <p>資料來源：環境部環境管理署</p>
     </footer>
   </div>
 </template>
