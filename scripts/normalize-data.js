@@ -259,6 +259,22 @@ async function normalizeData() {
           });
           return;
         }
+
+        // 檢查座標是否在台灣範圍內 (粗略範圍：緯度 20-27, 經度 118-123)
+        // 排除極端錯誤的座標
+        if (toilet.latitude < 20 || toilet.latitude > 27 || 
+            toilet.longitude < 118 || toilet.longitude > 123) {
+          filteredOut.invalidData.push({
+            index,
+            id: raw.number,
+            name: raw.name,
+            address: raw.address,
+            latitude: toilet.latitude,
+            longitude: toilet.longitude,
+            reason: '座標超出台灣範圍'
+          });
+          return;
+        }
         
         // 檢查是否有有效的縣市
         if (!toilet.county_zh || !COUNTY_EN_MAP[toilet.county_zh]) {
