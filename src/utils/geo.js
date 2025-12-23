@@ -145,6 +145,10 @@ export function getNearbyCounties(currentCounty, counties, userLocation) {
  * @returns {string} 格式化的距離字串
  */
 export function formatDistance(distance) {
+  if (typeof distance !== 'number' || isNaN(distance)) {
+    return '未知距離';
+  }
+  
   if (distance < 1) {
     return `${Math.round(distance * 1000)}m`;
   } else {
