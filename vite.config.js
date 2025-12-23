@@ -6,7 +6,16 @@ export default defineConfig({
   base: '/', // 自訂網域使用根路徑
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor': ['vue', 'vue-router', 'vue-i18n'],
+          'leaflet': ['leaflet']
+        }
+      }
+    },
+    chunkSizeWarningLimit: 1000
   },
   server: {
     port: 3001,
