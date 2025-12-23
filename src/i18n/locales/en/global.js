@@ -6,7 +6,7 @@ export default {
   },
   footer: {
     dataSource: 'Data Source',
-    epa: 'Environmental Protection Administration',
+    epa: 'Environmental Management Administration, Ministry of Environment',
     author: 'Author',
     lastUpdate: 'Last Updated'
   },
