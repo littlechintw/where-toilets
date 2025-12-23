@@ -579,16 +579,28 @@ const loadCounties = async () => {
   }
 }
 
+// 緩存已載入的縣市資料
+const countyDataCache = new Map()
+
 // 載入廁所資料
 const loadToiletData = async (countyList) => {
   const allToilets = []
 
   for (const county of countyList) {
     try {
+      // 檢查緩存
+      if (countyDataCache.has(county.filename)) {
+        // console.info('loadToiletData - using cache:', county.filename)
+        allToilets.push(...countyDataCache.get(county.filename))
+        continue
+      }
+
       console.info('loadToiletData - fetching:', county.filename)
       const response = await fetch(`./data/counties/${county.filename}`)
       if (response.ok) {
         const toilets = await response.json()
+        // 存入緩存
+        countyDataCache.set(county.filename, toilets)
         allToilets.push(...toilets)
       }
       else {
@@ -733,48 +745,44 @@ const updateNearbyToilets = async () => {
     console.info('updateNearbyToilets center:', { lat: center.lat, lng: center.lng }, 'currentCounty:', currentCounty.value)
     loadingStatus.value = `正在載入 ${currentCounty.value || '附近'} 的廁所資料...`
 
-    // 不再限制載入數量 - 載入地圖範圍內的所有廁所
+    // 找出與當前地圖 bounds 有交集的縣市
+    const overlappingCounties = counties.value.filter(c => {
+      const cb = sanitizeBounds(c.bounds)
+      const countyMinLat = cb.minLat
+      const countyMaxLat = cb.maxLat
+      const countyMinLng = cb.minLng
+      const countyMaxLng = cb.maxLng
 
-    // 取得需要載入的縣市（當前縣市 + 鄰近縣市）
-    const countiesToLoad = [currentCounty.value]
-    if (currentCounty.value) {
-      const nearbyCounties = getNearbyCounties(currentCounty.value, counties.value, [center.lat, center.lng])
-      // 載入當前縣市加上最多2個鄰近縣市
-      countiesToLoad.push(...nearbyCounties.slice(0, 2).map(c => c.name_en))
-    }
-    console.info('countiesToLoad:', countiesToLoad)
+      // map bounds
+      const mapSouth = bounds.getSouth()
+      const mapNorth = bounds.getNorth()
+      const mapWest = bounds.getWest()
+      const mapEast = bounds.getEast()
 
-    // 如果無法判斷縣市，載入與地圖視窗有交集的縣市作為備案（避免固定第一個縣市導致找不到資料）
+      // 判斷矩形是否相交
+      const latOverlap = !(countyMaxLat < mapSouth || countyMinLat > mapNorth)
+      const lngOverlap = !(countyMaxLng < mapWest || countyMinLng > mapEast)
+      return latOverlap && lngOverlap
+    })
+
     let countiesData = []
-    if (countiesToLoad.length > 1) {
-      countiesData = counties.value.filter(c => countiesToLoad.includes(c.name_en))
+    
+    if (overlappingCounties.length > 0) {
+      // 優先使用與地圖範圍重疊的所有縣市
+      countiesData = overlappingCounties
+      console.info('Using overlapping counties:', countiesData.map(c => c.name_en))
     } else {
-      // 找出與當前地圖 bounds 有交集的縣市
-      const overlap = counties.value.filter(c => {
-        const cb = sanitizeBounds(c.bounds)
-        const countyMinLat = cb.minLat
-        const countyMaxLat = cb.maxLat
-        const countyMinLng = cb.minLng
-        const countyMaxLng = cb.maxLng
-
-        // map bounds
-        const mapSouth = bounds.getSouth()
-        const mapNorth = bounds.getNorth()
-        const mapWest = bounds.getWest()
-        const mapEast = bounds.getEast()
-
-        // 判斷矩形是否相交
-        const latOverlap = !(countyMaxLat < mapSouth || countyMinLat > mapNorth)
-        const lngOverlap = !(countyMaxLng < mapWest || countyMinLng > mapEast)
-        return latOverlap && lngOverlap
-      })
-
-      if (overlap.length > 0) {
-        // 取最多前三個與地圖重疊的縣市
-        countiesData = overlap.slice(0, 3)
-      } else {
-        // 回退：如果找不到重疊的縣市，改用與地圖中心距離最近的幾個縣市，而非固定前兩個
-        // 這能在某些 bounds metadata 錯誤或不完整時較穩定地選到正確縣市
+      // 回退機制：如果找不到重疊的縣市（例如縮放層級過大或資料問題），
+      // 使用中心點所在縣市及其鄰近縣市
+      const countiesToLoad = [currentCounty.value]
+      if (currentCounty.value) {
+        const nearbyCounties = getNearbyCounties(currentCounty.value, counties.value, [center.lat, center.lng])
+        countiesToLoad.push(...nearbyCounties.slice(0, 2).map(c => c.name_en))
+        countiesData = counties.value.filter(c => countiesToLoad.includes(c.name_en))
+      }
+      
+      // 如果還是沒有，使用距離最近的縣市
+      if (countiesData.length === 0) {
         const centerLat = center.lat
         const centerLng = center.lng
         const scored = counties.value.map(c => {
