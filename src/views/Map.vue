@@ -748,10 +748,14 @@ const updateNearbyToilets = async () => {
     // 找出與當前地圖 bounds 有交集的縣市
     const overlappingCounties = counties.value.filter(c => {
       const cb = sanitizeBounds(c.bounds)
-      const countyMinLat = cb.minLat
-      const countyMaxLat = cb.maxLat
-      const countyMinLng = cb.minLng
-      const countyMaxLng = cb.maxLng
+      
+      // 增加緩衝區 (約 5km ~ 0.05度)，解決邊界縫隙問題
+      // 避免因為資料點不足導致的邊界空白區域無法載入正確縣市
+      const buffer = 0.05 
+      const countyMinLat = cb.minLat - buffer
+      const countyMaxLat = cb.maxLat + buffer
+      const countyMinLng = cb.minLng - buffer
+      const countyMaxLng = cb.maxLng + buffer
 
       // map bounds
       const mapSouth = bounds.getSouth()
