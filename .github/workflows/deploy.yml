@@ -6,15 +6,6 @@ on:
   # the 'check-deploy' job below is the primary mechanism to prevent this by inspecting the commit message.
   push:
     branches: [ main ]
-    paths:
-      - 'src/**'
-      - 'public/**'
-      - '!public/data/deploy-flag.json'
-      - 'scripts/**'
-      - 'index.html'
-      - 'package.json'
-      - 'package-lock.json'
-      - 'vite.config.js'
 
   # Allow manual triggering of the deployment
   workflow_dispatch:
