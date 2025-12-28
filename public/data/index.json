@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-23T06:28:32.506Z",
+  "last_updated": "2025-12-28T01:06:17.960Z",
   "total_count": 46170,
   "counties": [
     {
@@ -289,6 +289,6 @@
       }
     }
   ],
-  "data_source": "環保署開放資料",
+  "data_source": "環境部環境管理署",
   "version": "1.0.0"
 }
