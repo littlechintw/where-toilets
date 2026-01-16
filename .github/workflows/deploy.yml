@@ -1,139 +1,68 @@
 name: Deploy Website
 
 on:
-  # Trigger on pushes to the main branch that affect website files.
-  # While the 'public/**' path could trigger a loop from the deploy-flag cleanup commit,
-  # the 'check-deploy' job below is the primary mechanism to prevent this by inspecting the commit message.
+  # 只要 main 有任何變動就部署
   push:
     branches: [ main ]
 
-  # Allow manual triggering of the deployment
+  # 允許手動部署
   workflow_dispatch:
-    inputs:
-      reason:
-        description: 'Reason for manual deployment'
-        required: false
-        default: 'Manual trigger'
-        type: string
 
-# Set permissions for the workflow
+# GitHub Pages 官方建議的權限設定
 permissions:
-  contents: write # Needed to commit the deploy flag removal
+  contents: read
   pages: write
   id-token: write
 
-# Ensure only one deployment runs at a time
+# 避免同時多個部署
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  # This job decides whether a deployment should proceed.
-  check-deploy:
-    runs-on: ubuntu-latest
-    outputs:
-      should-deploy: ${{ steps.check.outputs.should-deploy }}
-      deploy-reason: ${{ steps.check.outputs.deploy-reason }}
-
-    steps:
-    - name: Check commit message and event type
-      id: check
-      run: |
-        SHOULD_DEPLOY="true"
-        REASON=""
-
-        if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-          REASON="Manual dispatch by ${{ github.actor }}"
-        else
-          REASON="Push to main branch by ${{ github.actor }}"
-        fi
-
-        # Prevent deployment loops by checking the commit message.
-        # The deploy job creates a commit with this message to clean up a flag file.
-        COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-        if [[ "$COMMIT_MESSAGE" == *"🧹 Chore: Remove deploy flag after deployment"* ]]; then
-          SHOULD_DEPLOY="false"
-          REASON="Skipping deployment for deploy flag cleanup commit."
-        fi
-
-        echo "Should Deploy: $SHOULD_DEPLOY"
-        echo "Reason: $REASON"
-        echo "should-deploy=$SHOULD_DEPLOY" >> $GITHUB_OUTPUT
-        echo "deploy-reason=$REASON" >> $GITHUB_OUTPUT
-
-  # Build and Deploy Job
   build-and-deploy:
     runs-on: ubuntu-latest
-    needs: [check-deploy] # This job depends on the check-deploy job
-    if: needs.check-deploy.outputs.should-deploy == 'true'
-    
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        cache: 'npm'
-    
-    - name: Install dependencies
-      run: npm ci
-    
-    - name: Build application
-      run: npm run build
-    
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-    
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: './dist'
-    
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
-    
-    - name: Clean up deploy flag from repository
-      if: always()
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        # If deploy-flag.json exists, remove it from the repository to prevent deployment loops.
-        if [[ -f "public/data/deploy-flag.json" ]]; then
-          echo "Found deploy-flag.json, removing from repository..."
-          git rm public/data/deploy-flag.json
-          git commit -m "🧹 Chore: Remove deploy flag after deployment"
-          git push
-        else
-          echo "No deploy flag file found to remove from repository."
-        fi
 
-    - name: Deployment summary
-      run: |
-        echo "✅ Website deployment complete!"
-        echo "🔗 URL: ${{ steps.deployment.outputs.page_url }}"
-        echo "📅 Timestamp: $(date +'%Y-%m-%d %H:%M:%S')"
-        echo "🚀 Triggered by: ${{ needs.check-deploy.outputs.deploy-reason }}"
-        echo "📊 Commit: ${{ github.sha }}"
-
-  # Failure Handling Job
-  handle-failure:
-    runs-on: ubuntu-latest
-    needs: [check-deploy, build-and-deploy]
-    if: always() && needs.check-deploy.outputs.should-deploy == 'true' && needs.build-and-deploy.result == 'failure'
-    
     steps:
-    - name: Handle deployment failure
-      run: |
-        echo "❌ Deployment failed!"
-        echo "🔍 Check the build logs for the cause of the error."
-        echo "⏰ Timestamp: $(date +'%Y-%m-%d %H:%M:%S')"
-        
-        # Optional: Add notifications like Slack, Email, or create a GitHub Issue.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build application
+        run: npm run build
+
+      # 設定 GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # 上傳 build 產物（通常是 dist）
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      # 正式部署
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      # 部署摘要（純顯示，不影響流程）
+      - name: Deployment summary
+        run: |
+          echo "✅ Deployment finished"
+          echo "🔗 URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "📦 Commit: ${{ github.sha }}"
+          echo "👤 Actor: ${{ github.actor }}"
+          echo "⏰ Time: $(date +'%Y-%m-%d %H:%M:%S')"
