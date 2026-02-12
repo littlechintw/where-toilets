@@ -33,7 +33,7 @@ jobs:
     # 只有在以下情況下執行：
     # 1. 由 push 或手動觸發
     # 2. 由 workflow_run 觸發且前一個工作流程成功完成
-    if: |
+    if: >-
       github.event_name == 'push' ||
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
