@@ -42,13 +42,18 @@ async function fetchToiletData() {
       
       const data = await response.json();
       
-      // 檢查回應格式 - 根據你提供的格式
-      if (!data.records || !Array.isArray(data.records)) {
+      // 檢查回應格式 - API 可能直接返回陣列或包含 records 的物件
+      let records;
+      if (Array.isArray(data)) {
+        // 新格式：直接返回陣列
+        records = data;
+      } else if (data.records && Array.isArray(data.records)) {
+        // 舊格式：包含 records 屬性
+        records = data.records;
+      } else {
         console.error('❌ API 回應格式不正確:', data);
         break;
       }
-      
-      const records = data.records;
       
       if (records.length === 0) {
         console.log('✅ 已抓取完所有資料');
@@ -57,8 +62,12 @@ async function fetchToiletData() {
       }
       
       // 顯示總數資訊
-      if (offset === 0 && data.total) {
-        console.log(`📊 總計 ${data.total} 筆資料需要抓取`);
+      if (offset === 0) {
+        if (data.total) {
+          console.log(`📊 總計 ${data.total} 筆資料需要抓取`);
+        } else {
+          console.log(`📊 開始抓取資料（無總數資訊）`);
+        }
       }
       
       allToilets.push(...records);
@@ -66,8 +75,15 @@ async function fetchToiletData() {
       
       console.log(`✅ 已抓取 ${allToilets.length} 筆資料`);
       
-      // 檢查是否已達到總數
+      // 檢查是否已達到總數（如果有 total 資訊的話）
       if (data.total && allToilets.length >= parseInt(data.total)) {
+        console.log('✅ 已抓取完所有資料');
+        hasMore = false;
+        break;
+      }
+      
+      // 如果返回的資料少於 limit，表示已經是最後一批
+      if (records.length < limit) {
         console.log('✅ 已抓取完所有資料');
         hasMore = false;
         break;
