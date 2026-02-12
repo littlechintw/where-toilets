@@ -8,6 +8,14 @@ on:
   # 允許手動部署
   workflow_dispatch:
 
+  # 當資料更新工作流程完成後自動部署
+  workflow_run:
+    workflows: ["Update Toilet Data"]
+    types:
+      - completed
+    branches:
+      - main
+
 # GitHub Pages 官方建議的權限設定
 permissions:
   contents: read
@@ -22,12 +30,28 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    # 只有在以下情況下執行：
+    # 1. 由 push 或手動觸發
+    # 2. 由 workflow_run 觸發且前一個工作流程成功完成
+    if: |
+      github.event_name == 'push' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
 
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Display trigger information
+        run: |
+          echo "🎯 Deployment triggered by: ${{ github.event_name }}"
+          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
+            echo "📊 Workflow: ${{ github.event.workflow_run.name }}"
+            echo "✅ Status: ${{ github.event.workflow_run.conclusion }}"
+            echo "🔗 Run URL: ${{ github.event.workflow_run.html_url }}"
+          fi
+          
       - name: Checkout repository
         uses: actions/checkout@v4
 
