@@ -21,25 +21,28 @@ jobs:
         echo "🔍 Checking website health status..."
         
         # Check the main page
-        if curl -f -s -o /dev/null "https://toilets.littlechin.tw/"; then
-          echo "✅ Main page is accessible."
+        HTTP_STATUS=$(curl -L -s -o /dev/null -w "%{http_code}" --retry 3 --retry-delay 10 --connect-timeout 10 --max-time 30 "https://toilets.littlechin.tw/")
+        if [[ "$HTTP_STATUS" == "200" ]]; then
+          echo "✅ Main page is accessible (HTTP $HTTP_STATUS)."
         else
-          echo "❌ Main page is not accessible."
+          echo "❌ Main page is not accessible (HTTP $HTTP_STATUS)."
           exit 1
         fi
         
         # Check the map page
-        if curl -f -s -o /dev/null "https://toilets.littlechin.tw/map"; then
-          echo "✅ Map page is accessible."
+        HTTP_STATUS=$(curl -L -s -o /dev/null -w "%{http_code}" --retry 3 --retry-delay 10 --connect-timeout 10 --max-time 30 "https://toilets.littlechin.tw/map")
+        if [[ "$HTTP_STATUS" == "200" ]]; then
+          echo "✅ Map page is accessible (HTTP $HTTP_STATUS)."
         else
-          echo "⚠️ Map page might have issues (this is normal for SPA routing)."
+          echo "⚠️ Map page might have issues (HTTP $HTTP_STATUS, this is normal for SPA routing)."
         fi
         
         # Check the data index file
-        if curl -f -s -o /dev/null "https://toilets.littlechin.tw/data/index.json"; then
-          echo "✅ Data index file is accessible."
+        HTTP_STATUS=$(curl -L -s -o /dev/null -w "%{http_code}" --retry 3 --retry-delay 10 --connect-timeout 10 --max-time 30 "https://toilets.littlechin.tw/data/index.json")
+        if [[ "$HTTP_STATUS" == "200" ]]; then
+          echo "✅ Data index file is accessible (HTTP $HTTP_STATUS)."
         else
-          echo "❌ Data index file is not accessible."
+          echo "❌ Data index file is not accessible (HTTP $HTTP_STATUS)."
           exit 1
         fi
         
@@ -50,7 +53,7 @@ jobs:
         echo "📅 Checking data freshness..."
         
         # Download the index file to check the last updated timestamp
-        curl -s "https://toilets.littlechin.tw/data/index.json" > index.json
+        curl -L -s --retry 3 --retry-delay 10 --connect-timeout 10 --max-time 30 "https://toilets.littlechin.tw/data/index.json" > index.json
         
         if [[ -f index.json ]]; then
           # Use jq to reliably parse the JSON and extract the last_updated value
