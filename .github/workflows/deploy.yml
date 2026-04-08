@@ -67,6 +67,10 @@ jobs:
       - name: Build application
         run: npm run build
 
+      # 複製 index.html 為 404.html，讓 GitHub Pages 支援 SPA 路由
+      - name: Create 404.html for SPA routing
+        run: cp ./dist/index.html ./dist/404.html
+
       # 設定 GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
