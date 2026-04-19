@@ -19,7 +19,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000019",
@@ -41,7 +41,29 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000001",
+    "name_zh": "國家公園大門左側男廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉后盤村伯玉路二段",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "后盤村",
+    "latitude": 24.44385638,
+    "longitude": 118.35353242,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": true,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處東區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000039",
@@ -63,7 +85,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000028",
@@ -74,8 +96,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "后盤村",
-    "latitude": 24.44378705,
-    "longitude": 118.35344755,
+    "latitude": 24.44384661,
+    "longitude": 118.3535351,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -85,29 +107,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000001",
-    "name_zh": "國家公園大門左側男廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉后盤村伯玉路二段",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "后盤村",
-    "latitude": 24.44378705,
-    "longitude": 118.35344755,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": true,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000051",
@@ -129,7 +129,7 @@
     "has_diaper": false,
     "administration": "家樂福股份有限公司金門分公司",
     "manager": "家樂福金門店安全課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000050",
@@ -151,7 +151,7 @@
     "has_diaper": false,
     "administration": "家樂福股份有限公司金門分公司",
     "manager": "家樂福金門店安全課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000049",
@@ -173,7 +173,7 @@
     "has_diaper": false,
     "administration": "家樂福股份有限公司金門分公司",
     "manager": "家樂福金門店安全課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000044",
@@ -195,7 +195,7 @@
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000043",
@@ -217,7 +217,7 @@
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000013",
@@ -228,8 +228,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "榜林村",
-    "latitude": 24.43926669,
-    "longitude": 118.33426118,
+    "latitude": 24.43921078,
+    "longitude": 118.33430635,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -239,7 +239,7 @@
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000092",
@@ -261,7 +261,7 @@
     "has_diaper": false,
     "administration": "統精股份有限公司",
     "manager": "統精股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000008",
@@ -272,8 +272,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "西門里",
-    "latitude": 24.44340621,
-    "longitude": 118.32594356,
+    "latitude": 24.4433729,
+    "longitude": 118.32587348,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -283,7 +283,29 @@
     "has_diaper": false,
     "administration": "統精股份有限公司",
     "manager": "統精股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000027",
+    "name_zh": "蔣經國先生紀念館後側女廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉盤山村桃園路196號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "盤山村",
+    "latitude": 24.43716885,
+    "longitude": 118.35377131,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": true,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處東區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000040",
@@ -305,7 +327,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000002",
@@ -327,29 +349,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000027",
-    "name_zh": "蔣經國先生紀念館後側女廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉盤山村桃園路196號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "盤山村",
-    "latitude": 24.43700745,
-    "longitude": 118.3536868,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": true,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000041",
@@ -371,7 +371,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處解說教育科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000029",
@@ -393,7 +393,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處解說教育科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000011",
@@ -415,7 +415,51 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處解說教育科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000016",
+    "name_zh": "金酒公司行政大樓女廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉榜林村桃園路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "榜林村",
+    "latitude": 24.43247195,
+    "longitude": 118.34323592,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "commercial",
+    "category_zh": "商業營業場所",
+    "has_diaper": false,
+    "administration": "金門酒廠實業股份有限公司",
+    "manager": "金門酒廠實業股份有限公司",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000015",
+    "name_zh": "金酒公司行政大樓男廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉榜林村桃園路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "榜林村",
+    "latitude": 24.43243776,
+    "longitude": 118.34326275,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "commercial",
+    "category_zh": "商業營業場所",
+    "has_diaper": false,
+    "administration": "金門酒廠實業股份有限公司",
+    "manager": "金門酒廠實業股份有限公司",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000013",
@@ -437,7 +481,7 @@
     "has_diaper": false,
     "administration": "金門縣文化局",
     "manager": "金門縣文化局行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000014",
@@ -459,51 +503,7 @@
     "has_diaper": false,
     "administration": "金門縣文化局",
     "manager": "金門縣文化局行政科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000016",
-    "name_zh": "金酒公司行政大樓女廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉榜林村桃園路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "榜林村",
-    "latitude": 24.43234192,
-    "longitude": 118.34324055,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "commercial",
-    "category_zh": "商業營業場所",
-    "has_diaper": false,
-    "administration": "金門酒廠實業股份有限公司",
-    "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000015",
-    "name_zh": "金酒公司行政大樓男廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉榜林村桃園路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "榜林村",
-    "latitude": 24.43234192,
-    "longitude": 118.34324055,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "commercial",
-    "category_zh": "商業營業場所",
-    "has_diaper": false,
-    "administration": "金門酒廠實業股份有限公司",
-    "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000048",
@@ -525,7 +525,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000047",
@@ -547,7 +547,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000046",
@@ -569,29 +569,7 @@
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000025",
-    "name_zh": "李光前將軍廟女廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村西浦頭",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古寧村",
-    "latitude": 24.46861892,
-    "longitude": 118.3168748,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "宗教禮儀場所",
-    "has_diaper": false,
-    "administration": "金寧鄉公所",
-    "manager": "金寧鄉公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000008",
@@ -602,8 +580,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "古寧村",
-    "latitude": 24.46861892,
-    "longitude": 118.3168748,
+    "latitude": 24.46865891,
+    "longitude": 118.31684383,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -613,7 +591,73 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000025",
+    "name_zh": "李光前將軍廟女廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉古寧村西浦頭",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古寧村",
+    "latitude": 24.46866946,
+    "longitude": 118.31683561,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "宗教禮儀場所",
+    "has_diaper": false,
+    "administration": "金寧鄉公所",
+    "manager": "金寧鄉公所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000026",
+    "name_zh": "李光前將軍廟無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉古寧村西浦頭",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古寧村",
+    "latitude": 24.46872589,
+    "longitude": 118.31683427,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "宗教禮儀場所",
+    "has_diaper": false,
+    "administration": "金寧鄉公所",
+    "manager": "金寧鄉公所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000012",
+    "name_zh": "金門加油站男廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉榜林村伯玉路一段",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "榜林村",
+    "latitude": 24.43602846,
+    "longitude": 118.32715038,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "commercial",
+    "category_zh": "商業營業場所",
+    "has_diaper": false,
+    "administration": "安佳信股份有限公司",
+    "manager": "安佳信股份有限公司",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000042",
@@ -635,205 +679,7 @@
     "has_diaper": false,
     "administration": "安佳信股份有限公司",
     "manager": "安佳信股份有限公司",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000012",
-    "name_zh": "金門加油站男廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉榜林村伯玉路一段",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "榜林村",
-    "latitude": 24.43591642,
-    "longitude": 118.32726052,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "commercial",
-    "category_zh": "商業營業場所",
-    "has_diaper": false,
-    "administration": "安佳信股份有限公司",
-    "manager": "安佳信股份有限公司",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000035",
-    "name_zh": "和平公園無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村頂林路和平公園",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古寧村",
-    "latitude": 24.4767045,
-    "longitude": 118.31685742,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000034",
-    "name_zh": "和平公園女廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村頂林路和平公園",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古寧村",
-    "latitude": 24.4767045,
-    "longitude": 118.31685742,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000033",
-    "name_zh": "和平公園男廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村頂林路和平公園",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古寧村",
-    "latitude": 24.4767045,
-    "longitude": 118.31685742,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000059",
-    "name_zh": "金門縣政府1號女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮西門里民生路60號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西門里",
-    "latitude": 24.43724594,
-    "longitude": 118.3196238,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金門縣政府",
-    "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000061",
-    "name_zh": "金門縣政府2號女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮西門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西門里",
-    "latitude": 24.43731245,
-    "longitude": 118.31955585,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金門縣政府",
-    "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000060",
-    "name_zh": "金門縣政府2號男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮西門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西門里",
-    "latitude": 24.43731245,
-    "longitude": 118.31955585,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金門縣政府",
-    "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000112",
-    "name_zh": "金門縣政府1號無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮西門里民生路60號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西門里",
-    "latitude": 24.43708405,
-    "longitude": 118.3196844,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金門縣政府",
-    "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000058",
-    "name_zh": "金門縣政府1號男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮西門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西門里",
-    "latitude": 24.43706324,
-    "longitude": 118.31965827,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金門縣政府",
-    "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000121",
@@ -855,7 +701,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000120",
@@ -877,63 +723,19 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W010000063",
-    "name_zh": "金門縣政府3號女廁",
+    "id": "W040000035",
+    "name_zh": "和平公園無障礙廁所",
     "name_en": "",
-    "address_zh": "金門縣金城鎮西門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西門里",
-    "latitude": 24.43728267,
-    "longitude": 118.31900213,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金門縣政府",
-    "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000062",
-    "name_zh": "金門縣政府3號男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮西門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西門里",
-    "latitude": 24.43728267,
-    "longitude": 118.31900213,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金門縣政府",
-    "manager": "金門縣政府綜合發展處總務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000005",
-    "name_zh": "古寧頭戰史館無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村北山",
+    "address_zh": "金門縣金寧鄉古寧村頂林路和平公園",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "古寧村",
-    "latitude": 24.4832288,
-    "longitude": 118.32089777,
+    "latitude": 24.4767045,
+    "longitude": 118.31685742,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -942,42 +744,20 @@
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "manager": "金門國家公園管理處",
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W040000003",
-    "name_zh": "古寧頭戰史館男廁",
+    "id": "W040000034",
+    "name_zh": "和平公園女廁",
     "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村北山",
+    "address_zh": "金門縣金寧鄉古寧村頂林路和平公園",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "古寧村",
-    "latitude": 24.4832288,
-    "longitude": 118.32089777,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000004",
-    "name_zh": "古寧頭戰史館女廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村北山",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古寧村",
-    "latitude": 24.4832288,
-    "longitude": 118.32089777,
+    "latitude": 24.4767045,
+    "longitude": 118.31685742,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -987,7 +767,73 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000033",
+    "name_zh": "和平公園男廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉古寧村頂林路和平公園",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古寧村",
+    "latitude": 24.4767045,
+    "longitude": 118.31685742,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000060",
+    "name_zh": "金門縣政府2號男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮西門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西門里",
+    "latitude": 24.43729251,
+    "longitude": 118.31968814,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金門縣政府",
+    "manager": "金門縣政府綜合發展處總務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000061",
+    "name_zh": "金門縣政府2號女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮西門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西門里",
+    "latitude": 24.4372803,
+    "longitude": 118.31969082,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金門縣政府",
+    "manager": "金門縣政府綜合發展處總務科",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000135",
@@ -1009,7 +855,7 @@
     "has_diaper": true,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000134",
@@ -1031,7 +877,7 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000133",
@@ -1053,7 +899,117 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000112",
+    "name_zh": "金門縣政府1號無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮西門里民生路60號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西門里",
+    "latitude": 24.43708405,
+    "longitude": 118.3196844,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金門縣政府",
+    "manager": "金門縣政府綜合發展處總務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000058",
+    "name_zh": "金門縣政府1號男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮西門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西門里",
+    "latitude": 24.43706324,
+    "longitude": 118.31965827,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金門縣政府",
+    "manager": "金門縣政府綜合發展處總務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000059",
+    "name_zh": "金門縣政府1號女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮西門里民生路60號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西門里",
+    "latitude": 24.43706785,
+    "longitude": 118.31961304,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金門縣政府",
+    "manager": "金門縣政府綜合發展處總務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000063",
+    "name_zh": "金門縣政府3號女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮西門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西門里",
+    "latitude": 24.43728267,
+    "longitude": 118.31900213,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金門縣政府",
+    "manager": "金門縣政府綜合發展處總務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000062",
+    "name_zh": "金門縣政府3號男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮西門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西門里",
+    "latitude": 24.43728267,
+    "longitude": 118.31900213,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金門縣政府",
+    "manager": "金門縣政府綜合發展處總務科",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000075",
@@ -1064,8 +1020,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "正義里",
-    "latitude": 24.44025597,
-    "longitude": 118.36959676,
+    "latitude": 24.44033755,
+    "longitude": 118.36954772,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1075,7 +1031,7 @@
     "has_diaper": true,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000074",
@@ -1086,8 +1042,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "正義里",
-    "latitude": 24.44025597,
-    "longitude": 118.36959676,
+    "latitude": 24.44033354,
+    "longitude": 118.36956684,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1097,7 +1053,7 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000025",
@@ -1108,8 +1064,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "正義里",
-    "latitude": 24.44025597,
-    "longitude": 118.36959676,
+    "latitude": 24.44031206,
+    "longitude": 118.36957203,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -1119,7 +1075,73 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000005",
+    "name_zh": "古寧頭戰史館無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉古寧村北山",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古寧村",
+    "latitude": 24.4832288,
+    "longitude": 118.32089777,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000003",
+    "name_zh": "古寧頭戰史館男廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉古寧村北山",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古寧村",
+    "latitude": 24.4832288,
+    "longitude": 118.32089777,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000004",
+    "name_zh": "古寧頭戰史館女廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉古寧村北山",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古寧村",
+    "latitude": 24.4832288,
+    "longitude": 118.32089777,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000132",
@@ -1141,7 +1163,7 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000017",
@@ -1163,7 +1185,7 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000016",
@@ -1185,183 +1207,29 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W010000057",
-    "name_zh": "金城鎮公所無障礙廁所",
+    "id": "W030000020",
+    "name_zh": "金門航空站特產中心旁女廁",
     "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路",
+    "address_zh": "金門縣金湖鎮正義里尚義機場",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43282982,
-    "longitude": 118.32068981,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金城鎮公所",
-    "manager": "金城鎮公所觀光課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000056",
-    "name_zh": "金城鎮公所女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43282982,
-    "longitude": 118.32068981,
+    "area_zh": "正義里",
+    "latitude": 24.43529488,
+    "longitude": 118.36739726,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金城鎮公所",
-    "manager": "金城鎮公所觀光課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000028",
-    "name_zh": "金城鎮公所男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43282982,
-    "longitude": 118.32068981,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "民眾洽公場所",
-    "has_diaper": false,
-    "administration": "金城鎮公所",
-    "manager": "金城鎮公所觀光課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000055",
-    "name_zh": "金城車站無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43323118,
-    "longitude": 118.32006985,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
-    "administration": "金門縣公共車船管理處",
-    "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000054",
-    "name_zh": "金城車站女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43323118,
-    "longitude": 118.32006985,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣公共車船管理處",
-    "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000024",
-    "name_zh": "金城車站男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路7號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43323118,
-    "longitude": 118.32006985,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣公共車船管理處",
-    "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000087",
-    "name_zh": "金城民防坑道入口處女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路7號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43307019,
-    "longitude": 118.32021757,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000086",
-    "name_zh": "金城民防坑道入口處男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮北門里民生路7號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "北門里",
-    "latitude": 24.43307019,
-    "longitude": 118.32021757,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "administration": "交通部",
+    "manager": "金門航空站企劃行政組",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000021",
@@ -1383,7 +1251,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000019",
@@ -1405,51 +1273,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000020",
-    "name_zh": "金門航空站特產中心旁女廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮正義里尚義機場",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "正義里",
-    "latitude": 24.43522385,
-    "longitude": 118.3673601,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": true,
-    "administration": "交通部",
-    "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000126",
-    "name_zh": "金門航空站候機室2號男廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮正義里尚義機場2號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "正義里",
-    "latitude": 24.435551,
-    "longitude": 118.3679274,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": true,
-    "administration": "交通部民用航空局",
-    "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000077",
@@ -1471,7 +1295,7 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局空保科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000076",
@@ -1493,7 +1317,73 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局空保科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000126",
+    "name_zh": "金門航空站候機室2號男廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮正義里尚義機場2號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "正義里",
+    "latitude": 24.435551,
+    "longitude": 118.3679274,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": true,
+    "administration": "交通部民用航空局",
+    "manager": "金門航空站企劃行政組",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000056",
+    "name_zh": "金城鎮公所女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43286122,
+    "longitude": 118.32087401,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金城鎮公所",
+    "manager": "金城鎮公所觀光課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000057",
+    "name_zh": "金城鎮公所無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43282947,
+    "longitude": 118.32086597,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金城鎮公所",
+    "manager": "金城鎮公所觀光課",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000131",
@@ -1515,7 +1405,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000130",
@@ -1537,7 +1427,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000129",
@@ -1559,7 +1449,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000128",
@@ -1581,7 +1471,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000127",
@@ -1603,7 +1493,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000073",
@@ -1625,7 +1515,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000072",
@@ -1647,7 +1537,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000071",
@@ -1669,7 +1559,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000070",
@@ -1691,7 +1581,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000069",
@@ -1713,7 +1603,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000068",
@@ -1735,7 +1625,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000067",
@@ -1757,7 +1647,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000066",
@@ -1779,7 +1669,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000065",
@@ -1801,7 +1691,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000064",
@@ -1823,7 +1713,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000063",
@@ -1845,7 +1735,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000062",
@@ -1867,7 +1757,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000061",
@@ -1889,7 +1779,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000024",
@@ -1911,7 +1801,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000023",
@@ -1933,7 +1823,7 @@
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000022",
@@ -1955,7 +1845,139 @@
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站企劃行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000028",
+    "name_zh": "金城鎮公所男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43282982,
+    "longitude": 118.32068981,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "民眾洽公場所",
+    "has_diaper": false,
+    "administration": "金城鎮公所",
+    "manager": "金城鎮公所觀光課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000024",
+    "name_zh": "金城車站男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路7號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43328784,
+    "longitude": 118.32006114,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣公共車船管理處",
+    "manager": "金門縣公共車船管理處",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000055",
+    "name_zh": "金城車站無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43323118,
+    "longitude": 118.32006985,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": true,
+    "administration": "金門縣公共車船管理處",
+    "manager": "金門縣公共車船管理處",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000054",
+    "name_zh": "金城車站女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43323118,
+    "longitude": 118.32006985,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣公共車船管理處",
+    "manager": "金門縣公共車船管理處",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000087",
+    "name_zh": "金城民防坑道入口處女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路7號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43307019,
+    "longitude": 118.32021757,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處觀光業務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000086",
+    "name_zh": "金城民防坑道入口處男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮北門里民生路7號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "北門里",
+    "latitude": 24.43307019,
+    "longitude": 118.32021757,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處觀光業務科",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000026",
@@ -1977,7 +1999,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000025",
@@ -1999,7 +2021,29 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000022",
+    "name_zh": "浯江溪停車場1號男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里北堤路停車場",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.42965971,
+    "longitude": 118.32124952,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處交通行政科",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000080",
@@ -2021,7 +2065,7 @@
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000079",
@@ -2043,7 +2087,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000076",
@@ -2065,29 +2109,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000022",
-    "name_zh": "浯江溪停車場1號男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里北堤路停車場",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.42957687,
-    "longitude": 118.32126235,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000038",
@@ -2109,7 +2131,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000037",
@@ -2131,7 +2153,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000036",
@@ -2153,7 +2175,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000085",
@@ -2175,29 +2197,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000026",
-    "name_zh": "李光前將軍廟無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉古寧村西浦頭",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古寧村",
-    "latitude": 24.43704528,
-    "longitude": 118.31233977,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "宗教禮儀場所",
-    "has_diaper": false,
-    "administration": "金寧鄉公所",
-    "manager": "金寧鄉公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000007",
@@ -2208,8 +2208,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "西門里",
-    "latitude": 24.43704528,
-    "longitude": 118.31233977,
+    "latitude": 24.43705946,
+    "longitude": 118.31229346,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2219,95 +2219,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000082",
-    "name_zh": "浯江溪停車場2號親子廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮東門里北堤路停車場",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "東門里",
-    "latitude": 24.42938849,
-    "longitude": 118.31828112,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "family",
-    "type_zh": "親子廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": true,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000081",
-    "name_zh": "浯江溪停車場2號無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮東門里北堤路停車場",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "東門里",
-    "latitude": 24.42938849,
-    "longitude": 118.31828112,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000077",
-    "name_zh": "浯江溪停車場2號女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮東門里北堤路停車場",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "東門里",
-    "latitude": 24.42938849,
-    "longitude": 118.31828112,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000005",
-    "name_zh": "浯江溪停車場2號男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮東門里浯江溪停車場",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "東門里",
-    "latitude": 24.42938849,
-    "longitude": 118.31828112,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000086",
@@ -2329,7 +2241,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000085",
@@ -2351,7 +2263,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000084",
@@ -2373,7 +2285,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000083",
@@ -2395,7 +2307,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000082",
@@ -2417,7 +2329,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000035",
@@ -2439,7 +2351,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000036",
@@ -2461,7 +2373,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000034",
@@ -2483,7 +2395,95 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000005",
+    "name_zh": "浯江溪停車場2號男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮東門里浯江溪停車場",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "東門里",
+    "latitude": 24.42940378,
+    "longitude": 118.31830429,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處交通行政科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000082",
+    "name_zh": "浯江溪停車場2號親子廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮東門里北堤路停車場",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "東門里",
+    "latitude": 24.42938849,
+    "longitude": 118.31828112,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "family",
+    "type_zh": "親子廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": true,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處交通行政科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000081",
+    "name_zh": "浯江溪停車場2號無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮東門里北堤路停車場",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "東門里",
+    "latitude": 24.42938849,
+    "longitude": 118.31828112,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處交通行政科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000077",
+    "name_zh": "浯江溪停車場2號女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮東門里北堤路停車場",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "東門里",
+    "latitude": 24.42938849,
+    "longitude": 118.31828112,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處交通行政科",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000037",
@@ -2505,7 +2505,7 @@
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000016",
@@ -2527,7 +2527,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000015",
@@ -2549,7 +2549,29 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000006",
+    "name_zh": "浯江溪停車場3號男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮東門里北堤路停車場",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "東門里",
+    "latitude": 24.4290216,
+    "longitude": 118.31571059,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處交通行政科",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000084",
@@ -2571,7 +2593,7 @@
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000083",
@@ -2593,7 +2615,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000078",
@@ -2615,29 +2637,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000006",
-    "name_zh": "浯江溪停車場3號男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮東門里北堤路停車場",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "東門里",
-    "latitude": 24.42900448,
-    "longitude": 118.31571778,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處交通行政科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000093",
@@ -2659,7 +2659,7 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000019",
@@ -2681,7 +2681,7 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000018",
@@ -2703,7 +2703,29 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000044",
+    "name_zh": "莒光湖公園男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里莒光湖公園",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.4267414,
+    "longitude": 118.31802282,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "公園",
+    "has_diaper": true,
+    "administration": "金門縣養護工程所",
+    "manager": "金門縣養護工程所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000053",
@@ -2725,7 +2747,7 @@
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000052",
@@ -2747,29 +2769,7 @@
     "has_diaper": true,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000044",
-    "name_zh": "莒光湖公園男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里莒光湖公園",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.42670708,
-    "longitude": 118.31802991,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "公園",
-    "has_diaper": true,
-    "administration": "金門縣養護工程所",
-    "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000021",
@@ -2780,8 +2780,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "南門里",
-    "latitude": 24.42969943,
-    "longitude": 118.3144643,
+    "latitude": 24.42978082,
+    "longitude": 118.31436463,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -2791,7 +2791,7 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000020",
@@ -2813,51 +2813,7 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000051",
-    "name_zh": "莒光樓2號無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里賢城路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.42544251,
-    "longitude": 118.31923441,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000050",
-    "name_zh": "莒光樓2號女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里賢城路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.42544251,
-    "longitude": 118.31923441,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000049",
@@ -2879,117 +2835,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000073",
-    "name_zh": "金門縣立體育場親子廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里民族路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.43012394,
-    "longitude": 118.31248924,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "family",
-    "type_zh": "親子廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣運動發展中心",
-    "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000023",
-    "name_zh": "體育場司令台下方性別友善廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里民族路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.43017519,
-    "longitude": 118.31240414,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "性別友善廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣立體育場",
-    "manager": "金門縣立體育場場地組",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000071",
-    "name_zh": "慢速壘球場女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里慢速壘球場旁",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.43117111,
-    "longitude": 118.31136181,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣運動發展中心",
-    "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000070",
-    "name_zh": "慢速壘球場男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里慢速壘球場旁",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.43117111,
-    "longitude": 118.31136181,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣運動發展中心",
-    "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000094",
-    "name_zh": "體育場司令台下方女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮南門里民族路261號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "南門里",
-    "latitude": 24.43004013,
-    "longitude": 118.31241449,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣運動發展中心",
-    "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000113",
@@ -3011,7 +2857,7 @@
     "has_diaper": true,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000112",
@@ -3033,7 +2879,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000111",
@@ -3055,7 +2901,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000072",
@@ -3066,8 +2912,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "南門里",
-    "latitude": 24.43123584,
-    "longitude": 118.3108064,
+    "latitude": 24.43111933,
+    "longitude": 118.3116162,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3077,7 +2923,183 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000071",
+    "name_zh": "慢速壘球場女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里慢速壘球場旁",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.43111322,
+    "longitude": 118.31161754,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000070",
+    "name_zh": "慢速壘球場男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里慢速壘球場旁",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.43110346,
+    "longitude": 118.31162157,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000073",
+    "name_zh": "金門縣立體育場親子廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里民族路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.43012394,
+    "longitude": 118.31248924,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "family",
+    "type_zh": "親子廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000050",
+    "name_zh": "莒光樓2號女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里賢城路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.4246133,
+    "longitude": 118.31890292,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處觀光業務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000023",
+    "name_zh": "體育場司令台下方性別友善廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里民族路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.43017519,
+    "longitude": 118.31240414,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "性別友善廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣立體育場",
+    "manager": "金門縣立體育場場地組",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000094",
+    "name_zh": "體育場司令台下方女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里民族路261號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.43004013,
+    "longitude": 118.31241449,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣運動發展中心",
+    "manager": "金門縣運動發展中心",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000051",
+    "name_zh": "莒光樓2號無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮南門里賢城路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "南門里",
+    "latitude": 24.42452637,
+    "longitude": 118.31881676,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處觀光業務科",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W040000014",
+    "name_zh": "后湖海濱公園男廁",
+    "name_en": "",
+    "address_zh": "金門縣金寧鄉榜林村東湖路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "榜林村",
+    "latitude": 24.41655293,
+    "longitude": 118.34449874,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "公園",
+    "has_diaper": false,
+    "administration": "金門縣政府觀光處",
+    "manager": "金門縣政府觀光處觀光業務科",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000045",
@@ -3099,7 +3121,7 @@
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000030",
@@ -3121,29 +3143,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W040000014",
-    "name_zh": "后湖海濱公園男廁",
-    "name_en": "",
-    "address_zh": "金門縣金寧鄉榜林村東湖路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "榜林村",
-    "latitude": 24.41650068,
-    "longitude": 118.34450134,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "公園",
-    "has_diaper": false,
-    "administration": "金門縣政府觀光處",
-    "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000048",
@@ -3154,8 +3154,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "南門里",
-    "latitude": 24.43118743,
-    "longitude": 118.310034,
+    "latitude": 24.43123899,
+    "longitude": 118.31003102,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3165,7 +3165,7 @@
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000047",
@@ -3187,7 +3187,7 @@
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000046",
@@ -3209,73 +3209,7 @@
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000069",
-    "name_zh": "牧馬侯祠無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮賢庵里庵前牧馬侯祠前",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "賢庵里",
-    "latitude": 24.42021056,
-    "longitude": 118.3224614,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "宗教禮儀場所",
-    "has_diaper": false,
-    "administration": "金城鎮公所",
-    "manager": "金城鎮公所觀光課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000068",
-    "name_zh": "牧馬侯祠女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮賢庵里庵前牧馬侯祠前",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "賢庵里",
-    "latitude": 24.42021056,
-    "longitude": 118.3224614,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "宗教禮儀場所",
-    "has_diaper": false,
-    "administration": "金城鎮公所",
-    "manager": "金城鎮公所觀光課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000067",
-    "name_zh": "牧馬侯祠男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮賢庵里庵前牧馬侯祠前",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "賢庵里",
-    "latitude": 24.42021056,
-    "longitude": 118.3224614,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "宗教禮儀場所",
-    "has_diaper": false,
-    "administration": "金城鎮公所",
-    "manager": "金城鎮公所觀光課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000119",
@@ -3297,7 +3231,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000032",
@@ -3319,7 +3253,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000031",
@@ -3330,8 +3264,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "瓊林里",
-    "latitude": 24.44848155,
-    "longitude": 118.3849279,
+    "latitude": 24.44852012,
+    "longitude": 118.38492634,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3341,7 +3275,73 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000068",
+    "name_zh": "牧馬侯祠女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮賢庵里庵前牧馬侯祠前",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "賢庵里",
+    "latitude": 24.42024201,
+    "longitude": 118.32245367,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "宗教禮儀場所",
+    "has_diaper": false,
+    "administration": "金城鎮公所",
+    "manager": "金城鎮公所觀光課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000069",
+    "name_zh": "牧馬侯祠無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮賢庵里庵前牧馬侯祠前",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "賢庵里",
+    "latitude": 24.42024323,
+    "longitude": 118.3224483,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "宗教禮儀場所",
+    "has_diaper": false,
+    "administration": "金城鎮公所",
+    "manager": "金城鎮公所觀光課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000067",
+    "name_zh": "牧馬侯祠男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮賢庵里庵前牧馬侯祠前",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "賢庵里",
+    "latitude": 24.4202318,
+    "longitude": 118.32245216,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "宗教禮儀場所",
+    "has_diaper": false,
+    "administration": "金城鎮公所",
+    "manager": "金城鎮公所觀光課",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000009",
@@ -3363,7 +3363,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W040000032",
@@ -3374,8 +3374,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "古寧村",
-    "latitude": 24.48526627,
-    "longitude": 118.3045097,
+    "latitude": 24.4853545,
+    "longitude": 118.30449808,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3385,7 +3385,29 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000018",
+    "name_zh": "成功海灘男廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮正義里成功海灘",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "正義里",
+    "latitude": 24.43602846,
+    "longitude": 118.38689659,
+    "grade": "優等級",
+    "grade_zh": "優等級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "公園",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000060",
@@ -3407,7 +3429,7 @@
     "has_diaper": true,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000059",
@@ -3429,29 +3451,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000018",
-    "name_zh": "成功海灘男廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮正義里成功海灘",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "正義里",
-    "latitude": 24.4359525,
-    "longitude": 118.38692721,
-    "grade": "優等級",
-    "grade_zh": "優等級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "公園",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000066",
@@ -3462,8 +3462,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "賢庵里",
-    "latitude": 24.42439432,
-    "longitude": 118.30511402,
+    "latitude": 24.42442918,
+    "longitude": 118.30509709,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3473,7 +3473,7 @@
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000043",
@@ -3484,8 +3484,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "賢庵里",
-    "latitude": 24.42439432,
-    "longitude": 118.30511402,
+    "latitude": 24.4244304,
+    "longitude": 118.30509173,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3495,7 +3495,7 @@
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000042",
@@ -3506,8 +3506,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "賢庵里",
-    "latitude": 24.42439432,
-    "longitude": 118.30511402,
+    "latitude": 24.42441697,
+    "longitude": 118.30509977,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -3517,7 +3517,7 @@
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000118",
@@ -3539,7 +3539,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000015",
@@ -3561,7 +3561,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000047",
@@ -3583,7 +3583,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000046",
@@ -3605,7 +3605,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000045",
@@ -3627,7 +3627,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000115",
@@ -3649,7 +3649,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000114",
@@ -3671,7 +3671,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000002",
@@ -3693,7 +3693,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000003",
@@ -3715,7 +3715,29 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000038",
+    "name_zh": "北基后園68號加油站公廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新湖里后園",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新湖里",
+    "latitude": 24.43863571,
+    "longitude": 118.40502815,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "混合廁所",
+    "category": "commercial",
+    "category_zh": "商業營業場所",
+    "has_diaper": false,
+    "administration": "北基國際股份有限公司",
+    "manager": "北基國際股份有限公司",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000113",
@@ -3737,7 +3759,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000106",
@@ -3759,7 +3781,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000105",
@@ -3781,7 +3803,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000104",
@@ -3803,7 +3825,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000103",
@@ -3825,7 +3847,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000102",
@@ -3847,7 +3869,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000101",
@@ -3869,7 +3891,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000100",
@@ -3891,7 +3913,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000099",
@@ -3913,7 +3935,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000098",
@@ -3935,7 +3957,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000097",
@@ -3957,7 +3979,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000095",
@@ -3979,7 +4001,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000039",
@@ -4001,7 +4023,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000038",
@@ -4023,7 +4045,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000037",
@@ -4045,7 +4067,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000034",
@@ -4067,7 +4089,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000036",
@@ -4089,7 +4111,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000035",
@@ -4111,7 +4133,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000064",
@@ -4133,29 +4155,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000038",
-    "name_zh": "北基后園68號加油站公廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新湖里后園",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新湖里",
-    "latitude": 24.43859286,
-    "longitude": 118.40518569,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "混合廁所",
-    "category": "commercial",
-    "category_zh": "商業營業場所",
-    "has_diaper": false,
-    "administration": "北基國際股份有限公司",
-    "manager": "北基國際股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000091",
@@ -4177,7 +4177,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000090",
@@ -4199,7 +4199,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000032",
@@ -4221,7 +4221,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000033",
@@ -4243,7 +4243,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000094",
@@ -4265,7 +4265,7 @@
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000014",
@@ -4287,7 +4287,7 @@
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000039",
@@ -4309,7 +4309,51 @@
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000029",
+    "name_zh": "古崗樓男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮古城里珠水路旁",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古城里",
+    "latitude": 24.39586426,
+    "longitude": 118.31528429,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000030",
+    "name_zh": "古崗樓女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮古城里珠水路旁",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古城里",
+    "latitude": 24.39586195,
+    "longitude": 118.31528538,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W010000088",
@@ -4331,73 +4375,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000029",
-    "name_zh": "古崗樓男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮古城里珠水路旁",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古城里",
-    "latitude": 24.39580769,
-    "longitude": 118.3152818,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000030",
-    "name_zh": "古崗樓女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮古城里珠水路旁",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古城里",
-    "latitude": 24.39580769,
-    "longitude": 118.3152818,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000096",
-    "name_zh": "金門港旅運中心1F入境2號女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮金水里西海路一段5號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "金水里",
-    "latitude": 24.41530125,
-    "longitude": 118.28667921,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": true,
-    "administration": "金門縣港務處",
-    "manager": "金門縣港務處行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000028",
@@ -4419,7 +4397,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000027",
@@ -4441,7 +4419,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000026",
@@ -4463,7 +4441,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000025",
@@ -4485,7 +4463,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000024",
@@ -4507,7 +4485,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000023",
@@ -4529,73 +4507,29 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W010000089",
-    "name_zh": "翟山坑道無障礙廁所",
+    "id": "W010000096",
+    "name_zh": "金門港旅運中心1F入境2號女廁",
     "name_en": "",
-    "address_zh": "金門縣金城鎮古城里翟山坑道入口處",
+    "address_zh": "金門縣金城鎮金水里西海路一段5號",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "古城里",
-    "latitude": 24.39066917,
-    "longitude": 118.32065855,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": true,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000075",
-    "name_zh": "翟山坑道女廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮古城里翟山坑道入口處",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古城里",
-    "latitude": 24.39066917,
-    "longitude": 118.32065855,
+    "area_zh": "金水里",
+    "latitude": 24.41530125,
+    "longitude": 118.28667921,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "女廁所",
     "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W010000074",
-    "name_zh": "翟山坑道男廁",
-    "name_en": "",
-    "address_zh": "金門縣金城鎮古城里翟山坑道入口處",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "古城里",
-    "latitude": 24.39066917,
-    "longitude": 118.32065855,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-04-12"
+    "category_zh": "交通",
+    "has_diaper": true,
+    "administration": "金門縣港務處",
+    "manager": "金門縣港務處行政課",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000087",
@@ -4617,7 +4551,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000089",
@@ -4639,51 +4573,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W020000041",
-    "name_zh": "文化園區E棟女廁",
-    "name_en": "",
-    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西園里",
-    "latitude": 24.49786494,
-    "longitude": 118.40303814,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣文化園區管理所",
-    "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W020000040",
-    "name_zh": "文化園區E棟男廁",
-    "name_en": "",
-    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西園里",
-    "latitude": 24.49786494,
-    "longitude": 118.40303814,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣文化園區管理所",
-    "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000088",
@@ -4705,19 +4595,85 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W010000065",
-    "name_zh": "茅山塔女廁",
+    "id": "W020000041",
+    "name_zh": "文化園區E棟女廁",
     "name_en": "",
-    "address_zh": "金門縣金城鎮金水里茅山塔停車場",
+    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "金水里",
-    "latitude": 24.40943199,
-    "longitude": 118.29032239,
+    "area_zh": "西園里",
+    "latitude": 24.49786494,
+    "longitude": 118.40303814,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣文化園區管理所",
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W020000040",
+    "name_zh": "文化園區E棟男廁",
+    "name_en": "",
+    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西園里",
+    "latitude": 24.49786494,
+    "longitude": 118.40303814,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣文化園區管理所",
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000089",
+    "name_zh": "翟山坑道無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮古城里翟山坑道入口處",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古城里",
+    "latitude": 24.39066917,
+    "longitude": 118.32065855,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": true,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000075",
+    "name_zh": "翟山坑道女廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮古城里翟山坑道入口處",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "古城里",
+    "latitude": 24.39066917,
+    "longitude": 118.32065855,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4725,21 +4681,21 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "金門縣林務所",
-    "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W010000031",
-    "name_zh": "茅山塔男廁",
+    "id": "W010000074",
+    "name_zh": "翟山坑道男廁",
     "name_en": "",
-    "address_zh": "金門縣金城鎮金水里茅山塔停車場",
+    "address_zh": "金門縣金城鎮古城里翟山坑道入口處",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "金水里",
-    "latitude": 24.40943199,
-    "longitude": 118.29032239,
+    "area_zh": "古城里",
+    "latitude": 24.39066917,
+    "longitude": 118.32065855,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -4747,9 +4703,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "金門縣林務所",
-    "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處西區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000056",
@@ -4771,7 +4727,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000125",
@@ -4793,7 +4749,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000124",
@@ -4815,29 +4771,51 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W030000047",
-    "name_zh": "新市里菜市場無障礙廁所",
+    "id": "W010000065",
+    "name_zh": "茅山塔女廁",
     "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里新市里菜市場停車場旁",
+    "address_zh": "金門縣金城鎮金水里茅山塔停車場",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44171614,
-    "longitude": 118.412988,
+    "area_zh": "金水里",
+    "latitude": 24.40948055,
+    "longitude": 118.2902509,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "commercial",
-    "category_zh": "商業營業場所",
-    "has_diaper": true,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "公園",
+    "has_diaper": false,
+    "administration": "金門縣林務所",
+    "manager": "金門縣林務所經理課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W010000031",
+    "name_zh": "茅山塔男廁",
+    "name_en": "",
+    "address_zh": "金門縣金城鎮金水里茅山塔停車場",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "金水里",
+    "latitude": 24.40947854,
+    "longitude": 118.29024838,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "金門縣林務所",
+    "manager": "金門縣林務所經理課",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000031",
@@ -4859,7 +4837,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000030",
@@ -4881,7 +4859,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000029",
@@ -4903,7 +4881,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000034",
@@ -4925,7 +4903,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000051",
@@ -4947,7 +4925,7 @@
     "has_diaper": true,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000050",
@@ -4969,7 +4947,7 @@
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000049",
@@ -4991,51 +4969,7 @@
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W020000036",
-    "name_zh": "文化園區C棟B1女廁",
-    "name_en": "",
-    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西園里",
-    "latitude": 24.49957163,
-    "longitude": 118.40360272,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣文化園區管理所",
-    "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W020000035",
-    "name_zh": "文化園區C棟B1男廁",
-    "name_en": "",
-    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西園里",
-    "latitude": 24.49957163,
-    "longitude": 118.40360272,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金門縣文化園區管理所",
-    "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000033",
@@ -5057,7 +4991,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000032",
@@ -5079,7 +5013,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000039",
@@ -5101,7 +5035,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000038",
@@ -5123,7 +5057,51 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所行政組",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W020000035",
+    "name_zh": "文化園區C棟B1男廁",
+    "name_en": "",
+    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西園里",
+    "latitude": 24.49950796,
+    "longitude": 118.40384815,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣文化園區管理所",
+    "manager": "金門縣文化園區管理所行政組",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W020000036",
+    "name_zh": "文化園區C棟B1女廁",
+    "name_en": "",
+    "address_zh": "金門縣金沙鎮西園里文化路450巷52號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西園里",
+    "latitude": 24.49959484,
+    "longitude": 118.40383776,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金門縣文化園區管理所",
+    "manager": "金門縣文化園區管理所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000037",
@@ -5134,8 +5112,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "西園里",
-    "latitude": 24.49865443,
-    "longitude": 118.40426298,
+    "latitude": 24.49874646,
+    "longitude": 118.40449456,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5145,29 +5123,7 @@
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000046",
-    "name_zh": "新市里菜市場女廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里新市里菜市場停車場旁",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44068812,
-    "longitude": 118.41443588,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "commercial",
-    "category_zh": "商業營業場所",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000006",
@@ -5178,8 +5134,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "新市里",
-    "latitude": 24.44068812,
-    "longitude": 118.41443588,
+    "latitude": 24.44070032,
+    "longitude": 118.41447221,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5189,7 +5145,51 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000047",
+    "name_zh": "新市里菜市場無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里新市里菜市場停車場旁",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.44071985,
+    "longitude": 118.41447892,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "commercial",
+    "category_zh": "商業營業場所",
+    "has_diaper": true,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000046",
+    "name_zh": "新市里菜市場女廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里新市里菜市場停車場旁",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.4407052,
+    "longitude": 118.41448562,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "commercial",
+    "category_zh": "商業營業場所",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000058",
@@ -5211,7 +5211,7 @@
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000057",
@@ -5233,7 +5233,7 @@
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000002",
@@ -5255,7 +5255,7 @@
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000054",
@@ -5277,7 +5277,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000053",
@@ -5299,7 +5299,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000052",
@@ -5321,139 +5321,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000107",
-    "name_zh": "金湖鎮立圖書館3F無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里林森路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000106",
-    "name_zh": "金湖鎮立圖書館3F女廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里林森路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000105",
-    "name_zh": "金湖鎮立圖書館3F男廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里林森路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000104",
-    "name_zh": "金湖鎮立圖書館2F無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里林森路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000103",
-    "name_zh": "金湖鎮立圖書館2F女廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里林森路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000102",
-    "name_zh": "金湖鎮立圖書館2F男廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮新市里林森路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000101",
@@ -5464,8 +5332,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
+    "latitude": 24.44200548,
+    "longitude": 118.41679769,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5475,7 +5343,73 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000102",
+    "name_zh": "金湖鎮立圖書館2F男廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里林森路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.44203551,
+    "longitude": 118.41681127,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000105",
+    "name_zh": "金湖鎮立圖書館3F男廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里林森路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.44203307,
+    "longitude": 118.41681663,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000103",
+    "name_zh": "金湖鎮立圖書館2F女廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里林森路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.44197374,
+    "longitude": 118.41680305,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000100",
@@ -5486,8 +5420,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
+    "latitude": 24.44200182,
+    "longitude": 118.41680976,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5497,7 +5431,73 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000104",
+    "name_zh": "金湖鎮立圖書館2F無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里林森路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.44200914,
+    "longitude": 118.41681378,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000106",
+    "name_zh": "金湖鎮立圖書館3F女廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里林森路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.44197862,
+    "longitude": 118.41680707,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000107",
+    "name_zh": "金湖鎮立圖書館3F無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮新市里林森路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "新市里",
+    "latitude": 24.44199205,
+    "longitude": 118.41681244,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000048",
@@ -5508,8 +5508,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "新市里",
-    "latitude": 24.44189969,
-    "longitude": 118.4167346,
+    "latitude": 24.44181475,
+    "longitude": 118.41677137,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5519,7 +5519,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000117",
@@ -5541,7 +5541,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000116",
@@ -5563,7 +5563,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000013",
@@ -5585,7 +5585,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000019",
@@ -5607,7 +5607,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000006",
@@ -5629,7 +5629,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000017",
@@ -5651,7 +5651,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000016",
@@ -5673,7 +5673,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000001",
@@ -5695,7 +5695,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000018",
@@ -5706,8 +5706,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
-    "latitude": 24.48986999,
-    "longitude": 118.4142588,
+    "latitude": 24.4898903,
+    "longitude": 118.41428429,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5717,7 +5717,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000003",
@@ -5728,8 +5728,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "汶沙里",
-    "latitude": 24.48986999,
-    "longitude": 118.4142588,
+    "latitude": 24.48989118,
+    "longitude": 118.41428462,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -5739,7 +5739,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000008",
@@ -5761,7 +5761,7 @@
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000007",
@@ -5783,7 +5783,7 @@
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "金門縣衛生福利部",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000004",
@@ -5805,7 +5805,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000005",
@@ -5827,73 +5827,7 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000026",
-    "name_zh": "九宮碼頭2號無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九宮碼頭",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.42551541,
-    "longitude": 118.26314446,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": true,
-    "administration": "金門縣港務處",
-    "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000025",
-    "name_zh": "九宮碼頭2號女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九宮碼頭",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.42551541,
-    "longitude": 118.26314446,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000024",
-    "name_zh": "九宮碼頭2號男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九宮碼頭",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.42551541,
-    "longitude": 118.26314446,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "金門縣港務處",
-    "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000123",
@@ -5915,7 +5849,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000122",
@@ -5937,73 +5871,73 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W050000049",
-    "name_zh": "四維坑道無障礙廁所",
+    "id": "W050000026",
+    "name_zh": "九宮碼頭2號無障礙廁所",
     "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村四維坑道",
+    "address_zh": "金門縣烈嶼鄉林湖村九宮碼頭",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "林湖村",
-    "latitude": 24.4242948,
-    "longitude": 118.26239433,
+    "latitude": 24.42551541,
+    "longitude": 118.26314446,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "無障礙廁所",
     "category": "other",
-    "category_zh": "觀光地區及風景區",
+    "category_zh": "交通",
     "has_diaper": true,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-04-12"
+    "administration": "金門縣港務處",
+    "manager": "金門縣港務處棧埠課",
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W050000048",
-    "name_zh": "四維坑道女廁",
+    "id": "W050000025",
+    "name_zh": "九宮碼頭2號女廁",
     "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村四維坑道",
+    "address_zh": "金門縣烈嶼鄉林湖村九宮碼頭",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "林湖村",
-    "latitude": 24.4242948,
-    "longitude": 118.26239433,
+    "latitude": 24.42551541,
+    "longitude": 118.26314446,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "女廁所",
     "category": "other",
-    "category_zh": "觀光地區及風景區",
+    "category_zh": "交通",
     "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-04-12"
+    "administration": "縣市政府",
+    "manager": "金門縣港務處棧埠課",
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W050000047",
-    "name_zh": "四維坑道男廁",
+    "id": "W050000024",
+    "name_zh": "九宮碼頭2號男廁",
     "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村四維坑道",
+    "address_zh": "金門縣烈嶼鄉林湖村九宮碼頭",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "林湖村",
-    "latitude": 24.4242948,
-    "longitude": 118.26239433,
+    "latitude": 24.42551541,
+    "longitude": 118.26314446,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "男廁所",
     "category": "other",
-    "category_zh": "觀光地區及風景區",
+    "category_zh": "交通",
     "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-04-12"
+    "administration": "金門縣港務處",
+    "manager": "金門縣港務處棧埠課",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000044",
@@ -6025,7 +5959,73 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000049",
+    "name_zh": "四維坑道無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村四維坑道",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.4242948,
+    "longitude": 118.26239433,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": true,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處烈嶼區管理站",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000048",
+    "name_zh": "四維坑道女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村四維坑道",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.4242948,
+    "longitude": 118.26239433,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處烈嶼區管理站",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000047",
+    "name_zh": "四維坑道男廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村四維坑道",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.4242948,
+    "longitude": 118.26239433,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處烈嶼區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000060",
@@ -6047,7 +6047,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000059",
@@ -6069,7 +6069,7 @@
     "has_diaper": true,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000043",
@@ -6091,7 +6091,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000042",
@@ -6113,41 +6113,19 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W050000058",
-    "name_zh": "黃厝周邊無障礙廁所",
+    "id": "W030000055",
+    "name_zh": "榕園女廁",
     "name_en": "",
-    "address_zh": "金門縣烈嶼鄉黃埔村黃厝",
+    "address_zh": "金門縣金湖鎮山外里安民",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "黃埔村",
-    "latitude": 24.44639387,
-    "longitude": 118.25445816,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000057",
-    "name_zh": "黃厝周邊女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉黃埔村黃厝",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "黃埔村",
-    "latitude": 24.44636335,
-    "longitude": 118.25445682,
+    "area_zh": "山外里",
+    "latitude": 24.44378141,
+    "longitude": 118.43013112,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6155,31 +6133,9 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000056",
-    "name_zh": "黃厝周邊男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉黃埔村黃厝",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "黃埔村",
-    "latitude": 24.44635847,
-    "longitude": 118.25445682,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
+    "administration": "金門縣林務所",
+    "manager": "金門縣林務所經理課",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000110",
@@ -6201,29 +6157,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000055",
-    "name_zh": "榕園女廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮山外里安民",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "山外里",
-    "latitude": 24.44370288,
-    "longitude": 118.43013279,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "金門縣林務所",
-    "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000012",
@@ -6234,8 +6168,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "山外里",
-    "latitude": 24.44370288,
-    "longitude": 118.43013279,
+    "latitude": 24.44373013,
+    "longitude": 118.43014453,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6245,19 +6179,41 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W050000037",
-    "name_zh": "勇士堡女廁",
+    "id": "W050000058",
+    "name_zh": "黃厝周邊無障礙廁所",
     "name_en": "",
-    "address_zh": "金門縣烈嶼鄉黃埔村黃厝勇士堡",
+    "address_zh": "金門縣烈嶼鄉黃埔村黃厝",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "黃埔村",
-    "latitude": 24.44744894,
-    "longitude": 118.25215421,
+    "latitude": 24.44639387,
+    "longitude": 118.25445816,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000057",
+    "name_zh": "黃厝周邊女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉黃埔村黃厝",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "黃埔村",
+    "latitude": 24.44636335,
+    "longitude": 118.25445682,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6266,20 +6222,20 @@
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2026-04-12"
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W050000036",
-    "name_zh": "勇士堡男廁",
+    "id": "W050000056",
+    "name_zh": "黃厝周邊男廁",
     "name_en": "",
-    "address_zh": "金門縣烈嶼鄉黃埔村黃厝勇士堡",
+    "address_zh": "金門縣烈嶼鄉黃埔村黃厝",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "黃埔村",
-    "latitude": 24.44744894,
-    "longitude": 118.25215421,
+    "latitude": 24.44635847,
+    "longitude": 118.25445682,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6288,52 +6244,30 @@
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2026-04-12"
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W050000019",
-    "name_zh": "烈嶼車站女廁",
+    "id": "W030000027",
+    "name_zh": "82據點男廁",
     "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九井路",
+    "address_zh": "金門縣金湖鎮新湖里82據點",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.4268986,
-    "longitude": 118.2571272,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000018",
-    "name_zh": "烈嶼車站男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九井路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.4268986,
-    "longitude": 118.2571272,
+    "area_zh": "新湖里",
+    "latitude": 24.42500748,
+    "longitude": 118.42756424,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "男廁所",
     "category": "other",
-    "category_zh": "交通",
+    "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "金門縣公共車船管理處",
-    "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-04-12"
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000079",
@@ -6355,7 +6289,7 @@
     "has_diaper": true,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000078",
@@ -6377,19 +6311,41 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W030000027",
-    "name_zh": "82據點男廁",
+    "id": "W050000037",
+    "name_zh": "勇士堡女廁",
     "name_en": "",
-    "address_zh": "金門縣金湖鎮新湖里82據點",
+    "address_zh": "金門縣烈嶼鄉黃埔村黃厝勇士堡",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "新湖里",
-    "latitude": 24.42491873,
-    "longitude": 118.42759877,
+    "area_zh": "黃埔村",
+    "latitude": 24.44744894,
+    "longitude": 118.25215421,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所農觀課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000036",
+    "name_zh": "勇士堡男廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉黃埔村黃厝勇士堡",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "黃埔村",
+    "latitude": 24.44744894,
+    "longitude": 118.25215421,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6397,9 +6353,53 @@
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所農觀課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000018",
+    "name_zh": "烈嶼車站男廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村九井路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.42692383,
+    "longitude": 118.25717943,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "金門縣公共車船管理處",
+    "manager": "金門縣公共車船管理處",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000019",
+    "name_zh": "烈嶼車站女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村九井路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.4268986,
+    "longitude": 118.2571272,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "縣市政府",
+    "manager": "金門縣公共車船管理處",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000056",
@@ -6421,7 +6421,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000013",
@@ -6432,8 +6432,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "官嶼里",
-    "latitude": 24.5275034,
-    "longitude": 118.40829584,
+    "latitude": 24.52762724,
+    "longitude": 118.40831922,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6443,7 +6443,29 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000011",
+    "name_zh": "東林海濱公園女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村南環道",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.42514424,
+    "longitude": 118.25105343,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "公園",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000039",
@@ -6465,7 +6487,7 @@
     "has_diaper": true,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000023",
@@ -6476,8 +6498,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "林湖村",
-    "latitude": 24.42509757,
-    "longitude": 118.25104668,
+    "latitude": 24.42512226,
+    "longitude": 118.25102929,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6487,29 +6509,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000011",
-    "name_zh": "東林海濱公園女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村南環道",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.42509757,
-    "longitude": 118.25104668,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "公園",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000097",
@@ -6531,7 +6531,7 @@
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000096",
@@ -6553,7 +6553,7 @@
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000095",
@@ -6575,7 +6575,7 @@
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000081",
@@ -6597,7 +6597,7 @@
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000080",
@@ -6619,7 +6619,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000028",
@@ -6641,7 +6641,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000021",
@@ -6663,7 +6663,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000020",
@@ -6685,7 +6685,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000012",
@@ -6696,8 +6696,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "大洋里",
-    "latitude": 24.45887351,
-    "longitude": 118.44244905,
+    "latitude": 24.45888717,
+    "longitude": 118.44245167,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6707,117 +6707,7 @@
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所經理課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000010",
-    "name_zh": "八達樓子無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九井路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.43000195,
-    "longitude": 118.24616296,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000009",
-    "name_zh": "八達樓子女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九井路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.43000195,
-    "longitude": 118.24616296,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000008",
-    "name_zh": "八達樓子男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉林湖村九井路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "林湖村",
-    "latitude": 24.43000195,
-    "longitude": 118.24616296,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000109",
-    "name_zh": "畜試所野放鹿園女廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮蓮庵里惠民富康農莊17號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "蓮庵里",
-    "latitude": 24.43480955,
-    "longitude": 118.44012669,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "金門縣畜產試驗所",
-    "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000108",
-    "name_zh": "畜試所野放鹿園男廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮蓮庵里惠民富康農莊17號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "蓮庵里",
-    "latitude": 24.43480955,
-    "longitude": 118.44012669,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "金門縣畜產試驗所",
-    "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000050",
@@ -6839,7 +6729,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000049",
@@ -6861,7 +6751,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000048",
@@ -6883,29 +6773,51 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W030000099",
-    "name_zh": "料羅海濱公園女廁",
+    "id": "W030000109",
+    "name_zh": "畜試所野放鹿園女廁",
     "name_en": "",
-    "address_zh": "金門縣金湖鎮料羅里金港路",
+    "address_zh": "金門縣金湖鎮蓮庵里惠民富康農莊17號",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "料羅里",
-    "latitude": 24.41634658,
-    "longitude": 118.43413876,
+    "area_zh": "蓮庵里",
+    "latitude": 24.43480955,
+    "longitude": 118.44012669,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "女廁所",
     "category": "other",
-    "category_zh": "公園",
+    "category_zh": "觀光地區及風景區",
     "has_diaper": false,
-    "administration": "金湖鎮公所",
-    "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "administration": "金門縣畜產試驗所",
+    "manager": "金門縣畜產試驗所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000108",
+    "name_zh": "畜試所野放鹿園男廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮蓮庵里惠民富康農莊17號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "蓮庵里",
+    "latitude": 24.43480955,
+    "longitude": 118.44012669,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "金門縣畜產試驗所",
+    "manager": "金門縣畜產試驗所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000098",
@@ -6916,8 +6828,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "料羅里",
-    "latitude": 24.41634658,
-    "longitude": 118.43413876,
+    "latitude": 24.41639585,
+    "longitude": 118.43413827,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6927,7 +6839,29 @@
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000099",
+    "name_zh": "料羅海濱公園女廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮料羅里金港路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "料羅里",
+    "latitude": 24.41640317,
+    "longitude": 118.43414364,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "公園",
+    "has_diaper": false,
+    "administration": "金湖鎮公所",
+    "manager": "金湖鎮公所",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000093",
@@ -6949,7 +6883,7 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000029",
@@ -6960,8 +6894,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "料羅里",
-    "latitude": 24.40806574,
-    "longitude": 118.430054,
+    "latitude": 24.40801378,
+    "longitude": 118.43018208,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -6971,7 +6905,73 @@
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處棧埠課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000010",
+    "name_zh": "八達樓子無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村九井路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.43004555,
+    "longitude": 118.24609939,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000008",
+    "name_zh": "八達樓子男廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村九井路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.43003578,
+    "longitude": 118.24610207,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000009",
+    "name_zh": "八達樓子女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉林湖村九井路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "林湖村",
+    "latitude": 24.43004311,
+    "longitude": 118.24608866,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000022",
@@ -6993,7 +6993,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000021",
@@ -7015,7 +7015,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000020",
@@ -7037,7 +7037,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000035",
@@ -7059,7 +7059,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000034",
@@ -7081,7 +7081,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000033",
@@ -7103,7 +7103,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000031",
@@ -7125,7 +7125,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000030",
@@ -7147,7 +7147,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000029",
@@ -7169,7 +7169,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000028",
@@ -7191,7 +7191,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000027",
@@ -7213,183 +7213,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所行政課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000051",
-    "name_zh": "衛福部金門醫院烈嶼分院無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井37號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.43090065,
-    "longitude": 118.24249501,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "社福機構、集會場所",
-    "has_diaper": false,
-    "administration": "行政院衛生福利部",
-    "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000050",
-    "name_zh": "衛福部金門醫院烈嶼分院女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井37號",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.43090065,
-    "longitude": 118.24249501,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "社福機構、集會場所",
-    "has_diaper": false,
-    "administration": "行政院衛生福利部",
-    "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000003",
-    "name_zh": "衛福部金門醫院烈嶼分院男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.43090065,
-    "longitude": 118.24249501,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "社福機構、集會場所",
-    "has_diaper": false,
-    "administration": "行政院衛生福利部",
-    "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000044",
-    "name_zh": "烈嶼鄉圖書館2F女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.42907306,
-    "longitude": 118.24294552,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000042",
-    "name_zh": "烈嶼鄉圖書館1F無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.42907306,
-    "longitude": 118.24294552,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000040",
-    "name_zh": "烈嶼鄉圖書館1F男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.42907306,
-    "longitude": 118.24294552,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000043",
-    "name_zh": "烈嶼鄉圖書館2F男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.4289141,
-    "longitude": 118.2427387,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000041",
-    "name_zh": "烈嶼鄉圖書館1F女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村后井",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.4289141,
-    "longitude": 118.2427387,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "文化育樂活動場所",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所社會課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000053",
@@ -7411,7 +7235,7 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000052",
@@ -7433,7 +7257,7 @@
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000051",
@@ -7455,29 +7279,183 @@
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
-    "id": "W030000040",
-    "name_zh": "休閒農場男廁",
+    "id": "W050000003",
+    "name_zh": "衛福部金門醫院烈嶼分院男廁",
     "name_en": "",
-    "address_zh": "金門縣金湖鎮溪湖里后壟",
+    "address_zh": "金門縣烈嶼鄉上林村后井",
     "address_en": "",
     "county_zh": "金門縣",
     "county_en": "Kinmen",
-    "area_zh": "溪湖里",
-    "latitude": 24.44667738,
-    "longitude": 118.4471109,
+    "area_zh": "上林村",
+    "latitude": 24.43094911,
+    "longitude": 118.24262861,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "男廁所",
     "category": "other",
-    "category_zh": "觀光地區及風景區",
+    "category_zh": "社福機構、集會場所",
     "has_diaper": false,
-    "administration": "金門縣農業試驗所",
-    "manager": "金門縣農業試驗所",
-    "last_updated": "2026-04-12"
+    "administration": "行政院衛生福利部",
+    "manager": "衛生福利部金門醫院烈嶼分院",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000051",
+    "name_zh": "衛福部金門醫院烈嶼分院無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村后井37號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.43090065,
+    "longitude": 118.24249501,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "社福機構、集會場所",
+    "has_diaper": false,
+    "administration": "行政院衛生福利部",
+    "manager": "衛生福利部金門醫院烈嶼分院",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000050",
+    "name_zh": "衛福部金門醫院烈嶼分院女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村后井37號",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.43090065,
+    "longitude": 118.24249501,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "社福機構、集會場所",
+    "has_diaper": false,
+    "administration": "行政院衛生福利部",
+    "manager": "衛生福利部金門醫院烈嶼分院",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000040",
+    "name_zh": "烈嶼鄉圖書館1F男廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村后井",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.42901305,
+    "longitude": 118.24285107,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所社會課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000042",
+    "name_zh": "烈嶼鄉圖書館1F無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村后井",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.42898813,
+    "longitude": 118.24282978,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所社會課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000044",
+    "name_zh": "烈嶼鄉圖書館2F女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村后井",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.42895883,
+    "longitude": 118.24278418,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所社會課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000043",
+    "name_zh": "烈嶼鄉圖書館2F男廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村后井",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.4289141,
+    "longitude": 118.2427387,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所社會課",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000041",
+    "name_zh": "烈嶼鄉圖書館1F女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村后井",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.4289141,
+    "longitude": 118.2427387,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "文化育樂活動場所",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所社會課",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000041",
@@ -7488,8 +7466,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "溪湖里",
-    "latitude": 24.44666706,
-    "longitude": 118.44714163,
+    "latitude": 24.44669737,
+    "longitude": 118.44712006,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7499,7 +7477,51 @@
     "has_diaper": false,
     "administration": "金門縣農產試驗所",
     "manager": "金門縣農產試驗所",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000040",
+    "name_zh": "休閒農場男廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮溪湖里后壟",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "溪湖里",
+    "latitude": 24.44671885,
+    "longitude": 118.44712291,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "金門縣農業試驗所",
+    "manager": "金門縣農業試驗所",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W020000010",
+    "name_zh": "楓香林男廁",
+    "name_en": "",
+    "address_zh": "金門縣金沙鎮三山里陽沙路",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "三山里",
+    "latitude": 24.4929081,
+    "longitude": 118.44457749,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處東區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000055",
@@ -7521,7 +7543,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000054",
@@ -7543,29 +7565,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W020000010",
-    "name_zh": "楓香林男廁",
-    "name_en": "",
-    "address_zh": "金門縣金沙鎮三山里陽沙路",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "三山里",
-    "latitude": 24.49286832,
-    "longitude": 118.44459437,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000009",
@@ -7587,7 +7587,7 @@
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000007",
@@ -7609,7 +7609,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W020000008",
@@ -7631,7 +7631,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處東區管理站",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000046",
@@ -7653,29 +7653,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000017",
-    "name_zh": "湖井頭戰史館女廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉西口村湖井頭",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "西口村",
-    "latitude": 24.44659804,
-    "longitude": 118.23163845,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "觀光地區及風景區",
-    "has_diaper": false,
-    "administration": "烈嶼鄉公所",
-    "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000006",
@@ -7686,8 +7664,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "西口村",
-    "latitude": 24.44659804,
-    "longitude": 118.23163845,
+    "latitude": 24.4466456,
+    "longitude": 118.23160741,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7697,7 +7675,51 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所清潔隊",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000017",
+    "name_zh": "湖井頭戰史館女廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉西口村湖井頭",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "西口村",
+    "latitude": 24.44662607,
+    "longitude": 118.23160473,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "觀光地區及風景區",
+    "has_diaper": false,
+    "administration": "烈嶼鄉公所",
+    "manager": "烈嶼鄉公所清潔隊",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W050000002",
+    "name_zh": "上林將軍廟男廁",
+    "name_en": "",
+    "address_zh": "金門縣烈嶼鄉上林村上林",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "上林村",
+    "latitude": 24.42856004,
+    "longitude": 118.22855489,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "男廁所",
+    "category": "other",
+    "category_zh": "宗教禮儀場所",
+    "has_diaper": false,
+    "administration": "內政部國家公園署",
+    "manager": "金門國家公園管理處烈嶼區管理站",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000045",
@@ -7719,73 +7741,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W050000002",
-    "name_zh": "上林將軍廟男廁",
-    "name_en": "",
-    "address_zh": "金門縣烈嶼鄉上林村上林",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "上林村",
-    "latitude": 24.42850424,
-    "longitude": 118.22848919,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "男廁所",
-    "category": "other",
-    "category_zh": "宗教禮儀場所",
-    "has_diaper": false,
-    "administration": "內政部國家公園署",
-    "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000092",
-    "name_zh": "復國墩漁港無障礙廁所",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮溪湖里復國墩漁港",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "溪湖里",
-    "latitude": 24.44686921,
-    "longitude": 118.47179406,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "無障礙廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門區漁會",
-    "last_updated": "2026-04-12"
-  },
-  {
-    "id": "W030000091",
-    "name_zh": "復國墩漁港女廁",
-    "name_en": "",
-    "address_zh": "金門縣金湖鎮溪湖里復國墩漁港",
-    "address_en": "",
-    "county_zh": "金門縣",
-    "county_en": "Kinmen",
-    "area_zh": "溪湖里",
-    "latitude": 24.44686921,
-    "longitude": 118.47179406,
-    "grade": "特優級",
-    "grade_zh": "特優級",
-    "type": "mixed",
-    "type_zh": "女廁所",
-    "category": "other",
-    "category_zh": "交通",
-    "has_diaper": false,
-    "administration": "縣市政府",
-    "manager": "金門區漁會",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W030000090",
@@ -7796,8 +7752,8 @@
     "county_zh": "金門縣",
     "county_en": "Kinmen",
     "area_zh": "溪湖里",
-    "latitude": 24.44686921,
-    "longitude": 118.47179406,
+    "latitude": 24.44657729,
+    "longitude": 118.47287044,
     "grade": "特優級",
     "grade_zh": "特優級",
     "type": "mixed",
@@ -7807,7 +7763,51 @@
     "has_diaper": false,
     "administration": "縣市政府",
     "manager": "金門區漁會",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000091",
+    "name_zh": "復國墩漁港女廁",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮溪湖里復國墩漁港",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "溪湖里",
+    "latitude": 24.44658124,
+    "longitude": 118.47287446,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "女廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "縣市政府",
+    "manager": "金門區漁會",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "W030000092",
+    "name_zh": "復國墩漁港無障礙廁所",
+    "name_en": "",
+    "address_zh": "金門縣金湖鎮溪湖里復國墩漁港",
+    "address_en": "",
+    "county_zh": "金門縣",
+    "county_en": "Kinmen",
+    "area_zh": "溪湖里",
+    "latitude": 24.44660565,
+    "longitude": 118.4728986,
+    "grade": "特優級",
+    "grade_zh": "特優級",
+    "type": "mixed",
+    "type_zh": "無障礙廁所",
+    "category": "other",
+    "category_zh": "交通",
+    "has_diaper": false,
+    "administration": "縣市政府",
+    "manager": "金門區漁會",
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000016",
@@ -7829,7 +7829,7 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   },
   {
     "id": "W050000015",
@@ -7851,6 +7851,6 @@
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所農觀課",
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-19"
   }
 ]
