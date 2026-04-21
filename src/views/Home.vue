@@ -4,6 +4,7 @@
     <section class="hero">
       <div class="hero-container">
         <div class="hero-content">
+          <div class="hero-badge">🚻 Taiwan Public Restroom Finder</div>
           <h1 class="hero-title">{{ $t('home.title') }}</h1>
           <p class="hero-subtitle">{{ $t('home.subtitle') }}</p>
           <p class="hero-description">{{ $t('home.description') }}</p>
@@ -16,7 +17,15 @@
               ℹ️ {{ $t('home.learnMore') }}
             </button>
           </div>
-          
+
+          <div class="quick-features">
+            <span class="quick-feature">🎯 {{ $t('home.features.nearest') }}</span>
+            <span class="quick-feature">🔍 {{ $t('home.features.filter') }}</span>
+            <span class="quick-feature">📱 {{ $t('home.features.responsive') }}</span>
+          </div>
+        </div>
+
+        <aside class="hero-side-panel">
           <div class="stats" v-if="stats">
             <div class="stat-item">
               <span class="stat-number">{{ stats.total_count?.toLocaleString() || '40,000+' }}</span>
@@ -31,7 +40,11 @@
               <span class="stat-label">{{ $t('home.stats.daysAgo') }}</span>
             </div>
           </div>
-        </div>
+
+          <router-link to="/map" class="panel-link">
+            📍 {{ $t('home.startButton') }}
+          </router-link>
+        </aside>
       </div>
     </section>
 
@@ -194,12 +207,32 @@ onMounted(async () => {
 }
 
 .hero-container {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
   position: relative;
   z-index: 1;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.hero-content {
+  text-align: left;
 }
 
 .hero-title {
@@ -224,8 +257,9 @@ onMounted(async () => {
 
 .hero-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .btn {
@@ -237,6 +271,12 @@ onMounted(async () => {
   border: none;
   cursor: pointer;
   font-size: 1.1rem;
+}
+
+.btn:focus-visible,
+.panel-link:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
 }
 
 .btn-primary {
@@ -260,14 +300,40 @@ onMounted(async () => {
   color: #667eea;
 }
 
-.stats {
+.quick-features {
   display: flex;
-  gap: 2rem;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.quick-feature {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+}
+
+.hero-side-panel {
+  background: rgba(19, 19, 35, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 1.5rem;
+  backdrop-filter: blur(6px);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .stat-item {
   text-align: center;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  padding: 0.9rem 0.75rem;
 }
 
 .stat-number {
@@ -281,7 +347,25 @@ onMounted(async () => {
   display: block;
   font-size: 0.9rem;
   opacity: 0.8;
-  margin-top: 0.5rem;
+  margin-top: 0.35rem;
+}
+
+.panel-link {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #667eea;
+  background: #fff;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.panel-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.2);
 }
 
 
@@ -316,11 +400,13 @@ onMounted(async () => {
   border-radius: 15px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #eef0f4;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(60, 72, 88, 0.14);
 }
 
 .feature-icon {
@@ -418,12 +504,26 @@ onMounted(async () => {
 
 /* 響應式設計 */
 @media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 2.5rem 0 3rem;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
   .hero-title {
     font-size: 2.5rem;
   }
   
   .stats {
-    justify-content: center;
+    grid-template-columns: 1fr;
   }
   
   .about-content {
@@ -440,13 +540,11 @@ onMounted(async () => {
   }
   
   .hero-actions {
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   
   .btn {
     width: 100%;
-    max-width: 300px;
   }
 }
 </style>
