@@ -352,7 +352,7 @@ onMounted(async () => {
 }
 
 .panel-link {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   justify-content: center;
   padding: 0.85rem 1rem;
