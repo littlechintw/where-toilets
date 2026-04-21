@@ -11,17 +11,17 @@
           
           <div class="hero-actions">
             <router-link to="/map" class="btn btn-primary">
-              📍 {{ $t('home.startButton') }}
+              <span aria-hidden="true">📍</span> {{ $t('home.startButton') }}
             </router-link>
             <button @click="scrollToFeatures" class="btn btn-secondary">
-              ℹ️ {{ $t('home.learnMore') }}
+              <span aria-hidden="true">ℹ️</span> {{ $t('home.learnMore') }}
             </button>
           </div>
 
           <div class="quick-features">
-            <span class="quick-feature">🎯 {{ $t('home.features.nearest') }}</span>
-            <span class="quick-feature">🔍 {{ $t('home.features.filter') }}</span>
-            <span class="quick-feature">📱 {{ $t('home.features.responsive') }}</span>
+            <span class="quick-feature"><span aria-hidden="true">🎯</span> {{ $t('home.features.nearest') }}</span>
+            <span class="quick-feature"><span aria-hidden="true">🔍</span> {{ $t('home.features.filter') }}</span>
+            <span class="quick-feature"><span aria-hidden="true">📱</span> {{ $t('home.features.responsive') }}</span>
           </div>
         </div>
 
@@ -42,7 +42,7 @@
           </div>
 
           <router-link to="/map" class="panel-link">
-            📍 {{ $t('home.startButton') }}
+            <span aria-hidden="true">📍</span> {{ $t('home.startButton') }}
           </router-link>
         </aside>
       </div>
@@ -213,7 +213,7 @@ onMounted(async () => {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 3fr 2fr;
   gap: 2rem;
   align-items: center;
 }
