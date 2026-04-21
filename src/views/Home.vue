@@ -183,6 +183,7 @@ onMounted(async () => {
 <style scoped>
 .home {
   overflow-x: hidden;
+  --hero-glass-bg: rgba(20, 20, 35, 0.45);
 }
 
 /* Hero Section */
@@ -307,7 +308,7 @@ onMounted(async () => {
 }
 
 .quick-feature {
-  background: rgba(20, 20, 35, 0.45);
+  background: var(--hero-glass-bg);
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 999px;
   padding: 0.3rem 0.8rem;
@@ -315,7 +316,7 @@ onMounted(async () => {
 }
 
 .hero-side-panel {
-  background: rgba(19, 19, 35, 0.45);
+  background: var(--hero-glass-bg);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 24px;
   padding: 1.5rem;
