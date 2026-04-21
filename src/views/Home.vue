@@ -214,7 +214,7 @@ onMounted(async () => {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 60% 40%;
   gap: 2rem;
   align-items: center;
 }
@@ -325,15 +325,9 @@ onMounted(async () => {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 0.8rem;
   margin-bottom: 1rem;
-}
-
-@media (max-width: 1024px) {
-  .stats {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 .stat-item {
