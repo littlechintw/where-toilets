@@ -4,7 +4,7 @@
     <section class="hero">
       <div class="hero-container">
         <div class="hero-content">
-          <div class="hero-badge">🚻 {{ $t('home.badge') }}</div>
+          <div class="hero-badge"><span aria-hidden="true">🚻</span> {{ $t('home.badge') }}</div>
           <h1 class="hero-title">{{ $t('home.title') }}</h1>
           <p class="hero-subtitle">{{ $t('home.subtitle') }}</p>
           <p class="hero-description">{{ $t('home.description') }}</p>
@@ -315,7 +315,7 @@ onMounted(async () => {
 }
 
 .hero-side-panel {
-  background: rgba(19, 19, 35, 0.25);
+  background: rgba(19, 19, 35, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 24px;
   padding: 1.5rem;
