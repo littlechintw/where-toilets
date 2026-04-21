@@ -307,8 +307,8 @@ onMounted(async () => {
 }
 
 .quick-feature {
-  background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(20, 20, 35, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 999px;
   padding: 0.3rem 0.8rem;
   font-size: 0.9rem;
@@ -546,7 +546,8 @@ onMounted(async () => {
   }
   
   .hero-actions {
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   
   .btn {
