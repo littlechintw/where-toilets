@@ -4,7 +4,7 @@
     <section class="hero">
       <div class="hero-container">
         <div class="hero-content">
-          <div class="hero-badge">🚻 Taiwan Public Restroom Finder</div>
+          <div class="hero-badge">🚻 {{ $t('home.badge') }}</div>
           <h1 class="hero-title">{{ $t('home.title') }}</h1>
           <p class="hero-subtitle">{{ $t('home.subtitle') }}</p>
           <p class="hero-description">{{ $t('home.description') }}</p>
@@ -327,6 +327,12 @@ onMounted(async () => {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.8rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .stat-item {
