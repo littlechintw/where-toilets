@@ -2,6 +2,7 @@ export default {
   title: 'Taiwan Toilet Map',
   subtitle: 'Find Nearby Toilets Quickly',
   description: 'Using government open data to provide toilet location information across Taiwan',
+  badge: 'Taiwan Public Restroom Finder',
   startButton: 'Get Started',
   learnMore: 'Learn More',
   features: {
