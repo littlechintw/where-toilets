@@ -4,10 +4,10 @@ export default {
   locating: '定位中...',
   customLocation: {
     title: '自訂位置',
-    placeholder: '輸入地址、地標或座標 (例：台北101, 25.0340,121.5645)',
+    placeholder: '輸入地址、地標或座標 (例：臺北101, 25.0340,121.5645)',
     searchTip: '可輸入地址、地標名稱或經緯度座標',
     searching: '搜尋中...',
-    errorOutOfRange: '座標超出台灣範圍',
+    errorOutOfRange: '座標超出臺灣範圍',
     errorNotFound: '找不到該地址，請嘗試更具體的描述',
     errorService: '地址搜尋失敗'
   },

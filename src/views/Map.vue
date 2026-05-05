@@ -306,6 +306,7 @@ import { ref, onMounted, onUnmounted, watch, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import L from 'leaflet'
 import { getUserLocation, findNearestToilets, detectUserCounty, getNearbyCounties, formatDistance, sanitizeBounds } from '../utils/geo'
+import { trackEvent } from '../utils/analytics'
 
 const { t } = useI18n()
 
@@ -617,6 +618,7 @@ const loadToiletData = async (countyList) => {
 // 使用者定位
 const locateUser = async () => {
   isLocating.value = true
+  trackEvent('locate_me', { stage: 'start' })
 
   try {
     const location = await getUserLocation()
@@ -634,8 +636,10 @@ const locateUser = async () => {
 
     // 載入附近廁所
     await updateNearbyToilets()
+    trackEvent('locate_me', { stage: 'success' })
 
   } catch (error) {
+    trackEvent('locate_me', { stage: 'fail', message: String(error?.message || error) })
     alert(`定位失敗: ${error.message}`)
   } finally {
     isLocating.value = false
@@ -648,6 +652,10 @@ const searchCustomLocation = async () => {
 
   isSearching.value = true
   searchError.value = ''
+  const _searchType = /^(-?\d+\.?\d*),\s*(-?\d+\.?\d*)$/.test(customLocationInput.value.trim())
+    ? 'coordinate'
+    : 'address'
+  trackEvent('search_location', { stage: 'start', type: _searchType })
 
   try {
     let location = null
@@ -692,10 +700,12 @@ const searchCustomLocation = async () => {
 
       // 清空搜尋框
       customLocationInput.value = ''
+      trackEvent('search_location', { stage: 'success', type: _searchType })
     }
 
   } catch (error) {
     searchError.value = error.message || '搜尋失敗，請檢查輸入格式'
+    trackEvent('search_location', { stage: 'fail', type: _searchType, message: String(error?.message || error) })
   } finally {
     isSearching.value = false
   }
@@ -1186,6 +1196,11 @@ const getToiletIcon = (toilet) => {
 const focusToilet = (toilet) => {
   selectedToilet.value = toilet
   map.value.setView([toilet.latitude, toilet.longitude], 16)
+  trackEvent('toilet_open', {
+    toilet_id: toilet?.id || toilet?.number || '',
+    grade: toilet?.grade || '',
+    type: toilet?.type || ''
+  })
 }
 
 // 重置篩選條件
@@ -1195,6 +1210,7 @@ const resetFilters = () => {
     type: '',
     hasDiaper: false
   }
+  trackEvent('reset_filters')
   console.log('篩選條件已重置')
 }
 
@@ -1243,6 +1259,12 @@ const hasChangingTable = (toilet) => {
 // 開啟導航
 const openNavigation = (toilet) => {
   const url = `https://www.google.com/maps/dir/?api=1&destination=${toilet.latitude},${toilet.longitude}`
+  trackEvent('navigation_open', {
+    provider: 'google_maps',
+    toilet_id: toilet?.id || toilet?.number || '',
+    grade: toilet?.grade || '',
+    type: toilet?.type || ''
+  })
   window.open(url, '_blank')
 }
 
@@ -1282,8 +1304,20 @@ const selectToiletFromList = (toilet) => {
 }
 
 // 監聽篩選器變化
-watch(filters, () => {
+watch(filters, (newVal, oldVal) => {
   updateMapMarkers()
+  // 找出變動的欄位送出 GA 事件（避免一次送多筆）
+  try {
+    if (newVal.grade !== oldVal?.grade) {
+      trackEvent('filter_change', { filter: 'grade', value: newVal.grade || 'all' })
+    }
+    if (newVal.type !== oldVal?.type) {
+      trackEvent('filter_change', { filter: 'type', value: newVal.type || 'all' })
+    }
+    if (newVal.hasDiaper !== oldVal?.hasDiaper) {
+      trackEvent('filter_change', { filter: 'has_diaper', value: String(newVal.hasDiaper) })
+    }
+  } catch (_) { /* noop */ }
 }, { deep: true })
 
 // 組件生命週期

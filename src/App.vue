@@ -29,12 +29,20 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { trackEvent } from './utils/analytics'
 
 const { locale, t } = useI18n()
 const lastUpdate = ref('2024-01-01') // 這會由 GitHub Actions 更新
 
 const toggleLanguage = () => {
-  locale.value = locale.value === 'zh' ? 'en' : 'zh'
+  const from = locale.value
+  const to = from === 'zh' ? 'en' : 'zh'
+  locale.value = to
+  // 同步 <html lang>，對 SEO 與螢幕閱讀器都有幫助
+  if (typeof document !== 'undefined') {
+    document.documentElement.lang = to === 'zh' ? 'zh-TW' : 'en'
+  }
+  trackEvent('language_toggle', { from, to })
 }
 </script>
 

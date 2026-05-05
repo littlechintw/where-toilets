@@ -2,25 +2,126 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Primary SEO -->
+  <title>廁所地圖｜快速找到附近的公共廁所（臺灣全島）</title>
+  <meta name="description" content="廁所地圖是一個免費的公廁查找工具，使用環境部環境管理署開放資料，一鍵定位，快速找到附近的公共廁所，含無障礙、親子廁所、尿布台等資訊，覆蓋全臺 22 縣市超過 4 萬座廁所。" />
+  <meta name="keywords" content="廁所地圖,找廁所,臺灣公廁,公共廁所,附近廁所,無障礙廁所,親子廁所,尿布台,洗手間地圖,toilet map taiwan" />
+  <meta name="author" content="littlechin.tw" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+  <meta name="googlebot" content="index,follow" />
+
+  <!-- Canonical & alternates -->
+  <link rel="canonical" href="https://toilets.littlechin.tw/" />
+  <link rel="alternate" hreflang="zh-TW" href="https://toilets.littlechin.tw/" />
+  <link rel="alternate" hreflang="en" href="https://toilets.littlechin.tw/?lang=en" />
+  <link rel="alternate" hreflang="x-default" href="https://toilets.littlechin.tw/" />
+
+  <!-- Icons -->
   <link rel="icon" type="image/svg+xml" href="/toilet-icon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="廁所地圖（非官方）- 快速找到附近的公共廁所。資料來源：環境部環境管理署。提供臺灣各地公廁位置、無障礙設施、親子廁所等資訊查詢。" />
-  <meta name="keywords" content="廁所,地圖,臺灣,公廁,洗手間,無障礙廁所,親子廁所,找廁所" />
-  <meta property="og:title" content="廁所地圖 - 快速尋找附近公廁（非官方）" />
-  <meta property="og:description" content="急著找廁所嗎？廁所地圖幫您快速定位附近的公共廁所。本站為非官方工具，資料來源：環境部環境管理署。" />
+  <link rel="apple-touch-icon" href="/toilet-icon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="廁所地圖" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_TW" />
-  <title>廁所地圖</title>
-  
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:url" content="https://toilets.littlechin.tw/" />
+  <meta property="og:title" content="廁所地圖｜快速找到附近的公共廁所（臺灣全島）" />
+  <meta property="og:description" content="一鍵定位、快速找到附近公廁。資料來自環境部環境管理署，覆蓋全臺 22 縣市超過 4 萬座廁所，含無障礙、親子廁所、尿布台資訊。" />
+  <meta property="og:image" content="https://toilets.littlechin.tw/og-image.png" />
+  <meta property="og:image:alt" content="廁所地圖 - 臺灣公廁快速查找" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="廁所地圖｜快速找到附近的公共廁所（臺灣全島）" />
+  <meta name="twitter:description" content="一鍵定位、快速找到附近公廁。資料來自環境部環境管理署，覆蓋全臺 22 縣市。" />
+  <meta name="twitter:image" content="https://toilets.littlechin.tw/og-image.png" />
+
+  <!-- JSON-LD: WebSite (with SearchAction) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "廁所地圖",
+    "alternateName": "Taiwan Toilet Map",
+    "url": "https://toilets.littlechin.tw/",
+    "inLanguage": ["zh-TW", "en"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://toilets.littlechin.tw/map?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "廁所地圖",
+    "url": "https://toilets.littlechin.tw/",
+    "applicationCategory": "TravelApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript and a modern browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "TWD"
+    },
+    "description": "免費的臺灣公共廁所查找工具，使用環境部環境管理署開放資料，覆蓋全臺 22 縣市，提供無障礙、親子廁所、尿布台等資訊。",
+    "isAccessibleForFree": true,
+    "publisher": {
+      "@type": "Organization",
+      "name": "littlechin.tw",
+      "url": "https://littlechin.tw"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Taiwan"
+    }
+  }
+  </script>
+
   <!-- Preconnect to external domains -->
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="preconnect" href="https://tile.openstreetmap.org">
-  
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin>
+  <link rel="dns-prefetch" href="https://nominatim.openstreetmap.org">
+
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" media="print" onload="this.media='all'" />
   <noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /></noscript>
+
+  <!-- Google Analytics 4 (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLLZ3Q6YKT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag('js', new Date());
+    // 先停用自動 page_view，改由 SPA router 手動追蹤，避免重複計算
+    gtag('config', 'G-ZLLZ3Q6YKT', {
+      send_page_view: false,
+      anonymize_ip: true
+    });
+  </script>
 </head>
 <body>
+  <noscript>
+    <div style="padding:1rem;text-align:center;font-family:sans-serif;">
+      此網站需要 JavaScript 才能正常使用。請啟用 JavaScript 後重新整理頁面。
+      <br />This site requires JavaScript. Please enable JavaScript and reload.
+    </div>
+  </noscript>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
 </body>

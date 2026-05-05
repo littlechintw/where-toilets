@@ -2,7 +2,7 @@ export default {
   title: '廁所地圖',
   subtitle: '快速找到附近廁所',
   description: '本站為非官方工具，資料來源：環境部環境管理署',
-  badge: '台灣公廁快速查找',
+  badge: '臺灣公廁快速查找',
   startButton: '開始使用',
   learnMore: '了解更多',
   features: {
