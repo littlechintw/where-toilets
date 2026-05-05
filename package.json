@@ -1,7 +1,12 @@
 {
   "name": "where-toilet",
   "version": "1.0.0",
-  "description": "台灣廁所地圖 - 快速找到附近廁所",
+  "description": "Taiwan Toilet Map — find the nearest public toilet across Taiwan",
+  "homepage": "https://toilets.littlechin.tw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/littlechin/where-toilets"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -31,6 +36,6 @@
     "vue",
     "public-service"
   ],
-  "author": "Your Name",
-  "license": "MIT"
+  "author": "littlechin.tw (https://littlechin.tw)",
+  "license": "SEE LICENSE IN LICENSE"
 }
