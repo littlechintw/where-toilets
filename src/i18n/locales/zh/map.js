@@ -46,12 +46,15 @@ export default {
   toiletList: {
     title: '地圖範圍內廁所',
     count: '個',
+    countSuffix: '個廁所',
     viewAll: '查看全部',
+    viewAllN: '查看全部 {count} 個廁所',
     noData: '地圖範圍內沒有找到廁所',
     needLocation: '請先允許定位或拖動地圖以顯示廁所',
     cluster: {
       title: '此區域廁所',
-      count: '個'
+      count: '個',
+      summary: '這個位置共有 {count} 個廁所'
     }
   },
   toiletInfo: {
@@ -59,6 +62,7 @@ export default {
     type: '類型',
     category: '類別',
     diaper: '尿布台',
+    diaperBadge: '有尿布台',
     distance: '距離',
     manager: '管理單位',
     address: '地址',
@@ -70,5 +74,14 @@ export default {
     locationFailed: '定位失敗',
     dataLoadFailed: '載入資料失敗',
     mapUpdateFailed: '更新地圖範圍廁所失敗'
+  },
+  loading: {
+    detectingCounty: '正在定位縣市…',
+    loadingCounty: '正在載入 {county} 的廁所資料…',
+    nearby: '附近',
+    processing: '正在處理資料…',
+    processingToilets: '正在處理廁所資料…',
+    done: '載入完成',
+    failed: '載入失敗'
   }
 }

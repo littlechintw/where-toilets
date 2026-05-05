@@ -7,6 +7,12 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toilets.littlechin.tw/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toilets.littlechin.tw/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toilets.littlechin.tw/?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toilets.littlechin.tw/?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://toilets.littlechin.tw/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://toilets.littlechin.tw/?lang=id" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toilets.littlechin.tw/?lang=th" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://toilets.littlechin.tw/?lang=fil" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toilets.littlechin.tw/" />
   </url>
   <url>
@@ -15,6 +21,17 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toilets.littlechin.tw/map" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toilets.littlechin.tw/map?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toilets.littlechin.tw/map?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toilets.littlechin.tw/map?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://toilets.littlechin.tw/map?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://toilets.littlechin.tw/map?lang=id" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toilets.littlechin.tw/map?lang=th" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://toilets.littlechin.tw/map?lang=fil" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toilets.littlechin.tw/map" />
+  </url>
+  <url>
+    <loc>https://toilets.littlechin.tw/settings</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

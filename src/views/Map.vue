@@ -3,9 +3,15 @@
     <!-- 控制面板 -->
     <div class="control-panel" :class="{ collapsed: isPanelCollapsed }">
       <div class="panel-header">
-        <h2>🚽 {{ $t('map.title') }}</h2>
-        <button @click="isPanelCollapsed = !isPanelCollapsed" class="collapse-btn">
-          {{ isPanelCollapsed ? '▶' : '◀' }}
+        <h2><span aria-hidden="true">🚽</span> {{ $t('map.title') }}</h2>
+        <button
+          @click="isPanelCollapsed = !isPanelCollapsed"
+          class="collapse-btn"
+          type="button"
+          :aria-label="isPanelCollapsed ? $t('a11y.openPanel') : $t('a11y.closePanel')"
+          :aria-expanded="(!isPanelCollapsed).toString()"
+        >
+          <span aria-hidden="true">{{ isPanelCollapsed ? '▶' : '◀' }}</span>
         </button>
       </div>
 
@@ -15,82 +21,105 @@
           <h3>{{ $t('map.customLocation.title') }}</h3>
           <div class="location-input">
             <input v-model="customLocationInput" @keyup.enter="searchCustomLocation"
-              :placeholder="$t('map.customLocation.placeholder')" class="location-search-input">
-            <button @click="searchCustomLocation" class="btn-search" :disabled="isSearching">
-              {{ isSearching ? '🔄' : '🔍' }}
+              :placeholder="$t('map.customLocation.placeholder')"
+              :aria-label="$t('map.customLocation.title')"
+              class="location-search-input">
+            <button
+              @click="searchCustomLocation"
+              class="btn-search"
+              type="button"
+              :disabled="isSearching"
+              :aria-label="$t('a11y.search')"
+            >
+              <span aria-hidden="true">{{ isSearching ? '🔄' : '🔍' }}</span>
             </button>
           </div>
           <div class="search-tips">
-            <small>💡 {{ $t('map.customLocation.searchTip') }}</small>
+            <small><span aria-hidden="true">💡</span> {{ $t('map.customLocation.searchTip') }}</small>
           </div>
-          <div v-if="searchError" class="error-message">
+          <div v-if="searchError" class="error-message" role="alert">
             {{ searchError }}
           </div>
         </div>
 
         <!-- 定位按鈕 -->
-        <button @click="locateUser" class="btn btn-primary" :disabled="isLocating">
-          <span v-if="isLocating">🔄</span>
-          <span v-else>📍</span>
+        <button
+          @click="locateUser"
+          class="btn btn-primary"
+          type="button"
+          :disabled="isLocating"
+          :aria-label="$t('a11y.locate')"
+        >
+          <span v-if="isLocating" aria-hidden="true">🔄</span>
+          <span v-else aria-hidden="true">📍</span>
           {{ isLocating ? $t('map.locating') : $t('map.locate') }}
         </button>
-
-        <!-- 使用說明 -->
-        <div class="usage-tips">
-          <div class="usage-tips-header" @click="showUsageTips = !showUsageTips">
-            <h4>💡 {{ $t('map.usageTips.title') }}</h4>
-            <span class="toggle-icon">{{ showUsageTips ? '▼' : '▶' }}</span>
-          </div>
-          <div v-show="showUsageTips" class="usage-tips-content">
-            <ul>
-              <li>📍 {{ $t('map.usageTips.tip1') }}</li>
-              <li>�️ {{ $t('map.usageTips.tip2') }}</li>
-              <li>📱 {{ $t('map.usageTips.tip3') }}</li>
-              <li>🎯 {{ $t('map.usageTips.tip4') }}</li>
-              <li>🔎 {{ $t('map.usageTips.tip5') }}</li>
-              <li>🔍 {{ $t('map.usageTips.tip6') }}</li>
-            </ul>
-          </div>
-        </div>
 
         <!-- 篩選器 -->
         <div class="filters">
           <h3>{{ $t('map.filters.title') }}</h3>
 
           <div class="filter-group">
-            <label>{{ $t('map.filters.grade.label') }}</label>
-            <select v-model="filters.grade">
-              <option value="">{{ $t('map.filters.grade.all') }}</option>
-              <option value="特優">{{ $t('map.filters.grade.excellent') }}</option>
-              <option value="優等">{{ $t('map.filters.grade.good') }}</option>
-              <option value="普通">{{ $t('map.filters.grade.fair') }}</option>
-              <option value="加強">{{ $t('map.filters.grade.needsImprovement') }}</option>
-              <option value="不合格">{{ $t('map.filters.grade.fail') }}</option>
-            </select>
+            <label class="filter-label">{{ $t('map.filters.grade.label') }}</label>
+            <div class="chip-row" role="group" :aria-label="$t('map.filters.grade.label')">
+              <button
+                v-for="opt in gradeOptions"
+                :key="opt.value || 'all'"
+                type="button"
+                class="chip"
+                :class="{ 'chip-active': filters.grade === opt.value }"
+                :aria-pressed="(filters.grade === opt.value).toString()"
+                @click="filters.grade = opt.value"
+              >
+                {{ opt.label }}
+              </button>
+            </div>
           </div>
 
           <div class="filter-group">
-            <label>{{ $t('map.filters.type.label') }}</label>
-            <select v-model="filters.type">
-              <option value="">{{ $t('map.filters.type.all') }}</option>
-              <option value="男">{{ $t('map.filters.type.male') }}</option>
-              <option value="女">{{ $t('map.filters.type.female') }}</option>
-              <option value="男女">{{ $t('map.filters.type.mixed') }}</option>
-              <option value="無障礙">{{ $t('map.filters.type.accessible') }}</option>
-              <option value="親子">{{ $t('map.filters.type.family') }}</option>
-            </select>
+            <label class="filter-label">{{ $t('map.filters.type.label') }}</label>
+            <div class="chip-row" role="group" :aria-label="$t('map.filters.type.label')">
+              <button
+                v-for="opt in typeOptions"
+                :key="opt.value || 'all'"
+                type="button"
+                class="chip"
+                :class="{ 'chip-active': filters.type === opt.value }"
+                :aria-pressed="(filters.type === opt.value).toString()"
+                @click="filters.type = opt.value"
+              >
+                <span v-if="opt.icon" aria-hidden="true">{{ opt.icon }}</span>
+                {{ opt.label }}
+              </button>
+            </div>
           </div>
 
           <div class="filter-group">
-            <label>
-              <input type="checkbox" v-model="filters.hasDiaper">
-              {{ $t('map.filters.diaper') }}
-            </label>
+            <button
+              type="button"
+              class="toggle-row"
+              :class="{ 'toggle-active': filters.hasDiaper }"
+              :aria-pressed="filters.hasDiaper.toString()"
+              @click="filters.hasDiaper = !filters.hasDiaper"
+            >
+              <span class="toggle-text">
+                <span aria-hidden="true">🍼</span> {{ $t('map.filters.diaper') }}
+              </span>
+              <span class="toggle-switch" aria-hidden="true">
+                <span class="toggle-knob"></span>
+              </span>
+            </button>
           </div>
 
-          <div class="filter-group">
-            <button @click="resetFilters" class="btn-reset">
-              🔄 {{ $t('map.filters.reset') }}
+          <div class="filter-group filter-actions">
+            <button
+              @click="resetFilters"
+              class="btn-reset-link"
+              type="button"
+              :aria-label="$t('a11y.resetFilters')"
+              :disabled="!hasActiveFilters"
+            >
+              <span aria-hidden="true">↻</span> {{ $t('map.filters.reset') }}
             </button>
           </div>
         </div>
@@ -131,35 +160,58 @@
 
         <!-- 廁所列表 -->
         <div class="toilet-list" v-if="filteredToilets.length > 0">
-          <h3>{{ $t('map.toiletList.title') }} ({{ filteredToilets.length }}個)</h3>
+          <h3>{{ $t('map.toiletList.title') }} ({{ filteredToilets.length }})</h3>
 
-          <!-- 控制面板列表（總是只顯示前5個） -->
-          <div class="control-panel-list">
-            <div class="toilet-item" v-for="toilet in displayedToilets" :key="toilet.id" @click="focusToilet(toilet)"
-              :class="{ active: selectedToilet?.id === toilet.id }">
-
-              <div class="toilet-compact-info">
-                <div class="toilet-name-row">
-                  <h4>{{ toilet.name_zh }}</h4>
-                  <span class="distance-badge">{{ formatDistance(toilet.distance) }}</span>
+          <!-- 控制面板列表（與彈窗共用同一套 result-item 樣式） -->
+          <div class="result-list result-list-inline">
+            <button
+              v-for="toilet in displayedToilets"
+              :key="toilet.id"
+              type="button"
+              class="result-item"
+              :class="{ 'result-item-active': selectedToilet?.id === toilet.id }"
+              @click="focusToilet(toilet)"
+            >
+              <div class="result-item-main">
+                <div class="result-item-row">
+                  <h4 class="result-item-name">{{ toilet.name_zh }}</h4>
+                  <span v-if="toilet.distance" class="result-item-distance">
+                    {{ formatDistance(toilet.distance) }}
+                  </span>
                 </div>
-                <p class="address-compact">{{ toilet.address_zh }}</p>
-                <div class="toilet-meta-compact">
-                  <span class="grade-compact" :class="toilet.grade">{{ toilet.grade_zh }}</span>
-                  <span class="type-compact">{{ toilet.type_zh }}</span>
-                  <span v-if="hasChangingTable(toilet)" class="feature-compact">🍼</span>
-                  <button @click.stop="openNavigation(toilet)" class="btn-nav-compact">
-                    🧭
-                  </button>
+                <p class="result-item-address">{{ toilet.address_zh }}</p>
+                <div class="result-item-badges">
+                  <span
+                    v-if="toilet.grade_zh"
+                    class="badge"
+                    :class="`badge-grade-${(toilet.grade || '').toLowerCase()}`"
+                  >
+                    {{ toilet.grade_zh }}
+                  </span>
+                  <span v-if="toilet.type_zh" class="badge badge-soft">{{ toilet.type_zh }}</span>
+                  <span v-if="hasChangingTable(toilet)" class="badge badge-soft">
+                    <span aria-hidden="true">🍼</span> {{ $t('map.toiletInfo.diaperBadge') }}
+                  </span>
                 </div>
               </div>
-            </div>
+              <span
+                class="result-item-nav"
+                role="button"
+                tabindex="0"
+                :aria-label="$t('map.toiletInfo.navigation')"
+                @click.stop="openNavigation(toilet)"
+                @keydown.enter.stop="openNavigation(toilet)"
+                @keydown.space.stop.prevent="openNavigation(toilet)"
+              >
+                <span aria-hidden="true">🧭</span>
+              </span>
+            </button>
           </div>
 
           <!-- 查看全部按鈕（當有更多項目時顯示） -->
           <div class="view-all-btn-container" v-if="filteredToilets.length > displayLimit">
             <button @click="showAllToiletsList = true" class="btn-view-all">
-              {{ $t('map.toiletList.viewAll') }} {{ filteredToilets.length }} 個廁所
+              {{ $t('map.toiletList.viewAllN', { count: filteredToilets.length }) }}
             </button>
           </div>
 
@@ -167,16 +219,21 @@
         </div>
 
         <div v-else-if="!isLoading && filteredToilets.length === 0" class="no-data">
+          <div class="empty-icon" aria-hidden="true">📍</div>
           <p>{{ userLocation ? $t('map.toiletList.noData') : $t('map.toiletList.needLocation') }}</p>
         </div>
 
-        <div v-if="isLoading" class="loading">
-          <div class="loading-spinner"></div>
-          <p>{{ $t('common.loading') }}...</p>
-          <div class="loading-progress">
-            <div class="progress-bar"></div>
+        <!-- 載入中：用 skeleton 卡片預覽，比純 spinner 感受更好 -->
+        <div v-if="isLoading" class="skeleton-list" :aria-label="$t('common.loading')" aria-busy="true">
+          <div v-for="n in 4" :key="n" class="skeleton-card">
+            <div class="skeleton skeleton-line w-70"></div>
+            <div class="skeleton skeleton-line w-90"></div>
+            <div class="skeleton-row">
+              <div class="skeleton skeleton-pill"></div>
+              <div class="skeleton skeleton-pill"></div>
+            </div>
           </div>
-          <small>{{ loadingStatus }}</small>
+          <p class="skeleton-status" v-if="loadingStatus">{{ loadingStatus }}</p>
         </div>
       </div>
     </div>
@@ -187,113 +244,235 @@
 
       <!-- 地圖控制 -->
       <div class="map-controls">
-        <button @click="locateUser" class="map-control-btn" :disabled="isLocating">
-          📍
+        <button
+          @click="locateUser"
+          class="map-control-btn"
+          type="button"
+          :disabled="isLocating"
+          :aria-label="$t('a11y.locate')"
+          :title="$t('a11y.locate')"
+        >
+          <span aria-hidden="true">{{ isLocating ? '⏳' : '📍' }}</span>
         </button>
       </div>
     </div>
 
     <!-- 聚合廁所列表彈窗 -->
-    <div v-if="showClusterList" class="toilet-modal" @click="closeClusterModal">
-      <div class="modal-content cluster-modal" @click.stop>
-        <button @click="closeClusterModal" class="close-btn">✕</button>
+    <div
+      v-if="showClusterList"
+      class="toilet-modal"
+      role="dialog"
+      aria-modal="true"
+      :aria-label="$t('map.toiletList.cluster.title')"
+      @click="closeClusterModal"
+    >
+      <div class="modal-content modal-content-v2 cluster-modal" @click.stop>
+        <button
+          @click="closeClusterModal"
+          class="close-btn"
+          type="button"
+          :aria-label="$t('common.close')"
+        >
+          <span aria-hidden="true">✕</span>
+        </button>
 
-        <h3>📍 這個位置有 {{ clusteredToilets.length }} 個廁所</h3>
+        <header class="modal-header">
+          <h3 class="modal-title">
+            <span aria-hidden="true">📍</span>
+            {{ $t('map.toiletList.cluster.title') }}
+          </h3>
+          <p class="modal-subtitle">
+            {{ $t('map.toiletList.cluster.summary', { count: clusteredToilets.length }) }}
+          </p>
+        </header>
 
-        <div class="cluster-toilet-list">
-          <div class="cluster-toilet-item" v-for="toilet in clusteredToilets" :key="toilet.id"
-            @click="selectClusterToilet(toilet)">
-
-            <div class="toilet-info">
-              <h4>{{ toilet.name_zh }}</h4>
-              <p class="address">{{ toilet.address_zh }}</p>
-              <div class="toilet-meta">
-                <span class="grade" :class="toilet.grade">{{ toilet.grade_zh }}</span>
-                <span class="type">{{ toilet.type_zh }}</span>
-                <span v-if="hasChangingTable(toilet)" class="feature">🍼 尿布台</span>
-                <span class="distance" v-if="toilet.distance">{{ formatDistance(toilet.distance) }}</span>
+        <div class="result-list">
+          <button
+            v-for="toilet in clusteredToilets"
+            :key="toilet.id"
+            type="button"
+            class="result-item"
+            @click="selectClusterToilet(toilet)"
+          >
+            <div class="result-item-main">
+              <div class="result-item-row">
+                <h4 class="result-item-name">{{ toilet.name_zh }}</h4>
+                <span v-if="toilet.distance" class="result-item-distance">
+                  {{ formatDistance(toilet.distance) }}
+                </span>
+              </div>
+              <p class="result-item-address">{{ toilet.address_zh }}</p>
+              <div class="result-item-badges">
+                <span
+                  v-if="toilet.grade_zh"
+                  class="badge"
+                  :class="`badge-grade-${(toilet.grade || '').toLowerCase()}`"
+                >
+                  {{ toilet.grade_zh }}
+                </span>
+                <span v-if="toilet.type_zh" class="badge badge-soft">{{ toilet.type_zh }}</span>
+                <span v-if="hasChangingTable(toilet)" class="badge badge-soft">
+                  <span aria-hidden="true">🍼</span> {{ $t('map.toiletInfo.diaperBadge') }}
+                </span>
               </div>
             </div>
-
-            <div class="toilet-actions">
-              <button @click.stop="openNavigation(toilet)" class="btn-nav">
-                🧭 導航
-              </button>
-            </div>
-          </div>
+            <span
+              class="result-item-nav"
+              role="button"
+              tabindex="0"
+              :aria-label="$t('map.toiletInfo.navigation')"
+              @click.stop="openNavigation(toilet)"
+              @keydown.enter.stop="openNavigation(toilet)"
+              @keydown.space.stop.prevent="openNavigation(toilet)"
+            >
+              <span aria-hidden="true">🧭</span>
+            </span>
+          </button>
         </div>
       </div>
     </div>
 
-    <!-- 全部廁所列表彈窗 -->
-    <div v-if="showAllToiletsList" class="toilet-modal" @click="closeAllToiletsModal">
-      <div class="modal-content all-toilets-modal" @click.stop>
-        <button @click="closeAllToiletsModal" class="close-btn">✕</button>
+    <!-- 全部廁所列表彈窗（與聚合彈窗共用同一套樣式） -->
+    <div
+      v-if="showAllToiletsList"
+      class="toilet-modal"
+      role="dialog"
+      aria-modal="true"
+      :aria-label="$t('map.toiletList.title')"
+      @click="closeAllToiletsModal"
+    >
+      <div class="modal-content modal-content-v2 all-toilets-modal" @click.stop>
+        <button
+          @click="closeAllToiletsModal"
+          class="close-btn"
+          type="button"
+          :aria-label="$t('common.close')"
+        >
+          <span aria-hidden="true">✕</span>
+        </button>
 
-        <h3>🗺️ {{ $t('map.toiletList.title') }} ({{ filteredToilets.length }}個)</h3>
+        <header class="modal-header">
+          <h3 class="modal-title">
+            <span aria-hidden="true">🗺️</span>
+            {{ $t('map.toiletList.title') }}
+          </h3>
+          <p class="modal-subtitle">
+            {{ $t('map.toiletList.cluster.summary', { count: filteredToilets.length }) }}
+          </p>
+        </header>
 
-        <div class="all-toilets-list">
-          <div class="all-toilet-item" v-for="toilet in filteredToilets" :key="toilet.id"
-            @click="selectToiletFromList(toilet)">
-
-            <div class="toilet-compact-info">
-              <div class="toilet-name-row">
-                <h4>{{ toilet.name_zh }}</h4>
-                <span class="distance-badge" v-if="toilet.distance">{{ formatDistance(toilet.distance) }}</span>
+        <div class="result-list">
+          <button
+            v-for="toilet in filteredToilets"
+            :key="toilet.id"
+            type="button"
+            class="result-item"
+            @click="selectToiletFromList(toilet)"
+          >
+            <div class="result-item-main">
+              <div class="result-item-row">
+                <h4 class="result-item-name">{{ toilet.name_zh }}</h4>
+                <span v-if="toilet.distance" class="result-item-distance">
+                  {{ formatDistance(toilet.distance) }}
+                </span>
               </div>
-              <p class="address-compact">{{ toilet.address_zh }}</p>
-              <div class="toilet-meta-compact">
-                <span class="grade-compact" :class="toilet.grade">{{ toilet.grade_zh }}</span>
-                <span class="type-compact">{{ toilet.type_zh }}</span>
-                <span v-if="hasChangingTable(toilet)" class="feature-compact">🍼</span>
-                <button @click.stop="openNavigation(toilet)" class="btn-nav-compact">
-                  🧭
-                </button>
+              <p class="result-item-address">{{ toilet.address_zh }}</p>
+              <div class="result-item-badges">
+                <span
+                  v-if="toilet.grade_zh"
+                  class="badge"
+                  :class="`badge-grade-${(toilet.grade || '').toLowerCase()}`"
+                >
+                  {{ toilet.grade_zh }}
+                </span>
+                <span v-if="toilet.type_zh" class="badge badge-soft">{{ toilet.type_zh }}</span>
+                <span v-if="hasChangingTable(toilet)" class="badge badge-soft">
+                  <span aria-hidden="true">🍼</span> {{ $t('map.toiletInfo.diaperBadge') }}
+                </span>
               </div>
             </div>
-          </div>
+            <span
+              class="result-item-nav"
+              role="button"
+              tabindex="0"
+              :aria-label="$t('map.toiletInfo.navigation')"
+              @click.stop="openNavigation(toilet)"
+              @keydown.enter.stop="openNavigation(toilet)"
+              @keydown.space.stop.prevent="openNavigation(toilet)"
+            >
+              <span aria-hidden="true">🧭</span>
+            </span>
+          </button>
         </div>
       </div>
     </div>
 
     <!-- 廁所詳情彈窗 -->
-    <div v-if="selectedToilet" class="toilet-modal" @click="closeModal">
-      <div class="modal-content" @click.stop>
-        <button @click="closeModal" class="close-btn">✕</button>
+    <div
+      v-if="selectedToilet"
+      class="toilet-modal"
+      role="dialog"
+      aria-modal="true"
+      :aria-label="selectedToilet.name_zh"
+      @click="closeModal"
+    >
+      <div class="modal-content modal-content-v2" @click.stop>
+        <button
+          @click="closeModal"
+          class="close-btn"
+          type="button"
+          :aria-label="$t('common.close')"
+        >
+          <span aria-hidden="true">✕</span>
+        </button>
 
-        <h3>{{ selectedToilet.name_zh }}</h3>
-        <p class="address">{{ selectedToilet.address_zh }}</p>
+        <header class="modal-header">
+          <h3 class="modal-title">{{ selectedToilet.name_zh }}</h3>
+          <div class="modal-badges">
+            <span
+              v-if="selectedToilet.grade_zh"
+              class="badge"
+              :class="`badge-grade-${(selectedToilet.grade || '').toLowerCase()}`"
+            >
+              {{ selectedToilet.grade_zh }}
+            </span>
+            <span v-if="selectedToilet.type_zh" class="badge badge-soft">
+              {{ selectedToilet.type_zh }}
+            </span>
+            <span v-if="hasChangingTable(selectedToilet)" class="badge badge-soft">
+              <span aria-hidden="true">🍼</span> {{ $t('map.filters.diaper') }}
+            </span>
+          </div>
+        </header>
 
-        <div class="toilet-details">
-          <div class="detail-item">
-            <strong>{{ $t('map.toiletInfo.grade') }}：</strong>
-            <span :class="selectedToilet.grade">{{ selectedToilet.grade_zh }}</span>
-          </div>
-          <div class="detail-item">
-            <strong>{{ $t('map.toiletInfo.type') }}：</strong>
-            {{ selectedToilet.type_zh }}
-          </div>
-          <div class="detail-item">
-            <strong>{{ $t('map.toiletInfo.category') }}：</strong>
-            {{ selectedToilet.category_zh }}
-          </div>
-          <div class="detail-item">
-            <strong>{{ $t('map.toiletInfo.diaper') }}：</strong>
-            {{ hasChangingTable(selectedToilet) ? $t('map.toiletInfo.hasDialper') : $t('map.toiletInfo.noDialper') }}
-          </div>
-          <div class="detail-item" v-if="selectedToilet.distance">
-            <strong>{{ $t('map.toiletInfo.distance') }}：</strong>
-            {{ formatDistance(selectedToilet.distance) }}
-          </div>
-          <div class="detail-item" v-if="selectedToilet.manager">
-            <strong>{{ $t('map.toiletInfo.manager') }}：</strong>
-            {{ selectedToilet.manager }}
-          </div>
+        <div v-if="selectedToilet.distance" class="distance-callout">
+          <span aria-hidden="true">📏</span>
+          <span class="distance-value">{{ formatDistance(selectedToilet.distance) }}</span>
+          <span class="distance-label">{{ $t('map.toiletInfo.distance') }}</span>
         </div>
 
+        <dl class="modal-info">
+          <div class="info-row">
+            <dt><span aria-hidden="true">📍</span> {{ $t('map.toiletInfo.address') }}</dt>
+            <dd>{{ selectedToilet.address_zh }}</dd>
+          </div>
+          <div class="info-row" v-if="selectedToilet.category_zh">
+            <dt><span aria-hidden="true">🏷️</span> {{ $t('map.toiletInfo.category') }}</dt>
+            <dd>{{ selectedToilet.category_zh }}</dd>
+          </div>
+          <div class="info-row" v-if="selectedToilet.manager">
+            <dt><span aria-hidden="true">🏢</span> {{ $t('map.toiletInfo.manager') }}</dt>
+            <dd>{{ selectedToilet.manager }}</dd>
+          </div>
+        </dl>
+
         <div class="modal-actions">
-          <button @click="openNavigation(selectedToilet)" class="btn btn-primary">
-            🧭 {{ $t('map.toiletInfo.navigation') }}
+          <button
+            @click="openNavigation(selectedToilet)"
+            class="btn-nav-primary"
+            type="button"
+          >
+            <span aria-hidden="true">🧭</span> {{ $t('map.toiletInfo.navigation') }}
           </button>
         </div>
       </div>
@@ -307,6 +486,11 @@ import { useI18n } from 'vue-i18n'
 import L from 'leaflet'
 import { getUserLocation, findNearestToilets, detectUserCounty, getNearbyCounties, formatDistance, sanitizeBounds } from '../utils/geo'
 import { trackEvent } from '../utils/analytics'
+import { hasChangingTable, toToiletEventParams } from '../utils/toilet'
+import { geocodeAddress, tryParseTwCoordinate } from '../composables/useGeocoding'
+import { useTheme } from '../composables/useTheme'
+
+const { resolved: themeResolved } = useTheme()
 
 const { t } = useI18n()
 
@@ -343,7 +527,7 @@ const mapMarkersCount = ref(0) // 地圖標記數量
 const customLocationInput = ref('')
 const isSearching = ref(false)
 const searchError = ref('')
-const showUsageTips = ref(false) // 控制使用說明的顯示/隱藏
+// (使用說明已移至 /settings 頁面)
 // (已移除) showPerformanceSettings
 
 // 更新延遲計時器
@@ -357,6 +541,31 @@ const filters = ref({
   type: '',
   hasDiaper: false
 })
+
+// 篩選器選項（chip-style UI 用）。空字串代表「全部」。
+const gradeOptions = computed(() => [
+  { value: '', label: t('map.filters.grade.all') },
+  { value: '特優', label: t('map.filters.grade.excellent') },
+  { value: '優等', label: t('map.filters.grade.good') },
+  { value: '普通', label: t('map.filters.grade.fair') },
+  { value: '加強', label: t('map.filters.grade.needsImprovement') },
+  { value: '不合格', label: t('map.filters.grade.fail') }
+])
+
+const typeOptions = computed(() => [
+  { value: '', label: t('map.filters.type.all') },
+  { value: '男', label: t('map.filters.type.male'), icon: '🚹' },
+  { value: '女', label: t('map.filters.type.female'), icon: '🚺' },
+  { value: '男女', label: t('map.filters.type.mixed'), icon: '🚻' },
+  { value: '無障礙', label: t('map.filters.type.accessible'), icon: '♿' },
+  { value: '親子', label: t('map.filters.type.family'), icon: '👶' }
+])
+
+const hasActiveFilters = computed(() =>
+  Boolean(filters.value.grade) ||
+  Boolean(filters.value.type) ||
+  filters.value.hasDiaper
+)
 
 // 計算過濾後的廁所
 const filteredToilets = computed(() => {
@@ -436,8 +645,17 @@ const filteredToilets = computed(() => {
     return true
   })
 
-  console.log('篩選後廁所數量:', filtered.length)
-  return filtered
+  // 依距離由近到遠排序：
+  //   - 有 distance 的廁所優先顯示，距離小的在前
+  //   - 沒有 distance 的（例如尚未定位）放最後，依原順序
+  const sorted = filtered.slice().sort((a, b) => {
+    const da = typeof a.distance === 'number' ? a.distance : Number.POSITIVE_INFINITY
+    const db = typeof b.distance === 'number' ? b.distance : Number.POSITIVE_INFINITY
+    return da - db
+  })
+
+  console.log('篩選後廁所數量:', sorted.length)
+  return sorted
 })
 
 // 計算顯示用的廁所列表（虛擬化列表）
@@ -504,14 +722,25 @@ const displayedToilets = computed(() => {
   return filteredToilets.value.slice(0, displayLimit.value)
 })
 
+// 地圖瓦片：固定使用 OSM 原圖；深色模式用 CSS filter 反轉（道路變亮、背景變暗，
+// 不會像 Dark Matter 那樣連街道都看不見）。詳見 .leaflet-tile-pane filter。
+let tileLayer = null
+
+const applyTileLayer = () => {
+  if (!map.value || tileLayer) return
+  tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors',
+    maxZoom: 19
+  })
+  tileLayer.addTo(map.value)
+}
+
 // 初始化地圖
 const initMap = () => {
   // 統一使用 zoom 16 作為標準找廁所層級
   map.value = L.map(mapContainer.value).setView([23.8, 121], 12)
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
-  }).addTo(map.value)
+  applyTileLayer()
 
   // 建立可拖曳的中心標記，初始位置在台北，使用標準縮放層級
   createCenterMarker([25.0330, 121.5654])
@@ -615,10 +844,16 @@ const loadToiletData = async (countyList) => {
   return allToilets
 }
 
-// 使用者定位
-const locateUser = async () => {
+/**
+ * 使用者定位
+ * @param {object} opts
+ * @param {boolean} opts.silent  失敗時不要彈出 alert（適合自動定位情境）
+ * @returns {Promise<boolean>}   是否成功
+ */
+const locateUser = async (opts = {}) => {
+  const { silent = false } = opts
   isLocating.value = true
-  trackEvent('locate_me', { stage: 'start' })
+  trackEvent('locate_me', { stage: 'start', source: silent ? 'auto' : 'manual' })
 
   try {
     const location = await getUserLocation()
@@ -636,11 +871,21 @@ const locateUser = async () => {
 
     // 載入附近廁所
     await updateNearbyToilets()
-    trackEvent('locate_me', { stage: 'success' })
+    trackEvent('locate_me', { stage: 'success', source: silent ? 'auto' : 'manual' })
+    return true
 
   } catch (error) {
-    trackEvent('locate_me', { stage: 'fail', message: String(error?.message || error) })
-    alert(`定位失敗: ${error.message}`)
+    trackEvent('locate_me', {
+      stage: 'fail',
+      source: silent ? 'auto' : 'manual',
+      message: String(error?.message || error)
+    })
+    if (!silent) {
+      alert(`${t('map.errors.locationFailed')}: ${error.message}`)
+    } else {
+      console.info('自動定位未通過，使用預設視野', error.message)
+    }
+    return false
   } finally {
     isLocating.value = false
   }
@@ -661,24 +906,17 @@ const searchCustomLocation = async () => {
     let location = null
     const input = customLocationInput.value.trim()
 
-    // 檢查是否為座標格式 (緯度,經度)
-    const coordPattern = /^(-?\d+\.?\d*),\s*(-?\d+\.?\d*)$/
-    const coordMatch = input.match(coordPattern)
-
-    if (coordMatch) {
-      // 直接使用座標
-      const lat = parseFloat(coordMatch[1])
-      const lng = parseFloat(coordMatch[2])
-
-      // 驗證座標範圍（台灣範圍）
-      if (lat >= 20 && lat <= 26 && lng >= 118 && lng <= 122) {
-        location = [lat, lng]
-      } else {
-        throw new Error(t('map.customLocation.errorOutOfRange'))
-      }
+    // 嘗試解析為「緯度,經度」座標，否則走地址 geocode
+    const parsed = tryParseTwCoordinate(input)
+    if (Array.isArray(parsed)) {
+      location = parsed
+    } else if (parsed && parsed.outOfRange) {
+      throw new Error(t('map.customLocation.errorOutOfRange'))
     } else {
-      // 使用地理編碼服務搜尋地址
-      location = await geocodeAddress(input)
+      location = await geocodeAddress(input, {
+        notFoundMessage: t('map.customLocation.errorNotFound'),
+        serviceMessage: t('map.customLocation.errorService')
+      })
     }
 
     if (location) {
@@ -711,38 +949,14 @@ const searchCustomLocation = async () => {
   }
 }
 
-// 地理編碼服務（將地址轉換為座標）
-const geocodeAddress = async (address) => {
-  try {
-    // 使用免費的 Nominatim 地理編碼服務
-    const response = await fetch(
-      `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address + ', 台灣')}&format=json&limit=1&countrycodes=tw`
-    )
-
-    if (!response.ok) {
-      throw new Error('地理編碼服務無法連接')
-    }
-
-    const data = await response.json()
-
-    if (data.length === 0) {
-      throw new Error(t('map.customLocation.errorNotFound'))
-    }
-
-    const result = data[0]
-    return [parseFloat(result.lat), parseFloat(result.lon)]
-
-  } catch (error) {
-    throw new Error('地址搜尋失敗：' + error.message)
-  }
-}
+// geocodeAddress 已抽到 src/composables/useGeocoding.js
 
 // 更新地圖範圍內的廁所
 const updateNearbyToilets = async () => {
   if (!map.value || counties.value.length === 0) return
 
   isLoading.value = true
-  loadingStatus.value = '正在定位縣市...'
+  loadingStatus.value = t('map.loading.detectingCounty')
   const loadingStartTime = Date.now()
 
   try {
@@ -753,7 +967,9 @@ const updateNearbyToilets = async () => {
     // 判斷地圖中心所在縣市
     currentCounty.value = detectUserCounty([center.lat, center.lng], counties.value)
     console.info('updateNearbyToilets center:', { lat: center.lat, lng: center.lng }, 'currentCounty:', currentCounty.value)
-    loadingStatus.value = `正在載入 ${currentCounty.value || '附近'} 的廁所資料...`
+    loadingStatus.value = t('map.loading.loadingCounty', {
+      county: currentCounty.value || t('map.loading.nearby')
+    })
 
     // 找出與當前地圖 bounds 有交集的縣市
     const overlappingCounties = counties.value.filter(c => {
@@ -812,7 +1028,7 @@ const updateNearbyToilets = async () => {
     }
     console.info('countiesData to load:', countiesData.map(c => ({ name_en: c.name_en, filename: c.filename })))
 
-    loadingStatus.value = '正在處理資料...'
+    loadingStatus.value = t('map.loading.processing')
 
     // 每次更新都增加 requestId，接收結果時檢查是否為最後一次請求，避免 race condition
     const thisRequestId = ++currentUpdateRequestId
@@ -837,7 +1053,7 @@ const updateNearbyToilets = async () => {
     console.log(`載入了 ${toilets.length} 個廁所，可見範圍內有 ${visibleToilets.length} 個`)
 
     // 不再需要效能警告 - 顯示所有廁所
-    loadingStatus.value = '正在處理廁所資料...'
+    loadingStatus.value = t('map.loading.processingToilets')
 
     // 移除智慧限制 - 顯示地圖範圍內的所有廁所
     let finalToilets = visibleToilets
@@ -866,11 +1082,11 @@ const updateNearbyToilets = async () => {
     const loadingTime = Date.now() - loadingStartTime
     console.log(`資料載入完成，耗時：${loadingTime}ms`)
 
-    loadingStatus.value = '載入完成'
+    loadingStatus.value = t('map.loading.done')
 
   } catch (error) {
     console.error('更新地圖範圍廁所失敗:', error)
-    loadingStatus.value = '載入失敗'
+    loadingStatus.value = t('map.loading.failed')
     // 移除自動重試機制 - 避免無限循環
   } finally {
     isLoading.value = false
@@ -1196,11 +1412,7 @@ const getToiletIcon = (toilet) => {
 const focusToilet = (toilet) => {
   selectedToilet.value = toilet
   map.value.setView([toilet.latitude, toilet.longitude], 16)
-  trackEvent('toilet_open', {
-    toilet_id: toilet?.id || toilet?.number || '',
-    grade: toilet?.grade || '',
-    type: toilet?.type || ''
-  })
+  trackEvent('toilet_open', toToiletEventParams(toilet))
 }
 
 // 重置篩選條件
@@ -1214,56 +1426,14 @@ const resetFilters = () => {
   console.log('篩選條件已重置')
 }
 
-// (已移除) 與手動效能設定相關的處理函式
-
-// 移除效能警告相關函數 - 不再使用
-
-// 智慧判斷是否有尿布台
-const hasChangingTable = (toilet) => {
-  const toiletName = toilet.name_zh || toilet.name || ''
-
-  // 如果明確標示有尿布台
-  if (toilet.has_diaper === true ||
-    toilet.has_diaper === 'true' ||
-    toilet.has_diaper === '是' ||
-    toilet.diaper === true ||
-    toilet.baby_care === true) {
-    return true
-  }
-
-  // 根據名稱或類型推斷
-  if (toiletName.includes('親子') ||
-    toiletName.includes('育嬰') ||
-    toiletName.includes('尿布') ||
-    toiletName.includes('baby') ||
-    toilet.type === 'family') {
-    return true
-  }
-
-  // 如果明確標示無尿布台
-  if (toilet.has_diaper === false ||
-    toilet.has_diaper === 'false' ||
-    toilet.has_diaper === '無' ||
-    toilet.has_diaper === 'no') {
-    // 但如果是親子廁所，仍然認為有尿布台（資料可能有誤）
-    if (toiletName.includes('親子') || toilet.type === 'family') {
-      return true
-    }
-    return false
-  }
-
-  // 預設值：沒有明確資料時返回 false
-  return false
-}
+// hasChangingTable 已抽到 src/utils/toilet.js
 
 // 開啟導航
 const openNavigation = (toilet) => {
   const url = `https://www.google.com/maps/dir/?api=1&destination=${toilet.latitude},${toilet.longitude}`
   trackEvent('navigation_open', {
     provider: 'google_maps',
-    toilet_id: toilet?.id || toilet?.number || '',
-    grade: toilet?.grade || '',
-    type: toilet?.type || ''
+    ...toToiletEventParams(toilet)
   })
   window.open(url, '_blank')
 }
@@ -1303,6 +1473,11 @@ const selectToiletFromList = (toilet) => {
   map.value.setView([toilet.latitude, toilet.longitude], 16)
 }
 
+// 主題切換時不需要重建瓦片（用 CSS filter 處理深色），只送一筆事件
+watch(themeResolved, (val) => {
+  trackEvent('theme_applied_to_map', { resolved: val })
+})
+
 // 監聽篩選器變化
 watch(filters, (newVal, oldVal) => {
   updateMapMarkers()
@@ -1325,19 +1500,14 @@ onMounted(async () => {
   await loadCounties()
   initMap()
 
-  // 載入初始位置的廁所資料
-  await updateNearbyToilets()
-
-  // 嘗試自動定位（如果使用者之前允許過）
-  if (navigator.permissions) {
-    try {
-      const permission = await navigator.permissions.query({ name: 'geolocation' })
-      if (permission.state === 'granted') {
-        locateUser()
-      }
-    } catch (error) {
-      // 忽略權限查詢錯誤
-    }
+  // 進入地圖頁直接嘗試定位：
+  //   - 已授權：立即取得位置並載入附近廁所
+  //   - 未授權：瀏覽器跳出原生權限提示，使用者選擇後處理
+  //   - 拒絕 / 失敗：silent 模式不彈 alert，fallback 到預設視野
+  const ok = await locateUser({ silent: true })
+  if (!ok) {
+    // 沒有定位成功時也至少載入預設視野的資料，避免畫面空白
+    await updateNearbyToilets()
   }
 })
 
@@ -1354,15 +1524,19 @@ onUnmounted(() => {
 <style scoped>
 .map-page {
   display: flex;
-  height: calc(100vh - 115px);
-  /* 減去 navbar 和更矮的 footer 的高度 */
+  /* dvh 解決 iOS Safari 網址列造成的高度問題 */
+  height: calc(100vh - var(--nav-h) - var(--footer-h));
+  height: calc(100dvh - var(--nav-h) - var(--footer-h));
   position: relative;
+  overflow: hidden;
+  overscroll-behavior: contain;
 }
 
 .control-panel {
   width: 350px;
-  background: white;
-  border-right: 1px solid #ddd;
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-right: 1px solid var(--color-border);
   display: flex;
   flex-direction: column;
   transition: width 0.3s;
@@ -1375,11 +1549,11 @@ onUnmounted(() => {
 
 .panel-header {
   padding: 1rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-border);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f8f9fa;
+  background: var(--color-surface-2);
 }
 
 .panel-header h2 {
@@ -1393,11 +1567,22 @@ onUnmounted(() => {
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.5rem;
+  color: var(--color-text-muted);
+  border-radius: 6px;
+}
+
+.collapse-btn:hover {
+  background: var(--color-primary-soft);
+  color: var(--color-text);
 }
 
 .panel-content {
   flex: 1;
   overflow-y: auto;
+  /* 重要：防止內部捲動到底時把外部一起拉動（iOS 上會把 body 帶起來，
+     讓內容滑到 navbar 後面看起來像被覆蓋） */
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   padding: 1rem;
 }
 
@@ -1408,7 +1593,7 @@ onUnmounted(() => {
 .custom-location h3 {
   margin: 0 0 1rem 0;
   font-size: 1.1rem;
-  color: #333;
+  color: var(--color-text);
 }
 
 .location-input {
@@ -1420,31 +1605,37 @@ onUnmounted(() => {
 .location-search-input {
   flex: 1;
   padding: 0.75rem;
-  border: 1px solid #ddd;
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   font-size: 0.9rem;
 }
 
+.location-search-input::placeholder {
+  color: var(--color-text-soft);
+}
+
 .location-search-input:focus {
   outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-soft);
 }
 
 .btn-search {
   padding: 0.75rem 1rem;
-  background: #28a745;
-  color: white;
+  background: var(--color-cta-bg);
+  color: var(--color-cta-fg);
   border: none;
   border-radius: 8px;
   cursor: pointer;
   font-size: 0.9rem;
   min-width: 50px;
-  transition: background-color 0.3s;
+  transition: background-color 0.18s ease;
 }
 
 .btn-search:hover:not(:disabled) {
-  background: #218838;
+  background: var(--color-cta-bg-hover);
 }
 
 .btn-search:disabled {
@@ -1457,40 +1648,47 @@ onUnmounted(() => {
 }
 
 .search-tips small {
-  color: #666;
+  color: var(--color-text-soft);
   font-style: italic;
 }
 
 .usage-tips {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   margin: 1rem 0;
   overflow: hidden;
 }
 
 .usage-tips-header {
+  width: 100%;
   padding: 1rem;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.18s ease;
+  /* override 預設按鈕樣式，因為這是用 button 取代 div */
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
 }
 
 .usage-tips-header:hover {
-  background: #e9ecef;
+  background: var(--color-primary-soft);
 }
 
 .usage-tips-header h4 {
   margin: 0;
   font-size: 1rem;
-  color: #495057;
+  color: var(--color-text);
 }
 
 .toggle-icon {
   font-size: 0.9rem;
-  color: #6c757d;
+  color: var(--color-text-soft);
   transition: transform 0.3s ease;
 }
 
@@ -1505,7 +1703,7 @@ onUnmounted(() => {
 }
 
 .usage-tips-content li {
-  color: #6c757d;
+  color: var(--color-text-muted);
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
   line-height: 1.4;
@@ -1524,12 +1722,17 @@ onUnmounted(() => {
 }
 
 .error-message {
-  background: #f8d7da;
-  color: #721c24;
-  padding: 0.5rem;
-  border-radius: 4px;
+  background: rgba(185, 28, 28, 0.08);
+  color: var(--color-danger);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
   font-size: 0.85rem;
-  border: 1px solid #f5c6cb;
+  border: 1px solid rgba(185, 28, 28, 0.2);
+}
+
+[data-theme="dark"] .error-message {
+  background: rgba(248, 113, 113, 0.12);
+  border-color: rgba(248, 113, 113, 0.35);
 }
 
 .btn {
@@ -1540,16 +1743,17 @@ onUnmounted(() => {
   font-weight: 600;
   cursor: pointer;
   margin-bottom: 1rem;
-  transition: all 0.3s;
+  transition: background 0.18s ease, transform 0.1s ease;
 }
 
 .btn-primary {
-  background: #007bff;
-  color: white;
+  background: var(--color-cta-bg);
+  color: var(--color-cta-fg);
 }
 
 .btn-primary:hover:not(:disabled) {
-  background: #0056b3;
+  background: var(--color-cta-bg-hover);
+  transform: translateY(-1px);
 }
 
 .btn:disabled {
@@ -1560,45 +1764,158 @@ onUnmounted(() => {
 .filters h3 {
   margin: 1.5rem 0 1rem 0;
   font-size: 1.1rem;
-  color: #333;
+  color: var(--color-text);
 }
 
 .filter-group {
   margin-bottom: 1rem;
 }
 
-.filter-group label {
+.filter-label {
   display: block;
   margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--color-text-soft, #64748b);
+  letter-spacing: 0.02em;
+}
+
+/* ===== Chip-style filter ===== */
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill, 999px);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
   font-weight: 500;
-  color: #555;
-}
-
-.filter-group select {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.filter-group input[type="checkbox"] {
-  margin-right: 0.5rem;
-}
-
-.btn-reset {
-  width: 100%;
-  padding: 0.5rem;
-  background: #dc3545;
-  color: white;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
-  font-size: 0.9rem;
-  transition: background-color 0.3s;
+  min-height: 32px;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.1s ease;
 }
 
-.btn-reset:hover {
-  background: #c82333;
+.chip:hover {
+  background: var(--color-primary-soft);
+  color: var(--color-text);
+  border-color: var(--color-primary);
+}
+
+.chip:active {
+  transform: scale(0.97);
+}
+
+.chip-active,
+.chip[aria-pressed="true"] {
+  background: var(--color-cta-bg);
+  color: var(--color-cta-fg);
+  border-color: var(--color-cta-bg);
+}
+
+.chip-active:hover {
+  background: var(--color-cta-bg-hover);
+  color: var(--color-cta-fg);
+  border-color: var(--color-cta-bg-hover);
+}
+
+/* ===== Toggle row（取代 checkbox） ===== */
+.toggle-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.6rem 0.85rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md, 10px);
+  cursor: pointer;
+  font: inherit;
+  color: var(--color-text);
+  transition: background 0.18s ease, border-color 0.18s ease;
+}
+
+.toggle-row:hover {
+  background: var(--color-surface-2);
+}
+
+.toggle-row.toggle-active {
+  border-color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.toggle-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  background: #cbd5e1;
+  border-radius: 999px;
+  flex-shrink: 0;
+  transition: background 0.18s ease;
+}
+
+.toggle-row.toggle-active .toggle-switch {
+  background: var(--color-text, #0f172a);
+}
+
+.toggle-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 999px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.18s ease;
+}
+
+.toggle-row.toggle-active .toggle-knob {
+  transform: translateX(16px);
+}
+
+/* ===== Reset link button（不再是大紅按鈕） ===== */
+.filter-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.btn-reset-link {
+  background: transparent;
+  color: var(--color-text-soft, #64748b);
+  border: none;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border-radius: var(--radius-sm, 6px);
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.btn-reset-link:hover:not(:disabled) {
+  background: var(--color-primary-soft, rgba(91, 108, 255, 0.08));
+  color: var(--color-text, #0f172a);
+}
+
+.btn-reset-link:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 /* 效能設定樣式 */
@@ -1832,27 +2149,28 @@ onUnmounted(() => {
 .toilet-list h3 {
   margin: 1.5rem 0 1rem 0;
   font-size: 1.1rem;
-  color: #333;
+  color: var(--color-text);
 }
 
 .toilet-item {
-  background: #f8f9fa;
-  border: 1px solid #ddd;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 0.75rem;
   margin-bottom: 0.5rem;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: background 0.18s ease, border-color 0.18s ease;
 }
 
 .toilet-item:hover {
-  background: #e9ecef;
-  border-color: #007bff;
+  background: var(--color-primary-soft);
+  border-color: var(--color-primary);
 }
 
 .toilet-item.active {
-  background: #e3f2fd;
-  border-color: #007bff;
+  background: var(--color-primary-soft);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 1px var(--color-primary) inset;
 }
 
 .toilet-compact-info {
@@ -1869,7 +2187,7 @@ onUnmounted(() => {
 .toilet-name-row h4 {
   margin: 0;
   font-size: 0.95rem;
-  color: #333;
+  color: var(--color-text);
   flex: 1;
   white-space: nowrap;
   overflow: hidden;
@@ -1878,18 +2196,18 @@ onUnmounted(() => {
 }
 
 .distance-badge {
-  background: #007bff;
-  color: white;
+  background: var(--color-primary);
+  color: var(--color-text-on-primary);
   font-size: 0.75rem;
   padding: 0.2rem 0.4rem;
   border-radius: 12px;
   white-space: nowrap;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .address-compact {
   font-size: 0.8rem;
-  color: #666;
+  color: var(--color-text-soft);
   margin: 0 0 0.4rem 0;
   line-height: 1.2;
   display: -webkit-box;
@@ -1906,63 +2224,54 @@ onUnmounted(() => {
   flex-wrap: wrap;
 }
 
+/* 等級徽章——維持以顏色 + 文字雙重編碼，符合色盲友善 */
 .grade-compact,
 .type-compact {
   font-size: 0.7rem;
-  padding: 0.15rem 0.3rem;
+  padding: 0.15rem 0.4rem;
   border-radius: 8px;
-  background: #e9ecef;
-  color: #495057;
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
   white-space: nowrap;
+  font-weight: 600;
 }
 
-.grade-compact.excellent {
-  background: #d4edda;
-  color: #155724;
-}
+/* 等級色：背景柔和、文字深，光模式下對比 ≥ 4.5:1 */
+.grade-compact.excellent { background: #d1fae5; color: #065f46; border-color: transparent; }
+.grade-compact.good      { background: #dbeafe; color: #1e40af; border-color: transparent; }
+.grade-compact.fair      { background: #fef3c7; color: #854d0e; border-color: transparent; }
+.grade-compact.needs_improvement { background: #ffedd5; color: #9a3412; border-color: transparent; }
+.grade-compact.fail      { background: #fee2e2; color: #991b1b; border-color: transparent; }
 
-.grade-compact.good {
-  background: #d1ecf1;
-  color: #0c5460;
-}
-
-.grade-compact.fair {
-  background: #fff3cd;
-  color: #856404;
-}
-
-.grade-compact.needs_improvement {
-  background: #f8d7da;
-  color: #721c24;
-}
-
-.grade-compact.fail {
-  background: #f5c6cb;
-  color: #721c24;
-}
+[data-theme="dark"] .grade-compact.excellent { background: rgba(74, 222, 128, 0.18); color: #6ee7b7; }
+[data-theme="dark"] .grade-compact.good      { background: rgba(96, 165, 250, 0.18); color: #93c5fd; }
+[data-theme="dark"] .grade-compact.fair      { background: rgba(251, 191, 36, 0.18); color: #fcd34d; }
+[data-theme="dark"] .grade-compact.needs_improvement { background: rgba(251, 146, 60, 0.18); color: #fdba74; }
+[data-theme="dark"] .grade-compact.fail      { background: rgba(248, 113, 113, 0.20); color: #fca5a5; }
 
 .feature-compact {
-  font-size: 0.8rem;
-  background: #fff3cd;
-  padding: 0.15rem 0.25rem;
+  font-size: 0.85rem;
+  background: var(--color-primary-soft);
+  padding: 0.1rem 0.3rem;
   border-radius: 6px;
-  color: #856404;
 }
 
 .btn-nav-compact {
-  background: #28a745;
-  color: white;
+  background: var(--color-cta-bg);
+  color: var(--color-cta-fg);
   border: none;
-  padding: 0.2rem 0.4rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 6px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   cursor: pointer;
   margin-left: auto;
-  transition: background-color 0.3s;
+  transition: background-color 0.18s ease, transform 0.1s ease;
 }
 
 .btn-nav-compact:hover {
-  background: #218838;
+  background: var(--color-cta-bg-hover);
+  transform: translateY(-1px);
 }
 
 .view-all-btn-container {
@@ -1971,20 +2280,20 @@ onUnmounted(() => {
 }
 
 .btn-view-all {
-  background: #007bff;
-  color: white;
+  background: var(--color-cta-bg);
+  color: var(--color-cta-fg);
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-size: 0.9rem;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
   width: 100%;
-  transition: background-color 0.3s;
+  transition: background-color 0.18s ease;
 }
 
 .btn-view-all:hover {
-  background: #0056b3;
+  background: var(--color-cta-bg-hover);
 }
 
 .map-container {
@@ -2002,16 +2311,59 @@ onUnmounted(() => {
   top: 1rem;
   right: 1rem;
   z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .map-control-btn {
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  line-height: 1;
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border-strong);
+  border-radius: 12px;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18), 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.map-control-btn:hover:not(:disabled) {
+  background: var(--color-primary-soft);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.map-control-btn:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.map-control-btn:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.map-control-btn:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+/* 深色：用較亮的邊框 + 強陰影，讓按鈕在深色地圖上仍然明顯 */
+[data-theme="dark"] .map-control-btn {
+  background: #1c2742;
+  color: #f8fafc;
+  border-color: #4a5b80;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+}
+
+[data-theme="dark"] .map-control-btn:hover:not(:disabled) {
+  background: #2a3858;
+  border-color: #6b7ba6;
 }
 
 .toilet-modal {
@@ -2028,13 +2380,17 @@ onUnmounted(() => {
 }
 
 .modal-content {
-  background: white;
+  background: var(--color-surface);
+  color: var(--color-text);
   border-radius: 12px;
   padding: 2rem;
   max-width: 400px;
   width: 90%;
   max-height: 80vh;
+  max-height: 80dvh;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   position: relative;
 }
 
@@ -2046,7 +2402,7 @@ onUnmounted(() => {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #666;
+  color: var(--color-text-soft);
 }
 
 .toilet-details {
@@ -2065,7 +2421,7 @@ onUnmounted(() => {
 .loading,
 .no-data {
   text-align: center;
-  color: #666;
+  color: var(--color-text-soft);
   margin: 2rem 0;
 }
 
@@ -2073,8 +2429,8 @@ onUnmounted(() => {
 @media (max-width: 768px) {
   .map-page {
     flex-direction: column;
-    height: calc(100vh - 115px);
-    /* 調整手機版高度 */
+    height: calc(100vh - var(--nav-h) - var(--footer-h));
+    height: calc(100dvh - var(--nav-h) - var(--footer-h));
   }
 
   .control-panel {
@@ -2085,7 +2441,7 @@ onUnmounted(() => {
   }
 
   .control-panel.collapsed {
-    height: 60px;
+    height: 56px;
     width: 100%;
   }
 
@@ -2111,10 +2467,634 @@ onUnmounted(() => {
     width: calc(100% - 2rem);
   }
 }
+
+/* ===== Skeleton loading ===== */
+.skeleton-list {
+  padding: 0.5rem 0;
+}
+
+.skeleton-card {
+  background: #fff;
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--radius-md, 10px);
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.65rem;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f1f5f9 0%, #e2e8f0 50%, #f1f5f9 100%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+.skeleton-line {
+  height: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.w-70 { width: 70%; }
+.w-90 { width: 90%; }
+
+.skeleton-row {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.skeleton-pill {
+  width: 56px;
+  height: 18px;
+  border-radius: 999px;
+}
+
+.skeleton-status {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-text-soft, #64748b);
+  margin: 0.5rem 0 0;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* 尊重使用者偏好：減少動畫 */
+@media (prefers-reduced-motion: reduce) {
+  .skeleton {
+    animation: none;
+  }
+}
+
+/* ===== Empty state ===== */
+.empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+}
+
+/* ===== Modal v2 ===== */
+.modal-content-v2 {
+  padding: 1.5rem 1.5rem 1.25rem;
+  max-width: 440px;
+  border-radius: 16px;
+  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.18), 0 4px 12px rgba(15, 23, 42, 0.06);
+  border: 1px solid var(--color-border, #e5e7eb);
+}
+
+.modal-header {
+  margin-bottom: 1rem;
+  padding-right: 2rem; /* 給右上角 close-btn 留位 */
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: var(--color-text, #0f172a);
+  margin: 0 0 0.65rem 0;
+}
+
+.modal-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: var(--color-text-muted, #475569);
+}
+
+.badge-soft {
+  background: var(--color-primary-soft, rgba(91, 108, 255, 0.08));
+  color: var(--color-primary, #5b6cff);
+}
+
+/* 等級徽章顏色 */
+.badge-grade-excellent,
+.badge-grade-special,
+.badge-grade-特優 {
+  background: #ecfdf5;
+  color: #047857;
+}
+.badge-grade-good,
+.badge-grade-優等 {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+.badge-grade-fair,
+.badge-grade-普通 {
+  background: #fef3c7;
+  color: #92400e;
+}
+.badge-grade-needsImprovement,
+.badge-grade-加強 {
+  background: #fff7ed;
+  color: #c2410c;
+}
+.badge-grade-fail,
+.badge-grade-不合格 {
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.distance-callout {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.85rem;
+  background: var(--color-primary-soft, rgba(91, 108, 255, 0.08));
+  border-radius: var(--radius-md, 10px);
+  color: var(--color-primary, #5b6cff);
+}
+
+.distance-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.distance-label {
+  font-size: 0.8rem;
+  color: var(--color-text-soft, #64748b);
+}
+
+.modal-info {
+  margin: 0 0 1.25rem;
+  padding: 0;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.15rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-row dt {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-text-soft, #64748b);
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.info-row dd {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-text, #0f172a);
+  line-height: 1.5;
+}
+
+.btn-nav-primary {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.25rem;
+  background: var(--color-text, #0f172a);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.1s ease, box-shadow 0.18s ease;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.18);
+}
+
+.btn-nav-primary:hover {
+  background: #1e293b;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.24);
+}
+
+.btn-nav-primary:active {
+  transform: translateY(0);
+}
+
+.modal-content-v2 .close-btn {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-size: 1.1rem;
+  color: var(--color-text-soft, #64748b);
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.modal-content-v2 .close-btn:hover {
+  background: #f1f5f9;
+  color: var(--color-text, #0f172a);
+}
+
+/* =============================================
+   Dark mode 覆寫
+   原本 Map.vue 大量使用寫死的色碼（#fff、#f8f9fa、#666...），
+   這裡集中一次覆寫，避免動到散在各處的 selector。
+   所有色彩對 #0b1220 背景對比度都通過 WCAG AA（>= 4.5:1）。
+   ============================================= */
+
+/* 廣泛文字色覆寫（針對 Map.vue 內各種寫死的灰階） */
+[data-theme="dark"] .filters h3,
+[data-theme="dark"] .panel-header h2,
+[data-theme="dark"] .filter-group label,
+[data-theme="dark"] .toilet-item h4,
+[data-theme="dark"] .modal-content h3,
+[data-theme="dark"] .modal-content h4,
+[data-theme="dark"] .toilet-info h4,
+[data-theme="dark"] .grade-compact,
+[data-theme="dark"] .type-compact {
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .address,
+[data-theme="dark"] .address-compact,
+[data-theme="dark"] .toilet-meta-compact,
+[data-theme="dark"] .toilet-meta,
+[data-theme="dark"] .search-tips small,
+[data-theme="dark"] .filter-label,
+[data-theme="dark"] .detail-item,
+[data-theme="dark"] .modal-content p {
+  color: var(--color-text-muted);
+}
+
+[data-theme="dark"] .no-data,
+[data-theme="dark"] .skeleton-status,
+[data-theme="dark"] .toggle-icon,
+[data-theme="dark"] .loading,
+[data-theme="dark"] small {
+  color: var(--color-text-soft);
+}
+
+[data-theme="dark"] .panel-header,
+[data-theme="dark"] .filters,
+[data-theme="dark"] .usage-tips {
+  background: var(--color-surface-2);
+}
+
+[data-theme="dark"] .usage-tips {
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .usage-tips-header:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="dark"] .filters h3,
+[data-theme="dark"] .panel-header h2 {
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .toilet-item {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .toilet-item:hover {
+  background: var(--color-surface-2);
+}
+
+[data-theme="dark"] .toilet-item.active {
+  background: var(--color-primary-soft);
+}
+
+[data-theme="dark"] .toilet-item h4 {
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .address-compact,
+[data-theme="dark"] .toilet-meta-compact {
+  color: var(--color-text-soft);
+}
+
+[data-theme="dark"] .chip {
+  background: var(--color-surface-2);
+  color: var(--color-text-muted);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .chip:hover {
+  background: rgba(129, 140, 248, 0.12);
+  color: var(--color-text);
+  border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .chip-active,
+[data-theme="dark"] .chip[aria-pressed="true"] {
+  background: var(--color-primary);
+  color: #0b1220;
+  border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .toggle-row {
+  background: var(--color-surface-2);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .toggle-row:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="dark"] .toggle-row.toggle-active {
+  background: rgba(129, 140, 248, 0.1);
+  border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .toggle-row.toggle-active .toggle-switch {
+  background: var(--color-primary);
+}
+
+[data-theme="dark"] .toilet-modal {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+[data-theme="dark"] .modal-content-v2 {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .info-row {
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .info-row dd {
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .badge {
+  background: var(--color-surface-2);
+  color: var(--color-text-muted);
+}
+
+[data-theme="dark"] .modal-content-v2 .close-btn:hover {
+  background: var(--color-surface-2);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .skeleton {
+  background: linear-gradient(90deg, #1a2238 0%, #243049 50%, #1a2238 100%);
+  background-size: 200% 100%;
+}
+
+[data-theme="dark"] .skeleton-card {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .no-data,
+[data-theme="dark"] .skeleton-status {
+  color: var(--color-text-soft);
+}
+
+[data-theme="dark"] .location-search-input {
+  background: var(--color-surface-2);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .location-search-input::placeholder {
+  color: var(--color-text-soft);
+}
+
+[data-theme="dark"] .btn-search {
+  background: var(--color-primary);
+  color: #0b1220;
+}
+
+/* map-control-btn 的深色覆寫已移到該元件附近 */
+
+[data-theme="dark"] .toggle-icon {
+  color: var(--color-text-soft);
+}
+
+[data-theme="dark"] .search-tips small,
+[data-theme="dark"] .filter-label {
+  color: var(--color-text-soft);
+}
+
+[data-theme="dark"] .error-message {
+  background: rgba(220, 53, 69, 0.15);
+  color: #f87171;
+}
+
+[data-theme="dark"] .distance-callout {
+  background: rgba(129, 140, 248, 0.12);
+}
+
+/* ===== Cluster modal v2 ===== */
+.cluster-modal {
+  max-width: 520px;
+}
+
+.modal-subtitle {
+  font-size: 0.88rem;
+  color: var(--color-text-soft, #64748b);
+  margin: 0;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0;
+  max-height: 56vh;
+  max-height: 56dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 在側邊面板內顯示時，外面已經有 .panel-content 在處理捲動，
+   不需要再一層內捲，也不限制高度 */
+.result-list-inline {
+  max-height: none;
+  overflow: visible;
+  margin-top: 0.75rem;
+}
+
+/* 使用者點選一筆時的 active 狀態（從 .toilet-item 對應移植過來） */
+.result-item.result-item-active {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 1px var(--color-primary) inset;
+  background: var(--color-primary-soft);
+}
+
+.result-item {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 0.75rem;
+  background: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.1s ease;
+}
+
+.result-item:hover {
+  background: var(--color-primary-soft, rgba(91, 108, 255, 0.06));
+  border-color: var(--color-primary, #5b6cff);
+}
+
+.result-item:active {
+  transform: scale(0.99);
+}
+
+.result-item-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.result-item-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.result-item-name {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--color-text, #0f172a);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-item-distance {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-primary, #5b6cff);
+  flex-shrink: 0;
+}
+
+.result-item-address {
+  font-size: 0.82rem;
+  color: var(--color-text-soft, #64748b);
+  margin: 0;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-item-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.25rem;
+}
+
+.result-item-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  flex-shrink: 0;
+  background: var(--color-text, #0f172a);
+  color: #fff;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.1s ease;
+}
+
+.result-item-nav:hover {
+  background: #1e293b;
+}
+
+.result-item-nav:active {
+  transform: scale(0.94);
+}
+
+[data-theme="dark"] .result-item {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .result-item:hover {
+  background: var(--color-primary-soft);
+}
+
+[data-theme="dark"] .result-item-name,
+[data-theme="dark"] .result-item-address {
+  color: inherit;
+}
+
+[data-theme="dark"] .result-item-nav {
+  background: var(--color-primary);
+  color: #0b1220;
+}
 </style>
 
 <style>
-/* Leaflet 自定義樣式 */
+/* =============================================
+   Leaflet 自定義樣式
+   ============================================= */
+
+/* Dark mode：用 CSS filter 反轉地圖瓦片
+   - invert(1) 把白底/灰路 → 黑底/亮路
+   - hue-rotate(180deg) 把藍色海洋與綠色公園的色相轉回來
+   - brightness(0.95) 微降亮度避免太刺眼
+   - 只套在 tile-pane，不影響 markers/popups/controls */
+[data-theme="dark"] .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.85) saturate(0.8);
+}
+
+/* attribution 文字在反轉的背景上反過來會看不見，獨立處理 */
+[data-theme="dark"] .leaflet-control-attribution {
+  background: rgba(19, 28, 48, 0.85) !important;
+  color: #b3c0d1 !important;
+}
+
+[data-theme="dark"] .leaflet-control-attribution a {
+  color: #a5b4fc !important;
+}
+
+/* Leaflet 預設 zoom 控制按鈕也順手調整，免得淺色按鈕在深底地圖上太突兀 */
+[data-theme="dark"] .leaflet-bar a,
+[data-theme="dark"] .leaflet-bar a:hover {
+  background: #131c30 !important;
+  color: #f8fafc !important;
+  border-color: #28324d !important;
+}
+
+[data-theme="dark"] .leaflet-bar a:hover {
+  background: #1c2742 !important;
+}
+
 .user-marker {
   background: none !important;
   border: none !important;
@@ -2236,63 +3216,13 @@ onUnmounted(() => {
   line-height: 1 !important;
 }
 
+/* 兩個彈窗（聚合 / 全部）都用 modal-content-v2 + result-list 共用樣式，
+   下面只保留各自寬度上限的差異 */
 .cluster-modal {
-  max-width: 500px !important;
-  max-height: 70vh !important;
-}
-
-.cluster-toilet-list {
-  max-height: 400px;
-  overflow-y: auto;
-  margin-top: 1rem;
-}
-
-.cluster-toilet-item {
-  background: #f8f9fa;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 0.75rem;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.cluster-toilet-item:hover {
-  background: #e9ecef;
-  border-color: #007bff;
-}
-
-.cluster-toilet-item:last-child {
-  margin-bottom: 0;
+  max-width: 520px;
 }
 
 .all-toilets-modal {
-  max-width: 600px !important;
-  max-height: 80vh !important;
-}
-
-.all-toilets-list {
-  max-height: 500px;
-  overflow-y: auto;
-  margin-top: 1rem;
-}
-
-.all-toilet-item {
-  background: #f8f9fa;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 0.875rem;
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.all-toilet-item:hover {
-  background: #e9ecef;
-  border-color: #007bff;
-}
-
-.all-toilet-item:last-child {
-  margin-bottom: 0;
+  max-width: 600px;
 }
 </style>

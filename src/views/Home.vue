@@ -25,6 +25,12 @@
             {{ $t('home.stats.counties') }}
           </span>
         </p>
+
+        <ul class="trust-badges" aria-label="">
+          <li><span aria-hidden="true">✓</span> {{ $t('home.trust.free') }}</li>
+          <li><span aria-hidden="true">✓</span> {{ $t('home.trust.noSignup') }}</li>
+          <li><span aria-hidden="true">✓</span> {{ $t('home.trust.weeklyUpdate') }}</li>
+        </ul>
       </div>
 
       <div class="bg-decor" aria-hidden="true">
@@ -59,13 +65,15 @@ onMounted(async () => {
 
 <style scoped>
 .home {
-  /* navbar 70px + footer 45px = 115px；首頁完全塞進可視區，避免出現滾動條 */
-  height: calc(100vh - 115px);
+  /* 使用 dvh 避免 iOS 網址列影響；舊瀏覽器 fallback 到 vh */
+  height: calc(100vh - var(--nav-h) - var(--footer-h));
+  height: calc(100dvh - var(--nav-h) - var(--footer-h));
   min-height: 480px; /* 在很短的視窗（例如手機橫向）才會啟用 */
-  background: #fafbfc;
+  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  overscroll-behavior: contain;
 }
 
 /* Hero */
@@ -92,8 +100,8 @@ onMounted(async () => {
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-  color: #5b6cff;
-  background: rgba(91, 108, 255, 0.08);
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
   padding: 0.4rem 0.9rem;
   border-radius: 999px;
   margin-bottom: 1.5rem;
@@ -104,14 +112,14 @@ onMounted(async () => {
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.02em;
-  color: #0f172a;
+  color: var(--color-text);
   margin-bottom: 1rem;
 }
 
 .lede {
   font-size: 1.15rem;
   line-height: 1.6;
-  color: #475569;
+  color: var(--color-text-muted);
   margin: 0 auto 2.5rem;
   max-width: 520px;
 }
@@ -126,25 +134,25 @@ onMounted(async () => {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  background: #0f172a;
-  color: #fff;
+  background: var(--color-cta-bg);
+  color: var(--color-cta-fg);
   text-decoration: none;
   font-size: 1.05rem;
   font-weight: 600;
   padding: 1rem 2rem;
   border-radius: 999px;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 
 .cta:hover {
-  background: #1e293b;
+  background: var(--color-cta-bg-hover);
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.24);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
 }
 
 .cta:focus-visible {
-  outline: 3px solid #5b6cff;
+  outline: 3px solid var(--color-primary);
   outline-offset: 3px;
 }
 
@@ -161,17 +169,42 @@ onMounted(async () => {
   align-items: center;
   gap: 0.75rem;
   font-size: 0.95rem;
-  color: #64748b;
+  color: var(--color-text-soft);
   margin: 0;
 }
 
 .meta strong {
-  color: #0f172a;
+  color: var(--color-text);
   font-weight: 700;
 }
 
 .meta .dot {
-  color: #cbd5e1;
+  color: var(--color-border-strong);
+}
+
+/* Trust micro-badges */
+.trust-badges {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+.trust-badges li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.trust-badges li span[aria-hidden] {
+  /* 用語意色：暗模式自動切到較亮的綠 */
+  color: var(--color-success);
+  font-weight: 700;
 }
 
 /* Decorative background blobs */
@@ -203,6 +236,17 @@ onMounted(async () => {
   background: radial-gradient(circle, #ddd6fe 0%, transparent 70%);
   bottom: -160px;
   right: -100px;
+}
+
+/* Dark mode：把粉嫩色塊改成深紫，避免在暗背景上太刺眼且降低對比 */
+[data-theme="dark"] .blob-a {
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.55) 0%, transparent 70%);
+  opacity: 0.35;
+}
+
+[data-theme="dark"] .blob-b {
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.45) 0%, transparent 70%);
+  opacity: 0.3;
 }
 
 /* Responsive */

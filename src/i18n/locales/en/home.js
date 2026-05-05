@@ -37,5 +37,10 @@ export default {
     counties: 'Counties Coverage',
     daysAgo: 'days ago updated',
     weekly: 'Weekly'
+  },
+  trust: {
+    free: 'Completely free',
+    noSignup: 'No signup required',
+    weeklyUpdate: 'Weekly open data sync'
   }
 }

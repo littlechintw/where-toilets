@@ -46,12 +46,15 @@ export default {
   toiletList: {
     title: 'Toilets in Map Area',
     count: '',
+    countSuffix: 'toilets',
     viewAll: 'View All',
+    viewAllN: 'View all {count} toilets',
     noData: 'No toilets found in map area',
     needLocation: 'Please allow location access or drag the map to display toilets',
     cluster: {
       title: 'Toilets in This Area',
-      count: ''
+      count: '',
+      summary: '{count} toilets at this spot'
     }
   },
   toiletInfo: {
@@ -59,6 +62,7 @@ export default {
     type: 'Type',
     category: 'Category',
     diaper: 'Changing Table',
+    diaperBadge: 'Has changing table',
     distance: 'Distance',
     manager: 'Management Unit',
     address: 'Address',
@@ -70,5 +74,14 @@ export default {
     locationFailed: 'Location failed',
     dataLoadFailed: 'Failed to load data',
     mapUpdateFailed: 'Failed to update toilets in map area'
+  },
+  loading: {
+    detectingCounty: 'Detecting county…',
+    loadingCounty: 'Loading toilets in {county}…',
+    nearby: 'nearby area',
+    processing: 'Processing data…',
+    processingToilets: 'Processing toilet data…',
+    done: 'Done',
+    failed: 'Failed to load'
   }
 }

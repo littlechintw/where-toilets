@@ -37,5 +37,10 @@ export default {
     counties: '縣市覆蓋',
     daysAgo: '天前更新',
     weekly: '每週'
+  },
+  trust: {
+    free: '完全免費',
+    noSignup: '無需註冊',
+    weeklyUpdate: '每週更新政府開放資料'
   }
 }

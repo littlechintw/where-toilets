@@ -4,7 +4,12 @@ import i18n from './i18n'
 import App from './App.vue'
 import Home from './views/Home.vue'
 import Map from './views/Map.vue'
+import Settings from './views/Settings.vue'
 import { trackPageView } from './utils/analytics'
+import { initTheme } from './utils/theme'
+
+// 啟動時就套用主題，避免閃白
+initTheme()
 
 // 路由設定
 const router = createRouter({
@@ -21,6 +26,12 @@ const router = createRouter({
       name: 'Map',
       component: Map,
       meta: { title: '廁所地圖｜地圖檢視 - 附近的公共廁所' }
+    },
+    {
+      path: '/settings',
+      name: 'Settings',
+      component: Settings,
+      meta: { title: '廁所地圖｜設定' }
     }
   ]
 })
