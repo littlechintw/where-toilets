@@ -1,5 +1,6 @@
 export default {
   title: '範圍內廁所',
+  panelTitle: '搜尋與篩選器',
   locate: '定位',
   locating: '定位中...',
   customLocation: {

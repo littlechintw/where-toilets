@@ -1,5 +1,5 @@
 export default {
-  title: 'Bản đồ nhà vệ sinh',
+  title: 'Bản đồ nhà vệ sinh Đài Loan',
   subtitle: 'Tìm nhà vệ sinh gần đây nhanh chóng',
   description: 'Công cụ không chính thức sử dụng dữ liệu mở của chính phủ Đài Loan',
   badge: 'Tìm nhà vệ sinh công cộng Đài Loan',

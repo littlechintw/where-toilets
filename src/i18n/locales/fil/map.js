@@ -1,5 +1,6 @@
 export default {
   title: 'Mga toilet sa lugar',
+  panelTitle: 'Paghahanap at Filter',
   locate: 'Lokasyon',
   locating: 'Naghahanap ng lokasyon…',
   customLocation: {

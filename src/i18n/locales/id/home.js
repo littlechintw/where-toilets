@@ -1,5 +1,5 @@
 export default {
-  title: 'Peta Toilet',
+  title: 'Peta Toilet Taiwan',
   subtitle: 'Cari toilet terdekat dengan cepat',
   description: 'Alat tidak resmi yang menggunakan data terbuka pemerintah Taiwan',
   badge: 'Pencari Toilet Umum Taiwan',

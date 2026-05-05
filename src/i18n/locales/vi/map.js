@@ -1,5 +1,6 @@
 export default {
   title: 'Nhà vệ sinh trong khu vực',
+  panelTitle: 'Tìm kiếm & Bộ lọc',
   locate: 'Định vị',
   locating: 'Đang định vị…',
   customLocation: {

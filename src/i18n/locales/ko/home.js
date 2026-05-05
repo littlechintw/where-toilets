@@ -1,5 +1,5 @@
 export default {
-  title: '화장실 지도',
+  title: '대만 화장실 지도',
   subtitle: '근처 화장실 빠르게 찾기',
   description: '대만 정부 공공데이터를 활용한 비공식 도구입니다',
   badge: '대만 공중화장실 검색',

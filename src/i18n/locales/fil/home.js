@@ -1,5 +1,5 @@
 export default {
-  title: 'Mapa ng Toilet',
+  title: 'Mapa ng Toilet sa Taiwan',
   subtitle: 'Mabilis na hanapin ang malapit na toilet',
   description: 'Hindi opisyal na tool gamit ang open data ng pamahalaan ng Taiwan',
   badge: 'Hanapan ng Pampublikong Toilet sa Taiwan',

@@ -1,5 +1,6 @@
 export default {
   title: '주변 화장실',
+  panelTitle: '검색 및 필터',
   locate: '위치',
   locating: '위치 확인 중…',
   customLocation: {

@@ -1,5 +1,6 @@
 export default {
   title: 'Toilets in Area',
+  panelTitle: 'Search & Filters',
   locate: 'Locate',
   locating: 'Locating...',
   customLocation: {

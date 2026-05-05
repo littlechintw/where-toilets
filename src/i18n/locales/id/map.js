@@ -1,5 +1,6 @@
 export default {
   title: 'Toilet di area',
+  panelTitle: 'Pencarian & Filter',
   locate: 'Lokasi',
   locating: 'Mencari lokasi…',
   customLocation: {

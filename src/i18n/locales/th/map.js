@@ -1,5 +1,6 @@
 export default {
   title: 'ห้องน้ำในพื้นที่',
+  panelTitle: 'ค้นหาและตัวกรอง',
   locate: 'ตำแหน่ง',
   locating: 'กำลังระบุตำแหน่ง…',
   customLocation: {

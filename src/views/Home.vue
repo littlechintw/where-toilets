@@ -165,9 +165,11 @@ onMounted(async () => {
 }
 
 .meta {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem 0.75rem;
   font-size: 0.95rem;
   color: var(--color-text-soft);
   margin: 0;
@@ -182,23 +184,41 @@ onMounted(async () => {
   color: var(--color-border-strong);
 }
 
-/* Trust micro-badges */
+/* Trust micro-badges：自成一行（block flex），三個徽章水平單行排列 */
 .trust-badges {
   list-style: none;
   padding: 0;
-  margin: 1.25rem 0 0;
-  display: inline-flex;
-  flex-wrap: wrap;
+  margin: 0.85rem 0 0;
+  display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 0.5rem 1rem;
+  align-items: center;
+  gap: 0.85rem;
   font-size: 0.82rem;
   color: var(--color-text-muted);
+  white-space: nowrap;
 }
 
 .trust-badges li {
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.25rem;
+  line-height: 1.4;
+}
+
+/* 手機螢幕字級略縮，確保三個徽章塞得進單行 */
+@media (max-width: 420px) {
+  .trust-badges {
+    gap: 0.55rem;
+    font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .trust-badges {
+    gap: 0.4rem;
+    font-size: 0.66rem;
+  }
 }
 
 .trust-badges li span[aria-hidden] {

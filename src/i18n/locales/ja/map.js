@@ -1,5 +1,6 @@
 export default {
   title: 'エリア内のトイレ',
+  panelTitle: '検索とフィルター',
   locate: '現在地',
   locating: '位置情報を取得中…',
   customLocation: {

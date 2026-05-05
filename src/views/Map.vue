@@ -3,7 +3,7 @@
     <!-- 控制面板 -->
     <div class="control-panel" :class="{ collapsed: isPanelCollapsed }">
       <div class="panel-header">
-        <h2><span aria-hidden="true">🚽</span> {{ $t('map.title') }}</h2>
+        <h2 class="panel-header-title">{{ $t('map.panelTitle') }}</h2>
         <button
           @click="isPanelCollapsed = !isPanelCollapsed"
           class="collapse-btn"
@@ -124,39 +124,6 @@
           </div>
         </div>
 
-        <!-- 移除效能警告和設定 - 不再限制廁所顯示數量 -->
-
-        <!-- 地圖範圍資訊 
-        <div class="map-range-info">
-          <h3>🗺️ 地圖範圍資訊</h3>
-          <div class="range-stats">
-            <div class="stat-item">
-              <span class="stat-label">總載入廁所:</span>
-              <span class="stat-value">{{ totalLoadedToilets }}</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-label">可見範圍內:</span>
-              <span class="stat-value">{{ visibleToiletsCount }}</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-label">篩選後顯示:</span>
-              <span class="stat-value">{{ filteredToilets.length }}</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-label">地圖標記:</span>
-              <span class="stat-value">{{ mapMarkersCount }}</span>
-            </div>
-          </div>
-          <div class="range-explanation">
-            <small>
-              💡 <strong>說明：</strong><br>
-              • <strong>總載入</strong>：從資料庫載入的所有廁所<br>
-              • <strong>可見範圍</strong>：地圖視窗內的廁所<br>
-              • <strong>篩選後</strong>：套用篩選條件後的廁所<br>
-              • <strong>地圖標記</strong>：實際顯示在地圖上的標記數
-            </small>
-          </div>
-        </div>-->
 
         <!-- 廁所列表 -->
         <div class="toilet-list" v-if="filteredToilets.length > 0">
@@ -516,13 +483,6 @@ const isPanelCollapsed = ref(false)
 // 載入狀態
 const loadingStatus = ref('')
 
-// 地圖範圍統計
-const totalLoadedToilets = ref(0) // 總載入廁所數量
-const visibleToiletsCount = ref(0) // 可見範圍內廁所數量  
-const mapMarkersCount = ref(0) // 地圖標記數量
-
-// 移除效能限制 - 不再根據縮放層級限制廁所數量
-
 // 自訂位置搜尋
 const customLocationInput = ref('')
 const isSearching = ref(false)
@@ -569,13 +529,6 @@ const hasActiveFilters = computed(() =>
 
 // 計算過濾後的廁所
 const filteredToilets = computed(() => {
-  console.log('開始篩選, 原始廁所數量:', nearbyToilets.value.length)
-  console.log('篩選條件:', filters.value)
-
-  if (nearbyToilets.value.length > 0) {
-    console.log('第一個廁所範例:', nearbyToilets.value[0])
-  }
-
   const filtered = nearbyToilets.value.filter(toilet => {
     // 等級篩選 - 使用包含匹配而不是完全匹配
     if (filters.value.grade) {
@@ -583,10 +536,7 @@ const filteredToilets = computed(() => {
       const gradeMatch = toiletGrade.includes(filters.value.grade) ||
         filters.value.grade.includes(toiletGrade) ||
         toiletGrade === filters.value.grade
-      if (!gradeMatch) {
-        console.log('等級篩選失敗:', toiletGrade, 'vs', filters.value.grade)
-        return false
-      }
+      if (!gradeMatch) return false
     }
 
     // 類型篩選 - 根據名稱和類型欄位智慧判斷
@@ -628,18 +578,12 @@ const filteredToilets = computed(() => {
           toiletName.includes(filters.value.type)
       }
 
-      if (!typeMatch) {
-        console.log('類型篩選失敗:', toiletType, 'name:', toiletName, 'vs', filters.value.type)
-        return false
-      }
+      if (!typeMatch) return false
     }
 
     // 尿布台篩選 - 使用智慧判斷函數
     if (filters.value.hasDiaper) {
-      if (!hasChangingTable(toilet)) {
-        console.log('尿布台篩選失敗 - 智慧判斷結果為無尿布台')
-        return false
-      }
+      if (!hasChangingTable(toilet)) return false
     }
 
     return true
@@ -648,79 +592,15 @@ const filteredToilets = computed(() => {
   // 依距離由近到遠排序：
   //   - 有 distance 的廁所優先顯示，距離小的在前
   //   - 沒有 distance 的（例如尚未定位）放最後，依原順序
-  const sorted = filtered.slice().sort((a, b) => {
+  return filtered.slice().sort((a, b) => {
     const da = typeof a.distance === 'number' ? a.distance : Number.POSITIVE_INFINITY
     const db = typeof b.distance === 'number' ? b.distance : Number.POSITIVE_INFINITY
     return da - db
   })
-
-  console.log('篩選後廁所數量:', sorted.length)
-  return sorted
 })
 
-// 計算顯示用的廁所列表（虛擬化列表）
-const virtualListSettings = ref({
-  itemHeight: 120, // 每個項目的高度(px)
-  containerHeight: 400, // 容器高度(px)
-  visibleCount: 0, // 可見項目數量
-  startIndex: 0, // 開始索引
-  endIndex: 0, // 結束索引
-  scrollTop: 0 // 滾動位置
-})
-
-// 計算虛擬列表參數
-const calculateVirtualList = () => {
-  const { itemHeight, containerHeight } = virtualListSettings.value
-  const visibleCount = Math.ceil(containerHeight / itemHeight) + 2 // 多渲染2個作為緩衝
-  const startIndex = Math.floor(virtualListSettings.value.scrollTop / itemHeight)
-  const endIndex = Math.min(startIndex + visibleCount, filteredToilets.value.length)
-
-  virtualListSettings.value.visibleCount = visibleCount
-  virtualListSettings.value.startIndex = Math.max(0, startIndex)
-  virtualListSettings.value.endIndex = endIndex
-}
-
-// 虛擬列表顯示項目
-const virtualizedToilets = computed(() => {
-  // 虛擬列表只在大量項目時使用，此時應該顯示所有項目（用於modal）
-  calculateVirtualList()
-  return filteredToilets.value.slice(
-    virtualListSettings.value.startIndex,
-    virtualListSettings.value.endIndex
-  )
-})
-
-// 虛擬列表容器樣式
-const virtualListStyles = computed(() => ({
-  height: `${virtualListSettings.value.containerHeight}px`,
-  overflow: 'auto'
-}))
-
-// 虛擬列表項目容器樣式
-const virtualItemsContainerStyles = computed(() => ({
-  height: `${filteredToilets.value.length * virtualListSettings.value.itemHeight}px`,
-  position: 'relative'
-}))
-
-// 虛擬列表項目樣式
-const getVirtualItemStyles = (index) => ({
-  position: 'absolute',
-  top: `${(virtualListSettings.value.startIndex + index) * virtualListSettings.value.itemHeight}px`,
-  width: '100%',
-  height: `${virtualListSettings.value.itemHeight}px`
-})
-
-// 處理虛擬列表滾動
-const onVirtualListScroll = (event) => {
-  virtualListSettings.value.scrollTop = event.target.scrollTop
-  calculateVirtualList()
-}
-
-// 計算顯示用的廁所列表（限制數量版本，用於非虛擬化場景）
-const displayedToilets = computed(() => {
-  // 控制面板預設只顯示前5個
-  return filteredToilets.value.slice(0, displayLimit.value)
-})
+// 控制面板預設只顯示前 displayLimit 筆，超過則用「查看全部」彈窗
+const displayedToilets = computed(() => filteredToilets.value.slice(0, displayLimit.value))
 
 // 地圖瓦片：固定使用 OSM 原圖；深色模式用 CSS filter 反轉（道路變亮、背景變暗，
 // 不會像 Dark Matter 那樣連街道都看不見）。詳見 .leaflet-tile-pane filter。
@@ -1038,21 +918,15 @@ const updateNearbyToilets = async () => {
 
     // 如果在等待資料期間已有更新請求發出，放棄使用這次舊的結果
     if (thisRequestId !== currentUpdateRequestId) {
-      console.info('updateNearbyToilets - 遺失的舊請求結果已被忽略', { thisRequestId, currentUpdateRequestId })
+      // 在等待資料時又發出新請求，忽略這次舊結果
       return
     }
-    totalLoadedToilets.value = toilets.length
 
     // 篩選地圖可見範圍內的廁所
     const visibleToilets = toilets.filter(toilet => {
       return bounds.contains([toilet.latitude, toilet.longitude])
     })
 
-    visibleToiletsCount.value = visibleToilets.length
-
-    console.log(`載入了 ${toilets.length} 個廁所，可見範圍內有 ${visibleToilets.length} 個`)
-
-    // 不再需要效能警告 - 顯示所有廁所
     loadingStatus.value = t('map.loading.processingToilets')
 
     // 移除智慧限制 - 顯示地圖範圍內的所有廁所
@@ -1077,11 +951,6 @@ const updateNearbyToilets = async () => {
 
     // 更新地圖標記
     updateMapMarkers()
-
-    // 載入時間分析（僅記錄，不再顯示警告）
-    const loadingTime = Date.now() - loadingStartTime
-    console.log(`資料載入完成，耗時：${loadingTime}ms`)
-
     loadingStatus.value = t('map.loading.done')
 
   } catch (error) {
@@ -1114,10 +983,7 @@ const updateMapMarkers = () => {
   toiletMarkers.value.forEach(marker => map.value.removeLayer(marker))
   toiletMarkers.value = []
 
-  if (filteredToilets.value.length === 0) {
-    mapMarkersCount.value = 0
-    return
-  }
+  if (filteredToilets.value.length === 0) return
 
   const toiletCount = filteredToilets.value.length
   const currentZoom = map.value.getZoom()
@@ -1147,25 +1013,17 @@ const updateMapMarkers = () => {
   const densityFactor = Math.min(2, Math.max(0.5, 1 + density * 0.3)) // 密度係數 0.5-2
   const clusterDistance = baseClusterDistance * densityFactor
 
-  console.log(`標記更新: ${toiletCount} 個廁所, zoom: ${currentZoom}, 聚合距離: ${clusterDistance}px`)
-
   // 執行智能聚合
   const clusters = createToiletClusters(filteredToilets.value, clusterDistance, currentZoom)
 
   // 渲染聚合結果
   clusters.forEach(cluster => {
     if (cluster.toilets.length === 1) {
-      // 單個廁所，顯示普通標記
       createSingleToiletMarker(cluster.toilets[0])
     } else {
-      // 多個廁所，顯示聚合標記
       createClusterMarker(cluster)
     }
   })
-
-  // 更新標記數量統計
-  mapMarkersCount.value = toiletMarkers.value.length
-  console.log(`實際渲染標記數: ${mapMarkersCount.value}, 聚合數: ${clusters.length}`)
 }
 
 // 移除聚合標記函數 - 不再使用
@@ -1423,7 +1281,6 @@ const resetFilters = () => {
     hasDiaper: false
   }
   trackEvent('reset_filters')
-  console.log('篩選條件已重置')
 }
 
 // hasChangingTable 已抽到 src/utils/toilet.js
@@ -1548,7 +1405,7 @@ onUnmounted(() => {
 }
 
 .panel-header {
-  padding: 1rem;
+  padding: 0.6rem 0.85rem;
   border-bottom: 1px solid var(--color-border);
   display: flex;
   justify-content: space-between;
@@ -1556,19 +1413,30 @@ onUnmounted(() => {
   background: var(--color-surface-2);
 }
 
-.panel-header h2 {
+.panel-header-title {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--color-text-soft);
+  text-transform: uppercase;
 }
 
 .collapse-btn {
-  background: none;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
   border: none;
-  font-size: 1.2rem;
+  font-size: 0.85rem;
+  line-height: 1;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0;
   color: var(--color-text-muted);
   border-radius: 6px;
+  transition: background 0.18s ease, color 0.18s ease;
 }
 
 .collapse-btn:hover {
@@ -1918,360 +1786,11 @@ onUnmounted(() => {
   cursor: not-allowed;
 }
 
-/* 效能設定樣式 */
-.performance-settings {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  margin: 1rem 0;
-  overflow: hidden;
-}
-
-.performance-settings-header {
-  padding: 1rem;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: background-color 0.3s ease;
-}
-
-.performance-settings-header:hover {
-  background: #e9ecef;
-}
-
-.performance-settings-header h3 {
-  margin: 0;
-  font-size: 1rem;
-  color: #495057;
-}
-
-.performance-settings-content {
-  padding: 0 1rem 1rem 1rem;
-  animation: slideDown 0.3s ease;
-}
-
-.setting-item {
-  margin-bottom: 1rem;
-}
-
-.setting-item label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: #555;
-}
-
-.setting-description {
-  display: block;
-  color: #6c757d;
-  font-style: italic;
-  font-size: 0.85rem;
-  margin-top: 0.25rem;
-}
-
-.range-slider {
-  width: 100%;
-  margin: 0.5rem 0;
-}
-
-.range-labels {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  color: #666;
-}
-
-.performance-info {
-  background: #e3f2fd;
-  padding: 0.75rem;
-  border-radius: 6px;
-  margin: 1rem 0;
-}
-
-.btn-reset-small {
-  background: #dc3545;
-  color: white;
-  border: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  transition: background-color 0.3s;
-}
-
-.btn-reset-small:hover {
-  background: #c82333;
-}
-
-/* 虛擬列表樣式 */
-.toilet-virtual-list {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: white;
-}
-
-.virtual-items-container {
-  width: 100%;
-}
-
-.virtual-item {
-  border-bottom: 1px solid #eee;
-  box-sizing: border-box;
-  padding: 0.75rem !important;
-}
-
-.virtual-item:last-child {
-  border-bottom: none;
-}
-
-/* 載入狀態樣式 */
-.loading {
-  text-align: center;
-  padding: 2rem;
-  color: #666;
-}
-
-.loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 3px solid #f3f3f3;
-  border-top: 3px solid #007bff;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin: 0 auto 1rem auto;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.loading-progress {
-  width: 100%;
-  height: 4px;
-  background: #f3f3f3;
-  border-radius: 2px;
-  margin: 1rem 0;
-  overflow: hidden;
-}
-
-.progress-bar {
-  height: 100%;
-  background: linear-gradient(90deg, #007bff, #0056b3);
-  animation: progress 2s ease-in-out infinite;
-}
-
-@keyframes progress {
-  0% {
-    width: 0%;
-  }
-
-  50% {
-    width: 70%;
-  }
-
-  100% {
-    width: 100%;
-  }
-}
-
-/* 移除效能警告樣式 - 不再使用 */
-
-/* 移除效能提示樣式 - 不再使用 */
-
-/* 地圖範圍資訊樣式 */
-.map-range-info {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  margin: 1rem 0;
-  padding: 1rem;
-}
-
-.map-range-info h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1rem;
-  color: #495057;
-}
-
-.range-stats {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
-}
-
-.stat-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem;
-  background: white;
-  border-radius: 6px;
-  border: 1px solid #e9ecef;
-}
-
-.stat-label {
-  font-size: 0.85rem;
-  color: #6c757d;
-  font-weight: 500;
-}
-
-.stat-value {
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #495057;
-  background: #e3f2fd;
-  padding: 0.2rem 0.5rem;
-  border-radius: 12px;
-  min-width: 40px;
-  text-align: center;
-}
-
-.range-explanation {
-  background: #e8f5e8;
-  padding: 0.75rem;
-  border-radius: 6px;
-  border-left: 4px solid #28a745;
-}
-
-.range-explanation small {
-  color: #2d5016;
-  line-height: 1.4;
-}
-
+/* 廁所清單標題 */
 .toilet-list h3 {
   margin: 1.5rem 0 1rem 0;
   font-size: 1.1rem;
   color: var(--color-text);
-}
-
-.toilet-item {
-  background: var(--color-surface-2);
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  padding: 0.75rem;
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-  transition: background 0.18s ease, border-color 0.18s ease;
-}
-
-.toilet-item:hover {
-  background: var(--color-primary-soft);
-  border-color: var(--color-primary);
-}
-
-.toilet-item.active {
-  background: var(--color-primary-soft);
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 1px var(--color-primary) inset;
-}
-
-.toilet-compact-info {
-  width: 100%;
-}
-
-.toilet-name-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.3rem;
-}
-
-.toilet-name-row h4 {
-  margin: 0;
-  font-size: 0.95rem;
-  color: var(--color-text);
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-right: 0.5rem;
-}
-
-.distance-badge {
-  background: var(--color-primary);
-  color: var(--color-text-on-primary);
-  font-size: 0.75rem;
-  padding: 0.2rem 0.4rem;
-  border-radius: 12px;
-  white-space: nowrap;
-  font-weight: 600;
-}
-
-.address-compact {
-  font-size: 0.8rem;
-  color: var(--color-text-soft);
-  margin: 0 0 0.4rem 0;
-  line-height: 1.2;
-  display: -webkit-box;
-  line-clamp: 1;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.toilet-meta-compact {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-}
-
-/* 等級徽章——維持以顏色 + 文字雙重編碼，符合色盲友善 */
-.grade-compact,
-.type-compact {
-  font-size: 0.7rem;
-  padding: 0.15rem 0.4rem;
-  border-radius: 8px;
-  background: var(--color-surface);
-  color: var(--color-text-muted);
-  border: 1px solid var(--color-border);
-  white-space: nowrap;
-  font-weight: 600;
-}
-
-/* 等級色：背景柔和、文字深，光模式下對比 ≥ 4.5:1 */
-.grade-compact.excellent { background: #d1fae5; color: #065f46; border-color: transparent; }
-.grade-compact.good      { background: #dbeafe; color: #1e40af; border-color: transparent; }
-.grade-compact.fair      { background: #fef3c7; color: #854d0e; border-color: transparent; }
-.grade-compact.needs_improvement { background: #ffedd5; color: #9a3412; border-color: transparent; }
-.grade-compact.fail      { background: #fee2e2; color: #991b1b; border-color: transparent; }
-
-[data-theme="dark"] .grade-compact.excellent { background: rgba(74, 222, 128, 0.18); color: #6ee7b7; }
-[data-theme="dark"] .grade-compact.good      { background: rgba(96, 165, 250, 0.18); color: #93c5fd; }
-[data-theme="dark"] .grade-compact.fair      { background: rgba(251, 191, 36, 0.18); color: #fcd34d; }
-[data-theme="dark"] .grade-compact.needs_improvement { background: rgba(251, 146, 60, 0.18); color: #fdba74; }
-[data-theme="dark"] .grade-compact.fail      { background: rgba(248, 113, 113, 0.20); color: #fca5a5; }
-
-.feature-compact {
-  font-size: 0.85rem;
-  background: var(--color-primary-soft);
-  padding: 0.1rem 0.3rem;
-  border-radius: 6px;
-}
-
-.btn-nav-compact {
-  background: var(--color-cta-bg);
-  color: var(--color-cta-fg);
-  border: none;
-  padding: 0.25rem 0.5rem;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  margin-left: auto;
-  transition: background-color 0.18s ease, transform 0.1s ease;
-}
-
-.btn-nav-compact:hover {
-  background: var(--color-cta-bg-hover);
-  transform: translateY(-1px);
 }
 
 .view-all-btn-container {
@@ -2670,21 +2189,22 @@ onUnmounted(() => {
   justify-content: center;
   gap: 0.5rem;
   padding: 0.85rem 1.25rem;
-  background: var(--color-text, #0f172a);
-  color: #fff;
+  /* 用 CTA token；亮 = 深底白字、暗 = 亮底深字，兩種都過 AAA 對比 */
+  background: var(--color-cta-bg);
+  color: var(--color-cta-fg);
   border: none;
   border-radius: 999px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.18s ease, transform 0.1s ease, box-shadow 0.18s ease;
-  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.18);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
 }
 
 .btn-nav-primary:hover {
-  background: #1e293b;
+  background: var(--color-cta-bg-hover);
   transform: translateY(-1px);
-  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.24);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.24);
 }
 
 .btn-nav-primary:active {
