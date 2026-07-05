@@ -1,83 +1,83 @@
 {
-  "last_updated": "2026-06-28T02:32:53.387Z",
-  "total_count": 45627,
+  "last_updated": "2026-07-05T02:04:04.994Z",
+  "total_count": 45559,
   "counties": [
     {
       "name_zh": "台中市",
       "name_en": "Taichung",
       "filename": "taichung.json",
-      "count": 5978,
+      "count": 5945,
       "bounds": {
         "minLat": 24.01988,
         "maxLat": 24.42941975,
         "minLng": 120.498165,
         "maxLng": 121.30979598,
-        "count": 5978
+        "count": 5945
       }
     },
     {
       "name_zh": "台北市",
       "name_en": "Taipei",
       "filename": "taipei.json",
-      "count": 7015,
+      "count": 6997,
       "bounds": {
         "minLat": 24.96877621,
         "maxLat": 25.179072,
         "minLng": 121.46241903,
         "maxLng": 121.66428477,
-        "count": 7015
+        "count": 6997
       }
     },
     {
       "name_zh": "台東縣",
       "name_en": "Taitung",
       "filename": "taitung.json",
-      "count": 896,
+      "count": 885,
       "bounds": {
         "minLat": 22.02457008,
         "maxLat": 23.39780221,
         "minLng": 120.87980032,
         "maxLng": 121.567989,
-        "count": 896
+        "count": 885
       }
     },
     {
       "name_zh": "台南市",
       "name_en": "Tainan",
       "filename": "tainan.json",
-      "count": 4832,
+      "count": 4830,
       "bounds": {
         "minLat": 22.904282,
         "maxLat": 23.405181,
         "minLng": 120.0358969,
         "maxLng": 120.59395,
-        "count": 4832
+        "count": 4830
       }
     },
     {
       "name_zh": "宜蘭縣",
       "name_en": "Yilan",
       "filename": "yilan.json",
-      "count": 1174,
+      "count": 1177,
       "bounds": {
         "minLat": 24.335424,
         "maxLat": 24.98349674,
         "minLng": 121.37890309,
         "maxLng": 121.95934117,
-        "count": 1174
+        "count": 1177
       }
     },
     {
       "name_zh": "花蓮縣",
       "name_en": "Hualien",
       "filename": "hualien.json",
-      "count": 716,
+      "count": 712,
       "bounds": {
         "minLat": 23.1726316,
         "maxLat": 24.31697207,
         "minLng": 121.2471092,
         "maxLng": 121.7534237,
-        "count": 716
+        "count": 712
       }
     },
     {
@@ -97,39 +97,39 @@
       "name_zh": "南投縣",
       "name_en": "Nantou",
       "filename": "nantou.json",
-      "count": 1127,
+      "count": 1120,
       "bounds": {
         "minLat": 23.551,
         "maxLat": 24.06947927,
         "minLng": 120.62921643,
         "maxLng": 121.16329908,
-        "count": 1127
+        "count": 1120
       }
     },
     {
       "name_zh": "屏東縣",
       "name_en": "Pingtung",
       "filename": "pingtung.json",
-      "count": 978,
+      "count": 974,
       "bounds": {
         "minLat": 21.90276,
         "maxLat": 22.8599857,
         "minLng": 120.362461,
         "maxLng": 120.888246,
-        "count": 978
+        "count": 974
       }
     },
     {
       "name_zh": "苗栗縣",
       "name_en": "Miaoli",
       "filename": "miaoli.json",
-      "count": 824,
+      "count": 825,
       "bounds": {
         "minLat": 24.310581,
         "maxLat": 24.73163,
         "minLng": 120.643846,
         "maxLng": 121.034254,
-        "count": 824
+        "count": 825
       }
     },
     {
@@ -149,26 +149,26 @@
       "name_zh": "高雄市",
       "name_en": "Kaohsiung",
       "filename": "kaohsiung.json",
-      "count": 4123,
+      "count": 4124,
       "bounds": {
         "minLat": 20.604518,
         "maxLat": 23.277787,
         "minLng": 120.17950425,
         "maxLng": 120.98358706,
-        "count": 4123
+        "count": 4124
       }
     },
     {
       "name_zh": "基隆市",
       "name_en": "Keelung",
       "filename": "keelung.json",
-      "count": 844,
+      "count": 845,
       "bounds": {
         "minLat": 25.07162467,
         "maxLat": 25.17008298,
         "minLng": 121.66820884,
         "maxLng": 121.80442482,
-        "count": 844
+        "count": 845
       }
     },
     {
@@ -188,26 +188,26 @@
       "name_zh": "雲林縣",
       "name_en": "Yunlin",
       "filename": "yunlin.json",
-      "count": 1004,
+      "count": 1013,
       "bounds": {
         "minLat": 23.54021048,
         "maxLat": 23.8162317,
         "minLng": 120.1406908,
         "maxLng": 120.71438878,
-        "count": 1004
+        "count": 1013
       }
     },
     {
       "name_zh": "新北市",
       "name_en": "NewTaipei",
       "filename": "newtaipei.json",
-      "count": 6073,
+      "count": 6071,
       "bounds": {
         "minLat": 24.777909,
         "maxLat": 25.293215,
         "minLng": 121.299682,
         "maxLng": 121.989718,
-        "count": 6073
+        "count": 6071
       }
     },
     {
@@ -240,26 +240,26 @@
       "name_zh": "嘉義市",
       "name_en": "ChiayiCity",
       "filename": "chiayicity.json",
-      "count": 704,
+      "count": 705,
       "bounds": {
         "minLat": 23.443771,
         "maxLat": 23.51805635,
         "minLng": 120.395861,
         "maxLng": 120.48826218,
-        "count": 704
+        "count": 705
       }
     },
     {
       "name_zh": "嘉義縣",
       "name_en": "ChiayiCounty",
       "filename": "chiayicounty.json",
-      "count": 1423,
+      "count": 1420,
       "bounds": {
         "minLat": 23.247488,
         "maxLat": 23.62722549,
         "minLng": 120.12433,
         "maxLng": 120.827487,
-        "count": 1423
+        "count": 1420
       }
     },
     {
