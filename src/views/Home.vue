@@ -9,27 +9,38 @@
 
         <div class="actions">
           <router-link to="/map" class="cta" @click="onCtaClick">
+            <span class="material-symbols-outlined cta-icon" aria-hidden="true">explore</span>
             {{ $t('home.startButton') }}
-            <span class="arrow" aria-hidden="true">→</span>
           </router-link>
         </div>
 
-        <p v-if="stats" class="meta">
-          <span>
-            <strong>{{ stats.total_count?.toLocaleString() || '40,000+' }}</strong>
-            {{ $t('home.stats.toilets') }}
-          </span>
-          <span class="dot" aria-hidden="true">·</span>
-          <span>
-            <strong>{{ stats.counties?.length || '22' }}</strong>
-            {{ $t('home.stats.counties') }}
-          </span>
-        </p>
+        <div v-if="stats" class="stats-card">
+          <p class="meta">
+            <span class="stat-item">
+              <strong class="stat-num">{{ stats.total_count?.toLocaleString() || '40,000+' }}</strong>
+              <span class="stat-label">{{ $t('home.stats.toilets') }}</span>
+            </span>
+            <span class="dot" aria-hidden="true">·</span>
+            <span class="stat-item">
+              <strong class="stat-num">{{ stats.counties?.length || '22' }}</strong>
+              <span class="stat-label">{{ $t('home.stats.counties') }}</span>
+            </span>
+          </p>
+        </div>
 
         <ul class="trust-badges" aria-label="">
-          <li><span aria-hidden="true">✓</span> {{ $t('home.trust.free') }}</li>
-          <li><span aria-hidden="true">✓</span> {{ $t('home.trust.noSignup') }}</li>
-          <li><span aria-hidden="true">✓</span> {{ $t('home.trust.weeklyUpdate') }}</li>
+          <li>
+            <span class="material-symbols-outlined trust-icon" aria-hidden="true">check_circle</span>
+            {{ $t('home.trust.free') }}
+          </li>
+          <li>
+            <span class="material-symbols-outlined trust-icon" aria-hidden="true">check_circle</span>
+            {{ $t('home.trust.noSignup') }}
+          </li>
+          <li>
+            <span class="material-symbols-outlined trust-icon" aria-hidden="true">check_circle</span>
+            {{ $t('home.trust.weeklyUpdate') }}
+          </li>
         </ul>
       </div>
 
@@ -65,15 +76,15 @@ onMounted(async () => {
 
 <style scoped>
 .home {
-  /* 使用 dvh 避免 iOS 網址列影響；舊瀏覽器 fallback 到 vh */
   height: calc(100vh - var(--nav-h) - var(--footer-h));
   height: calc(100dvh - var(--nav-h) - var(--footer-h));
-  min-height: 480px; /* 在很短的視窗（例如手機橫向）才會啟用 */
-  background: var(--color-bg);
+  min-height: 480px;
+  background: var(--md-sys-color-background);
   display: flex;
   flex-direction: column;
   overflow: hidden;
   overscroll-behavior: contain;
+  transition: background-color var(--transition);
 }
 
 /* Hero */
@@ -99,12 +110,12 @@ onMounted(async () => {
   display: inline-block;
   font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--color-primary);
-  background: var(--color-primary-soft);
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  margin-bottom: 1.5rem;
+  letter-spacing: 0.06em;
+  color: var(--md-sys-color-on-primary-container);
+  background: var(--md-sys-color-primary-container);
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius-pill);
+  margin-bottom: 1.75rem;
 }
 
 .title {
@@ -112,14 +123,14 @@ onMounted(async () => {
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.02em;
-  color: var(--color-text);
-  margin-bottom: 1rem;
+  color: var(--md-sys-color-on-surface);
+  margin-bottom: 1.25rem;
 }
 
 .lede {
   font-size: 1.15rem;
   line-height: 1.6;
-  color: var(--color-text-muted);
+  color: var(--md-sys-color-on-surface-variant);
   margin: 0 auto 2.5rem;
   max-width: 520px;
 }
@@ -130,38 +141,47 @@ onMounted(async () => {
   margin-bottom: 2rem;
 }
 
+/* M3 Extended FAB for CTA */
 .cta {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  background: var(--color-cta-bg);
-  color: var(--color-cta-fg);
+  gap: 0.75rem;
+  background: var(--md-sys-color-primary);
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.05rem;
   font-weight: 600;
-  padding: 1rem 2rem;
-  border-radius: 999px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  padding: 1.1rem 2.2rem;
+  border-radius: var(--radius-pill);
+  transition: all var(--transition);
+  box-shadow: var(--shadow-md);
 }
 
 .cta:hover {
-  background: var(--color-cta-bg-hover);
+  background: var(--md-sys-color-primary-hover);
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+  box-shadow: var(--shadow-lg);
 }
 
 .cta:focus-visible {
-  outline: 3px solid var(--color-primary);
+  outline: 3px solid var(--md-sys-color-primary);
   outline-offset: 3px;
 }
 
-.cta .arrow {
-  transition: transform 0.2s ease;
+.cta-icon {
+  font-size: 20px;
 }
 
-.cta:hover .arrow {
-  transform: translateX(4px);
+/* Stats Card - M3 Outlined Card Style */
+.stats-card {
+  display: inline-block;
+  margin: 0.5rem auto 2rem;
+  padding: 0.85rem 1.75rem;
+  background: var(--md-sys-color-surface-container-low);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: background-color var(--transition), border-color var(--transition);
 }
 
 .meta {
@@ -169,62 +189,59 @@ onMounted(async () => {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem 0.75rem;
+  gap: 0.75rem 1rem;
   font-size: 0.95rem;
-  color: var(--color-text-soft);
+  color: var(--md-sys-color-on-surface-variant);
   margin: 0;
 }
 
-.meta strong {
-  color: var(--color-text);
+.stat-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.stat-num {
+  color: var(--md-sys-color-primary);
+  font-size: 1.15rem;
   font-weight: 700;
 }
 
-.meta .dot {
-  color: var(--color-border-strong);
+.stat-label {
+  font-weight: 500;
 }
 
-/* Trust micro-badges：自成一行（block flex），三個徽章水平單行排列 */
+.meta .dot {
+  color: var(--md-sys-color-outline-variant);
+  font-weight: bold;
+}
+
+/* Trust badges using Material Icons */
 .trust-badges {
   list-style: none;
   padding: 0;
-  margin: 0.85rem 0 0;
+  margin: 0.5rem 0 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 0.85rem;
-  font-size: 0.82rem;
-  color: var(--color-text-muted);
+  gap: 1.25rem;
+  font-size: 0.88rem;
+  color: var(--md-sys-color-on-surface-variant);
   white-space: nowrap;
 }
 
 .trust-badges li {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.4rem;
   line-height: 1.4;
+  font-weight: 500;
 }
 
-/* 手機螢幕字級略縮，確保三個徽章塞得進單行 */
-@media (max-width: 420px) {
-  .trust-badges {
-    gap: 0.55rem;
-    font-size: 0.72rem;
-  }
-}
-
-@media (max-width: 340px) {
-  .trust-badges {
-    gap: 0.4rem;
-    font-size: 0.66rem;
-  }
-}
-
-.trust-badges li span[aria-hidden] {
-  /* 用語意色：暗模式自動切到較亮的綠 */
-  color: var(--color-success);
-  font-weight: 700;
+.trust-icon {
+  font-size: 18px;
+  color: var(--md-sys-color-success);
 }
 
 /* Decorative background blobs */
@@ -239,34 +256,34 @@ onMounted(async () => {
   position: absolute;
   border-radius: 50%;
   filter: blur(80px);
-  opacity: 0.45;
+  opacity: 0.5;
 }
 
 .blob-a {
-  width: 420px;
-  height: 420px;
-  background: radial-gradient(circle, #c7d2fe 0%, transparent 70%);
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, var(--md-sys-color-primary-container) 0%, transparent 70%);
   top: -120px;
   left: -80px;
 }
 
 .blob-b {
-  width: 480px;
-  height: 480px;
-  background: radial-gradient(circle, #ddd6fe 0%, transparent 70%);
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, var(--md-sys-color-secondary-container) 0%, transparent 70%);
   bottom: -160px;
   right: -100px;
 }
 
-/* Dark mode：把粉嫩色塊改成深紫，避免在暗背景上太刺眼且降低對比 */
+/* Dark mode blob tweaks */
 [data-theme="dark"] .blob-a {
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.55) 0%, transparent 70%);
-  opacity: 0.35;
+  background: radial-gradient(circle, rgba(168, 199, 250, 0.25) 0%, transparent 70%);
+  opacity: 0.3;
 }
 
 [data-theme="dark"] .blob-b {
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.45) 0%, transparent 70%);
-  opacity: 0.3;
+  background: radial-gradient(circle, rgba(0, 99, 155, 0.2) 0%, transparent 70%);
+  opacity: 0.25;
 }
 
 /* Responsive */
@@ -275,19 +292,35 @@ onMounted(async () => {
     padding: 3rem 1.25rem;
   }
 
+  .title {
+    margin-bottom: 1rem;
+  }
+
   .lede {
     font-size: 1.02rem;
     margin-bottom: 2rem;
   }
 
   .cta {
-    padding: 0.9rem 1.6rem;
+    padding: 1rem 1.8rem;
     font-size: 1rem;
   }
 
-  .meta {
+  .stats-card {
+    padding: 0.75rem 1.25rem;
+  }
+
+  .trust-badges {
+    gap: 0.75rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .trust-badges {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0.5rem 0.8rem;
   }
 }
 </style>

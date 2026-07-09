@@ -17,21 +17,7 @@
             :aria-label="$t('nav.settings')"
             :title="$t('nav.settings')"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              aria-hidden="true"
-            >
-              <circle cx="12" cy="12" r="3"></circle>
-              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-            </svg>
+            <span class="material-symbols-outlined" aria-hidden="true">settings</span>
           </router-link>
         </div>
       </div>
@@ -73,99 +59,150 @@ watch(locale, (val) => {
 </script>
 
 <style>
-/* ===== Design tokens =====
-   所有顏色都通過 WCAG AA 對比度（>= 4.5:1 for normal text），
-   主要 token 通過 AAA（>= 7:1）。請勿在元件中寫死色碼，
-   一律使用變數，這樣切換亮/暗主題才會正確。 */
+/* ===== Google Material Design 3 Design Tokens ===== */
 :root {
-  --nav-h: 60px;
-  --footer-h: 40px;
+  --nav-h: 64px;
+  --footer-h: 48px;
   --nav-h-mobile: 56px;
-  --footer-h-mobile: 36px;
+  --footer-h-mobile: 44px;
 
-  /* 表面 */
-  --color-bg: #fafbfc;
-  --color-surface: #ffffff;
-  --color-surface-2: #f8fafc;
+  /* Material Design 3 Design Tokens (Light Theme) */
+  --md-sys-color-primary: #0b57d0; /* M3 Key Blue / Google Blue */
+  --md-sys-color-primary-hover: #0842a0;
+  --md-sys-color-primary-container: #d3e3fd;
+  --md-sys-color-on-primary-container: #041e49;
+  
+  --md-sys-color-secondary: #00639b;
+  --md-sys-color-secondary-container: #c2e7ff;
+  --md-sys-color-on-secondary-container: #001d35;
 
-  /* 文字（vs --color-bg 對比度）
-     text:        #0f172a  → 18.7:1 (AAA)
-     text-muted:  #475569  →  7.5:1 (AAA)
-     text-soft:   #64748b  →  4.6:1 (AA, 大字 AAA) */
-  --color-text: #0f172a;
-  --color-text-muted: #475569;
-  --color-text-soft: #64748b;
+  --md-sys-color-surface: #ffffff;
+  --md-sys-color-surface-dim: #dedfec;
+  --md-sys-color-surface-container-lowest: #ffffff;
+  --md-sys-color-surface-container-low: #f8fafd;
+  --md-sys-color-surface-container: #f0f4f9;
+  --md-sys-color-surface-container-high: #e9eef6;
+  --md-sys-color-surface-container-highest: #d7e3f4;
+  
+  --md-sys-color-on-surface: #1f1f1f;
+  --md-sys-color-on-surface-variant: #444746;
+  
+  --md-sys-color-outline: #747775;
+  --md-sys-color-outline-variant: #c4c7c5;
+  
+  --md-sys-color-background: #f8fafd;
+  --md-sys-color-on-background: #1f1f1f;
+
+  --md-sys-color-error: #ba1a1a;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-error-container: #ffdad6;
+  --md-sys-color-on-error-container: #410002;
+
+  --md-sys-color-success: #146c2e;
+  --md-sys-color-success-container: #c4eed0;
+  --md-sys-color-on-success-container: #002107;
+
+  --md-sys-color-warning: #8d4f00;
+  --md-sys-color-warning-container: #ffe0db;
+  --md-sys-color-on-warning-container: #2e1600;
+
+  /* Legacy variables for compatibility */
+  --color-bg: var(--md-sys-color-background);
+  --color-surface: var(--md-sys-color-surface);
+  --color-surface-2: var(--md-sys-color-surface-container-low);
+  
+  --color-text: var(--md-sys-color-on-surface);
+  --color-text-muted: var(--md-sys-color-on-surface-variant);
+  --color-text-soft: var(--md-sys-color-outline);
   --color-text-on-primary: #ffffff;
 
-  /* 邊框 / 分隔 */
-  --color-border: #e5e7eb;
-  --color-border-strong: #cbd5e1;
+  --color-border: var(--md-sys-color-outline-variant);
+  --color-border-strong: var(--md-sys-color-outline);
 
-  /* 強調色（紫藍）：5b6cff vs 白底 ≈ 4.7:1 (AA) */
-  --color-primary: #4f5ee0;        /* 比 5b6cff 略深，提升對比 */
-  --color-primary-hover: #3f4cc8;
-  --color-primary-soft: rgba(79, 94, 224, 0.08);
+  --color-primary: var(--md-sys-color-primary);
+  --color-primary-hover: var(--md-sys-color-primary-hover);
+  --color-primary-soft: rgba(11, 87, 208, 0.08);
 
-  /* CTA（首頁主按鈕等深色按鈕）：亮色模式深底白字 */
-  --color-cta-bg: #0f172a;
-  --color-cta-bg-hover: #1e293b;
+  --color-cta-bg: var(--md-sys-color-primary);
+  --color-cta-bg-hover: var(--md-sys-color-primary-hover);
   --color-cta-fg: #ffffff;
 
-  /* 語意色 */
-  --color-success: #15803d;        /* vs 白底 4.7:1 */
-  --color-warning: #b45309;
-  --color-danger: #b91c1c;
+  --color-success: var(--md-sys-color-success);
+  --color-warning: var(--md-sys-color-warning);
+  --color-danger: var(--md-sys-color-error);
 
-  /* Chrome */
-  --color-nav-bg: rgba(255, 255, 255, 0.96);
-  --color-footer-bg: rgba(255, 255, 255, 0.96);
+  --color-nav-bg: var(--md-sys-color-surface-container);
+  --color-footer-bg: var(--md-sys-color-surface-container);
 
-  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
-  --shadow-md: 0 4px 16px rgba(15, 23, 42, 0.06);
-  --shadow-lg: 0 12px 28px rgba(15, 23, 42, 0.12);
+  /* Elevation and Shadows */
+  --md-elevation-1: 0 1px 3px 1px rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  --md-elevation-2: 0 2px 6px 2px rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  --md-elevation-3: 0 4px 12px 3px rgba(0, 0, 0, 0.08), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  
+  --shadow-sm: var(--md-elevation-1);
+  --shadow-md: var(--md-elevation-2);
+  --shadow-lg: var(--md-elevation-3);
 
-  --radius-sm: 6px;
-  --radius-md: 10px;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 28px;
   --radius-pill: 999px;
 
-  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: 0.25s cubic-bezier(0.2, 0, 0, 1);
 }
 
-/* ===== Dark theme overrides =====
-   對 #0b1220 背景的對比度：
-     text       #f8fafc → 17.4:1 (AAA)
-     text-muted #d3dde9 → 12.8:1 (AAA)
-     text-soft  #b3c0d1 →  8.7:1 (AAA)
-     primary    #a5b4fc →  9.8:1 (AAA) */
+/* ===== Dark theme overrides ===== */
 [data-theme="dark"] {
-  --color-bg: #0b1220;
-  --color-surface: #131c30;
-  --color-surface-2: #1c2742;
+  /* Material Design 3 Design Tokens (Dark Theme) */
+  --md-sys-color-primary: #a8c7fa;
+  --md-sys-color-primary-hover: #c2e7ff;
+  --md-sys-color-primary-container: #0842a0;
+  --md-sys-color-on-primary-container: #d3e3fd;
 
-  --color-text: #f8fafc;
-  --color-text-muted: #d3dde9;
-  --color-text-soft: #b3c0d1;
-  --color-text-on-primary: #0b1220;
+  --md-sys-color-secondary: #c2e7ff;
+  --md-sys-color-secondary-container: #004a77;
+  --md-sys-color-on-secondary-container: #c2e7ff;
 
-  --color-border: #28324d;
-  --color-border-strong: #3f4c6b;
+  --md-sys-color-surface: #0f131a;
+  --md-sys-color-surface-dim: #0a0e14;
+  --md-sys-color-surface-container-lowest: #0a0e14;
+  --md-sys-color-surface-container-low: #131720;
+  --md-sys-color-surface-container: #1b202a;
+  --md-sys-color-surface-container-high: #272c38;
+  --md-sys-color-surface-container-highest: #323846;
 
-  /* 暗色用較亮的紫色，且確保對比 ≥ 7:1 */
-  --color-primary: #a5b4fc;
-  --color-primary-hover: #c7d2fe;
-  --color-primary-soft: rgba(165, 180, 252, 0.18);
+  --md-sys-color-on-surface: #e2e2e6;
+  --md-sys-color-on-surface-variant: #c4c7c5;
 
-  /* 暗模式 CTA 反向：亮底深字 */
-  --color-cta-bg: #f8fafc;
-  --color-cta-bg-hover: #e2e8f0;
-  --color-cta-fg: #0b1220;
+  --md-sys-color-outline: #8e918f;
+  --md-sys-color-outline-variant: #444746;
 
-  --color-success: #4ade80;
-  --color-warning: #fbbf24;
-  --color-danger: #f87171;
+  --md-sys-color-background: #0b0e14;
+  --md-sys-color-on-background: #e2e2e6;
 
-  --color-nav-bg: rgba(11, 18, 32, 0.96);
-  --color-footer-bg: rgba(11, 18, 32, 0.96);
+  --md-sys-color-error: #ffb4ab;
+  --md-sys-color-on-error: #690005;
+  --md-sys-color-error-container: #93000a;
+  --md-sys-color-on-error-container: #ffb4ab;
+
+  --md-sys-color-success: #6be190;
+  --md-sys-color-success-container: #00531b;
+  --md-sys-color-on-success-container: #e8f5e9;
+
+  --md-sys-color-warning: #ffb865;
+  --md-sys-color-warning-container: #663600;
+  --md-sys-color-on-warning-container: #fff3e0;
+
+  --color-primary-soft: rgba(168, 199, 250, 0.15);
+  --color-cta-bg: var(--md-sys-color-primary);
+  --color-cta-bg-hover: var(--md-sys-color-primary-hover);
+  --color-cta-fg: var(--md-sys-color-surface-dim);
+  
+  --md-elevation-1: 0 1px 3px 1px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --md-elevation-2: 0 2px 6px 2px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --md-elevation-3: 0 4px 12px 3px rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -179,21 +216,19 @@ html, body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC',
-    'Noto Sans TC', Roboto, sans-serif;
+  font-family: 'Roboto', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.6;
   color: var(--color-text);
   background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* 防止水平捲動，且避免 iOS 上 body 因 child overflow 連動捲動 */
   overflow-x: hidden;
   overscroll-behavior: none;
 }
 
 /* Global focus ring (a11y) */
 :focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--md-sys-color-primary);
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -203,8 +238,8 @@ body {
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
-  background: var(--color-text);
-  color: #fff;
+  background: var(--md-sys-color-on-surface);
+  color: var(--md-sys-color-surface);
   padding: 0.6rem 1rem;
   border-radius: var(--radius-sm);
   font-size: 0.9rem;
@@ -218,24 +253,20 @@ body {
   transform: translateY(0);
 }
 
-/* ===== Navbar ===== */
+/* ===== App Bar (Navbar) ===== */
 .navbar {
   background: var(--color-nav-bg);
   backdrop-filter: saturate(180%) blur(12px);
   -webkit-backdrop-filter: saturate(180%) blur(12px);
-  border-bottom: 1px solid var(--color-border);
-  /* 內容滾動時透出來會看不清楚，加一道很細的陰影把 navbar 與下方內容明確分開 */
-  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.04), 0 4px 12px rgba(15, 23, 42, 0.04);
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  box-shadow: var(--shadow-sm);
   height: var(--nav-h);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-}
-
-[data-theme="dark"] .navbar {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background-color var(--transition), border-color var(--transition);
 }
 
 .nav-container {
@@ -251,84 +282,89 @@ body {
 .nav-logo {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 1.05rem;
+  gap: 0.6rem;
+  font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--md-sys-color-on-surface);
   transition: color var(--transition);
 }
 
 .nav-logo-mark {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .nav-logo:hover {
-  color: var(--color-primary);
+  color: var(--md-sys-color-primary);
 }
 
 .nav-menu {
   display: flex;
-  gap: 1.25rem;
+  gap: 0.75rem;
   align-items: center;
 }
 
 .nav-link {
-  color: var(--color-text-muted);
+  color: var(--md-sys-color-on-surface-variant);
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
-  padding: 0.4rem 0.6rem;
-  border-radius: var(--radius-sm);
-  transition: color var(--transition), background var(--transition);
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius-xl);
+  transition: all var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link:hover {
-  color: var(--color-text);
-  background: var(--color-primary-soft);
+  color: var(--md-sys-color-on-surface);
+  background: rgba(11, 87, 208, 0.08);
 }
 
 .nav-link.router-link-active {
-  color: var(--color-primary);
-  background: var(--color-primary-soft);
+  color: var(--md-sys-color-on-primary-container);
+  background: var(--md-sys-color-primary-container);
+  font-weight: 700;
 }
 
 .nav-icon-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: var(--radius-pill);
-  color: var(--color-text-muted);
+  color: var(--md-sys-color-on-surface-variant);
   text-decoration: none;
-  transition: background var(--transition), color var(--transition);
+  transition: all var(--transition);
 }
 
 .nav-icon-link:hover {
-  background: var(--color-primary-soft);
-  color: var(--color-text);
+  background: rgba(11, 87, 208, 0.08);
+  color: var(--md-sys-color-on-surface);
 }
 
 .nav-icon-link.router-link-active {
-  background: var(--color-primary-soft);
-  color: var(--color-primary);
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+}
+
+.nav-icon-link .material-symbols-outlined {
+  font-size: 22px;
 }
 
 /* ===== Main ===== */
 .main-content {
   margin-top: var(--nav-h);
   margin-bottom: var(--footer-h);
-  /* 改用 100dvh（dynamic viewport height）—— iOS Safari 上網址列顯示/隱藏
-     會讓 100vh 比實際可視區高，造成 body 出現可滾動高度，內容因此會
-     滑到 navbar 後面看起來像「覆蓋」。100dvh 會跟著實際可視區縮放。 */
   min-height: calc(100vh - var(--nav-h) - var(--footer-h));
   min-height: calc(100dvh - var(--nav-h) - var(--footer-h));
 }
 
 .main-content:focus {
-  outline: none; /* programmatic focus only, no ring */
+  outline: none;
 }
 
 /* ===== Footer ===== */
@@ -336,20 +372,21 @@ body {
   background: var(--color-footer-bg);
   backdrop-filter: saturate(180%) blur(8px);
   -webkit-backdrop-filter: saturate(180%) blur(8px);
-  border-top: 1px solid var(--color-border);
-  color: var(--color-text-soft);
+  border-top: 1px solid var(--md-sys-color-outline-variant);
+  color: var(--md-sys-color-on-surface-variant);
   height: var(--footer-h);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 0 1rem;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1000;
+  transition: background-color var(--transition), border-color var(--transition);
 }
 
 .footer p {
@@ -363,23 +400,22 @@ body {
 }
 
 .footer .footer-label {
-  color: var(--color-text-soft);
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .footer .footer-sep {
-  color: #cbd5e1;
+  color: var(--md-sys-color-outline-variant);
 }
 
 .footer a {
-  color: var(--color-text);
+  color: var(--md-sys-color-primary);
   text-decoration: none;
   font-weight: 500;
   transition: color var(--transition);
 }
 
 .footer a:hover {
-  color: var(--color-primary);
+  color: var(--md-sys-color-primary-hover);
   text-decoration: underline;
 }
 
@@ -395,31 +431,30 @@ body {
   }
 
   .nav-menu {
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
 
   .nav-logo-text {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .nav-link {
-    padding: 0.4rem 0.5rem;
+    padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
   }
 
   .footer {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     padding: 0 0.75rem;
   }
 
   .footer .footer-label {
-    display: none; /* 手機版省空間，只留連結與分隔點 */
+    display: none;
   }
 }
 
 @media (max-width: 380px) {
   .nav-logo-text {
-    /* 在很窄的螢幕上隱藏標題文字，只留 emoji */
     display: none;
   }
 }
