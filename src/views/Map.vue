@@ -624,7 +624,7 @@ const initMap = () => {
   map.value = L.map(mapContainer.value, {
     zoomControl: false, // 關閉 Leaflet 預設 zoom，改用自訂 M3 控制項或直接滑動
     attributionControl: true
-  }).setView(defaultPos, 13)
+  }).setView(defaultPos, 16)
 
   // 載入 OpenStreetMap 圖磚
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -647,6 +647,14 @@ const initMap = () => {
   })
 }
 
+// 跳轉地圖視角；Leaflet 縮放動畫進行中呼叫 setView 會在動畫結束時被蓋回原目標，
+// 因此先強制結束進行中的動畫再移動
+const jumpTo = (position, zoom = 16) => {
+  if (!map.value) return
+  if (map.value._animatingZoom) map.value._onZoomTransitionEnd()
+  map.value.setView(position, zoom)
+}
+
 // 建立中心點拖曳標記 (M3 Custom Pin Target)
 const createCenterMarker = (position) => {
   centerMarker.value = L.marker(position, {
@@ -662,8 +670,6 @@ const createCenterMarker = (position) => {
       iconAnchor: [20, 40]
     })
   }).addTo(map.value)
-
-  map.value.setView(position, 16)
 
   centerMarker.value.on('dragend', async () => {
     const pos = centerMarker.value.getLatLng()
@@ -725,7 +731,7 @@ const locateUser = async (opts = {}) => {
   try {
     const location = await getUserLocation()
 
-    map.value.setView(location, 16)
+    jumpTo(location)
     centerMarker.value.setLatLng(location)
     userLocation.value = location
 
@@ -782,7 +788,7 @@ const searchCustomLocation = async () => {
 
     if (location) {
       userLocation.value = location
-      map.value.setView(location, 16)
+      jumpTo(location)
       centerMarker.value.setLatLng(location)
 
       if (userMarker.value) {
@@ -1168,7 +1174,7 @@ const showClusterModal = (toilets) => {
 
 const focusToilet = (toilet) => {
   selectedToilet.value = toilet
-  map.value.setView([toilet.latitude, toilet.longitude], 16)
+  jumpTo([toilet.latitude, toilet.longitude])
   trackEvent('toilet_open', toToiletEventParams(toilet))
 }
 
@@ -1203,7 +1209,7 @@ const selectClusterToilet = (toilet) => {
   selectedToilet.value = toilet
   showClusterList.value = false
   clusteredToilets.value = []
-  map.value.setView([toilet.latitude, toilet.longitude], 16)
+  jumpTo([toilet.latitude, toilet.longitude])
 }
 
 const closeAllToiletsModal = () => {
@@ -1213,7 +1219,7 @@ const closeAllToiletsModal = () => {
 const selectToiletFromList = (toilet) => {
   selectedToilet.value = toilet
   showAllToiletsList.value = false
-  map.value.setView([toilet.latitude, toilet.longitude], 16)
+  jumpTo([toilet.latitude, toilet.longitude])
 }
 
 watch(themeResolved, (val) => {
