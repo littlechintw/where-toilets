@@ -1,4 +1,4 @@
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import {
   getThemePreference,
   resolveTheme,
@@ -21,13 +21,17 @@ export function useTheme() {
     trackEvent('theme_change', { preference: next, resolved: resolveTheme(next) })
   }
 
-  // 從別處（例如同分頁多視窗）改了 localStorage 也跟著更新
+  // 從別處（例如同分頁多視窗）改了 localStorage 也跟著更新；元件卸載時要移除監聽
+  const onStorage = (e) => {
+    if (e.key === 'theme') preference.value = getThemePreference()
+  }
   onMounted(() => {
     if (typeof window === 'undefined') return
-    const onStorage = (e) => {
-      if (e.key === 'theme') preference.value = getThemePreference()
-    }
     window.addEventListener('storage', onStorage)
+  })
+  onUnmounted(() => {
+    if (typeof window === 'undefined') return
+    window.removeEventListener('storage', onStorage)
   })
 
   return { preference, resolved, set }

@@ -12,11 +12,18 @@ const messages = { zh, en, ja, ko, vi, id, th, fil }
 
 // 啟動時讀取使用者上次選的語言（App.vue 也會讀，但這裡更早，避免閃動）
 function getInitialLocale() {
+  // 1) URL ?lang=xx（index.html / sitemap 的 hreflang 連結就是用這個格式）
+  if (typeof window !== 'undefined' && window.location?.search) {
+    const q = new URLSearchParams(window.location.search).get('lang')
+    const code = q ? q.toLowerCase().split('-')[0] : ''
+    if (code && messages[code]) return code
+  }
+  // 2) 使用者上次主動選的語言
   if (typeof localStorage !== 'undefined') {
     const saved = localStorage.getItem('locale')
     if (saved && messages[saved]) return saved
   }
-  // 自動偵測瀏覽器語言
+  // 3) 自動偵測瀏覽器語言
   if (typeof navigator !== 'undefined' && navigator.language) {
     const code = navigator.language.toLowerCase()
     if (code.startsWith('zh')) return 'zh'

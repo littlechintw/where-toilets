@@ -139,49 +139,14 @@
           <h3>{{ $t('map.toiletList.title') }} ({{ filteredToilets.length }})</h3>
 
           <div class="result-list result-list-inline">
-            <button
+            <ToiletListItem
               v-for="toilet in displayedToilets"
               :key="toilet.id"
-              type="button"
-              class="result-item"
-              :class="{ 'result-item-active': selectedToilet?.id === toilet.id }"
-              @click="focusToilet(toilet)"
-            >
-              <div class="result-item-main">
-                <div class="result-item-row">
-                  <h4 class="result-item-name">{{ toilet.name_zh }}</h4>
-                  <span v-if="toilet.distance" class="result-item-distance">
-                    {{ formatDistance(toilet.distance) }}
-                  </span>
-                </div>
-                <p class="result-item-address">{{ toilet.address_zh }}</p>
-                <div class="result-item-badges">
-                  <span
-                    v-if="toilet.grade_zh"
-                    class="badge"
-                    :class="`badge-grade-${(toilet.grade || '').toLowerCase()}`"
-                  >
-                    {{ toilet.grade_zh }}
-                  </span>
-                  <span v-if="toilet.type_zh" class="badge badge-soft">{{ toilet.type_zh }}</span>
-                  <span v-if="hasChangingTable(toilet)" class="badge badge-soft">
-                    <span class="material-symbols-outlined badge-icon-symbol" aria-hidden="true">baby_changing_station</span>
-                    {{ $t('map.toiletInfo.diaperBadge') }}
-                  </span>
-                </div>
-              </div>
-              <span
-                class="result-item-nav"
-                role="button"
-                tabindex="0"
-                :aria-label="$t('map.toiletInfo.navigation')"
-                @click.stop="openNavigation(toilet)"
-                @keydown.enter.stop="openNavigation(toilet)"
-                @keydown.space.stop.prevent="openNavigation(toilet)"
-              >
-                <span class="material-symbols-outlined" aria-hidden="true">directions</span>
-              </span>
-            </button>
+              :toilet="toilet"
+              :active="selectedToilet?.id === toilet.id"
+              @select="focusToilet"
+              @navigate="openNavigation"
+            />
           </div>
 
           <!-- 查看全部按鈕 -->
@@ -265,48 +230,13 @@
         </header>
 
         <div class="result-list">
-          <button
+          <ToiletListItem
             v-for="toilet in clusteredToilets"
             :key="toilet.id"
-            type="button"
-            class="result-item"
-            @click="selectClusterToilet(toilet)"
-          >
-            <div class="result-item-main">
-              <div class="result-item-row">
-                <h4 class="result-item-name">{{ toilet.name_zh }}</h4>
-                <span v-if="toilet.distance" class="result-item-distance">
-                  {{ formatDistance(toilet.distance) }}
-                </span>
-              </div>
-              <p class="result-item-address">{{ toilet.address_zh }}</p>
-              <div class="result-item-badges">
-                <span
-                  v-if="toilet.grade_zh"
-                  class="badge"
-                  :class="`badge-grade-${(toilet.grade || '').toLowerCase()}`"
-                >
-                  {{ toilet.grade_zh }}
-                </span>
-                <span v-if="toilet.type_zh" class="badge badge-soft">{{ toilet.type_zh }}</span>
-                <span v-if="hasChangingTable(toilet)" class="badge badge-soft">
-                  <span class="material-symbols-outlined badge-icon-symbol" aria-hidden="true">baby_changing_station</span>
-                  {{ $t('map.toiletInfo.diaperBadge') }}
-                </span>
-              </div>
-            </div>
-            <span
-              class="result-item-nav"
-              role="button"
-              tabindex="0"
-              :aria-label="$t('map.toiletInfo.navigation')"
-              @click.stop="openNavigation(toilet)"
-              @keydown.enter.stop="openNavigation(toilet)"
-              @keydown.space.stop.prevent="openNavigation(toilet)"
-            >
-              <span class="material-symbols-outlined" aria-hidden="true">directions</span>
-            </span>
-          </button>
+            :toilet="toilet"
+            @select="selectClusterToilet"
+            @navigate="openNavigation"
+          />
         </div>
       </div>
     </div>
@@ -341,48 +271,13 @@
         </header>
 
         <div class="result-list">
-          <button
+          <ToiletListItem
             v-for="toilet in filteredToilets"
             :key="toilet.id"
-            type="button"
-            class="result-item"
-            @click="selectToiletFromList(toilet)"
-          >
-            <div class="result-item-main">
-              <div class="result-item-row">
-                <h4 class="result-item-name">{{ toilet.name_zh }}</h4>
-                <span v-if="toilet.distance" class="result-item-distance">
-                  {{ formatDistance(toilet.distance) }}
-                </span>
-              </div>
-              <p class="result-item-address">{{ toilet.address_zh }}</p>
-              <div class="result-item-badges">
-                <span
-                  v-if="toilet.grade_zh"
-                  class="badge"
-                  :class="`badge-grade-${(toilet.grade || '').toLowerCase()}`"
-                >
-                  {{ toilet.grade_zh }}
-                </span>
-                <span v-if="toilet.type_zh" class="badge badge-soft">{{ toilet.type_zh }}</span>
-                <span v-if="hasChangingTable(toilet)" class="badge badge-soft">
-                  <span class="material-symbols-outlined badge-icon-symbol" aria-hidden="true">baby_changing_station</span>
-                  {{ $t('map.toiletInfo.diaperBadge') }}
-                </span>
-              </div>
-            </div>
-            <span
-              class="result-item-nav"
-              role="button"
-              tabindex="0"
-              :aria-label="$t('map.toiletInfo.navigation')"
-              @click.stop="openNavigation(toilet)"
-              @keydown.enter.stop="openNavigation(toilet)"
-              @keydown.space.stop.prevent="openNavigation(toilet)"
-            >
-              <span class="material-symbols-outlined" aria-hidden="true">directions</span>
-            </span>
-          </button>
+            :toilet="toilet"
+            @select="selectToiletFromList"
+            @navigate="openNavigation"
+          />
         </div>
       </div>
     </div>
@@ -412,7 +307,7 @@
             <span
               v-if="selectedToilet.grade_zh"
               class="badge"
-              :class="`badge-grade-${(selectedToilet.grade || '').toLowerCase()}`"
+              :class="gradeBadgeClass(selectedToilet)"
             >
               {{ selectedToilet.grade_zh }}
             </span>
@@ -475,9 +370,11 @@
 import { ref, onMounted, onUnmounted, watch, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import L from 'leaflet'
-import { getUserLocation, findNearestToilets, detectUserCounty, getNearbyCounties, formatDistance, sanitizeBounds } from '../utils/geo'
+import 'leaflet/dist/leaflet.css'
+import ToiletListItem from '../components/ToiletListItem.vue'
+import { getUserLocation, detectUserCounty, getNearbyCounties, formatDistance, sanitizeBounds } from '../utils/geo'
 import { trackEvent } from '../utils/analytics'
-import { hasChangingTable, toToiletEventParams } from '../utils/toilet'
+import { hasChangingTable, toToiletEventParams, getGradeKey, getTypeKey } from '../utils/toilet'
 import { geocodeAddress, tryParseTwCoordinate } from '../composables/useGeocoding'
 import { useTheme } from '../composables/useTheme'
 
@@ -515,6 +412,8 @@ const searchError = ref('')
 let updateTimeout = null
 // 用來標記非同步載入請求，避免舊的結果覆蓋新的畫面狀態
 let currentUpdateRequestId = 0
+// 監看地圖容器尺寸（收合側欄、手機面板高度改變時 Leaflet 不會自己知道）
+let resizeObserver = null
 
 // 篩選器
 const filters = ref({
@@ -526,20 +425,20 @@ const filters = ref({
 // 篩選器選項
 const gradeOptions = computed(() => [
   { value: '', label: t('map.filters.grade.all') },
-  { value: '特優', label: t('map.filters.grade.excellent') },
-  { value: '優等', label: t('map.filters.grade.good') },
-  { value: '普通', label: t('map.filters.grade.fair') },
-  { value: '加強', label: t('map.filters.grade.needsImprovement') },
-  { value: '不合格', label: t('map.filters.grade.fail') }
+  { value: 'excellent', label: t('map.filters.grade.excellent') },
+  { value: 'good', label: t('map.filters.grade.good') },
+  { value: 'fair', label: t('map.filters.grade.fair') },
+  { value: 'needs-improvement', label: t('map.filters.grade.needsImprovement') },
+  { value: 'fail', label: t('map.filters.grade.fail') }
 ])
 
 const typeOptions = computed(() => [
   { value: '', label: t('map.filters.type.all') },
-  { value: '男', label: t('map.filters.type.male'), icon: 'man' },
-  { value: '女', label: t('map.filters.type.female'), icon: 'woman' },
-  { value: '男女', label: t('map.filters.type.mixed'), icon: 'wc' },
-  { value: '無障礙', label: t('map.filters.type.accessible'), icon: 'accessible' },
-  { value: '親子', label: t('map.filters.type.family'), icon: 'child_care' }
+  { value: 'male', label: t('map.filters.type.male'), icon: 'man' },
+  { value: 'female', label: t('map.filters.type.female'), icon: 'woman' },
+  { value: 'mixed', label: t('map.filters.type.mixed'), icon: 'wc' },
+  { value: 'accessible', label: t('map.filters.type.accessible'), icon: 'accessible' },
+  { value: 'family', label: t('map.filters.type.family'), icon: 'child_care' }
 ])
 
 const hasActiveFilters = computed(() =>
@@ -549,59 +448,14 @@ const hasActiveFilters = computed(() =>
 )
 
 // 計算過濾後的廁所
+// 等級 / 類型都先經過 getGradeKey / getTypeKey 正規化再比對，
+// 這樣不論資料是「特優級」還是 "excellent"、「男廁所」還是 "male" 都能正確篩選
 const filteredToilets = computed(() => {
+  const { grade, type, hasDiaper } = filters.value
   const filtered = nearbyToilets.value.filter(toilet => {
-    if (filters.value.grade) {
-      const toiletGrade = toilet.grade || toilet.level || toilet.rating || ''
-      const gradeMatch = toiletGrade.includes(filters.value.grade) ||
-        filters.value.grade.includes(toiletGrade) ||
-        toiletGrade === filters.value.grade
-      if (!gradeMatch) return false
-    }
-
-    if (filters.value.type) {
-      const toiletType = toilet.type || toilet.toilet_type || toilet.category || ''
-      const toiletName = toilet.name_zh || toilet.name || ''
-
-      let typeMatch = false
-
-      if (filters.value.type === '女') {
-        typeMatch = toiletName.includes('女') ||
-          toiletType === 'female' ||
-          toiletType.includes('female')
-      } else if (filters.value.type === '男') {
-        typeMatch = toiletName.includes('男') ||
-          toiletType === 'male' ||
-          toiletType.includes('male')
-      } else if (filters.value.type === '男女') {
-        typeMatch = (toiletName.includes('男') && toiletName.includes('女')) ||
-          toiletType === 'mixed' ||
-          toiletType === 'unisex' ||
-          toiletType.includes('mixed')
-      } else if (filters.value.type === '無障礙') {
-        typeMatch = toiletName.includes('無障礙') ||
-          toiletName.includes('身障') ||
-          toiletType === 'accessible' ||
-          toiletType.includes('accessible')
-      } else if (filters.value.type === '親子') {
-        typeMatch = toiletName.includes('親子') ||
-          toiletName.includes('育嬰') ||
-          toiletName.includes('baby') ||
-          toiletType === 'family' ||
-          toiletType.includes('family')
-      } else {
-        typeMatch = toiletType.includes(filters.value.type) ||
-          filters.value.type.includes(toiletType) ||
-          toiletName.includes(filters.value.type)
-      }
-
-      if (!typeMatch) return false
-    }
-
-    if (filters.value.hasDiaper) {
-      if (!hasChangingTable(toilet)) return false
-    }
-
+    if (grade && getGradeKey(toilet) !== grade) return false
+    if (type && getTypeKey(toilet) !== type) return false
+    if (hasDiaper && !hasChangingTable(toilet)) return false
     return true
   })
 
@@ -636,10 +490,23 @@ const initMap = () => {
   createCenterMarker(defaultPos)
 
   // 地圖移動或縮放完成時載入廁所
-  map.value.on('zoomend moveend', () => {
+  const scheduleUpdate = () => {
     clearTimeout(updateTimeout)
     updateTimeout = setTimeout(updateNearbyToilets, 500)
-  })
+  }
+  map.value.on('zoomend moveend', scheduleUpdate)
+
+  // 地圖容器尺寸改變（收合側欄、手機面板展開/收合）時，Leaflet 只會監聽 window resize，
+  // 不會知道容器變大，結果新露出的區域不會載入圖磚、範圍內的廁所也不會更新。
+  // 用 ResizeObserver 監看容器並呼叫 invalidateSize()，它會再觸發 'resize' 事件。
+  if (typeof ResizeObserver !== 'undefined') {
+    resizeObserver = new ResizeObserver(() => {
+      if (!map.value) return
+      map.value.invalidateSize({ animate: false, debounceMoveend: true })
+    })
+    resizeObserver.observe(mapContainer.value)
+  }
+  map.value.on('resize', scheduleUpdate)
 
   // 地圖點擊關閉詳情
   map.value.on('click', () => {
@@ -683,7 +550,7 @@ const createCenterMarker = (position) => {
 // 載入縣市索引
 const loadCounties = async () => {
   try {
-    const response = await fetch('./data/index.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/index.json`)
     if (response.ok) {
       const data = await response.json()
       counties.value = data.counties || []
@@ -708,7 +575,7 @@ const loadToiletData = async (countyList) => {
       }
 
       console.info('loadToiletData - fetching:', county.filename)
-      const response = await fetch(`./data/counties/${county.filename}`)
+      const response = await fetch(`${import.meta.env.BASE_URL}data/counties/${county.filename}`)
       if (response.ok) {
         const toilets = await response.json()
         countyDataCache.set(county.filename, toilets)
@@ -884,7 +751,8 @@ const updateNearbyToilets = async () => {
     loadingStatus.value = t('map.loading.processingToilets')
     let finalToilets = visibleToilets
 
-    if (userLocation.value && !finalToilets[0]?.distance) {
+    // 一律重算距離：縣市資料有快取，物件上可能還留著「上一個位置」算出來的 distance
+    if (userLocation.value) {
       finalToilets.forEach(toilet => {
         toilet.distance = calculateDistance(
           userLocation.value[0],
@@ -960,17 +828,26 @@ const updateMapMarkers = () => {
   })
 }
 
-// 取得廁所 Material Symbol 名稱
+// 取得廁所 Material Symbol 名稱（圖示代表類型，顏色代表等級）
 const getToiletSymbol = (toilet) => {
-  if (toilet.grade === 'excellent') return 'star'
-  if (toilet.type === 'family') return 'child_care'
+  const type = getTypeKey(toilet)
+  if (type === 'accessible') return 'accessible'
+  if (type === 'family') return 'child_care'
   if (hasChangingTable(toilet)) return 'baby_changing_station'
+  if (type === 'male') return 'man'
+  if (type === 'female') return 'woman'
   return 'wc'
+}
+
+// 詳情對話框的等級 badge class
+const gradeBadgeClass = (toilet) => {
+  const key = getGradeKey(toilet)
+  return key ? `badge-grade-${key}` : ''
 }
 
 // 建立單個廁所標記 (M3 Custom teardrop marker)
 const createSingleToiletMarker = (toilet) => {
-  const gradeClass = (toilet.grade || '').toLowerCase()
+  const gradeClass = getGradeKey(toilet)
   const symbol = getToiletSymbol(toilet)
 
   const marker = L.marker([toilet.latitude, toilet.longitude], {
@@ -1031,7 +908,7 @@ const createClusterMarker = (cluster) => {
           height: ${iconSize}px !important;
         ">
           <span class="cluster-count" style="font-size: ${fontSize}px !important;">${count}</span>
-          <span class="material-symbols-outlined cluster-symbol" style="font-size: ${Math.max(12, fontSize)}px !important;">wc</span>
+          <span class="material-symbols-outlined cluster-symbol" aria-hidden="true" style="font-size: ${Math.max(12, fontSize)}px !important;">wc</span>
         </div>
       `,
       iconSize: [iconSize, iconSize],
@@ -1222,6 +1099,20 @@ const selectToiletFromList = (toilet) => {
   jumpTo([toilet.latitude, toilet.longitude])
 }
 
+// Esc 關閉目前開啟的對話框（詳情 > 聚合清單 > 全部清單）
+const onKeydown = (event) => {
+  if (event.key !== 'Escape') return
+  if (selectedToilet.value) closeModal()
+  else if (showClusterList.value) closeClusterModal()
+  else if (showAllToiletsList.value) closeAllToiletsModal()
+}
+
+// 沒有 ResizeObserver 的舊瀏覽器：側欄收合動畫結束後再補一次 invalidateSize
+watch(isPanelCollapsed, () => {
+  if (resizeObserver || !map.value) return
+  setTimeout(() => map.value && map.value.invalidateSize({ animate: false }), 300)
+})
+
 watch(themeResolved, (val) => {
   trackEvent('theme_applied_to_map', { resolved: val })
 })
@@ -1242,6 +1133,7 @@ watch(filters, (newVal, oldVal) => {
 }, { deep: true })
 
 onMounted(async () => {
+  window.addEventListener('keydown', onKeydown)
   await loadCounties()
   initMap()
   const ok = await locateUser({ silent: true })
@@ -1251,7 +1143,12 @@ onMounted(async () => {
 })
 
 onUnmounted(() => {
+  window.removeEventListener('keydown', onKeydown)
   if (updateTimeout) clearTimeout(updateTimeout)
+  if (resizeObserver) {
+    resizeObserver.disconnect()
+    resizeObserver = null
+  }
   if (map.value) map.value.remove()
 })
 </script>
@@ -1319,7 +1216,7 @@ onUnmounted(() => {
 }
 
 .collapse-btn:hover {
-  background: rgba(11, 87, 208, 0.08);
+  background: var(--color-primary-soft);
   color: var(--md-sys-color-primary);
 }
 
@@ -1392,7 +1289,7 @@ onUnmounted(() => {
 }
 
 .btn-search:hover:not(:disabled) {
-  background: rgba(11, 87, 208, 0.08);
+  background: var(--color-primary-soft);
   color: var(--md-sys-color-primary);
 }
 
@@ -1432,7 +1329,7 @@ onUnmounted(() => {
   justify-content: center;
   gap: 0.5rem;
   background: var(--md-sys-color-primary);
-  color: #ffffff;
+  color: var(--md-sys-color-on-primary);
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: var(--radius-pill);
@@ -1642,7 +1539,7 @@ onUnmounted(() => {
 }
 
 .btn-reset-link:hover:not(:disabled) {
-  background: rgba(11, 87, 208, 0.08);
+  background: var(--color-primary-soft);
 }
 
 .btn-reset-link:disabled {
@@ -1671,151 +1568,6 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-}
-
-/* M3 List Item style */
-.result-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.15rem;
-  background: var(--md-sys-color-surface);
-  border: 1px solid var(--md-sys-color-outline-variant);
-  border-radius: var(--radius-md);
-  text-align: left;
-  cursor: pointer;
-  transition: all var(--transition);
-  width: 100%;
-}
-
-.result-item:hover {
-  background: var(--md-sys-color-surface-container-high);
-  border-color: var(--md-sys-color-outline);
-}
-
-.result-item-active {
-  background: var(--md-sys-color-primary-container);
-  border-color: var(--md-sys-color-primary);
-  box-shadow: 0 0 0 1px var(--md-sys-color-primary) inset;
-}
-
-.result-item-main {
-  flex: 1;
-  min-width: 0;
-}
-
-.result-item-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.5rem;
-  margin-bottom: 0.25rem;
-}
-
-.result-item-name {
-  margin: 0;
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--md-sys-color-on-surface);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.result-item-distance {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--md-sys-color-primary);
-  flex-shrink: 0;
-}
-
-.result-item-address {
-  margin: 0 0 0.5rem 0;
-  font-size: 0.82rem;
-  color: var(--md-sys-color-on-surface-variant);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.result-item-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-/* Badges */
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.2rem 0.5rem;
-  border-radius: var(--radius-xs);
-  background: var(--md-sys-color-outline-variant);
-  color: var(--md-sys-color-on-surface-variant);
-}
-
-.badge-grade-excellent,
-.badge-grade-特優 {
-  background: var(--md-sys-color-success-container);
-  color: var(--md-sys-color-on-success-container);
-}
-
-.badge-grade-good,
-.badge-grade-優等 {
-  background: #e3f2fd;
-  color: #0d47a1;
-}
-
-.badge-grade-fair,
-.badge-grade-普通 {
-  background: var(--md-sys-color-warning-container);
-  color: var(--md-sys-color-on-warning-container);
-}
-
-.badge-grade-fail,
-.badge-grade-不合,
-.badge-grade-不合格 {
-  background: var(--md-sys-color-error-container);
-  color: var(--md-sys-color-on-error-container);
-}
-
-.badge-soft {
-  background: var(--md-sys-color-surface-container-highest);
-  color: var(--md-sys-color-on-surface-variant);
-}
-
-.badge-icon-symbol {
-  font-size: 12px;
-}
-
-/* Nav Button in List Item */
-.result-item-nav {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius-pill);
-  background: var(--md-sys-color-primary-container);
-  color: var(--md-sys-color-on-primary-container);
-  border: none;
-  cursor: pointer;
-  transition: all var(--transition);
-  margin-left: 0.75rem;
-  flex-shrink: 0;
-}
-
-.result-item-nav:hover {
-  background: var(--md-sys-color-primary);
-  color: #ffffff;
-  transform: scale(1.05);
-}
-
-.result-item-nav .material-symbols-outlined {
-  font-size: 18px;
 }
 
 .view-all-btn-container {
@@ -2015,7 +1767,7 @@ onUnmounted(() => {
 }
 
 .close-btn:hover {
-  background: rgba(11, 87, 208, 0.08);
+  background: var(--color-primary-soft);
   color: var(--md-sys-color-on-surface);
 }
 
@@ -2136,7 +1888,7 @@ onUnmounted(() => {
   justify-content: center;
   gap: 0.5rem;
   background: var(--md-sys-color-primary);
-  color: #ffffff;
+  color: var(--md-sys-color-on-primary);
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: var(--radius-pill);
@@ -2169,10 +1921,6 @@ onUnmounted(() => {
     border-right: none;
     border-bottom: 1px solid var(--md-sys-color-outline-variant);
     box-shadow: var(--shadow-sm);
-  }
-
-  .control-panel.collapsed {
-    height: 56px;
   }
 
   .panel-content {
@@ -2220,12 +1968,13 @@ onUnmounted(() => {
   align-items: center;
 }
 
+/* 大頭針顏色固定不隨主題變動：深色主題的 primary 是淺藍，配白色圖示會看不清楚 */
 .m3-pin {
   width: 32px;
   height: 32px;
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
-  background: var(--md-sys-color-primary);
+  background: #0b57d0;
   border: 2px solid #ffffff;
   box-shadow: var(--md-elevation-1);
   display: flex;
@@ -2246,9 +1995,9 @@ onUnmounted(() => {
   line-height: 1;
 }
 
-/* Marker Grade Color Schemes */
+/* Marker Grade Color Schemes（class 名稱對應 getGradeKey() 的回傳值） */
 .pin-grade-excellent {
-  background: var(--md-sys-color-success) !important;
+  background: #146c2e !important;
 }
 
 .pin-grade-good {
@@ -2256,15 +2005,15 @@ onUnmounted(() => {
 }
 
 .pin-grade-fair {
-  background: var(--md-sys-color-warning) !important;
+  background: #8d4f00 !important;
 }
 
-.pin-grade-needsimprovement {
-  background: #e91e63 !important;
+.pin-grade-needs-improvement {
+  background: #c2185b !important;
 }
 
 .pin-grade-fail {
-  background: var(--md-sys-color-error) !important;
+  background: #ba1a1a !important;
 }
 
 /* M3 Center Location Marker */

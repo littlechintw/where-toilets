@@ -64,7 +64,7 @@ const onCtaClick = () => {
 
 onMounted(async () => {
   try {
-    const response = await fetch('./data/index.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/index.json`)
     if (response.ok) {
       stats.value = await response.json()
     }
@@ -147,7 +147,7 @@ onMounted(async () => {
   align-items: center;
   gap: 0.75rem;
   background: var(--md-sys-color-primary);
-  color: #ffffff;
+  color: var(--md-sys-color-on-primary);
   text-decoration: none;
   font-size: 1.05rem;
   font-weight: 600;

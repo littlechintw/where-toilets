@@ -10,6 +10,8 @@
 
 const STORAGE_KEY = 'theme'
 const VALID = ['light', 'dark', 'system']
+// 對應 App.vue 的 --color-nav-bg（瀏覽器網址列 / PWA 標題列顏色）
+const THEME_COLOR = { light: '#f0f4f9', dark: '#1b202a' }
 
 /** 目前儲存的偏好（含 system） */
 export function getThemePreference() {
@@ -36,6 +38,10 @@ export function applyTheme(pref = getThemePreference()) {
   const resolved = resolveTheme(pref)
   document.documentElement.setAttribute('data-theme', resolved)
   document.documentElement.style.colorScheme = resolved // 影響原生 scrollbar、表單元件
+  // 手動選主題時，<meta name="theme-color"> 的 media query 會跟系統走，這裡一併覆寫
+  document.querySelectorAll('meta[name="theme-color"]').forEach(meta => {
+    meta.setAttribute('content', THEME_COLOR[resolved])
+  })
 }
 
 /** 寫入偏好並套用 */

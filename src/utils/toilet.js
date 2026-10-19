@@ -20,6 +20,7 @@
 export function hasChangingTable(toilet) {
   if (!toilet) return false
   const toiletName = toilet.name_zh || toilet.name || ''
+  if (getTypeKey(toilet) === 'family') return true
 
   // 1) 明確標示「有」
   if (
@@ -58,6 +59,74 @@ export function hasChangingTable(toilet) {
   }
 
   return false
+}
+
+/**
+ * 等級正規化。
+ *
+ * 政府 API 回傳的是「特優級 / 優等級 / 普通級 / 加強級 / 不合格」，
+ * normalize-data.js 會嘗試轉成英文 key，但舊資料仍是中文原值。
+ * 這裡統一轉成 CSS class 與篩選器用的 key：
+ *   'excellent' | 'good' | 'fair' | 'needs-improvement' | 'fail' | ''
+ */
+const GRADE_ALIASES = [
+  ['excellent', ['excellent', '特優']],
+  ['good', ['good', '優等']],
+  ['fair', ['fair', '普通']],
+  ['needs-improvement', ['needs_improvement', 'needs-improvement', '加強']],
+  ['fail', ['fail', '不合格']]
+]
+
+export function getGradeKey(toilet) {
+  if (!toilet) return ''
+  const raw = String(toilet.grade || toilet.grade_zh || '').trim()
+  if (!raw) return ''
+  const lower = raw.toLowerCase()
+  for (const [key, aliases] of GRADE_ALIASES) {
+    if (aliases.some(alias => lower === alias || raw.includes(alias))) return key
+  }
+  return ''
+}
+
+/**
+ * 類型正規化。
+ *
+ * 回傳 'male' | 'female' | 'mixed' | 'accessible' | 'family' | ''
+ *
+ * 優先順序：
+ *   1. 官方 type_zh（男廁所 / 女廁所 / 無障礙廁所 / 混合廁所 / 親子廁所 / 性別友善廁所）
+ *   2. 已正規化的英文 type（舊資料幾乎全是 'mixed' 的 fallback 值，所以只採信明確的值）
+ *   3. 名稱推斷
+ */
+const SPECIFIC_TYPES = ['family', 'accessible', 'female', 'male', 'unisex']
+
+export function getTypeKey(toilet) {
+  if (!toilet) return ''
+  const typeZh = String(toilet.type_zh || '')
+  const type = String(toilet.type || '').toLowerCase()
+  const name = String(toilet.name_zh || toilet.name || '')
+
+  if (typeZh) {
+    if (typeZh.includes('親子')) return 'family'
+    if (typeZh.includes('無障礙')) return 'accessible'
+    if (
+      typeZh.includes('混合') ||
+      typeZh.includes('性別友善') ||
+      (typeZh.includes('男') && typeZh.includes('女'))
+    ) return 'mixed'
+    if (typeZh.includes('女')) return 'female'
+    if (typeZh.includes('男')) return 'male'
+  }
+
+  if (SPECIFIC_TYPES.includes(type)) return type === 'unisex' ? 'mixed' : type
+
+  if (name.includes('親子') || name.includes('育嬰') || /baby/i.test(name)) return 'family'
+  if (name.includes('無障礙') || name.includes('身障')) return 'accessible'
+  if (name.includes('男') && name.includes('女')) return 'mixed'
+  if (name.includes('女')) return 'female'
+  if (name.includes('男')) return 'male'
+
+  return type === 'mixed' ? 'mixed' : ''
 }
 
 /**

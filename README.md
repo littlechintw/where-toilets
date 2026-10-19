@@ -48,7 +48,7 @@ Ministry of Environment (環境部環境管理署) open data set.
 
 ```bash
 npm install      # install dependencies
-npm run dev      # start dev server at http://localhost:5173
+npm run dev      # start dev server at http://localhost:3001
 npm run build    # production build → dist/
 npm run preview  # preview the production build locally
 ```

@@ -46,16 +46,23 @@ import { SUPPORTED_LOCALES } from './i18n'
 
 const { locale } = useI18n()
 
-// 語言變動時同步 <html lang>（對 SEO 與螢幕閱讀器都重要）並記入 localStorage
-watch(locale, (val) => {
+// 同步 <html lang>（對 SEO 與螢幕閱讀器都重要）
+const syncHtmlLang = (val) => {
   const meta = SUPPORTED_LOCALES.find(l => l.code === val)
   if (typeof document !== 'undefined') {
     document.documentElement.lang = meta?.htmlLang || val
   }
+}
+syncHtmlLang(locale.value)
+
+// 只有使用者「主動切換」才寫入 localStorage；
+// 由 ?lang= 或瀏覽器語言自動判斷出來的初始值不應該被永久記住
+watch(locale, (val) => {
+  syncHtmlLang(val)
   if (typeof localStorage !== 'undefined') {
     localStorage.setItem('locale', val)
   }
-}, { immediate: true })
+})
 </script>
 
 <style>
@@ -69,6 +76,7 @@ watch(locale, (val) => {
   /* Material Design 3 Design Tokens (Light Theme) */
   --md-sys-color-primary: #0b57d0; /* M3 Key Blue / Google Blue */
   --md-sys-color-primary-hover: #0842a0;
+  --md-sys-color-on-primary: #ffffff;
   --md-sys-color-primary-container: #d3e3fd;
   --md-sys-color-on-primary-container: #041e49;
   
@@ -114,7 +122,7 @@ watch(locale, (val) => {
   --color-text: var(--md-sys-color-on-surface);
   --color-text-muted: var(--md-sys-color-on-surface-variant);
   --color-text-soft: var(--md-sys-color-outline);
-  --color-text-on-primary: #ffffff;
+  --color-text-on-primary: var(--md-sys-color-on-primary);
 
   --color-border: var(--md-sys-color-outline-variant);
   --color-border-strong: var(--md-sys-color-outline);
@@ -125,7 +133,7 @@ watch(locale, (val) => {
 
   --color-cta-bg: var(--md-sys-color-primary);
   --color-cta-bg-hover: var(--md-sys-color-primary-hover);
-  --color-cta-fg: #ffffff;
+  --color-cta-fg: var(--md-sys-color-on-primary);
 
   --color-success: var(--md-sys-color-success);
   --color-warning: var(--md-sys-color-warning);
@@ -158,6 +166,7 @@ watch(locale, (val) => {
   /* Material Design 3 Design Tokens (Dark Theme) */
   --md-sys-color-primary: #a8c7fa;
   --md-sys-color-primary-hover: #c2e7ff;
+  --md-sys-color-on-primary: #062e6f; /* 深色主題 primary 是淺藍，文字要用深藍才有對比 */
   --md-sys-color-primary-container: #0842a0;
   --md-sys-color-on-primary-container: #d3e3fd;
 
@@ -198,7 +207,7 @@ watch(locale, (val) => {
   --color-primary-soft: rgba(168, 199, 250, 0.15);
   --color-cta-bg: var(--md-sys-color-primary);
   --color-cta-bg-hover: var(--md-sys-color-primary-hover);
-  --color-cta-fg: var(--md-sys-color-surface-dim);
+  --color-cta-fg: var(--md-sys-color-on-primary);
   
   --md-elevation-1: 0 1px 3px 1px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   --md-elevation-2: 0 2px 6px 2px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
@@ -320,7 +329,7 @@ body {
 
 .nav-link:hover {
   color: var(--md-sys-color-on-surface);
-  background: rgba(11, 87, 208, 0.08);
+  background: var(--color-primary-soft);
 }
 
 .nav-link.router-link-active {
@@ -342,7 +351,7 @@ body {
 }
 
 .nav-icon-link:hover {
-  background: rgba(11, 87, 208, 0.08);
+  background: var(--color-primary-soft);
   color: var(--md-sys-color-on-surface);
 }
 
@@ -417,6 +426,53 @@ body {
 .footer a:hover {
   color: var(--md-sys-color-primary-hover);
   text-decoration: underline;
+}
+
+/* ===== Badges（清單項目與詳情對話框共用；class 名稱對應 getGradeKey()） ===== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-xs);
+  background: var(--md-sys-color-outline-variant);
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.badge-grade-excellent {
+  background: var(--md-sys-color-success-container);
+  color: var(--md-sys-color-on-success-container);
+}
+
+.badge-grade-good {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.badge-grade-fair {
+  background: var(--md-sys-color-warning-container);
+  color: var(--md-sys-color-on-warning-container);
+}
+
+.badge-grade-needs-improvement {
+  background: var(--md-sys-color-error-container);
+  color: var(--md-sys-color-on-error-container);
+}
+
+.badge-grade-fail {
+  background: var(--md-sys-color-error);
+  color: var(--md-sys-color-on-error);
+}
+
+.badge-soft {
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.badge-icon-symbol {
+  font-size: 12px;
 }
 
 /* ===== Responsive ===== */

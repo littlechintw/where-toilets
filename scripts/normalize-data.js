@@ -58,20 +58,28 @@ const COUNTY_EN_MAP = {
   '連江縣': 'Lienchiang'
 };
 
-// 等級對照
+// 等級對照（API 實際回傳的是「特優級 / 優等級 / 普通級 / 加強級 / 不合格」）
 const GRADE_MAP = {
+  '特優級': 'excellent',
   '特優': 'excellent',
+  '優等級': 'good',
   '優等': 'good',
+  '普通級': 'fair',
   '普通': 'fair',
+  '加強級': 'needs_improvement',
   '加強': 'needs_improvement',
   '不合格': 'fail'
 };
 
-// 類型對照
+// 類型對照（API 實際回傳的是「男廁所 / 女廁所 / 無障礙廁所 / 混合廁所 / 親子廁所 / 性別友善廁所」）
 const TYPE_MAP = {
+  '男廁所': 'male',
   '男廁': 'male',
+  '女廁所': 'female',
   '女廁': 'female',
+  '無障礙廁所': 'accessible',
   '混合廁所': 'mixed',
+  '性別友善廁所': 'mixed',
   '親子廁所': 'family'
 };
 
