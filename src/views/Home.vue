@@ -14,15 +14,16 @@
           </router-link>
         </div>
 
-        <div v-if="stats" class="stats-card">
+        <!-- 一開始就渲染（用保底數字），等 index.json 回來再換成實際值，避免插入時整段往下推造成 CLS -->
+        <div class="stats-card">
           <p class="meta">
             <span class="stat-item">
-              <strong class="stat-num">{{ stats.total_count?.toLocaleString() || '40,000+' }}</strong>
+              <strong class="stat-num">{{ stats?.total_count?.toLocaleString() || '45,000+' }}</strong>
               <span class="stat-label">{{ $t('home.stats.toilets') }}</span>
             </span>
             <span class="dot" aria-hidden="true">·</span>
             <span class="stat-item">
-              <strong class="stat-num">{{ stats.counties?.length || '22' }}</strong>
+              <strong class="stat-num">{{ stats?.counties?.length || '22' }}</strong>
               <span class="stat-label">{{ $t('home.stats.counties') }}</span>
             </span>
           </p>
@@ -263,7 +264,7 @@ onMounted(async () => {
 .blob {
   position: absolute;
   border-radius: 50%;
-  filter: blur(80px);
+  /* 不用 filter: blur()：兩個 450–500px 的模糊圖層在手機上繪製很貴，radial-gradient 本身就已經是漸層邊緣 */
   opacity: 0.5;
 }
 

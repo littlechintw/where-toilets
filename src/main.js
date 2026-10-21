@@ -3,11 +3,15 @@ import { createRouter, createWebHistory } from 'vue-router'
 import i18n from './i18n'
 import App from './App.vue'
 import Home from './views/Home.vue'
-import Map from './views/Map.vue'
-import Settings from './views/Settings.vue'
-import Privacy from './views/Privacy.vue'
+
+// 其他頁面延後載入：首頁不需要 Leaflet（44KB gzip）與地圖頁程式碼，
+// 拆成獨立 chunk，進到那一頁才下載
+const MapView = () => import('./views/Map.vue')
+const Settings = () => import('./views/Settings.vue')
+const Privacy = () => import('./views/Privacy.vue')
 import { trackPageView } from './utils/analytics'
 import { initTheme } from './utils/theme'
+import ICON_NAMES from './assets/material-symbols-icons.json'
 
 // 啟動時就套用主題，避免閃白
 initTheme()
@@ -25,7 +29,7 @@ const router = createRouter({
     {
       path: '/map',
       name: 'Map',
-      component: Map,
+      component: MapView,
       meta: { title: '廁所地圖｜地圖檢視 - 附近的公共廁所' }
     },
     {
@@ -58,3 +62,15 @@ const app = createApp(App)
 app.use(router)
 app.use(i18n)
 app.mount('#app')
+
+// 開發模式：檢查畫面上的 Material Symbols 是否都在自家託管的子集字型裡，
+// 漏掉的圖示在正式環境會顯示成文字（修法：npm run icons 重新產生子集）
+if (import.meta.env.DEV) {
+  const allowed = new Set(ICON_NAMES)
+  const checkIcons = () => {
+    const used = [...document.querySelectorAll('.material-symbols-outlined')].map(el => el.textContent.trim()).filter(Boolean)
+    const missing = [...new Set(used.filter(name => !allowed.has(name)))]
+    if (missing.length) console.warn('[icons] 這些圖示不在子集字型裡，會顯示成文字，請執行 npm run icons：', missing.join(', '))
+  }
+  router.afterEach(() => setTimeout(checkIcons, 2000))
+}

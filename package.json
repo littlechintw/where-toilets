@@ -12,6 +12,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "icons": "node scripts/build-icon-font.mjs",
     "fetch-data": "node scripts/fetch-toilets.js",
     "normalize-data": "node scripts/normalize-data.js",
     "process-data": "npm run fetch-data && npm run normalize-data",

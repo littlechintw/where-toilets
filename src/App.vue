@@ -245,6 +245,17 @@ body {
   overscroll-behavior: none;
 }
 
+/* Material Symbols：圖示本來就是 1em 見方。字型載入前 ligature 文字（例如 "explore"）
+   會用 fallback 字型撐開寬度造成版面位移，固定尺寸並用 clip-path 裁掉（不用 overflow，
+   以免改變 inline-block 的 baseline） */
+.material-symbols-outlined {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  clip-path: inset(0);
+  flex-shrink: 0;
+}
+
 /* Global focus ring (a11y) */
 :focus-visible {
   outline: 2px solid var(--md-sys-color-primary);

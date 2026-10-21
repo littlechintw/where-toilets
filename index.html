@@ -106,15 +106,47 @@
   <!-- Preconnect to external domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
   <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin>
   <link rel="dns-prefetch" href="https://nominatim.openstreetmap.org">
 
-  <!-- Google Fonts & Material Symbols -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <!-- Google Fonts
+       文字字型用 display=optional：首次載入若字型沒在約 100ms 內就緒就直接用系統字型，
+       不做 swap，避免中文字型（每個切片 70–80KB）載入後整頁重排造成 CLS；之後的造訪會從快取拿到。
+       只載入有用到的粗細（400/500/700，600 由 700 補）。 -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=optional" rel="stylesheet">
+  <!-- Material Symbols：自家託管的子集字型（只含用到的圖示，約 6KB），由 scripts/build-icon-font.mjs 產生。
+       直接 preload + 行內 @font-face，不用再向 fonts.googleapis.com 要 CSS（省掉一個 render-blocking 跨網域請求）。
+       新增圖示後執行 npm run icons 重新產生。 -->
+  <link rel="preload" href="/fonts/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+    @font-face {
+      font-family: 'Material Symbols Outlined';
+      font-style: normal;
+      font-weight: 400;
+      font-display: block;
+      src: url(/fonts/material-symbols-outlined.woff2) format('woff2');
+    }
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
 
   <!-- Google Analytics 4 (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLLZ3Q6YKT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
@@ -125,6 +157,24 @@
       send_page_view: false,
       anonymize_ip: true
     });
+    // gtag.js 本體約 180KB，延後到瀏覽器閒置或第一次互動才載入；
+    // 在那之前呼叫 gtag() 的事件都先排在 dataLayer，載入後會一併送出，不會漏
+    (function () {
+      var loaded = false;
+      function load() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZLLZ3Q6YKT';
+        document.head.appendChild(s);
+      }
+      ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (name) {
+        window.addEventListener(name, load, { once: true, passive: true });
+      });
+      if ('requestIdleCallback' in window) requestIdleCallback(load, { timeout: 3000 });
+      else setTimeout(load, 3000);
+    })();
   </script>
 </head>
 <body>
