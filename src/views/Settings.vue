@@ -108,9 +108,18 @@
               <span class="material-symbols-outlined link-icon" aria-hidden="true">open_in_new</span>
             </a>
           </li>
+          <li>
+            <router-link to="/privacy">
+              <span class="material-symbols-outlined about-link-icon" aria-hidden="true">policy</span>
+              {{ $t('footer.privacy') }}
+            </router-link>
+          </li>
         </ul>
       </section>
     </div>
+
+    <!-- 廣告只放這裡（最後一張卡片下方）。放在 720px 容器外面，桌機 728 寬的單元才放得下 -->
+    <AdSlot location="settings" :slot="AD_SLOTS.settings" />
   </div>
 </template>
 
@@ -120,6 +129,8 @@ import { useI18n } from 'vue-i18n'
 import { useTheme } from '../composables/useTheme'
 import { trackEvent } from '../utils/analytics'
 import { SUPPORTED_LOCALES } from '../i18n'
+import AdSlot from '../components/AdSlot.vue'
+import { AD_SLOTS } from '../config/ads'
 
 const { locale, t } = useI18n()
 const { preference, set: setThemeRaw } = useTheme()
@@ -360,6 +371,11 @@ const languageOptions = computed(() =>
 .link-icon {
   font-size: 16px;
   opacity: 0.8;
+}
+
+.about-link-icon {
+  font-size: 18px;
+  color: var(--md-sys-color-primary);
 }
 
 @media (max-width: 480px) {

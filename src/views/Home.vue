@@ -49,12 +49,17 @@
         <div class="blob blob-b"></div>
       </div>
     </section>
+
+    <!-- 廣告只放這裡（頁面最底、頁尾上方一條固定高度的版位，離 CTA 很遠）；沒設定 ID 時正式環境不會渲染 -->
+    <AdSlot location="home" :slot="AD_SLOTS.home" class="home-ad" />
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
 import { trackEvent } from '../utils/analytics'
+import AdSlot from '../components/AdSlot.vue'
+import { AD_SLOTS } from '../config/ads'
 
 const stats = ref(null)
 
@@ -76,13 +81,12 @@ onMounted(async () => {
 
 <style scoped>
 .home {
-  height: calc(100vh - var(--nav-h) - var(--footer-h));
-  height: calc(100dvh - var(--nav-h) - var(--footer-h));
-  min-height: 480px;
+  /* 用 min-height 而不是固定 height：加了廣告列後小螢幕可以往下捲，不會被切掉 */
+  min-height: calc(100vh - var(--nav-h) - var(--footer-h));
+  min-height: calc(100dvh - var(--nav-h) - var(--footer-h));
   background: var(--md-sys-color-background);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   overscroll-behavior: contain;
   transition: background-color var(--transition);
 }
@@ -242,6 +246,10 @@ onMounted(async () => {
 .trust-icon {
   font-size: 18px;
   color: var(--md-sys-color-success);
+}
+
+.home-ad {
+  flex-shrink: 0;
 }
 
 /* Decorative background blobs */

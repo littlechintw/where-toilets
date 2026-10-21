@@ -38,11 +38,15 @@ export default {
       lede: 'マップの使い方をすぐに確認'
     }
   },
+  ads: {
+    label: '広告'
+  },
   footer: {
     dataSource: 'データ提供元',
     epa: '環境部環境管理署',
     author: '作者',
-    lastUpdate: '最終更新'
+    lastUpdate: '最終更新',
+    privacy: 'プライバシー'
   },
   common: {
     loading: '読み込み中…',

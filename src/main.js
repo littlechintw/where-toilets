@@ -5,6 +5,7 @@ import App from './App.vue'
 import Home from './views/Home.vue'
 import Map from './views/Map.vue'
 import Settings from './views/Settings.vue'
+import Privacy from './views/Privacy.vue'
 import { trackPageView } from './utils/analytics'
 import { initTheme } from './utils/theme'
 
@@ -32,6 +33,12 @@ const router = createRouter({
       name: 'Settings',
       component: Settings,
       meta: { title: '廁所地圖｜設定' }
+    },
+    {
+      path: '/privacy',
+      name: 'Privacy',
+      component: Privacy,
+      meta: { title: '廁所地圖｜隱私權政策' }
     }
   ]
 })

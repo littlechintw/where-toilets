@@ -38,11 +38,15 @@ export default {
       lede: 'Panduan singkat penggunaan peta'
     }
   },
+  ads: {
+    label: 'Iklan'
+  },
   footer: {
     dataSource: 'Sumber data',
     epa: 'Badan Pengelolaan Lingkungan, Kementerian Lingkungan Taiwan',
     author: 'Pembuat',
-    lastUpdate: 'Pembaruan terakhir'
+    lastUpdate: 'Pembaruan terakhir',
+    privacy: 'Privasi'
   },
   common: {
     loading: 'Memuat…',

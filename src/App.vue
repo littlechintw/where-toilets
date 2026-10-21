@@ -34,6 +34,8 @@
         <span class="footer-sep" aria-hidden="true">·</span>
         <span class="footer-label">{{ $t('footer.author') }}</span>
         <a href="https://littlechin.tw" target="_blank" rel="noopener noreferrer">littlechin.tw</a>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <router-link to="/privacy">{{ $t('footer.privacy') }}</router-link>
       </p>
     </footer>
   </div>
@@ -222,6 +224,14 @@ watch(locale, (val) => {
 
 html, body {
   height: 100%;
+}
+
+/* flex 容器讓 .main-content 的 margin 不會穿過 #app / body 發生 margin collapse，
+   否則 body 會被往下推一個 nav 高度，每頁都多出 64px 可以捲動 */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 body {

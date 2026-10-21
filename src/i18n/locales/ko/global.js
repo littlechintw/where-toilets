@@ -38,11 +38,15 @@ export default {
       lede: '지도 사용법 빠른 안내'
     }
   },
+  ads: {
+    label: '광고'
+  },
   footer: {
     dataSource: '데이터 출처',
     epa: '환경부 환경관리서',
     author: '제작자',
-    lastUpdate: '최종 업데이트'
+    lastUpdate: '최종 업데이트',
+    privacy: '개인정보 처리방침'
   },
   common: {
     loading: '로딩 중…',

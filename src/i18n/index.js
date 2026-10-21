@@ -42,6 +42,9 @@ export default createI18n({
   legacy: false,
   locale: getInitialLocale(),
   fallbackLocale: 'en',
+  // 隱私權政策只有 zh / en，其他語言 fallback 到英文，不要在 console 刷警告
+  fallbackWarn: false,
+  missingWarn: false,
   messages
 })
 

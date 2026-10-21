@@ -38,11 +38,15 @@ export default {
       lede: 'Hướng dẫn nhanh cách sử dụng bản đồ'
     }
   },
+  ads: {
+    label: 'Quảng cáo'
+  },
   footer: {
     dataSource: 'Nguồn dữ liệu',
     epa: 'Cục Quản lý Môi trường, Bộ Môi trường Đài Loan',
     author: 'Tác giả',
-    lastUpdate: 'Cập nhật lần cuối'
+    lastUpdate: 'Cập nhật lần cuối',
+    privacy: 'Quyền riêng tư'
   },
   common: {
     loading: 'Đang tải…',

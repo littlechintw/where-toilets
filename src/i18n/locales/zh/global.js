@@ -38,11 +38,15 @@ export default {
     locate: '使用我的位置',
     resetFilters: '重置所有篩選'
   },
+  ads: {
+    label: '廣告'
+  },
   footer: {
     dataSource: '資料來源',
     epa: '環境部環境管理署',
     author: '作者',
-    lastUpdate: '最後更新'
+    lastUpdate: '最後更新',
+    privacy: '隱私權政策'
   },
   common: {
     loading: '載入中...',

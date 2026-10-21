@@ -38,11 +38,15 @@ export default {
       lede: 'Mabilisang gabay sa paggamit ng mapa'
     }
   },
+  ads: {
+    label: 'Patalastas'
+  },
   footer: {
     dataSource: 'Pinagmulan ng datos',
     epa: 'Environmental Management Administration, Ministry of Environment Taiwan',
     author: 'May-akda',
-    lastUpdate: 'Huling update'
+    lastUpdate: 'Huling update',
+    privacy: 'Privacy'
   },
   common: {
     loading: 'Naglo-load…',

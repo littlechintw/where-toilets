@@ -38,11 +38,15 @@ export default {
     locate: 'Use my location',
     resetFilters: 'Reset all filters'
   },
+  ads: {
+    label: 'Advertisement'
+  },
   footer: {
     dataSource: 'Data Source',
     epa: 'Environmental Management Administration, Ministry of Environment',
     author: 'Author',
-    lastUpdate: 'Last Updated'
+    lastUpdate: 'Last Updated',
+    privacy: 'Privacy'
   },
   common: {
     loading: 'Loading...',

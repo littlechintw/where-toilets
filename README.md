@@ -30,7 +30,11 @@ Ministry of Environment (環境部環境管理署) open data set.
   `overscroll-behavior: contain`, mobile-first layout.
 - **Privacy** — no account, no tracking beyond anonymous Google Analytics 4
   page views (with `anonymize_ip`). Geolocation is browser-handled and never
-  stored.
+  stored. Full policy at `/privacy`.
+- **Ads, kept out of the way** — one small fixed-size Google AdSense unit at
+  the bottom of the home and settings pages only (320×50 mobile / 728×90
+  desktop), non-personalized, no auto / vignette / anchor ads. The map page is
+  always ad-free. Configured in `src/config/ads.js` (checklist inside).
 
 ## Tech
 
