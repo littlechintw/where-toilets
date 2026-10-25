@@ -10,16 +10,16 @@
     "area_zh": "虎井里",
     "latitude": 23.48678,
     "longitude": 119.51762,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000535",
@@ -32,16 +32,16 @@
     "area_zh": "虎井里",
     "latitude": 23.486765,
     "longitude": 119.517575,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000534",
@@ -54,16 +54,16 @@
     "area_zh": "虎井里",
     "latitude": 23.486827,
     "longitude": 119.517547,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000537",
@@ -76,16 +76,16 @@
     "area_zh": "虎井里",
     "latitude": 23.4864526,
     "longitude": 119.5100982,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000536",
@@ -98,16 +98,16 @@
     "area_zh": "虎井里",
     "latitude": 23.486455,
     "longitude": 119.510095,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000541",
@@ -120,16 +120,16 @@
     "area_zh": "桶盤里",
     "latitude": 23.5124826,
     "longitude": 119.5179036,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000539",
@@ -142,16 +142,16 @@
     "area_zh": "桶盤里",
     "latitude": 23.51233266,
     "longitude": 119.51765656,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000540",
@@ -164,16 +164,16 @@
     "area_zh": "桶盤里",
     "latitude": 23.51233389,
     "longitude": 119.51764852,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000486",
@@ -186,16 +186,16 @@
     "area_zh": "山水里",
     "latitude": 23.5125819,
     "longitude": 119.58770692,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000524",
@@ -208,16 +208,16 @@
     "area_zh": "嵵裡里",
     "latitude": 23.5249728,
     "longitude": 119.5701642,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "水仙宮管委會",
     "manager": "水仙宮管委會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000523",
@@ -230,16 +230,16 @@
     "area_zh": "嵵裡里",
     "latitude": 23.5250802,
     "longitude": 119.5701413,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "水仙宮管委會",
     "manager": "水仙宮管委會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000484",
@@ -252,16 +252,16 @@
     "area_zh": "山水里",
     "latitude": 23.513653,
     "longitude": 119.595918,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000485",
@@ -274,16 +274,16 @@
     "area_zh": "山水里",
     "latitude": 23.513653,
     "longitude": 119.595918,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000563",
@@ -296,16 +296,16 @@
     "area_zh": "五德里",
     "latitude": 23.52672,
     "longitude": 119.59171,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000562",
@@ -318,16 +318,16 @@
     "area_zh": "五德里",
     "latitude": 23.526728,
     "longitude": 119.591718,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000564",
@@ -340,16 +340,16 @@
     "area_zh": "五德里",
     "latitude": 23.52674,
     "longitude": 119.59178,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000495",
@@ -362,16 +362,16 @@
     "area_zh": "鎖港里",
     "latitude": 23.52844151,
     "longitude": 119.60268259,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000497",
@@ -384,16 +384,16 @@
     "area_zh": "鎖港里",
     "latitude": 23.52852021,
     "longitude": 119.60268259,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000496",
@@ -406,16 +406,16 @@
     "area_zh": "鎖港里",
     "latitude": 23.52846119,
     "longitude": 119.60276842,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000438",
@@ -428,16 +428,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5543263,
     "longitude": 119.5837009,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000442",
@@ -450,7 +450,7 @@
     "area_zh": "前寮里",
     "latitude": 23.5543503,
     "longitude": 119.5836646,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -459,7 +459,7 @@
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000443",
@@ -472,16 +472,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5543332,
     "longitude": 119.5837607,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000429",
@@ -494,7 +494,7 @@
     "area_zh": "前寮里",
     "latitude": 23.5543483,
     "longitude": 119.5837472,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -503,7 +503,7 @@
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000430",
@@ -516,16 +516,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5543621,
     "longitude": 119.5837191,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000436",
@@ -538,16 +538,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5544867,
     "longitude": 119.5837623,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000427",
@@ -560,16 +560,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5545089,
     "longitude": 119.5837293,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000445",
@@ -582,16 +582,16 @@
     "area_zh": "前寮里",
     "latitude": 23.55450661,
     "longitude": 119.58390713,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000440",
@@ -604,16 +604,16 @@
     "area_zh": "前寮里",
     "latitude": 23.55458529,
     "longitude": 119.5838213,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000441",
@@ -626,16 +626,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5546255,
     "longitude": 119.5838046,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000434",
@@ -648,16 +648,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5546545,
     "longitude": 119.583826,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000435",
@@ -670,16 +670,16 @@
     "area_zh": "前寮里",
     "latitude": 23.55462463,
     "longitude": 119.58399296,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000474",
@@ -692,16 +692,16 @@
     "area_zh": "菜園里",
     "latitude": 23.5493119,
     "longitude": 119.5951027,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000444",
@@ -714,16 +714,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5546832,
     "longitude": 119.5839376,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000433",
@@ -736,16 +736,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5547305,
     "longitude": 119.5838647,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000472",
@@ -758,16 +758,16 @@
     "area_zh": "菜園里",
     "latitude": 23.5493077,
     "longitude": 119.5952595,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000428",
@@ -780,7 +780,7 @@
     "area_zh": "前寮里",
     "latitude": 23.5547671,
     "longitude": 119.5838776,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -789,7 +789,7 @@
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000425",
@@ -802,7 +802,7 @@
     "area_zh": "前寮里",
     "latitude": 23.5548011,
     "longitude": 119.5839337,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -811,7 +811,7 @@
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000426",
@@ -824,16 +824,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5548101,
     "longitude": 119.5839137,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000431",
@@ -846,7 +846,7 @@
     "area_zh": "前寮里",
     "latitude": 23.554834,
     "longitude": 119.5839936,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -855,7 +855,7 @@
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000432",
@@ -868,16 +868,16 @@
     "area_zh": "前寮里",
     "latitude": 23.5548454,
     "longitude": 119.5840455,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000437",
@@ -890,7 +890,7 @@
     "area_zh": "前寮里",
     "latitude": 23.55486067,
     "longitude": 119.58420753,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -899,7 +899,7 @@
     "has_diaper": false,
     "administration": "三軍總醫院澎湖分院",
     "manager": "三軍總醫院澎湖分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000473",
@@ -912,16 +912,16 @@
     "area_zh": "菜園里",
     "latitude": 23.5495036,
     "longitude": 119.595479,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000471",
@@ -934,16 +934,16 @@
     "area_zh": "菜園里",
     "latitude": 23.5498059,
     "longitude": 119.5967356,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000469",
@@ -956,16 +956,16 @@
     "area_zh": "菜園里",
     "latitude": 23.5498091,
     "longitude": 119.596731,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000470",
@@ -978,16 +978,16 @@
     "area_zh": "菜園里",
     "latitude": 23.549818,
     "longitude": 119.5967339,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000009",
@@ -1000,16 +1000,16 @@
     "area_zh": "啟明里",
     "latitude": 23.56298404,
     "longitude": 119.56439137,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "臺灣港務股份有限公司高雄港務公司馬公營運處",
     "manager": "臺灣港務股份有限公司高雄港務公司馬公營運處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000008",
@@ -1022,16 +1022,16 @@
     "area_zh": "啟明里",
     "latitude": 23.56299387,
     "longitude": 119.56440747,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "臺灣港務股份有限公司高雄港務公司馬公營運處",
     "manager": "臺灣港務股份有限公司高雄港務公司馬公營運處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000007",
@@ -1044,16 +1044,16 @@
     "area_zh": "啟明里",
     "latitude": 23.56301846,
     "longitude": 119.56443429,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "臺灣港務股份有限公司高雄港務公司馬公營運處",
     "manager": "臺灣港務股份有限公司高雄港務公司馬公營運處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000019",
@@ -1066,16 +1066,16 @@
     "area_zh": "中央里",
     "latitude": 23.5646364,
     "longitude": 119.5637113,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "澎湖縣文化局展演科",
     "manager": "澎湖縣文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000020",
@@ -1088,16 +1088,16 @@
     "area_zh": "中央里",
     "latitude": 23.5646361,
     "longitude": 119.5637332,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "澎湖縣文化局展演科",
     "manager": "澎湖縣文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000021",
@@ -1110,16 +1110,16 @@
     "area_zh": "中央里",
     "latitude": 23.5646445,
     "longitude": 119.5637093,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": true,
     "administration": "澎湖縣文化局展演科",
     "manager": "澎湖縣文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000022",
@@ -1132,16 +1132,16 @@
     "area_zh": "重慶里",
     "latitude": 23.564964,
     "longitude": 119.568673,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司馬公站",
     "manager": "台灣中油公司馬公站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000023",
@@ -1154,16 +1154,16 @@
     "area_zh": "重慶里",
     "latitude": 23.56525,
     "longitude": 119.568712,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司馬公站",
     "manager": "台灣中油公司馬公站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000005",
@@ -1176,16 +1176,16 @@
     "area_zh": "東安村",
     "latitude": 23.381744,
     "longitude": 119.506934,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000006",
@@ -1198,7 +1198,7 @@
     "area_zh": "東安村",
     "latitude": 23.381744,
     "longitude": 119.506934,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -1207,7 +1207,7 @@
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000004",
@@ -1220,16 +1220,16 @@
     "area_zh": "東安村",
     "latitude": 23.381744,
     "longitude": 119.506934,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000098",
@@ -1242,7 +1242,7 @@
     "area_zh": "光復里",
     "latitude": 23.56579661,
     "longitude": 119.56989527,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -1251,7 +1251,7 @@
     "has_diaper": false,
     "administration": "澎湖區漁會",
     "manager": "澎湖區漁會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000094",
@@ -1264,16 +1264,16 @@
     "area_zh": "中興里",
     "latitude": 23.567373,
     "longitude": 119.561568,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "澎湖縣政府社會處",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000095",
@@ -1286,16 +1286,16 @@
     "area_zh": "中興里",
     "latitude": 23.567373,
     "longitude": 119.561568,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "澎湖縣政府社會處",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000096",
@@ -1308,16 +1308,16 @@
     "area_zh": "中興里",
     "latitude": 23.567373,
     "longitude": 119.561568,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "澎湖縣政府社會處",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000103",
@@ -1330,16 +1330,16 @@
     "area_zh": "光復里",
     "latitude": 23.56589495,
     "longitude": 119.5719552,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000013",
@@ -1352,16 +1352,16 @@
     "area_zh": "長安里",
     "latitude": 23.56736795,
     "longitude": 119.56455029,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府公共車船管理處",
     "manager": "澎湖縣政府公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000106",
@@ -1374,16 +1374,16 @@
     "area_zh": "光復里",
     "latitude": 23.56613097,
     "longitude": 119.57182646,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000014",
@@ -1396,16 +1396,16 @@
     "area_zh": "長安里",
     "latitude": 23.5675078,
     "longitude": 119.5645053,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府公共車船管理處",
     "manager": "澎湖縣政府公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000012",
@@ -1418,16 +1418,16 @@
     "area_zh": "長安里",
     "latitude": 23.5675138,
     "longitude": 119.5645863,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府公共車船管理處",
     "manager": "澎湖縣政府公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000102",
@@ -1440,16 +1440,16 @@
     "area_zh": "光復里",
     "latitude": 23.56632765,
     "longitude": 119.5720464,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000105",
@@ -1462,16 +1462,16 @@
     "area_zh": "光復里",
     "latitude": 23.56635715,
     "longitude": 119.57211614,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000110",
@@ -1484,16 +1484,16 @@
     "area_zh": "光復里",
     "latitude": 23.56672101,
     "longitude": 119.57270086,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000104",
@@ -1506,16 +1506,16 @@
     "area_zh": "光復里",
     "latitude": 23.5668046,
     "longitude": 119.57253993,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000101",
@@ -1528,16 +1528,16 @@
     "area_zh": "光復里",
     "latitude": 23.56683902,
     "longitude": 119.57254529,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000093",
@@ -1550,16 +1550,16 @@
     "area_zh": "中興里",
     "latitude": 23.56851078,
     "longitude": 119.56371546,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "救國團總部",
     "manager": "救國團總部",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000092",
@@ -1572,16 +1572,16 @@
     "area_zh": "中興里",
     "latitude": 23.56855012,
     "longitude": 119.56371546,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "救國團總部",
     "manager": "救國團總部",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000371",
@@ -1594,16 +1594,16 @@
     "area_zh": "西文里",
     "latitude": 23.5644832,
     "longitude": 119.5816831,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000369",
@@ -1616,16 +1616,16 @@
     "area_zh": "西文里",
     "latitude": 23.5645093,
     "longitude": 119.5816677,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000029",
@@ -1638,16 +1638,16 @@
     "area_zh": "中興里",
     "latitude": 23.56898281,
     "longitude": 119.56279278,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府林務公園管理所",
     "manager": "澎湖縣政府林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000370",
@@ -1660,16 +1660,16 @@
     "area_zh": "西文里",
     "latitude": 23.5647688,
     "longitude": 119.5814982,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000109",
@@ -1682,16 +1682,16 @@
     "area_zh": "陽明里",
     "latitude": 23.567122,
     "longitude": 119.573642,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖縣政府車船管理處",
     "manager": "澎湖縣政府車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000108",
@@ -1704,16 +1704,16 @@
     "area_zh": "陽明里",
     "latitude": 23.567122,
     "longitude": 119.573642,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府車船管理處",
     "manager": "澎湖縣政府車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000107",
@@ -1726,16 +1726,16 @@
     "area_zh": "陽明里",
     "latitude": 23.567122,
     "longitude": 119.573642,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府車船管理處",
     "manager": "澎湖縣政府車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000368",
@@ -1748,16 +1748,16 @@
     "area_zh": "西文里",
     "latitude": 23.5651592,
     "longitude": 119.5815409,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000028",
@@ -1770,16 +1770,16 @@
     "area_zh": "中興里",
     "latitude": 23.56949417,
     "longitude": 119.5631361,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府林務公園管理所",
     "manager": "澎湖縣政府林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000367",
@@ -1792,16 +1792,16 @@
     "area_zh": "西文里",
     "latitude": 23.5652284,
     "longitude": 119.5818213,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000366",
@@ -1814,16 +1814,16 @@
     "area_zh": "西文里",
     "latitude": 23.5652407,
     "longitude": 119.5818608,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000031",
@@ -1836,16 +1836,16 @@
     "area_zh": "中興里",
     "latitude": 23.569539,
     "longitude": 119.5631943,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府林務公園管理所",
     "manager": "澎湖縣政府林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000030",
@@ -1858,16 +1858,16 @@
     "area_zh": "中興里",
     "latitude": 23.5695481,
     "longitude": 119.5631819,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府林務公園管理所",
     "manager": "澎湖縣政府林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000032",
@@ -1880,16 +1880,16 @@
     "area_zh": "中興里",
     "latitude": 23.5695548,
     "longitude": 119.5631527,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府林務公園管理所",
     "manager": "澎湖縣政府林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000556",
@@ -1902,16 +1902,16 @@
     "area_zh": "西文里",
     "latitude": 23.56669151,
     "longitude": 119.57764149,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府工務處",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000557",
@@ -1924,16 +1924,16 @@
     "area_zh": "西文里",
     "latitude": 23.56668167,
     "longitude": 119.57772732,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府工務處",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000555",
@@ -1946,7 +1946,7 @@
     "area_zh": "西文里",
     "latitude": 23.56679476,
     "longitude": 119.57763612,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "性別友善廁所",
@@ -1955,7 +1955,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府工務處",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000410",
@@ -1968,16 +1968,16 @@
     "area_zh": "西文里",
     "latitude": 23.566455,
     "longitude": 119.579037,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000409",
@@ -1990,16 +1990,16 @@
     "area_zh": "西文里",
     "latitude": 23.566455,
     "longitude": 119.579037,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000553",
@@ -2012,16 +2012,16 @@
     "area_zh": "西文里",
     "latitude": 23.56738972,
     "longitude": 119.57654715,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府工務處",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000552",
@@ -2034,16 +2034,16 @@
     "area_zh": "西文里",
     "latitude": 23.5670947,
     "longitude": 119.57779169,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府工務處",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000554",
@@ -2056,16 +2056,16 @@
     "area_zh": "西文里",
     "latitude": 23.56749789,
     "longitude": 119.57636476,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣政府工務處",
     "manager": "澎湖縣政府工務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000408",
@@ -2078,16 +2078,16 @@
     "area_zh": "西文里",
     "latitude": 23.56702586,
     "longitude": 119.5793581,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000405",
@@ -2100,16 +2100,16 @@
     "area_zh": "西文里",
     "latitude": 23.56704553,
     "longitude": 119.57934737,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000406",
@@ -2122,16 +2122,16 @@
     "area_zh": "西文里",
     "latitude": 23.56707503,
     "longitude": 119.57940102,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000407",
@@ -2144,16 +2144,16 @@
     "area_zh": "西文里",
     "latitude": 23.56705536,
     "longitude": 119.57948685,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000398",
@@ -2166,16 +2166,16 @@
     "area_zh": "西文里",
     "latitude": 23.56707503,
     "longitude": 119.57944393,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000395",
@@ -2188,16 +2188,16 @@
     "area_zh": "西文里",
     "latitude": 23.56707503,
     "longitude": 119.5795083,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000401",
@@ -2210,16 +2210,16 @@
     "area_zh": "西文里",
     "latitude": 23.5670947,
     "longitude": 119.57944393,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000394",
@@ -2232,16 +2232,16 @@
     "area_zh": "西文里",
     "latitude": 23.56710453,
     "longitude": 119.57941175,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000397",
@@ -2254,16 +2254,16 @@
     "area_zh": "西文里",
     "latitude": 23.5670947,
     "longitude": 119.57946539,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000402",
@@ -2276,16 +2276,16 @@
     "area_zh": "西文里",
     "latitude": 23.5670947,
     "longitude": 119.57948685,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000403",
@@ -2298,16 +2298,16 @@
     "area_zh": "西文里",
     "latitude": 23.5670947,
     "longitude": 119.57948685,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000404",
@@ -2320,16 +2320,16 @@
     "area_zh": "西文里",
     "latitude": 23.56711437,
     "longitude": 119.57944393,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000399",
@@ -2342,16 +2342,16 @@
     "area_zh": "西文里",
     "latitude": 23.56711437,
     "longitude": 119.57946539,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000400",
@@ -2364,16 +2364,16 @@
     "area_zh": "西文里",
     "latitude": 23.56717337,
     "longitude": 119.57946539,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000396",
@@ -2386,16 +2386,16 @@
     "area_zh": "西文里",
     "latitude": 23.5671537,
     "longitude": 119.57955122,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局博物館科",
     "manager": "澎湖縣政府文化局博物館科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000091",
@@ -2408,16 +2408,16 @@
     "area_zh": "中興里",
     "latitude": 23.570179,
     "longitude": 119.566761,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000085",
@@ -2430,16 +2430,16 @@
     "area_zh": "中興里",
     "latitude": 23.570439,
     "longitude": 119.566904,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000084",
@@ -2452,16 +2452,16 @@
     "area_zh": "中興里",
     "latitude": 23.570439,
     "longitude": 119.566904,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000089",
@@ -2474,16 +2474,16 @@
     "area_zh": "中興里",
     "latitude": 23.570475,
     "longitude": 119.566998,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000088",
@@ -2496,16 +2496,16 @@
     "area_zh": "中興里",
     "latitude": 23.570475,
     "longitude": 119.566998,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000083",
@@ -2518,16 +2518,16 @@
     "area_zh": "中興里",
     "latitude": 23.570476,
     "longitude": 119.567231,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000082",
@@ -2540,16 +2540,16 @@
     "area_zh": "中興里",
     "latitude": 23.570476,
     "longitude": 119.567231,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000086",
@@ -2562,16 +2562,16 @@
     "area_zh": "中興里",
     "latitude": 23.570502,
     "longitude": 119.567091,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000087",
@@ -2584,16 +2584,16 @@
     "area_zh": "中興里",
     "latitude": 23.570502,
     "longitude": 119.567091,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000303",
@@ -2606,16 +2606,16 @@
     "area_zh": "陽明里",
     "latitude": 23.56965642,
     "longitude": 119.57169771,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000090",
@@ -2628,16 +2628,16 @@
     "area_zh": "中興里",
     "latitude": 23.57088072,
     "longitude": 119.5664835,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府",
     "manager": "澎湖縣政府",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000304",
@@ -2650,16 +2650,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57011861,
     "longitude": 119.57205176,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000305",
@@ -2672,16 +2672,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57083156,
     "longitude": 119.57087159,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000306",
@@ -2694,7 +2694,7 @@
     "area_zh": "陽明里",
     "latitude": 23.57085122,
     "longitude": 119.57089841,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -2703,7 +2703,7 @@
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000463",
@@ -2716,16 +2716,16 @@
     "area_zh": "光華里",
     "latitude": 23.5560719,
     "longitude": 119.606921,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000465",
@@ -2738,16 +2738,16 @@
     "area_zh": "光華里",
     "latitude": 23.5560719,
     "longitude": 119.606921,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000464",
@@ -2760,16 +2760,16 @@
     "area_zh": "光華里",
     "latitude": 23.5560719,
     "longitude": 119.606921,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000023",
@@ -2782,7 +2782,7 @@
     "area_zh": "水垵村",
     "latitude": 23.38104233,
     "longitude": 119.49488997,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -2791,7 +2791,7 @@
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000021",
@@ -2804,16 +2804,16 @@
     "area_zh": "水垵村",
     "latitude": 23.38098325,
     "longitude": 119.4949007,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000022",
@@ -2826,16 +2826,16 @@
     "area_zh": "水垵村",
     "latitude": 23.38096355,
     "longitude": 119.4949007,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000550",
@@ -2848,16 +2848,16 @@
     "area_zh": "陽明里",
     "latitude": 23.571269,
     "longitude": 119.57256,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000551",
@@ -2870,16 +2870,16 @@
     "area_zh": "陽明里",
     "latitude": 23.571269,
     "longitude": 119.57256,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000580",
@@ -2892,16 +2892,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000576",
@@ -2914,16 +2914,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000577",
@@ -2936,16 +2936,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000579",
@@ -2958,16 +2958,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000584",
@@ -2980,16 +2980,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000586",
@@ -3002,16 +3002,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000585",
@@ -3024,16 +3024,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000578",
@@ -3046,7 +3046,7 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -3055,7 +3055,7 @@
     "has_diaper": true,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000583",
@@ -3068,16 +3068,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000575",
@@ -3090,16 +3090,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000581",
@@ -3112,16 +3112,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000582",
@@ -3134,16 +3134,16 @@
     "area_zh": "光明里",
     "latitude": 23.571981,
     "longitude": 119.569868,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000358",
@@ -3156,16 +3156,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57016286,
     "longitude": 119.57794189,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000359",
@@ -3178,16 +3178,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57018253,
     "longitude": 119.57800627,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000355",
@@ -3200,16 +3200,16 @@
     "area_zh": "陽明里",
     "latitude": 23.5702022,
     "longitude": 119.5780009,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000360",
@@ -3222,16 +3222,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57024153,
     "longitude": 119.57792044,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000357",
@@ -3244,16 +3244,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57028087,
     "longitude": 119.57798481,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000356",
@@ -3266,16 +3266,16 @@
     "area_zh": "陽明里",
     "latitude": 23.5703202,
     "longitude": 119.57796335,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000411",
@@ -3288,16 +3288,16 @@
     "area_zh": "光華里",
     "latitude": 23.5586363,
     "longitude": 119.6053118,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000413",
@@ -3310,16 +3310,16 @@
     "area_zh": "光華里",
     "latitude": 23.5586594,
     "longitude": 119.6052821,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000412",
@@ -3332,16 +3332,16 @@
     "area_zh": "光華里",
     "latitude": 23.5587032,
     "longitude": 119.60528,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000414",
@@ -3354,16 +3354,16 @@
     "area_zh": "光華里",
     "latitude": 23.5569492,
     "longitude": 119.6081482,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000548",
@@ -3376,16 +3376,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57217,
     "longitude": 119.572509,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000549",
@@ -3398,16 +3398,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57217,
     "longitude": 119.572509,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000415",
@@ -3420,16 +3420,16 @@
     "area_zh": "光華里",
     "latitude": 23.5572232,
     "longitude": 119.6080235,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000307",
@@ -3442,7 +3442,7 @@
     "area_zh": "陽明里",
     "latitude": 23.57190342,
     "longitude": 119.57455158,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -3451,7 +3451,7 @@
     "has_diaper": false,
     "administration": "統一超商揚光門市",
     "manager": "統一超商揚光門市",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000416",
@@ -3464,16 +3464,16 @@
     "area_zh": "光華里",
     "latitude": 23.557574,
     "longitude": 119.607939,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000361",
@@ -3486,16 +3486,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57132324,
     "longitude": 119.57756639,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000362",
@@ -3508,16 +3508,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57150024,
     "longitude": 119.57744837,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局",
     "manager": "澎湖縣政府文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000353",
@@ -3530,16 +3530,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57140191,
     "longitude": 119.57811356,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000349",
@@ -3552,16 +3552,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57148058,
     "longitude": 119.57818866,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000351",
@@ -3574,16 +3574,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57149041,
     "longitude": 119.57823157,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000352",
@@ -3596,16 +3596,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57153958,
     "longitude": 119.5780921,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000354",
@@ -3618,16 +3618,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57157891,
     "longitude": 119.57814574,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000350",
@@ -3640,16 +3640,16 @@
     "area_zh": "陽明里",
     "latitude": 23.57154941,
     "longitude": 119.57825303,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府文化局展演科",
     "manager": "澎湖縣政府文化局展演科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000569",
@@ -3662,16 +3662,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000571",
@@ -3684,16 +3684,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000573",
@@ -3706,16 +3706,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000570",
@@ -3728,16 +3728,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000572",
@@ -3750,16 +3750,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000568",
@@ -3772,16 +3772,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000565",
@@ -3794,16 +3794,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000567",
@@ -3816,16 +3816,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000574",
@@ -3838,16 +3838,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.570827,
     "longitude": 119.581594,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000418",
@@ -3860,16 +3860,16 @@
     "area_zh": "光華里",
     "latitude": 23.5567444,
     "longitude": 119.6109764,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000417",
@@ -3882,16 +3882,16 @@
     "area_zh": "光華里",
     "latitude": 23.5567444,
     "longitude": 119.6109764,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000419",
@@ -3904,16 +3904,16 @@
     "area_zh": "光華里",
     "latitude": 23.5567444,
     "longitude": 119.6109764,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖縣林務公園管理所",
     "manager": "澎湖縣林務公園管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000566",
@@ -3926,16 +3926,16 @@
     "area_zh": "朝陽里",
     "latitude": 23.574066,
     "longitude": 119.574118,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖縣政府建設處工商發展科",
     "manager": "澎湖縣政府建設處工商發展科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000060",
@@ -3948,16 +3948,16 @@
     "area_zh": "內垵村",
     "latitude": 23.56865829,
     "longitude": 119.50689554,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000062",
@@ -3970,16 +3970,16 @@
     "area_zh": "內垵村",
     "latitude": 23.56862879,
     "longitude": 119.50668097,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000061",
@@ -3992,16 +3992,16 @@
     "area_zh": "內垵村",
     "latitude": 23.5687763,
     "longitude": 119.50657368,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000480",
@@ -4014,16 +4014,16 @@
     "area_zh": "東衛里",
     "latitude": 23.563665,
     "longitude": 119.60475,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000481",
@@ -4036,16 +4036,16 @@
     "area_zh": "東衛里",
     "latitude": 23.563665,
     "longitude": 119.60475,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "馬公市公所",
     "manager": "馬公市公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000053",
@@ -4058,16 +4058,16 @@
     "area_zh": "城北村",
     "latitude": 23.56186292,
     "longitude": 119.61308956,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000055",
@@ -4080,16 +4080,16 @@
     "area_zh": "城北村",
     "latitude": 23.56190226,
     "longitude": 119.61304665,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000057",
@@ -4102,16 +4102,16 @@
     "area_zh": "內垵村",
     "latitude": 23.5701254,
     "longitude": 119.5011633,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000059",
@@ -4124,16 +4124,16 @@
     "area_zh": "內垵村",
     "latitude": 23.5701254,
     "longitude": 119.5011633,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000475",
@@ -4146,16 +4146,16 @@
     "area_zh": "東衛里",
     "latitude": 23.57068897,
     "longitude": 119.59785461,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000056",
@@ -4168,16 +4168,16 @@
     "area_zh": "城北村",
     "latitude": 23.5619416,
     "longitude": 119.61317539,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000052",
@@ -4190,16 +4190,16 @@
     "area_zh": "城北村",
     "latitude": 23.56202027,
     "longitude": 119.61308956,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000054",
@@ -4212,16 +4212,16 @@
     "area_zh": "城北村",
     "latitude": 23.56217762,
     "longitude": 119.61304665,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000477",
@@ -4234,16 +4234,16 @@
     "area_zh": "東衛里",
     "latitude": 23.5710184,
     "longitude": 119.59768295,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000476",
@@ -4256,16 +4256,16 @@
     "area_zh": "東衛里",
     "latitude": 23.570828,
     "longitude": 119.598256,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000024",
@@ -4278,16 +4278,16 @@
     "area_zh": "中社村",
     "latitude": 23.36760426,
     "longitude": 119.50181544,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局望安航空站",
     "manager": "交通部民用航空局望安航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000025",
@@ -4300,16 +4300,16 @@
     "area_zh": "中社村",
     "latitude": 23.3675107,
     "longitude": 119.50193882,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局望安航空站",
     "manager": "交通部民用航空局望安航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000026",
@@ -4322,16 +4322,16 @@
     "area_zh": "中社村",
     "latitude": 23.36743191,
     "longitude": 119.50198174,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局望安航空站",
     "manager": "交通部民用航空局望安航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000007",
@@ -4344,16 +4344,16 @@
     "area_zh": "東安村",
     "latitude": 23.365178,
     "longitude": 119.506995,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000008",
@@ -4366,16 +4366,16 @@
     "area_zh": "東安村",
     "latitude": 23.364895,
     "longitude": 119.507448,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000009",
@@ -4388,16 +4388,16 @@
     "area_zh": "東安村",
     "latitude": 23.364875,
     "longitude": 119.506897,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000010",
@@ -4410,16 +4410,16 @@
     "area_zh": "東安村",
     "latitude": 23.364992,
     "longitude": 119.506597,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000072",
@@ -4432,16 +4432,16 @@
     "area_zh": "外垵村",
     "latitude": 23.56503938,
     "longitude": 119.4883883,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000058",
@@ -4454,16 +4454,16 @@
     "area_zh": "內垵村",
     "latitude": 23.570278,
     "longitude": 119.4971751,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000014",
@@ -4476,16 +4476,16 @@
     "area_zh": "東安村",
     "latitude": 23.36368929,
     "longitude": 119.50760365,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司望安站",
     "manager": "台灣中油公司望安站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000073",
@@ -4498,16 +4498,16 @@
     "area_zh": "外垵村",
     "latitude": 23.56520656,
     "longitude": 119.48812008,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000074",
@@ -4520,16 +4520,16 @@
     "area_zh": "外垵村",
     "latitude": 23.56520656,
     "longitude": 119.48803425,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000051",
@@ -4542,16 +4542,16 @@
     "area_zh": "城北村",
     "latitude": 23.5616944,
     "longitude": 119.6180606,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "澎湖縣政府環境保護局",
     "manager": "澎湖縣政府環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000015",
@@ -4564,16 +4564,16 @@
     "area_zh": "東安村",
     "latitude": 23.36284226,
     "longitude": 119.50729251,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司望安站",
     "manager": "台灣中油公司望安站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000588",
@@ -4586,16 +4586,16 @@
     "area_zh": "重光里",
     "latitude": 23.583824,
     "longitude": 119.564802,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000016",
@@ -4608,16 +4608,16 @@
     "area_zh": "東安村",
     "latitude": 23.36217251,
     "longitude": 119.50751781,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000018",
@@ -4630,16 +4630,16 @@
     "area_zh": "東安村",
     "latitude": 23.36215281,
     "longitude": 119.50749636,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000017",
@@ -4652,16 +4652,16 @@
     "area_zh": "東安村",
     "latitude": 23.36210357,
     "longitude": 119.50745344,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000589",
@@ -4674,7 +4674,7 @@
     "area_zh": "重光里",
     "latitude": 23.584046,
     "longitude": 119.564871,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -4683,7 +4683,7 @@
     "has_diaper": true,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000587",
@@ -4696,16 +4696,16 @@
     "area_zh": "重光里",
     "latitude": 23.584175,
     "longitude": 119.565239,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000590",
@@ -4718,16 +4718,16 @@
     "area_zh": "重光里",
     "latitude": 23.584248,
     "longitude": 119.565876,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "澎湖縣政府旅遊處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000087",
@@ -4740,7 +4740,7 @@
     "area_zh": "外垵村",
     "latitude": 23.564554,
     "longitude": 119.483545,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -4749,7 +4749,7 @@
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000085",
@@ -4762,16 +4762,16 @@
     "area_zh": "外垵村",
     "latitude": 23.564554,
     "longitude": 119.483454,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000086",
@@ -4784,16 +4784,16 @@
     "area_zh": "外垵村",
     "latitude": 23.564554,
     "longitude": 119.483454,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000088",
@@ -4806,16 +4806,16 @@
     "area_zh": "外垵村",
     "latitude": 23.564554,
     "longitude": 119.483454,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000075",
@@ -4828,7 +4828,7 @@
     "area_zh": "外垵村",
     "latitude": 23.564345,
     "longitude": 119.4830972,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -4837,7 +4837,7 @@
     "has_diaper": false,
     "administration": "台灣中油外垵加油站",
     "manager": "台灣中油外垵加油站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X010000538",
@@ -4850,16 +4850,16 @@
     "area_zh": "虎井里",
     "latitude": 23.5656788,
     "longitude": 119.4819465,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000073",
@@ -4872,16 +4872,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56034842,
     "longitude": 119.62936521,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000087",
@@ -4894,16 +4894,16 @@
     "area_zh": "隘門村",
     "latitude": 23.55991571,
     "longitude": 119.62996602,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000070",
@@ -4916,16 +4916,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56049102,
     "longitude": 119.62938666,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000071",
@@ -4938,16 +4938,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56049594,
     "longitude": 119.62940812,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000072",
@@ -4960,16 +4960,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56046644,
     "longitude": 119.6294564,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000069",
@@ -4982,16 +4982,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56055003,
     "longitude": 119.62940276,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000066",
@@ -5004,16 +5004,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56055495,
     "longitude": 119.62945104,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000065",
@@ -5026,7 +5026,7 @@
     "area_zh": "隘門村",
     "latitude": 23.56056478,
     "longitude": 119.62947249,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -5035,7 +5035,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000090",
@@ -5048,16 +5048,16 @@
     "area_zh": "隘門村",
     "latitude": 23.55997471,
     "longitude": 119.63016987,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000068",
@@ -5070,16 +5070,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56063362,
     "longitude": 119.62943494,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000088",
@@ -5092,16 +5092,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56001405,
     "longitude": 119.63016987,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000085",
@@ -5114,16 +5114,16 @@
     "area_zh": "隘門村",
     "latitude": 23.55997471,
     "longitude": 119.63023424,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000079",
@@ -5136,16 +5136,16 @@
     "area_zh": "隘門村",
     "latitude": 23.55995504,
     "longitude": 119.63027716,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000064",
@@ -5158,16 +5158,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56067296,
     "longitude": 119.62947249,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000086",
@@ -5180,16 +5180,16 @@
     "area_zh": "隘門村",
     "latitude": 23.55995504,
     "longitude": 119.63032007,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000083",
@@ -5202,16 +5202,16 @@
     "area_zh": "隘門村",
     "latitude": 23.55999438,
     "longitude": 119.63034153,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000084",
@@ -5224,7 +5224,7 @@
     "area_zh": "隘門村",
     "latitude": 23.56003372,
     "longitude": 119.63032007,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -5233,7 +5233,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000082",
@@ -5246,16 +5246,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56013206,
     "longitude": 119.63021278,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000078",
@@ -5268,16 +5268,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56013698,
     "longitude": 119.63023424,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000089",
@@ -5290,16 +5290,16 @@
     "area_zh": "隘門村",
     "latitude": 23.5601714,
     "longitude": 119.63021278,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000081",
@@ -5312,16 +5312,16 @@
     "area_zh": "隘門村",
     "latitude": 23.5601714,
     "longitude": 119.6302557,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000063",
@@ -5334,16 +5334,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56080081,
     "longitude": 119.62955832,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000067",
@@ -5356,16 +5356,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56087457,
     "longitude": 119.62952077,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000062",
@@ -5378,16 +5378,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56093849,
     "longitude": 119.62966561,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000061",
@@ -5400,16 +5400,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56097783,
     "longitude": 119.6296978,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000076",
@@ -5422,16 +5422,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56032875,
     "longitude": 119.63044882,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000077",
@@ -5444,16 +5444,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56034842,
     "longitude": 119.63047028,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000080",
@@ -5466,7 +5466,7 @@
     "area_zh": "隘門村",
     "latitude": 23.56052544,
     "longitude": 119.63029861,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -5475,7 +5475,7 @@
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000075",
@@ -5488,16 +5488,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56046644,
     "longitude": 119.63038445,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000074",
@@ -5510,16 +5510,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56060412,
     "longitude": 119.6302557,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000060",
@@ -5532,16 +5532,16 @@
     "area_zh": "隘門村",
     "latitude": 23.56103683,
     "longitude": 119.62982655,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局澎湖航空站",
     "manager": "交通部民用航空局澎湖航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000055",
@@ -5554,16 +5554,16 @@
     "area_zh": "赤馬村",
     "latitude": 23.583853,
     "longitude": 119.506947,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000013",
@@ -5576,7 +5576,7 @@
     "area_zh": "東安村",
     "latitude": 23.35642043,
     "longitude": 119.50301707,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -5585,7 +5585,7 @@
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000011",
@@ -5598,16 +5598,16 @@
     "area_zh": "東安村",
     "latitude": 23.35640073,
     "longitude": 119.50303853,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X050000012",
@@ -5620,16 +5620,16 @@
     "area_zh": "東安村",
     "latitude": 23.35640073,
     "longitude": 119.50301707,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000056",
@@ -5642,16 +5642,16 @@
     "area_zh": "赤馬村",
     "latitude": 23.58438168,
     "longitude": 119.50674534,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000054",
@@ -5664,16 +5664,16 @@
     "area_zh": "赤馬村",
     "latitude": 23.58399821,
     "longitude": 119.50508237,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000141",
@@ -5686,16 +5686,16 @@
     "area_zh": "隘門村",
     "latitude": 23.555598,
     "longitude": 119.639189,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000140",
@@ -5708,16 +5708,16 @@
     "area_zh": "隘門村",
     "latitude": 23.556134,
     "longitude": 119.638918,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000142",
@@ -5730,16 +5730,16 @@
     "area_zh": "隘門村",
     "latitude": 23.5561358,
     "longitude": 119.6389429,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000113",
@@ -5752,16 +5752,16 @@
     "area_zh": "林投村",
     "latitude": 23.5593931,
     "longitude": 119.6419203,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000114",
@@ -5774,16 +5774,16 @@
     "area_zh": "林投村",
     "latitude": 23.5593417,
     "longitude": 119.642604,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000112",
@@ -5796,16 +5796,16 @@
     "area_zh": "林投村",
     "latitude": 23.5594194,
     "longitude": 119.6426619,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000116",
@@ -5818,16 +5818,16 @@
     "area_zh": "林投村",
     "latitude": 23.5594251,
     "longitude": 119.6426652,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000117",
@@ -5840,16 +5840,16 @@
     "area_zh": "林投村",
     "latitude": 23.5594452,
     "longitude": 119.6426809,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000115",
@@ -5862,16 +5862,16 @@
     "area_zh": "林投村",
     "latitude": 23.5594452,
     "longitude": 119.6426809,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000084",
@@ -5884,16 +5884,16 @@
     "area_zh": "池東村",
     "latitude": 23.5993801,
     "longitude": 119.5047889,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000042",
@@ -5906,7 +5906,7 @@
     "area_zh": "潭邊村",
     "latitude": 23.59482971,
     "longitude": 119.60793704,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -5915,7 +5915,7 @@
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "潭邊社區發展協會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000024",
@@ -5928,16 +5928,16 @@
     "area_zh": "二崁村",
     "latitude": 23.60400624,
     "longitude": 119.51830029,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000023",
@@ -5950,16 +5950,16 @@
     "area_zh": "二崁村",
     "latitude": 23.60400624,
     "longitude": 119.51817155,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000022",
@@ -5972,16 +5972,16 @@
     "area_zh": "二崁村",
     "latitude": 23.60407014,
     "longitude": 119.51836467,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000083",
@@ -5994,16 +5994,16 @@
     "area_zh": "池東村",
     "latitude": 23.602519,
     "longitude": 119.510334,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000081",
@@ -6016,16 +6016,16 @@
     "area_zh": "二崁村",
     "latitude": 23.60544,
     "longitude": 119.519616,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000080",
@@ -6038,16 +6038,16 @@
     "area_zh": "二崁村",
     "latitude": 23.60544,
     "longitude": 119.519616,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000082",
@@ -6060,7 +6060,7 @@
     "area_zh": "二崁村",
     "latitude": 23.60544,
     "longitude": 119.519616,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -6069,7 +6069,7 @@
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000079",
@@ -6082,16 +6082,16 @@
     "area_zh": "二崁村",
     "latitude": 23.60544,
     "longitude": 119.519616,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000030",
@@ -6104,16 +6104,16 @@
     "area_zh": "池東村",
     "latitude": 23.60375062,
     "longitude": 119.51127291,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司池東站",
     "manager": "台灣中油公司池東站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000029",
@@ -6126,16 +6126,16 @@
     "area_zh": "池東村",
     "latitude": 23.60390792,
     "longitude": 119.51120853,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司池東站",
     "manager": "台灣中油公司池東站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000126",
@@ -6148,16 +6148,16 @@
     "area_zh": "龍門村",
     "latitude": 23.55574581,
     "longitude": 119.67567086,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "龍門社區發展協會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000021",
@@ -6170,7 +6170,7 @@
     "area_zh": "大池村",
     "latitude": 23.615848,
     "longitude": 119.507037,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -6179,7 +6179,7 @@
     "has_diaper": false,
     "administration": "治安宮管理委員會",
     "manager": "治安宮管理委員會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000025",
@@ -6192,16 +6192,16 @@
     "area_zh": "湖西村",
     "latitude": 23.58420469,
     "longitude": 119.6524483,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000027",
@@ -6214,16 +6214,16 @@
     "area_zh": "湖西村",
     "latitude": 23.58416045,
     "longitude": 119.65250731,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000026",
@@ -6236,16 +6236,16 @@
     "area_zh": "湖西村",
     "latitude": 23.58420961,
     "longitude": 119.65245366,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000002",
@@ -6258,16 +6258,16 @@
     "area_zh": "湖西村",
     "latitude": 23.58416536,
     "longitude": 119.65524316,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司湖西站",
     "manager": "台灣中油公司湖西站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000001",
@@ -6280,16 +6280,16 @@
     "area_zh": "湖西村",
     "latitude": 23.58420469,
     "longitude": 119.65523243,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司湖西站",
     "manager": "台灣中油公司湖西站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000003",
@@ -6302,16 +6302,16 @@
     "area_zh": "湖西村",
     "latitude": 23.58450951,
     "longitude": 119.6553719,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司湖西站",
     "manager": "台灣中油公司湖西站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000131",
@@ -6324,16 +6324,16 @@
     "area_zh": "龍門村",
     "latitude": 23.56539,
     "longitude": 119.675994,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000130",
@@ -6346,16 +6346,16 @@
     "area_zh": "龍門村",
     "latitude": 23.56539,
     "longitude": 119.675994,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000129",
@@ -6368,16 +6368,16 @@
     "area_zh": "龍門村",
     "latitude": 23.56539,
     "longitude": 119.675994,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "湖西鄉公所",
     "manager": "湖西鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000128",
@@ -6390,16 +6390,16 @@
     "area_zh": "龍門村",
     "latitude": 23.56539,
     "longitude": 119.675994,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "龍門社區發展協會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000127",
@@ -6412,16 +6412,16 @@
     "area_zh": "龍門村",
     "latitude": 23.56539,
     "longitude": 119.675994,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖縣政府旅遊處",
     "manager": "龍門社區發展協會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000002",
@@ -6434,16 +6434,16 @@
     "area_zh": "中屯村",
     "latitude": 23.6209,
     "longitude": 119.6057,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000003",
@@ -6456,16 +6456,16 @@
     "area_zh": "中屯村",
     "latitude": 23.621,
     "longitude": 119.6057,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000001",
@@ -6478,16 +6478,16 @@
     "area_zh": "中屯村",
     "latitude": 23.621,
     "longitude": 119.6058,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000124",
@@ -6500,16 +6500,16 @@
     "area_zh": "龍門村",
     "latitude": 23.5653445,
     "longitude": 119.6822664,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000123",
@@ -6522,16 +6522,16 @@
     "area_zh": "龍門村",
     "latitude": 23.5653445,
     "longitude": 119.6822664,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000125",
@@ -6544,16 +6544,16 @@
     "area_zh": "龍門村",
     "latitude": 23.5653445,
     "longitude": 119.6822664,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000018",
@@ -6566,16 +6566,16 @@
     "area_zh": "竹灣村",
     "latitude": 23.6329427,
     "longitude": 119.5214023,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "大義宮管委會",
     "manager": "大義宮管委會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000019",
@@ -6588,16 +6588,16 @@
     "area_zh": "竹灣村",
     "latitude": 23.6329512,
     "longitude": 119.5213838,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "大義宮管委會",
     "manager": "大義宮管委會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000001",
@@ -6610,16 +6610,16 @@
     "area_zh": "橫礁村",
     "latitude": 23.639695,
     "longitude": 119.540802,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000133",
@@ -6632,16 +6632,16 @@
     "area_zh": "菓葉村",
     "latitude": 23.58035022,
     "longitude": 119.68008041,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000132",
@@ -6654,16 +6654,16 @@
     "area_zh": "菓葉村",
     "latitude": 23.5799569,
     "longitude": 119.68042374,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000033",
@@ -6676,16 +6676,16 @@
     "area_zh": "北寮村",
     "latitude": 23.5968131,
     "longitude": 119.6712085,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000002",
@@ -6698,16 +6698,16 @@
     "area_zh": "橫礁村",
     "latitude": 23.645559,
     "longitude": 119.548484,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000031",
@@ -6720,16 +6720,16 @@
     "area_zh": "北寮村",
     "latitude": 23.5972223,
     "longitude": 119.6713827,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X020000032",
@@ -6742,16 +6742,16 @@
     "area_zh": "北寮村",
     "latitude": 23.5973535,
     "longitude": 119.6715053,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000011",
@@ -6764,16 +6764,16 @@
     "area_zh": "小門村",
     "latitude": 23.65138408,
     "longitude": 119.51820374,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000010",
@@ -6786,16 +6786,16 @@
     "area_zh": "小門村",
     "latitude": 23.6513783,
     "longitude": 119.5179633,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": false,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000012",
@@ -6808,16 +6808,16 @@
     "area_zh": "小門村",
     "latitude": 23.6514233,
     "longitude": 119.5181317,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": true,
     "administration": "西嶼鄉公所",
     "manager": "西嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000022",
@@ -6830,16 +6830,16 @@
     "area_zh": "港子村",
     "latitude": 23.64900576,
     "longitude": 119.59961414,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000019",
@@ -6852,16 +6852,16 @@
     "area_zh": "港子村",
     "latitude": 23.6488145,
     "longitude": 119.6003131,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "澎湖縣政府社會處",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000018",
@@ -6874,7 +6874,7 @@
     "area_zh": "港子村",
     "latitude": 23.6488223,
     "longitude": 119.6003081,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -6883,7 +6883,7 @@
     "has_diaper": false,
     "administration": "澎湖縣政府社會處",
     "manager": "澎湖縣政府社會處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000021",
@@ -6896,16 +6896,16 @@
     "area_zh": "港子村",
     "latitude": 23.64900576,
     "longitude": 119.59965706,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000086",
@@ -6918,16 +6918,16 @@
     "area_zh": "通梁村",
     "latitude": 23.65613075,
     "longitude": 119.55749273,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000085",
@@ -6940,16 +6940,16 @@
     "area_zh": "通梁村",
     "latitude": 23.65617006,
     "longitude": 119.55755711,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000084",
@@ -6962,16 +6962,16 @@
     "area_zh": "通梁村",
     "latitude": 23.65618971,
     "longitude": 119.55753565,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000007",
@@ -6984,16 +6984,16 @@
     "area_zh": "小門村",
     "latitude": 23.6539846,
     "longitude": 119.5173948,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000008",
@@ -7006,16 +7006,16 @@
     "area_zh": "小門村",
     "latitude": 23.6539902,
     "longitude": 119.5173751,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000009",
@@ -7028,16 +7028,16 @@
     "area_zh": "小門村",
     "latitude": 23.6539975,
     "longitude": 119.5173624,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000015",
@@ -7050,7 +7050,7 @@
     "area_zh": "小門村",
     "latitude": 23.65407928,
     "longitude": 119.5166266,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -7059,7 +7059,7 @@
     "has_diaper": false,
     "administration": "西嶼社會福利服務中心",
     "manager": "西嶼社會福利服務中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000013",
@@ -7072,16 +7072,16 @@
     "area_zh": "小門村",
     "latitude": 23.65408911,
     "longitude": 119.5166266,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "西嶼社會福利服務中心",
     "manager": "西嶼社會福利服務中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X040000014",
@@ -7094,16 +7094,16 @@
     "area_zh": "小門村",
     "latitude": 23.65410877,
     "longitude": 119.51661587,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "西嶼社會福利服務中心",
     "manager": "西嶼社會福利服務中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000033",
@@ -7116,16 +7116,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.6499845,
     "longitude": 119.6040977,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000035",
@@ -7138,16 +7138,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000029",
@@ -7160,16 +7160,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000031",
@@ -7182,16 +7182,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000027",
@@ -7204,16 +7204,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000028",
@@ -7226,16 +7226,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000030",
@@ -7248,16 +7248,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000032",
@@ -7270,16 +7270,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000034",
@@ -7292,16 +7292,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.650001,
     "longitude": 119.604305,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖水族館",
     "manager": "澎湖水族館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000079",
@@ -7314,16 +7314,16 @@
     "area_zh": "通梁村",
     "latitude": 23.65830747,
     "longitude": 119.55447257,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000080",
@@ -7336,16 +7336,16 @@
     "area_zh": "通梁村",
     "latitude": 23.65833204,
     "longitude": 119.55452621,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000078",
@@ -7358,16 +7358,16 @@
     "area_zh": "通梁村",
     "latitude": 23.65836644,
     "longitude": 119.55455303,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000062",
@@ -7380,16 +7380,16 @@
     "area_zh": "瓦硐村",
     "latitude": 23.65444,
     "longitude": 119.589751,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000036",
@@ -7402,16 +7402,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.6495006,
     "longitude": 119.6092843,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000037",
@@ -7424,16 +7424,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.649513,
     "longitude": 119.609282,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000038",
@@ -7446,16 +7446,16 @@
     "area_zh": "岐頭村",
     "latitude": 23.6495369,
     "longitude": 119.6096242,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000083",
@@ -7468,16 +7468,16 @@
     "area_zh": "通梁村",
     "latitude": 23.65954569,
     "longitude": 119.56277132,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油通樑加油站",
     "manager": "台灣中油通樑加油站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000081",
@@ -7490,16 +7490,16 @@
     "area_zh": "通梁村",
     "latitude": 23.6595384,
     "longitude": 119.5629513,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司通梁站",
     "manager": "台灣中油公司通梁站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000082",
@@ -7512,16 +7512,16 @@
     "area_zh": "通梁村",
     "latitude": 23.6596453,
     "longitude": 119.5630114,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司通梁站",
     "manager": "台灣中油公司通梁站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000063",
@@ -7534,16 +7534,16 @@
     "area_zh": "瓦硐村",
     "latitude": 23.65638257,
     "longitude": 119.58802029,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000064",
@@ -7558,14 +7558,14 @@
     "longitude": 119.58832338,
     "grade": "fail",
     "grade_zh": "不合格",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000077",
@@ -7578,16 +7578,16 @@
     "area_zh": "後寮村",
     "latitude": 23.6625892,
     "longitude": 119.5742693,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000076",
@@ -7600,16 +7600,16 @@
     "area_zh": "後寮村",
     "latitude": 23.6628447,
     "longitude": 119.5741759,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000039",
@@ -7622,7 +7622,7 @@
     "area_zh": "小赤村",
     "latitude": 23.6597152,
     "longitude": 119.59754884,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -7631,7 +7631,7 @@
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000040",
@@ -7644,16 +7644,16 @@
     "area_zh": "小赤村",
     "latitude": 23.65977416,
     "longitude": 119.59755957,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000074",
@@ -7666,16 +7666,16 @@
     "area_zh": "後寮村",
     "latitude": 23.6670829,
     "longitude": 119.57489,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000075",
@@ -7688,16 +7688,16 @@
     "area_zh": "後寮村",
     "latitude": 23.66710737,
     "longitude": 119.5750773,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000065",
@@ -7710,16 +7710,16 @@
     "area_zh": "後寮村",
     "latitude": 23.6711089,
     "longitude": 119.5707993,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000056",
@@ -7732,16 +7732,16 @@
     "area_zh": "赤崁村",
     "latitude": 23.66632617,
     "longitude": 119.59848225,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000067",
@@ -7754,16 +7754,16 @@
     "area_zh": "後寮村",
     "latitude": 23.6711383,
     "longitude": 119.5708339,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000066",
@@ -7776,16 +7776,16 @@
     "area_zh": "後寮村",
     "latitude": 23.6711332,
     "longitude": 119.5708937,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000057",
@@ -7798,16 +7798,16 @@
     "area_zh": "赤崁村",
     "latitude": 23.66633108,
     "longitude": 119.59852517,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000060",
@@ -7820,16 +7820,16 @@
     "area_zh": "赤崁村",
     "latitude": 23.66713685,
     "longitude": 119.60148096,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000042",
@@ -7842,16 +7842,16 @@
     "area_zh": "赤崁村",
     "latitude": 23.66687154,
     "longitude": 119.60268259,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油赤崁漁船加油站",
     "manager": "台灣中油赤崁漁船加油站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000043",
@@ -7864,16 +7864,16 @@
     "area_zh": "赤崁村",
     "latitude": 23.66687154,
     "longitude": 119.60268259,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油赤崁漁船加油站",
     "manager": "台灣中油赤崁漁船加油站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000061",
@@ -7886,16 +7886,16 @@
     "area_zh": "赤崁村",
     "latitude": 23.66728425,
     "longitude": 119.60197449,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000059",
@@ -7908,16 +7908,16 @@
     "area_zh": "赤崁村",
     "latitude": 23.711776,
     "longitude": 119.609153,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "白沙鄉公所",
     "manager": "白沙鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000087",
@@ -7930,16 +7930,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.733147,
     "longitude": 119.601919,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000096",
@@ -7952,16 +7952,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.733147,
     "longitude": 119.601919,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000095",
@@ -7974,16 +7974,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.733525,
     "longitude": 119.602028,
-    "grade": "優等級",
+    "grade": "good",
     "grade_zh": "優等級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000001",
@@ -7996,16 +7996,16 @@
     "area_zh": "東湖村",
     "latitude": 23.2195604,
     "longitude": 119.4461977,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000003",
@@ -8018,16 +8018,16 @@
     "area_zh": "東湖村",
     "latitude": 23.2195226,
     "longitude": 119.4461716,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000002",
@@ -8040,16 +8040,16 @@
     "area_zh": "東湖村",
     "latitude": 23.2192855,
     "longitude": 119.4461516,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000088",
@@ -8062,16 +8062,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.738559,
     "longitude": 119.61247,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000089",
@@ -8084,16 +8084,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.738558,
     "longitude": 119.612555,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000090",
@@ -8106,16 +8106,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.738588,
     "longitude": 119.612922,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000094",
@@ -8128,16 +8128,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.7408178,
     "longitude": 119.613157,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000093",
@@ -8150,16 +8150,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.7408178,
     "longitude": 119.613157,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000116",
@@ -8172,16 +8172,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.746675,
     "longitude": 119.605898,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區管理處北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000115",
@@ -8194,16 +8194,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.746693,
     "longitude": 119.605918,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區北海管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X030000114",
@@ -8216,16 +8216,16 @@
     "area_zh": "吉貝村",
     "latitude": 23.74674,
     "longitude": 119.605778,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處北海管理站",
     "manager": "澎湖國家風景區北海管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000008",
@@ -8238,16 +8238,16 @@
     "area_zh": "平和村",
     "latitude": 23.2116163,
     "longitude": 119.4177975,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局七美航空站",
     "manager": "交通部民用航空局七美航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000009",
@@ -8260,16 +8260,16 @@
     "area_zh": "平和村",
     "latitude": 23.2116198,
     "longitude": 119.4177883,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局七美航空站",
     "manager": "交通部民用航空局七美航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000007",
@@ -8282,16 +8282,16 @@
     "area_zh": "平和村",
     "latitude": 23.2116004,
     "longitude": 119.4177994,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局七美航空站",
     "manager": "交通部民用航空局七美航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000032",
@@ -8304,16 +8304,16 @@
     "area_zh": "中和村",
     "latitude": 23.2047053,
     "longitude": 119.4300168,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000030",
@@ -8326,16 +8326,16 @@
     "area_zh": "中和村",
     "latitude": 23.2046793,
     "longitude": 119.4300535,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000031",
@@ -8348,16 +8348,16 @@
     "area_zh": "中和村",
     "latitude": 23.2047006,
     "longitude": 119.4299926,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000004",
@@ -8370,16 +8370,16 @@
     "area_zh": "中和村",
     "latitude": 23.2067217,
     "longitude": 119.4244895,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000006",
@@ -8392,16 +8392,16 @@
     "area_zh": "中和村",
     "latitude": 23.2067105,
     "longitude": 119.4244879,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000005",
@@ -8414,16 +8414,16 @@
     "area_zh": "中和村",
     "latitude": 23.2067077,
     "longitude": 119.424478,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000012",
@@ -8436,16 +8436,16 @@
     "area_zh": "南港村",
     "latitude": 23.1963494,
     "longitude": 119.4210158,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000016",
@@ -8458,16 +8458,16 @@
     "area_zh": "南港村",
     "latitude": 23.1948267,
     "longitude": 119.4221713,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司七美站",
     "manager": "台灣中油公司七美站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000017",
@@ -8480,16 +8480,16 @@
     "area_zh": "南港村",
     "latitude": 23.1947935,
     "longitude": 119.422182,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "台灣中油公司七美站",
     "manager": "台灣中油公司七美站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000011",
@@ -8502,16 +8502,16 @@
     "area_zh": "南港村",
     "latitude": 23.195792,
     "longitude": 119.4191032,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000010",
@@ -8524,16 +8524,16 @@
     "area_zh": "南港村",
     "latitude": 23.1957767,
     "longitude": 119.4190509,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "澎湖國家風景區管理處",
     "manager": "澎湖國家風景區管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000013",
@@ -8546,16 +8546,16 @@
     "area_zh": "南港村",
     "latitude": 23.1922967,
     "longitude": 119.4263528,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000014",
@@ -8568,16 +8568,16 @@
     "area_zh": "南港村",
     "latitude": 23.192258,
     "longitude": 119.4263813,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "X060000015",
@@ -8590,15 +8590,15 @@
     "area_zh": "南港村",
     "latitude": 23.1920893,
     "longitude": 119.4264635,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "七美鄉公所",
     "manager": "七美鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   }
 ]

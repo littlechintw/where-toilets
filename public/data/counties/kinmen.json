@@ -10,16 +10,16 @@
     "area_zh": "盤山村",
     "latitude": 24.45087159,
     "longitude": 118.3347768,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000031",
@@ -32,16 +32,16 @@
     "area_zh": "盤山村",
     "latitude": 24.45087159,
     "longitude": 118.3347768,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000039",
@@ -54,16 +54,16 @@
     "area_zh": "后盤村",
     "latitude": 24.44385594,
     "longitude": 118.35352287,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000001",
@@ -76,16 +76,16 @@
     "area_zh": "后盤村",
     "latitude": 24.44385638,
     "longitude": 118.35353242,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000028",
@@ -98,16 +98,16 @@
     "area_zh": "后盤村",
     "latitude": 24.44384661,
     "longitude": 118.3535351,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000049",
@@ -120,16 +120,16 @@
     "area_zh": "盤山村",
     "latitude": 24.44028363,
     "longitude": 118.3380333,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "康達盛通生活事業股份有限公司金門分公司",
     "manager": "康達盛通生活事業股份有限公司金門店安全課",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000050",
@@ -142,16 +142,16 @@
     "area_zh": "盤山村",
     "latitude": 24.44028363,
     "longitude": 118.3380333,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "康達盛通生活事業股份有限公司金門分公司",
     "manager": "康達盛通生活事業股份有限公司金門店安全課",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000051",
@@ -164,16 +164,16 @@
     "area_zh": "盤山村",
     "latitude": 24.44028363,
     "longitude": 118.3380333,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": true,
     "administration": "康達盛通生活事業股份有限公司金門分公司",
     "manager": "康達盛通生活事業股份有限公司安全課",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000043",
@@ -186,16 +186,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43926669,
     "longitude": 118.33426118,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000044",
@@ -208,16 +208,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43926669,
     "longitude": 118.33426118,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000013",
@@ -230,16 +230,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43921078,
     "longitude": 118.33430635,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金民股份有限公司",
     "manager": "金民股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000092",
@@ -252,16 +252,16 @@
     "area_zh": "西門里",
     "latitude": 24.44341397,
     "longitude": 118.32587868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "統精股份有限公司",
     "manager": "統精股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000008",
@@ -274,16 +274,16 @@
     "area_zh": "西門里",
     "latitude": 24.4433729,
     "longitude": 118.32587348,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "統精股份有限公司",
     "manager": "統精股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000027",
@@ -296,16 +296,16 @@
     "area_zh": "盤山村",
     "latitude": 24.43716885,
     "longitude": 118.35377131,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000040",
@@ -318,16 +318,16 @@
     "area_zh": "盤山村",
     "latitude": 24.43714599,
     "longitude": 118.3537817,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000002",
@@ -340,16 +340,16 @@
     "area_zh": "盤山村",
     "latitude": 24.43708466,
     "longitude": 118.35366606,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000011",
@@ -362,16 +362,16 @@
     "area_zh": "盤山村",
     "latitude": 24.43671334,
     "longitude": 118.35338834,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000029",
@@ -384,16 +384,16 @@
     "area_zh": "盤山村",
     "latitude": 24.43671334,
     "longitude": 118.35338834,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000041",
@@ -406,16 +406,16 @@
     "area_zh": "盤山村",
     "latitude": 24.43671334,
     "longitude": 118.35338834,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000016",
@@ -428,16 +428,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43247195,
     "longitude": 118.34323592,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000015",
@@ -450,16 +450,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43243776,
     "longitude": 118.34326275,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000014",
@@ -472,16 +472,16 @@
     "area_zh": "西門里",
     "latitude": 24.44097831,
     "longitude": 118.32308553,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化局",
     "manager": "金門縣文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000013",
@@ -494,16 +494,16 @@
     "area_zh": "西門里",
     "latitude": 24.44097831,
     "longitude": 118.32308553,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化局",
     "manager": "金門縣文化局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000048",
@@ -516,16 +516,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43212308,
     "longitude": 118.34260366,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000046",
@@ -538,16 +538,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43212308,
     "longitude": 118.34260366,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000047",
@@ -560,16 +560,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43212308,
     "longitude": 118.34260366,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金門酒廠實業股份有限公司",
     "manager": "金門酒廠實業股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000008",
@@ -582,16 +582,16 @@
     "area_zh": "古寧村",
     "latitude": 24.46865891,
     "longitude": 118.31684383,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000025",
@@ -604,16 +604,16 @@
     "area_zh": "古寧村",
     "latitude": 24.46866946,
     "longitude": 118.31683561,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000026",
@@ -626,16 +626,16 @@
     "area_zh": "古寧村",
     "latitude": 24.46872589,
     "longitude": 118.31683427,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000012",
@@ -648,16 +648,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43602846,
     "longitude": 118.32715038,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "安佳信股份有限公司",
     "manager": "安佳信股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000042",
@@ -670,16 +670,16 @@
     "area_zh": "榜林村",
     "latitude": 24.43591642,
     "longitude": 118.32726052,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "安佳信股份有限公司",
     "manager": "安佳信股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000121",
@@ -692,16 +692,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45653688,
     "longitude": 118.3742926,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000034",
@@ -714,16 +714,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4767045,
     "longitude": 118.31685742,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000033",
@@ -736,16 +736,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4767045,
     "longitude": 118.31685742,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000035",
@@ -758,16 +758,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4767045,
     "longitude": 118.31685742,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000120",
@@ -780,16 +780,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45658926,
     "longitude": 118.37441996,
-    "grade": "普通級",
+    "grade": "fair",
     "grade_zh": "普通級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000060",
@@ -802,16 +802,16 @@
     "area_zh": "西門里",
     "latitude": 24.43729251,
     "longitude": 118.31968814,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000061",
@@ -824,16 +824,16 @@
     "area_zh": "西門里",
     "latitude": 24.4372803,
     "longitude": 118.31969082,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000133",
@@ -846,7 +846,7 @@
     "area_zh": "正義里",
     "latitude": 24.43984493,
     "longitude": 118.36850058,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "性別友善廁所",
@@ -855,7 +855,7 @@
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000135",
@@ -868,7 +868,7 @@
     "area_zh": "正義里",
     "latitude": 24.43983041,
     "longitude": 118.36849101,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -877,7 +877,7 @@
     "has_diaper": true,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000134",
@@ -890,16 +890,16 @@
     "area_zh": "正義里",
     "latitude": 24.43983041,
     "longitude": 118.36850058,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000112",
@@ -912,16 +912,16 @@
     "area_zh": "西門里",
     "latitude": 24.43708405,
     "longitude": 118.3196844,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000058",
@@ -934,16 +934,16 @@
     "area_zh": "西門里",
     "latitude": 24.43706324,
     "longitude": 118.31965827,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000059",
@@ -956,16 +956,16 @@
     "area_zh": "西門里",
     "latitude": 24.43706785,
     "longitude": 118.31961304,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000062",
@@ -978,16 +978,16 @@
     "area_zh": "西門里",
     "latitude": 24.43728267,
     "longitude": 118.31900213,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000063",
@@ -1000,16 +1000,16 @@
     "area_zh": "西門里",
     "latitude": 24.43728267,
     "longitude": 118.31900213,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣政府",
     "manager": "金門縣政府綜合發展處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000075",
@@ -1022,16 +1022,16 @@
     "area_zh": "正義里",
     "latitude": 24.44033755,
     "longitude": 118.36954772,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": true,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000074",
@@ -1044,16 +1044,16 @@
     "area_zh": "正義里",
     "latitude": 24.44033354,
     "longitude": 118.36956684,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000025",
@@ -1066,16 +1066,16 @@
     "area_zh": "正義里",
     "latitude": 24.44031206,
     "longitude": 118.36957203,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000004",
@@ -1088,16 +1088,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4832288,
     "longitude": 118.32089777,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000003",
@@ -1110,16 +1110,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4832288,
     "longitude": 118.32089777,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000005",
@@ -1132,16 +1132,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4832288,
     "longitude": 118.32089777,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000016",
@@ -1154,16 +1154,16 @@
     "area_zh": "正義里",
     "latitude": 24.43806152,
     "longitude": 118.3688427,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000017",
@@ -1176,16 +1176,16 @@
     "area_zh": "正義里",
     "latitude": 24.43806152,
     "longitude": 118.3688427,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000132",
@@ -1198,16 +1198,16 @@
     "area_zh": "正義里",
     "latitude": 24.43806152,
     "longitude": 118.3688427,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000020",
@@ -1220,16 +1220,16 @@
     "area_zh": "正義里",
     "latitude": 24.43529488,
     "longitude": 118.36739726,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000019",
@@ -1242,16 +1242,16 @@
     "area_zh": "正義里",
     "latitude": 24.43522385,
     "longitude": 118.3673601,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000021",
@@ -1264,16 +1264,16 @@
     "area_zh": "正義里",
     "latitude": 24.43522385,
     "longitude": 118.3673601,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000076",
@@ -1286,16 +1286,16 @@
     "area_zh": "正義里",
     "latitude": 24.43757542,
     "longitude": 118.36967268,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000077",
@@ -1308,16 +1308,16 @@
     "area_zh": "正義里",
     "latitude": 24.43757542,
     "longitude": 118.36967268,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣環境保護局",
     "manager": "金門縣環境保護局",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000126",
@@ -1330,16 +1330,16 @@
     "area_zh": "正義里",
     "latitude": 24.435551,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000056",
@@ -1352,16 +1352,16 @@
     "area_zh": "北門里",
     "latitude": 24.43286122,
     "longitude": 118.32087401,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000057",
@@ -1374,16 +1374,16 @@
     "area_zh": "北門里",
     "latitude": 24.43282947,
     "longitude": 118.32086597,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000022",
@@ -1396,16 +1396,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000023",
@@ -1418,16 +1418,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000024",
@@ -1440,16 +1440,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000061",
@@ -1462,16 +1462,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000063",
@@ -1484,16 +1484,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000062",
@@ -1506,16 +1506,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000064",
@@ -1528,16 +1528,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000067",
@@ -1550,16 +1550,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000068",
@@ -1572,16 +1572,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000070",
@@ -1594,16 +1594,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000071",
@@ -1616,16 +1616,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000072",
@@ -1638,16 +1638,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000069",
@@ -1660,16 +1660,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000073",
@@ -1682,16 +1682,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000065",
@@ -1704,16 +1704,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000066",
@@ -1726,16 +1726,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000128",
@@ -1748,16 +1748,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000130",
@@ -1770,16 +1770,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000127",
@@ -1792,16 +1792,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000129",
@@ -1814,16 +1814,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000131",
@@ -1836,16 +1836,16 @@
     "area_zh": "正義里",
     "latitude": 24.43541676,
     "longitude": 118.3679274,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "交通部民用航空局",
     "manager": "金門航空站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000028",
@@ -1858,16 +1858,16 @@
     "area_zh": "北門里",
     "latitude": 24.43282982,
     "longitude": 118.32068981,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000024",
@@ -1880,16 +1880,16 @@
     "area_zh": "北門里",
     "latitude": 24.43328784,
     "longitude": 118.32006114,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000054",
@@ -1902,16 +1902,16 @@
     "area_zh": "北門里",
     "latitude": 24.43323118,
     "longitude": 118.32006985,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000055",
@@ -1924,16 +1924,16 @@
     "area_zh": "北門里",
     "latitude": 24.43323118,
     "longitude": 118.32006985,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000087",
@@ -1946,16 +1946,16 @@
     "area_zh": "北門里",
     "latitude": 24.43307019,
     "longitude": 118.32021757,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處觀光業務科",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000086",
@@ -1968,16 +1968,16 @@
     "area_zh": "北門里",
     "latitude": 24.43307019,
     "longitude": 118.32021757,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000025",
@@ -1990,16 +1990,16 @@
     "area_zh": "北門里",
     "latitude": 24.43266032,
     "longitude": 118.31890884,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000026",
@@ -2012,16 +2012,16 @@
     "area_zh": "北門里",
     "latitude": 24.43266032,
     "longitude": 118.31890884,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000022",
@@ -2034,16 +2034,16 @@
     "area_zh": "南門里",
     "latitude": 24.42965971,
     "longitude": 118.32124952,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000080",
@@ -2056,7 +2056,7 @@
     "area_zh": "南門里",
     "latitude": 24.42960726,
     "longitude": 118.32125992,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -2065,7 +2065,7 @@
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000076",
@@ -2078,16 +2078,16 @@
     "area_zh": "南門里",
     "latitude": 24.42961092,
     "longitude": 118.32124516,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000079",
@@ -2100,16 +2100,16 @@
     "area_zh": "南門里",
     "latitude": 24.42960848,
     "longitude": 118.32123041,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000037",
@@ -2122,16 +2122,16 @@
     "area_zh": "古寧村",
     "latitude": 24.47618116,
     "longitude": 118.30981895,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000038",
@@ -2144,16 +2144,16 @@
     "area_zh": "古寧村",
     "latitude": 24.47619365,
     "longitude": 118.30982029,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000036",
@@ -2166,16 +2166,16 @@
     "area_zh": "古寧村",
     "latitude": 24.47621806,
     "longitude": 118.30978543,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000085",
@@ -2188,16 +2188,16 @@
     "area_zh": "西門里",
     "latitude": 24.43707977,
     "longitude": 118.31228659,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000007",
@@ -2210,16 +2210,16 @@
     "area_zh": "西門里",
     "latitude": 24.43705946,
     "longitude": 118.31229346,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000034",
@@ -2232,16 +2232,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣政府社會處",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000036",
@@ -2254,16 +2254,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000035",
@@ -2276,16 +2276,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000082",
@@ -2298,16 +2298,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000083",
@@ -2320,16 +2320,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000084",
@@ -2342,16 +2342,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000086",
@@ -2364,16 +2364,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000085",
@@ -2386,16 +2386,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45269446,
     "longitude": 118.38090154,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000081",
@@ -2408,16 +2408,16 @@
     "area_zh": "東門里",
     "latitude": 24.42950555,
     "longitude": 118.31831217,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000082",
@@ -2430,7 +2430,7 @@
     "area_zh": "東門里",
     "latitude": 24.42948601,
     "longitude": 118.31829607,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -2439,7 +2439,7 @@
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000077",
@@ -2452,16 +2452,16 @@
     "area_zh": "東門里",
     "latitude": 24.42940701,
     "longitude": 118.31831083,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000005",
@@ -2474,16 +2474,16 @@
     "area_zh": "東門里",
     "latitude": 24.42940378,
     "longitude": 118.31830429,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000037",
@@ -2496,16 +2496,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45252838,
     "longitude": 118.3811618,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣社會福利館",
     "manager": "金門縣社會福利館",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000078",
@@ -2518,16 +2518,16 @@
     "area_zh": "東門里",
     "latitude": 24.42907273,
     "longitude": 118.31572652,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000084",
@@ -2540,7 +2540,7 @@
     "area_zh": "東門里",
     "latitude": 24.4290825,
     "longitude": 118.31570774,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -2549,7 +2549,7 @@
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000083",
@@ -2562,16 +2562,16 @@
     "area_zh": "東門里",
     "latitude": 24.42905808,
     "longitude": 118.31569165,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000006",
@@ -2584,16 +2584,16 @@
     "area_zh": "東門里",
     "latitude": 24.4290216,
     "longitude": 118.31571059,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000019",
@@ -2606,16 +2606,16 @@
     "area_zh": "南門里",
     "latitude": 24.43012638,
     "longitude": 118.31430383,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000018",
@@ -2628,16 +2628,16 @@
     "area_zh": "南門里",
     "latitude": 24.43012638,
     "longitude": 118.31430383,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000093",
@@ -2650,16 +2650,16 @@
     "area_zh": "南門里",
     "latitude": 24.43012638,
     "longitude": 118.31430383,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000044",
@@ -2672,16 +2672,16 @@
     "area_zh": "南門里",
     "latitude": 24.4267414,
     "longitude": 118.31802282,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000052",
@@ -2694,16 +2694,16 @@
     "area_zh": "南門里",
     "latitude": 24.42670708,
     "longitude": 118.31802991,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000053",
@@ -2716,16 +2716,16 @@
     "area_zh": "南門里",
     "latitude": 24.42670708,
     "longitude": 118.31802991,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000021",
@@ -2738,16 +2738,16 @@
     "area_zh": "南門里",
     "latitude": 24.42978082,
     "longitude": 118.31436463,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000020",
@@ -2760,16 +2760,16 @@
     "area_zh": "南門里",
     "latitude": 24.42976496,
     "longitude": 118.31432638,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000111",
@@ -2782,16 +2782,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45080499,
     "longitude": 118.38360427,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000112",
@@ -2804,16 +2804,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45080499,
     "longitude": 118.38360427,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000113",
@@ -2826,16 +2826,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.45080499,
     "longitude": 118.38360427,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000072",
@@ -2848,16 +2848,16 @@
     "area_zh": "南門里",
     "latitude": 24.43111933,
     "longitude": 118.3116162,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000071",
@@ -2870,16 +2870,16 @@
     "area_zh": "南門里",
     "latitude": 24.43111322,
     "longitude": 118.31161754,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000070",
@@ -2892,16 +2892,16 @@
     "area_zh": "南門里",
     "latitude": 24.43110346,
     "longitude": 118.31162157,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000073",
@@ -2914,7 +2914,7 @@
     "area_zh": "南門里",
     "latitude": 24.43012394,
     "longitude": 118.31248924,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -2923,7 +2923,7 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000023",
@@ -2936,7 +2936,7 @@
     "area_zh": "南門里",
     "latitude": 24.43017519,
     "longitude": 118.31240414,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "性別友善廁所",
@@ -2945,7 +2945,7 @@
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000094",
@@ -2958,16 +2958,16 @@
     "area_zh": "南門里",
     "latitude": 24.43004013,
     "longitude": 118.31241449,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣運動發展中心",
     "manager": "金門縣運動發展中心",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000048",
@@ -2980,16 +2980,16 @@
     "area_zh": "南門里",
     "latitude": 24.43123899,
     "longitude": 118.31003102,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000046",
@@ -3002,16 +3002,16 @@
     "area_zh": "南門里",
     "latitude": 24.43118743,
     "longitude": 118.310034,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000047",
@@ -3024,16 +3024,16 @@
     "area_zh": "南門里",
     "latitude": 24.43118743,
     "longitude": 118.310034,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000032",
@@ -3046,16 +3046,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.44837978,
     "longitude": 118.3848777,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000119",
@@ -3068,16 +3068,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.44853462,
     "longitude": 118.38491946,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000031",
@@ -3090,16 +3090,16 @@
     "area_zh": "瓊林里",
     "latitude": 24.44852012,
     "longitude": 118.38492634,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000068",
@@ -3112,16 +3112,16 @@
     "area_zh": "賢庵里",
     "latitude": 24.42024201,
     "longitude": 118.32245367,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000069",
@@ -3134,16 +3134,16 @@
     "area_zh": "賢庵里",
     "latitude": 24.42024323,
     "longitude": 118.3224483,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000067",
@@ -3156,16 +3156,16 @@
     "area_zh": "賢庵里",
     "latitude": 24.4202318,
     "longitude": 118.32245216,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金城鎮公所",
     "manager": "金城鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000009",
@@ -3178,16 +3178,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4652781,
     "longitude": 118.29733639,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000052",
@@ -3200,16 +3200,16 @@
     "area_zh": "古寧村",
     "latitude": 24.4652781,
     "longitude": 118.29733639,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W040000032",
@@ -3222,7 +3222,7 @@
     "area_zh": "古寧村",
     "latitude": 24.4853545,
     "longitude": 118.30449808,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -3231,7 +3231,7 @@
     "has_diaper": false,
     "administration": "金寧鄉公所",
     "manager": "金寧鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000018",
@@ -3244,16 +3244,16 @@
     "area_zh": "正義里",
     "latitude": 24.43602846,
     "longitude": 118.38689659,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000060",
@@ -3266,16 +3266,16 @@
     "area_zh": "正義里",
     "latitude": 24.4359525,
     "longitude": 118.38692721,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000059",
@@ -3288,16 +3288,16 @@
     "area_zh": "正義里",
     "latitude": 24.4359525,
     "longitude": 118.38692721,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000066",
@@ -3310,16 +3310,16 @@
     "area_zh": "賢庵里",
     "latitude": 24.42442918,
     "longitude": 118.30509709,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": true,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000043",
@@ -3332,16 +3332,16 @@
     "area_zh": "賢庵里",
     "latitude": 24.4244304,
     "longitude": 118.30509173,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000042",
@@ -3354,16 +3354,16 @@
     "area_zh": "賢庵里",
     "latitude": 24.42441697,
     "longitude": 118.30509977,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金門縣養護工程所",
     "manager": "金門縣養護工程所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000118",
@@ -3376,16 +3376,16 @@
     "area_zh": "正義里",
     "latitude": 24.43733984,
     "longitude": 118.38998482,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000015",
@@ -3398,16 +3398,16 @@
     "area_zh": "正義里",
     "latitude": 24.43734437,
     "longitude": 118.39001474,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000047",
@@ -3420,16 +3420,16 @@
     "area_zh": "浦山里",
     "latitude": 24.48551815,
     "longitude": 118.38888911,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000046",
@@ -3442,16 +3442,16 @@
     "area_zh": "浦山里",
     "latitude": 24.48551815,
     "longitude": 118.38888911,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000045",
@@ -3464,16 +3464,16 @@
     "area_zh": "浦山里",
     "latitude": 24.48551815,
     "longitude": 118.38888911,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000114",
@@ -3486,16 +3486,16 @@
     "area_zh": "山外里",
     "latitude": 24.45535261,
     "longitude": 118.39671314,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000115",
@@ -3508,7 +3508,7 @@
     "area_zh": "山外里",
     "latitude": 24.45536237,
     "longitude": 118.39671984,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "性別友善廁所",
@@ -3517,7 +3517,7 @@
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000002",
@@ -3530,16 +3530,16 @@
     "area_zh": "山外里",
     "latitude": 24.45612284,
     "longitude": 118.40260996,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000003",
@@ -3552,16 +3552,16 @@
     "area_zh": "山外里",
     "latitude": 24.45612863,
     "longitude": 118.4026125,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000038",
@@ -3574,7 +3574,7 @@
     "area_zh": "新湖里",
     "latitude": 24.43863571,
     "longitude": 118.40502815,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -3583,7 +3583,7 @@
     "has_diaper": false,
     "administration": "北基國際股份有限公司",
     "manager": "北基國際股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000037",
@@ -3596,16 +3596,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000039",
@@ -3618,16 +3618,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000038",
@@ -3640,16 +3640,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000099",
@@ -3662,16 +3662,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000101",
@@ -3684,16 +3684,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000095",
@@ -3706,16 +3706,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000102",
@@ -3728,16 +3728,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000098",
@@ -3750,16 +3750,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000100",
@@ -3772,16 +3772,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000103",
@@ -3794,16 +3794,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000097",
@@ -3816,16 +3816,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000108",
@@ -3838,16 +3838,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000109",
@@ -3860,16 +3860,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000110",
@@ -3882,16 +3882,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000111",
@@ -3904,16 +3904,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000113",
@@ -3926,16 +3926,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000114",
@@ -3948,16 +3948,16 @@
     "area_zh": "金水里",
     "latitude": 24.41811815,
     "longitude": 118.29135344,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000107",
@@ -3970,16 +3970,16 @@
     "area_zh": "金水里",
     "latitude": 24.41786098,
     "longitude": 118.29134122,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000064",
@@ -3992,7 +3992,7 @@
     "area_zh": "金水里",
     "latitude": 24.40976246,
     "longitude": 118.29884588,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "混合廁所",
@@ -4001,7 +4001,7 @@
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000090",
@@ -4014,16 +4014,16 @@
     "area_zh": "金水里",
     "latitude": 24.40955565,
     "longitude": 118.29856875,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000091",
@@ -4036,16 +4036,16 @@
     "area_zh": "金水里",
     "latitude": 24.40955565,
     "longitude": 118.29856875,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000033",
@@ -4058,16 +4058,16 @@
     "area_zh": "金水里",
     "latitude": 24.40947069,
     "longitude": 118.29808426,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000032",
@@ -4080,16 +4080,16 @@
     "area_zh": "金水里",
     "latitude": 24.40947069,
     "longitude": 118.29808426,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000039",
@@ -4102,16 +4102,16 @@
     "area_zh": "新湖里",
     "latitude": 24.43536089,
     "longitude": 118.4069599,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000014",
@@ -4124,16 +4124,16 @@
     "area_zh": "新湖里",
     "latitude": 24.43536089,
     "longitude": 118.4069599,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000094",
@@ -4146,16 +4146,16 @@
     "area_zh": "新湖里",
     "latitude": 24.43536089,
     "longitude": 118.4069599,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣陶瓷廠",
     "manager": "金門縣陶瓷廠",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000029",
@@ -4168,16 +4168,16 @@
     "area_zh": "古城里",
     "latitude": 24.39586426,
     "longitude": 118.31528429,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000030",
@@ -4190,16 +4190,16 @@
     "area_zh": "古城里",
     "latitude": 24.39586195,
     "longitude": 118.31528538,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000088",
@@ -4212,16 +4212,16 @@
     "area_zh": "古城里",
     "latitude": 24.39580769,
     "longitude": 118.3152818,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處西區管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000105",
@@ -4234,16 +4234,16 @@
     "area_zh": "金水里",
     "latitude": 24.41572838,
     "longitude": 118.28661986,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000104",
@@ -4256,16 +4256,16 @@
     "area_zh": "金水里",
     "latitude": 24.41569418,
     "longitude": 118.28659303,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000035",
@@ -4278,16 +4278,16 @@
     "area_zh": "金水里",
     "latitude": 24.41550658,
     "longitude": 118.28672782,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000034",
@@ -4300,16 +4300,16 @@
     "area_zh": "金水里",
     "latitude": 24.41541866,
     "longitude": 118.28673854,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000106",
@@ -4322,16 +4322,16 @@
     "area_zh": "金水里",
     "latitude": 24.41541866,
     "longitude": 118.28673854,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000025",
@@ -4344,16 +4344,16 @@
     "area_zh": "西園里",
     "latitude": 24.49869039,
     "longitude": 118.40229931,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000028",
@@ -4366,16 +4366,16 @@
     "area_zh": "西園里",
     "latitude": 24.49869039,
     "longitude": 118.40229931,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000027",
@@ -4388,16 +4388,16 @@
     "area_zh": "西園里",
     "latitude": 24.49869039,
     "longitude": 118.40229931,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000026",
@@ -4410,16 +4410,16 @@
     "area_zh": "西園里",
     "latitude": 24.49869039,
     "longitude": 118.40229931,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000023",
@@ -4432,16 +4432,16 @@
     "area_zh": "西園里",
     "latitude": 24.49869039,
     "longitude": 118.40229931,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000024",
@@ -4454,16 +4454,16 @@
     "area_zh": "西園里",
     "latitude": 24.49869039,
     "longitude": 118.40229931,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000036",
@@ -4476,16 +4476,16 @@
     "area_zh": "金水里",
     "latitude": 24.41539912,
     "longitude": 118.2866849,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000096",
@@ -4498,16 +4498,16 @@
     "area_zh": "金水里",
     "latitude": 24.41530125,
     "longitude": 118.28667921,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000087",
@@ -4520,16 +4520,16 @@
     "area_zh": "新湖里",
     "latitude": 24.43960176,
     "longitude": 118.4116582,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000089",
@@ -4542,16 +4542,16 @@
     "area_zh": "新湖里",
     "latitude": 24.43949128,
     "longitude": 118.41163445,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000088",
@@ -4564,16 +4564,16 @@
     "area_zh": "新湖里",
     "latitude": 24.43958565,
     "longitude": 118.41170543,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000041",
@@ -4586,16 +4586,16 @@
     "area_zh": "西園里",
     "latitude": 24.49786494,
     "longitude": 118.40303814,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000040",
@@ -4608,16 +4608,16 @@
     "area_zh": "西園里",
     "latitude": 24.49786494,
     "longitude": 118.40303814,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000089",
@@ -4630,16 +4630,16 @@
     "area_zh": "古城里",
     "latitude": 24.39072378,
     "longitude": 118.3206135,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000124",
@@ -4652,16 +4652,16 @@
     "area_zh": "山外里",
     "latitude": 24.44167812,
     "longitude": 118.41286272,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000125",
@@ -4674,16 +4674,16 @@
     "area_zh": "山外里",
     "latitude": 24.44165859,
     "longitude": 118.41286272,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000074",
@@ -4696,16 +4696,16 @@
     "area_zh": "古城里",
     "latitude": 24.39066917,
     "longitude": 118.32065855,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000075",
@@ -4718,16 +4718,16 @@
     "area_zh": "古城里",
     "latitude": 24.39066917,
     "longitude": 118.32065855,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000056",
@@ -4740,16 +4740,16 @@
     "area_zh": "山外里",
     "latitude": 24.44169565,
     "longitude": 118.41296653,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000065",
@@ -4762,16 +4762,16 @@
     "area_zh": "金水里",
     "latitude": 24.40948055,
     "longitude": 118.2902509,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W010000031",
@@ -4784,16 +4784,16 @@
     "area_zh": "金水里",
     "latitude": 24.40947854,
     "longitude": 118.29024838,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000031",
@@ -4806,16 +4806,16 @@
     "area_zh": "西園里",
     "latitude": 24.49932205,
     "longitude": 118.40357004,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000029",
@@ -4828,16 +4828,16 @@
     "area_zh": "西園里",
     "latitude": 24.49932205,
     "longitude": 118.40357004,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000030",
@@ -4850,16 +4850,16 @@
     "area_zh": "西園里",
     "latitude": 24.49932205,
     "longitude": 118.40357004,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000034",
@@ -4872,16 +4872,16 @@
     "area_zh": "西園里",
     "latitude": 24.49931484,
     "longitude": 118.4035868,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000050",
@@ -4894,16 +4894,16 @@
     "area_zh": "山外里",
     "latitude": 24.44210306,
     "longitude": 118.41367077,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000049",
@@ -4916,16 +4916,16 @@
     "area_zh": "山外里",
     "latitude": 24.44210306,
     "longitude": 118.41367077,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000051",
@@ -4938,16 +4938,16 @@
     "area_zh": "山外里",
     "latitude": 24.44210306,
     "longitude": 118.41367077,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000033",
@@ -4960,16 +4960,16 @@
     "area_zh": "西園里",
     "latitude": 24.49957163,
     "longitude": 118.40360272,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000032",
@@ -4982,16 +4982,16 @@
     "area_zh": "西園里",
     "latitude": 24.49957163,
     "longitude": 118.40360272,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000039",
@@ -5004,16 +5004,16 @@
     "area_zh": "西園里",
     "latitude": 24.49865443,
     "longitude": 118.40426298,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000038",
@@ -5026,16 +5026,16 @@
     "area_zh": "西園里",
     "latitude": 24.49865443,
     "longitude": 118.40426298,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000035",
@@ -5048,16 +5048,16 @@
     "area_zh": "西園里",
     "latitude": 24.49950796,
     "longitude": 118.40384815,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000036",
@@ -5070,16 +5070,16 @@
     "area_zh": "西園里",
     "latitude": 24.49959484,
     "longitude": 118.40383776,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000037",
@@ -5092,16 +5092,16 @@
     "area_zh": "西園里",
     "latitude": 24.49874646,
     "longitude": 118.40449456,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金門縣文化園區管理所",
     "manager": "金門縣文化園區管理所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000006",
@@ -5114,16 +5114,16 @@
     "area_zh": "新市里",
     "latitude": 24.44070032,
     "longitude": 118.41447221,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000047",
@@ -5136,16 +5136,16 @@
     "area_zh": "新市里",
     "latitude": 24.44071985,
     "longitude": 118.41447892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": true,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000046",
@@ -5158,16 +5158,16 @@
     "area_zh": "新市里",
     "latitude": 24.4407052,
     "longitude": 118.41448562,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000002",
@@ -5180,16 +5180,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.49061784,
     "longitude": 118.40998731,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000057",
@@ -5202,16 +5202,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.49061784,
     "longitude": 118.40998731,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000058",
@@ -5224,16 +5224,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.49061784,
     "longitude": 118.40998731,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "旺達鴻股份有限公司",
     "manager": "旺達鴻股份有限公司",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000053",
@@ -5246,16 +5246,16 @@
     "area_zh": "山外里",
     "latitude": 24.46270235,
     "longitude": 118.4171796,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000052",
@@ -5268,16 +5268,16 @@
     "area_zh": "山外里",
     "latitude": 24.46270235,
     "longitude": 118.4171796,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000054",
@@ -5290,16 +5290,16 @@
     "area_zh": "山外里",
     "latitude": 24.46270235,
     "longitude": 118.4171796,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000101",
@@ -5312,16 +5312,16 @@
     "area_zh": "新市里",
     "latitude": 24.44200548,
     "longitude": 118.41679769,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000102",
@@ -5334,16 +5334,16 @@
     "area_zh": "新市里",
     "latitude": 24.44203551,
     "longitude": 118.41681127,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000105",
@@ -5356,16 +5356,16 @@
     "area_zh": "新市里",
     "latitude": 24.44203307,
     "longitude": 118.41681663,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000103",
@@ -5378,16 +5378,16 @@
     "area_zh": "新市里",
     "latitude": 24.44197374,
     "longitude": 118.41680305,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000100",
@@ -5400,16 +5400,16 @@
     "area_zh": "新市里",
     "latitude": 24.44200182,
     "longitude": 118.41680976,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000104",
@@ -5422,16 +5422,16 @@
     "area_zh": "新市里",
     "latitude": 24.44200914,
     "longitude": 118.41681378,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000106",
@@ -5444,16 +5444,16 @@
     "area_zh": "新市里",
     "latitude": 24.44197862,
     "longitude": 118.41680707,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000107",
@@ -5466,16 +5466,16 @@
     "area_zh": "新市里",
     "latitude": 24.44199205,
     "longitude": 118.41681244,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000048",
@@ -5488,16 +5488,16 @@
     "area_zh": "新市里",
     "latitude": 24.44181475,
     "longitude": 118.41677137,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000013",
@@ -5510,16 +5510,16 @@
     "area_zh": "山外里",
     "latitude": 24.44785192,
     "longitude": 118.41793801,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000117",
@@ -5532,16 +5532,16 @@
     "area_zh": "山外里",
     "latitude": 24.44785192,
     "longitude": 118.41793801,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000116",
@@ -5554,16 +5554,16 @@
     "area_zh": "山外里",
     "latitude": 24.44785192,
     "longitude": 118.41793801,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000006",
@@ -5576,16 +5576,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.48907633,
     "longitude": 118.41321792,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000019",
@@ -5598,16 +5598,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.48907633,
     "longitude": 118.41321792,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000016",
@@ -5620,16 +5620,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.48903566,
     "longitude": 118.41332178,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000017",
@@ -5642,16 +5642,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.48903566,
     "longitude": 118.41332178,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000001",
@@ -5664,16 +5664,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.48903257,
     "longitude": 118.4133272,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000018",
@@ -5686,16 +5686,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.4898903,
     "longitude": 118.41428429,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000003",
@@ -5708,16 +5708,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.48989118,
     "longitude": 118.41428462,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "commercial",
     "category_zh": "商業營業場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000007",
@@ -5730,16 +5730,16 @@
     "area_zh": "新市里",
     "latitude": 24.44160164,
     "longitude": 118.4187438,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "金門縣衛生福利部",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000008",
@@ -5752,16 +5752,16 @@
     "area_zh": "新市里",
     "latitude": 24.44160164,
     "longitude": 118.4187438,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000005",
@@ -5774,16 +5774,16 @@
     "area_zh": "新市里",
     "latitude": 24.43756878,
     "longitude": 118.42374865,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000004",
@@ -5796,16 +5796,16 @@
     "area_zh": "新市里",
     "latitude": 24.43756878,
     "longitude": 118.42374865,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000123",
@@ -5818,16 +5818,16 @@
     "area_zh": "新市里",
     "latitude": 24.43698698,
     "longitude": 118.4256877,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000122",
@@ -5840,16 +5840,16 @@
     "area_zh": "新市里",
     "latitude": 24.4369451,
     "longitude": 118.4256881,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000024",
@@ -5862,16 +5862,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42551541,
     "longitude": 118.26314446,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000026",
@@ -5884,16 +5884,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42551541,
     "longitude": 118.26314446,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000025",
@@ -5906,16 +5906,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42551541,
     "longitude": 118.26314446,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000049",
@@ -5928,16 +5928,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42410544,
     "longitude": 118.26239616,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000048",
@@ -5950,16 +5950,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42410055,
     "longitude": 118.26238811,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000047",
@@ -5972,16 +5972,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42406119,
     "longitude": 118.26236933,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處烈嶼區管理站",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000060",
@@ -5994,7 +5994,7 @@
     "area_zh": "汶沙里",
     "latitude": 24.49955502,
     "longitude": 118.42118113,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "mixed",
     "type_zh": "性別友善廁所",
@@ -6003,7 +6003,7 @@
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000059",
@@ -6016,7 +6016,7 @@
     "area_zh": "汶沙里",
     "latitude": 24.49963128,
     "longitude": 118.42119098,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
     "type": "family",
     "type_zh": "親子廁所",
@@ -6025,7 +6025,7 @@
     "has_diaper": true,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000043",
@@ -6038,16 +6038,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.49964377,
     "longitude": 118.42118561,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000042",
@@ -6060,16 +6060,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.49964226,
     "longitude": 118.42120707,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000044",
@@ -6082,16 +6082,16 @@
     "area_zh": "汶沙里",
     "latitude": 24.4996755,
     "longitude": 118.42122585,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金沙鎮公所",
     "manager": "金沙鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000055",
@@ -6104,16 +6104,16 @@
     "area_zh": "山外里",
     "latitude": 24.44378141,
     "longitude": 118.43013112,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000110",
@@ -6126,16 +6126,16 @@
     "area_zh": "山外里",
     "latitude": 24.44370288,
     "longitude": 118.43013279,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000012",
@@ -6148,16 +6148,16 @@
     "area_zh": "山外里",
     "latitude": 24.44373013,
     "longitude": 118.43014453,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000056",
@@ -6170,16 +6170,16 @@
     "area_zh": "黃埔村",
     "latitude": 24.4463905,
     "longitude": 118.25443268,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000057",
@@ -6192,16 +6192,16 @@
     "area_zh": "黃埔村",
     "latitude": 24.44639782,
     "longitude": 118.25443,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000058",
@@ -6214,16 +6214,16 @@
     "area_zh": "黃埔村",
     "latitude": 24.44641032,
     "longitude": 118.25442731,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "其他",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000027",
@@ -6236,16 +6236,16 @@
     "area_zh": "新湖里",
     "latitude": 24.42500748,
     "longitude": 118.42756424,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000078",
@@ -6258,16 +6258,16 @@
     "area_zh": "新湖里",
     "latitude": 24.42491873,
     "longitude": 118.42759877,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000079",
@@ -6280,16 +6280,16 @@
     "area_zh": "新湖里",
     "latitude": 24.42491873,
     "longitude": 118.42759877,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000036",
@@ -6302,16 +6302,16 @@
     "area_zh": "黃埔村",
     "latitude": 24.44744894,
     "longitude": 118.25215421,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000037",
@@ -6324,16 +6324,16 @@
     "area_zh": "黃埔村",
     "latitude": 24.44744894,
     "longitude": 118.25215421,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000018",
@@ -6346,16 +6346,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42692383,
     "longitude": 118.25717943,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000019",
@@ -6368,16 +6368,16 @@
     "area_zh": "林湖村",
     "latitude": 24.4268986,
     "longitude": 118.2571272,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣公共車船管理處",
     "manager": "金門縣公共車船管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000056",
@@ -6390,16 +6390,16 @@
     "area_zh": "官嶼里",
     "latitude": 24.5275034,
     "longitude": 118.40829584,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000013",
@@ -6412,16 +6412,16 @@
     "area_zh": "官嶼里",
     "latitude": 24.52762724,
     "longitude": 118.40831922,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000011",
@@ -6434,16 +6434,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42514424,
     "longitude": 118.25105343,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000039",
@@ -6456,16 +6456,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42509757,
     "longitude": 118.25104668,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000023",
@@ -6478,16 +6478,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42512226,
     "longitude": 118.25102929,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000095",
@@ -6500,16 +6500,16 @@
     "area_zh": "蓮庵里",
     "latitude": 24.43336897,
     "longitude": 118.43838688,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000096",
@@ -6522,16 +6522,16 @@
     "area_zh": "蓮庵里",
     "latitude": 24.43336897,
     "longitude": 118.43838688,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000097",
@@ -6544,16 +6544,16 @@
     "area_zh": "蓮庵里",
     "latitude": 24.43336897,
     "longitude": 118.43838688,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000028",
@@ -6566,16 +6566,16 @@
     "area_zh": "料羅里",
     "latitude": 24.40788481,
     "longitude": 118.42782268,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000080",
@@ -6588,16 +6588,16 @@
     "area_zh": "料羅里",
     "latitude": 24.40788481,
     "longitude": 118.42782268,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000081",
@@ -6610,16 +6610,16 @@
     "area_zh": "料羅里",
     "latitude": 24.40788481,
     "longitude": 118.42782268,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": true,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000021",
@@ -6632,16 +6632,16 @@
     "area_zh": "大洋里",
     "latitude": 24.45887351,
     "longitude": 118.44244905,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": true,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000020",
@@ -6654,16 +6654,16 @@
     "area_zh": "大洋里",
     "latitude": 24.45887351,
     "longitude": 118.44244905,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000012",
@@ -6676,16 +6676,16 @@
     "area_zh": "大洋里",
     "latitude": 24.45888717,
     "longitude": 118.44245167,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金門縣林務所",
     "manager": "金門縣林務所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000048",
@@ -6698,16 +6698,16 @@
     "area_zh": "三山里",
     "latitude": 24.49982926,
     "longitude": 118.43441695,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000049",
@@ -6720,16 +6720,16 @@
     "area_zh": "三山里",
     "latitude": 24.49986343,
     "longitude": 118.43441159,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000050",
@@ -6742,16 +6742,16 @@
     "area_zh": "三山里",
     "latitude": 24.49986099,
     "longitude": 118.434425,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000108",
@@ -6764,16 +6764,16 @@
     "area_zh": "蓮庵里",
     "latitude": 24.43480955,
     "longitude": 118.44012669,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000109",
@@ -6786,16 +6786,16 @@
     "area_zh": "蓮庵里",
     "latitude": 24.43480955,
     "longitude": 118.44012669,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣畜產試驗所",
     "manager": "金門縣畜產試驗所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000098",
@@ -6808,16 +6808,16 @@
     "area_zh": "料羅里",
     "latitude": 24.41639585,
     "longitude": 118.43413827,
-    "grade": "普通級",
+    "grade": "fair",
     "grade_zh": "普通級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000099",
@@ -6830,16 +6830,16 @@
     "area_zh": "料羅里",
     "latitude": 24.41640317,
     "longitude": 118.43414364,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "公園",
     "has_diaper": false,
     "administration": "金湖鎮公所",
     "manager": "金湖鎮公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000093",
@@ -6852,16 +6852,16 @@
     "area_zh": "料羅里",
     "latitude": 24.40806574,
     "longitude": 118.430054,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000029",
@@ -6874,16 +6874,16 @@
     "area_zh": "料羅里",
     "latitude": 24.40801378,
     "longitude": 118.43018208,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門縣港務處",
     "manager": "金門縣港務處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000010",
@@ -6896,16 +6896,16 @@
     "area_zh": "林湖村",
     "latitude": 24.43004555,
     "longitude": 118.24609939,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000008",
@@ -6918,16 +6918,16 @@
     "area_zh": "林湖村",
     "latitude": 24.43003578,
     "longitude": 118.24610207,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000009",
@@ -6940,16 +6940,16 @@
     "area_zh": "林湖村",
     "latitude": 24.43004311,
     "longitude": 118.24608866,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000020",
@@ -6962,16 +6962,16 @@
     "area_zh": "林湖村",
     "latitude": 24.43122691,
     "longitude": 118.24486767,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000021",
@@ -6984,16 +6984,16 @@
     "area_zh": "林湖村",
     "latitude": 24.43122691,
     "longitude": 118.24486767,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000022",
@@ -7006,16 +7006,16 @@
     "area_zh": "林湖村",
     "latitude": 24.43122691,
     "longitude": 118.24486767,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000027",
@@ -7028,16 +7028,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000031",
@@ -7050,16 +7050,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000028",
@@ -7072,16 +7072,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000029",
@@ -7094,16 +7094,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000030",
@@ -7116,16 +7116,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000034",
@@ -7138,16 +7138,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000033",
@@ -7160,16 +7160,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000035",
@@ -7182,16 +7182,16 @@
     "area_zh": "林湖村",
     "latitude": 24.42964365,
     "longitude": 118.24458892,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "民眾洽公場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000052",
@@ -7204,16 +7204,16 @@
     "area_zh": "三山里",
     "latitude": 24.50394911,
     "longitude": 118.43697041,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000053",
@@ -7226,16 +7226,16 @@
     "area_zh": "三山里",
     "latitude": 24.50389826,
     "longitude": 118.43700918,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000051",
@@ -7248,16 +7248,16 @@
     "area_zh": "三山里",
     "latitude": 24.50389826,
     "longitude": 118.43700918,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣政府觀光處",
     "manager": "金門縣政府觀光處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000003",
@@ -7270,16 +7270,16 @@
     "area_zh": "上林村",
     "latitude": 24.43094911,
     "longitude": 118.24262861,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000050",
@@ -7292,16 +7292,16 @@
     "area_zh": "上林村",
     "latitude": 24.43076235,
     "longitude": 118.24251831,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000051",
@@ -7314,16 +7314,16 @@
     "area_zh": "上林村",
     "latitude": 24.43074404,
     "longitude": 118.24249819,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "社福機構、集會場所",
     "has_diaper": false,
     "administration": "行政院衛生福利部",
     "manager": "衛生福利部金門醫院烈嶼分院",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000040",
@@ -7336,16 +7336,16 @@
     "area_zh": "上林村",
     "latitude": 24.42901305,
     "longitude": 118.24285107,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000042",
@@ -7358,16 +7358,16 @@
     "area_zh": "上林村",
     "latitude": 24.42898813,
     "longitude": 118.24282978,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": true,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000044",
@@ -7380,16 +7380,16 @@
     "area_zh": "上林村",
     "latitude": 24.42895883,
     "longitude": 118.24278418,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000041",
@@ -7402,16 +7402,16 @@
     "area_zh": "上林村",
     "latitude": 24.4289141,
     "longitude": 118.2427387,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000043",
@@ -7424,16 +7424,16 @@
     "area_zh": "上林村",
     "latitude": 24.4289141,
     "longitude": 118.2427387,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "文化育樂活動場所",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000041",
@@ -7446,16 +7446,16 @@
     "area_zh": "溪湖里",
     "latitude": 24.44669737,
     "longitude": 118.44712006,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣農產試驗所",
     "manager": "金門縣農產試驗所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000040",
@@ -7468,16 +7468,16 @@
     "area_zh": "溪湖里",
     "latitude": 24.44671885,
     "longitude": 118.44712291,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "金門縣農業試驗所",
     "manager": "金門縣農業試驗所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000055",
@@ -7490,16 +7490,16 @@
     "area_zh": "三山里",
     "latitude": 24.49290571,
     "longitude": 118.44457582,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000010",
@@ -7512,16 +7512,16 @@
     "area_zh": "三山里",
     "latitude": 24.4929081,
     "longitude": 118.44457749,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W020000054",
@@ -7534,16 +7534,16 @@
     "area_zh": "三山里",
     "latitude": 24.49291181,
     "longitude": 118.44459057,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": true,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000006",
@@ -7556,16 +7556,16 @@
     "area_zh": "西口村",
     "latitude": 24.4466456,
     "longitude": 118.23160741,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000017",
@@ -7578,16 +7578,16 @@
     "area_zh": "西口村",
     "latitude": 24.44662607,
     "longitude": 118.23160473,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000046",
@@ -7600,16 +7600,16 @@
     "area_zh": "西口村",
     "latitude": 24.44666426,
     "longitude": 118.23159099,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000045",
@@ -7622,16 +7622,16 @@
     "area_zh": "上林村",
     "latitude": 24.42856937,
     "longitude": 118.22856814,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000002",
@@ -7644,16 +7644,16 @@
     "area_zh": "上林村",
     "latitude": 24.42856004,
     "longitude": 118.22855489,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "宗教禮儀場所",
     "has_diaper": false,
     "administration": "內政部國家公園署",
     "manager": "金門國家公園管理處",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000090",
@@ -7666,16 +7666,16 @@
     "area_zh": "溪湖里",
     "latitude": 24.44657729,
     "longitude": 118.47287044,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門區漁會",
     "manager": "金門區漁會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000091",
@@ -7688,16 +7688,16 @@
     "area_zh": "溪湖里",
     "latitude": 24.44658124,
     "longitude": 118.47287446,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門區漁會",
     "manager": "金門區漁會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W030000092",
@@ -7710,16 +7710,16 @@
     "area_zh": "溪湖里",
     "latitude": 24.44660565,
     "longitude": 118.4728986,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "accessible",
     "type_zh": "無障礙廁所",
     "category": "other",
     "category_zh": "交通",
     "has_diaper": false,
     "administration": "金門區漁會",
     "manager": "金門區漁會",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000016",
@@ -7732,16 +7732,16 @@
     "area_zh": "上岐村",
     "latitude": 24.41162758,
     "longitude": 118.21308172,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "female",
     "type_zh": "女廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   {
     "id": "W050000015",
@@ -7754,15 +7754,15 @@
     "area_zh": "上岐村",
     "latitude": 24.41162758,
     "longitude": 118.21308172,
-    "grade": "特優級",
+    "grade": "excellent",
     "grade_zh": "特優級",
-    "type": "mixed",
+    "type": "male",
     "type_zh": "男廁所",
     "category": "other",
     "category_zh": "觀光地區及風景區",
     "has_diaper": false,
     "administration": "烈嶼鄉公所",
     "manager": "烈嶼鄉公所",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   }
 ]
