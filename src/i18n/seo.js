@@ -66,7 +66,7 @@ const t = (home, map, settings, privacy) => ({
 })
 
 const titles = {
-  zh: t('廁所地圖｜快速找到附近的公共廁所（臺灣全島）', '廁所地圖｜地圖檢視 - 附近的公共廁所', '廁所地圖｜設定', '廁所地圖｜隱私權政策'),
+  zh: t('廁所地圖｜快速找到附近的公共廁所', '廁所地圖｜地圖檢視 - 附近的公共廁所', '廁所地圖｜設定', '廁所地圖｜隱私權政策'),
   en: t('Taiwan Toilet Map | Find Nearby Public Toilets in Taiwan', 'Map View | Taiwan Toilet Map', 'Settings | Taiwan Toilet Map', 'Privacy Policy | Taiwan Toilet Map'),
   ja: t('台湾トイレマップ｜台湾の近くの公衆トイレを探す', '地図表示｜台湾トイレマップ', '設定｜台湾トイレマップ', 'プライバシーポリシー｜台湾トイレマップ'),
   ko: t('대만 화장실 지도｜가까운 공중화장실 찾기', '지도 보기｜대만 화장실 지도', '설정｜대만 화장실 지도', '개인정보 처리방침｜대만 화장실 지도'),
