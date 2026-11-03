@@ -39,7 +39,8 @@ export default {
     }
   },
   ads: {
-    label: 'Iklan'
+    label: 'Iklan',
+    disclaimer: 'Iklan disediakan oleh pengiklan dan tidak terkait dengan situs ini maupun penyedia data'
   },
   footer: {
     dataSource: 'Sumber data',

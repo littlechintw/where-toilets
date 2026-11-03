@@ -95,6 +95,7 @@
           <h2>{{ $t('settings.about.title') }}</h2>
           <p>{{ $t('settings.about.description') }}</p>
         </div>
+        <DataAttribution class="about-attribution" />
         <ul class="about-links">
           <li>
             <a href="https://data.gov.tw/dataset/30794" target="_blank" rel="noopener noreferrer">
@@ -109,7 +110,7 @@
             </a>
           </li>
           <li>
-            <router-link to="/privacy">
+            <router-link :to="to('Privacy')">
               <span class="material-symbols-outlined about-link-icon" aria-hidden="true">policy</span>
               {{ $t('footer.privacy') }}
             </router-link>
@@ -124,8 +125,13 @@
 </template>
 
 <script setup>
+import DataAttribution from '../components/DataAttribution.vue'
+
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRouter, useRoute } from 'vue-router'
+import { useLocalizedTo } from '../composables/useLocalizedTo'
+import { DEFAULT_LANG } from '../i18n/seo'
 import { useTheme } from '../composables/useTheme'
 import { trackEvent } from '../utils/analytics'
 import { SUPPORTED_LOCALES } from '../i18n'
@@ -133,6 +139,9 @@ import AdSlot from '../components/AdSlot.vue'
 import { AD_SLOTS } from '../config/ads'
 
 const { locale, t } = useI18n()
+const router = useRouter()
+const route = useRoute()
+const to = useLocalizedTo()
 const { preference, set: setThemeRaw } = useTheme()
 
 const setTheme = (val) => setThemeRaw(val)
@@ -140,7 +149,14 @@ const setTheme = (val) => setThemeRaw(val)
 const setLanguage = (val) => {
   const from = locale.value
   if (from === val) return
-  locale.value = val
+  // 主動選擇才記住；語言由網址決定，所以換語言 = 導到對應的 /xx/ 網址
+  try { localStorage.setItem('locale', val) } catch (_) { /* noop */ }
+  router.push({
+    name: route.name,
+    params: { ...route.params, lang: val === DEFAULT_LANG ? undefined : val },
+    query: route.query,
+    hash: route.hash
+  })
   trackEvent('language_toggle', { from, to: val, source: 'settings' })
 }
 
@@ -197,14 +213,14 @@ const languageOptions = computed(() =>
   background: var(--md-sys-color-surface-container-low);
   border: 1px solid var(--md-sys-color-outline-variant);
   border-radius: var(--radius-lg);
-  padding: 1.75rem;
-  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
   box-shadow: var(--shadow-sm);
   transition: background-color var(--transition), border-color var(--transition);
 }
 
 .setting-card-head {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .setting-card-head h2 {
@@ -238,17 +254,18 @@ const languageOptions = computed(() =>
 /* Chip row (M3 Layout) */
 .chip-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.5rem;
 }
 
 /* M3 Filter / Choice Chip */
 .big-chip {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.25rem;
-  padding: 1rem 1.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 0.5rem;
+  row-gap: 0.1rem;
+  padding: 0.55rem 0.85rem;
   background: var(--md-sys-color-surface);
   color: var(--md-sys-color-on-surface-variant);
   border: 1px solid var(--md-sys-color-outline-variant);
@@ -284,9 +301,8 @@ const languageOptions = computed(() =>
 }
 
 .big-chip-icon {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1;
-  margin-bottom: 0.2rem;
   color: var(--md-sys-color-primary);
 }
 
@@ -296,13 +312,15 @@ const languageOptions = computed(() =>
 }
 
 .big-chip-label {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 600;
   color: var(--md-sys-color-on-surface);
 }
 
 .big-chip-hint {
-  font-size: 0.8rem;
+  flex-basis: 100%;
+  font-size: 0.74rem;
+  line-height: 1.3;
   color: var(--md-sys-color-on-surface-variant);
   opacity: 0.85;
 }
@@ -324,7 +342,7 @@ const languageOptions = computed(() =>
   font-size: 0.92rem;
   color: var(--md-sys-color-on-surface-variant);
   line-height: 1.5;
-  padding: 0.75rem 1rem;
+  padding: 0.55rem 0.85rem;
   background: var(--md-sys-color-surface);
   border: 1px solid var(--md-sys-color-outline-variant);
   border-radius: var(--radius-sm);
@@ -353,9 +371,9 @@ const languageOptions = computed(() =>
   gap: 0.5rem;
   color: var(--md-sys-color-on-surface);
   text-decoration: none;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 0.85rem;
   border-radius: var(--radius-sm);
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 500;
   border: 1px solid var(--md-sys-color-outline-variant);
   background: var(--md-sys-color-surface);
@@ -386,7 +404,11 @@ const languageOptions = computed(() =>
     padding: 1.25rem;
   }
   .chip-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+</style>
+
+<style scoped>
+.about-attribution { margin: 0.75rem 0 1rem; }
 </style>

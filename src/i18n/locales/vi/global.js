@@ -39,7 +39,8 @@ export default {
     }
   },
   ads: {
-    label: 'Quảng cáo'
+    label: 'Quảng cáo',
+    disclaimer: 'Quảng cáo do nhà quảng cáo cung cấp, không liên quan đến trang web này và cơ quan cung cấp dữ liệu'
   },
   footer: {
     dataSource: 'Nguồn dữ liệu',

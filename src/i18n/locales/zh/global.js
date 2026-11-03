@@ -39,7 +39,8 @@ export default {
     resetFilters: '重置所有篩選'
   },
   ads: {
-    label: '廣告'
+    label: '廣告',
+    disclaimer: '廣告由廣告商提供，與本站及資料提供機關無關'
   },
   footer: {
     dataSource: '資料來源',

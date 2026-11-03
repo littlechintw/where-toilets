@@ -2,7 +2,7 @@ export default {
   title: 'Peta Toilet Taiwan',
   subtitle: 'Cari toilet terdekat dengan cepat',
   description: 'Alat tidak resmi yang menggunakan data terbuka pemerintah Taiwan',
-  badge: 'Pencari Toilet Umum Taiwan',
+  dataSource: 'Sumber: Platform Data Terbuka Pemerintah Taiwan, Badan Pengelolaan Lingkungan, Kementerian Lingkungan, «Data Toilet Umum Nasional»',
   startButton: 'Mulai',
   learnMore: 'Selengkapnya',
   features: {
@@ -35,6 +35,8 @@ export default {
   stats: {
     toilets: 'Data toilet',
     counties: 'Cakupan wilayah',
+    updatedToday: 'Diperbarui hari ini',
+    updatedDaysAgo: 'Diperbarui {n} hari lalu',
     daysAgo: 'hari yang lalu',
     weekly: 'Mingguan'
   },

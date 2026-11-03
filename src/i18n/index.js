@@ -8,34 +8,29 @@ import id from './locales/id'
 import th from './locales/th'
 import fil from './locales/fil'
 
+import { PREFIXED_LANGS, DEFAULT_LANG } from './seo'
+
 const messages = { zh, en, ja, ko, vi, id, th, fil }
 
-// 啟動時讀取使用者上次選的語言（App.vue 也會讀，但這裡更早，避免閃動）
+// 初始語言：網址路徑前綴（/en/map）最優先；沒有前綴（= 中文網址）時，
+// 若使用者之前主動選過其他語言就先用那個，router 的 beforeEach 會接著導向對應的 /xx/ 網址。
+// 刻意不依瀏覽器語言自動判斷：搜尋引擎爬蟲的語言設定不可靠，會讓 / 的內容不穩定。
 function getInitialLocale() {
-  // 1) URL ?lang=xx（index.html / sitemap 的 hreflang 連結就是用這個格式）
-  if (typeof window !== 'undefined' && window.location?.search) {
+  if (typeof window !== 'undefined') {
+    const first = window.location.pathname.split('/')[1]
+    if (PREFIXED_LANGS.includes(first)) return first
+    // 舊版網址 /?lang=xx：router 會導向 /xx/，這裡先用對的語言避免閃一下中文
     const q = new URLSearchParams(window.location.search).get('lang')
     const code = q ? q.toLowerCase().split('-')[0] : ''
     if (code && messages[code]) return code
   }
-  // 2) 使用者上次主動選的語言
   if (typeof localStorage !== 'undefined') {
-    const saved = localStorage.getItem('locale')
-    if (saved && messages[saved]) return saved
+    try {
+      const saved = localStorage.getItem('locale')
+      if (saved && messages[saved]) return saved
+    } catch (_) { /* 隱私模式讀不到就算了 */ }
   }
-  // 3) 自動偵測瀏覽器語言
-  if (typeof navigator !== 'undefined' && navigator.language) {
-    const code = navigator.language.toLowerCase()
-    if (code.startsWith('zh')) return 'zh'
-    if (code.startsWith('ja')) return 'ja'
-    if (code.startsWith('ko')) return 'ko'
-    if (code.startsWith('vi')) return 'vi'
-    if (code.startsWith('id') || code.startsWith('ms')) return 'id'
-    if (code.startsWith('th')) return 'th'
-    if (code.startsWith('fil') || code.startsWith('tl')) return 'fil'
-    if (code.startsWith('en')) return 'en'
-  }
-  return 'zh'
+  return DEFAULT_LANG
 }
 
 export default createI18n({

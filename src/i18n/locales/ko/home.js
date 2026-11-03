@@ -2,7 +2,7 @@ export default {
   title: '대만 화장실 지도',
   subtitle: '근처 화장실 빠르게 찾기',
   description: '대만 정부 공공데이터를 활용한 비공식 도구입니다',
-  badge: '대만 공중화장실 검색',
+  dataSource: '데이터 출처: 정부 공공데이터 플랫폼 환경부 환경관리서 「전국 공중화장실 등록 데이터」',
   startButton: '시작하기',
   learnMore: '자세히 보기',
   features: {
@@ -35,6 +35,8 @@ export default {
   stats: {
     toilets: '화장실 데이터',
     counties: '대상 지역',
+    updatedToday: '오늘 업데이트',
+    updatedDaysAgo: '{n}일 전 업데이트',
     daysAgo: '일 전 업데이트',
     weekly: '매주'
   },

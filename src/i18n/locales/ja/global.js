@@ -39,7 +39,8 @@ export default {
     }
   },
   ads: {
-    label: '広告'
+    label: '広告',
+    disclaimer: '広告は広告主により提供されており、本サイトおよびデータ提供機関とは無関係です'
   },
   footer: {
     dataSource: 'データ提供元',

@@ -2,7 +2,7 @@ export default {
   title: '台湾トイレマップ',
   subtitle: '近くのトイレをすばやく検索',
   description: '台湾の政府オープンデータをもとに、台湾全土の公衆トイレを表示する非公式ツールです',
-  badge: '台湾公衆トイレ検索',
+  dataSource: 'データ提供元：政府データ開放プラットフォーム 環境部環境管理署「全国公衆トイレ登録データ」',
   startButton: 'はじめる',
   learnMore: '詳しく見る',
   features: {
@@ -35,6 +35,8 @@ export default {
   stats: {
     toilets: 'トイレ件数',
     counties: '対応エリア',
+    updatedToday: '本日更新',
+    updatedDaysAgo: '{n}日前に更新',
     daysAgo: '日前更新',
     weekly: '毎週'
   },

@@ -6,7 +6,9 @@
     role="complementary"
     :aria-label="$t('ads.label')"
   >
-    <span class="ad-slot-label" aria-hidden="true">{{ $t('ads.label') }}</span>
+    <span class="ad-slot-label" aria-hidden="true">
+      {{ $t('ads.label') }}<span class="ad-slot-disclaimer"> · {{ $t('ads.disclaimer') }}</span>
+    </span>
 
     <!-- 固定尺寸單元：不帶 data-ad-format，尺寸由下方 CSS 的 media query 決定，零版面跳動 -->
     <ins
@@ -70,7 +72,14 @@ onMounted(async () => {
   padding: 0.5rem 1rem 0.75rem;
 }
 
+.ad-slot-disclaimer {
+  letter-spacing: normal;
+  text-transform: none;
+}
+
 .ad-slot-label {
+  text-align: center;
+  line-height: 1.4;
   font-size: 0.66rem;
   font-weight: 500;
   letter-spacing: 0.08em;

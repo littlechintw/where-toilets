@@ -15,6 +15,8 @@
         <p class="privacy-card-body">{{ $t(`privacy.sections.${key}.body`) }}</p>
       </section>
 
+      <DataAttribution class="privacy-attribution" />
+
       <p class="privacy-links">
         <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
           Google
@@ -36,6 +38,8 @@
 </template>
 
 <script setup>
+import DataAttribution from '../components/DataAttribution.vue'
+
 /**
  * 隱私權政策（AdSense 計畫政策要求網站必須有一頁）。
  * 內容在 src/i18n/locales/{zh,en}/privacy.js；其他語言會 fallback 到英文。
@@ -163,4 +167,8 @@ const ICONS = {
     padding: 1rem 1.15rem;
   }
 }
+</style>
+
+<style scoped>
+.privacy-attribution { margin: 1rem 0; }
 </style>

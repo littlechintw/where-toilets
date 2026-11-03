@@ -39,7 +39,8 @@ export default {
     }
   },
   ads: {
-    label: 'Patalastas'
+    label: 'Patalastas',
+    disclaimer: 'Ang mga ad ay mula sa mga advertiser at walang kaugnayan sa site na ito o sa tagapagbigay ng datos'
   },
   footer: {
     dataSource: 'Pinagmulan ng datos',

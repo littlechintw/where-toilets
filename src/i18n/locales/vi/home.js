@@ -2,7 +2,7 @@ export default {
   title: 'Bản đồ nhà vệ sinh Đài Loan',
   subtitle: 'Tìm nhà vệ sinh gần đây nhanh chóng',
   description: 'Công cụ không chính thức sử dụng dữ liệu mở của chính phủ Đài Loan',
-  badge: 'Tìm nhà vệ sinh công cộng Đài Loan',
+  dataSource: 'Nguồn: Nền tảng dữ liệu mở chính phủ Đài Loan, Cục Quản lý Môi trường, Bộ Môi trường, «Dữ liệu nhà vệ sinh công cộng toàn quốc»',
   startButton: 'Bắt đầu',
   learnMore: 'Tìm hiểu thêm',
   features: {
@@ -35,6 +35,8 @@ export default {
   stats: {
     toilets: 'Số nhà vệ sinh',
     counties: 'Khu vực',
+    updatedToday: 'Cập nhật hôm nay',
+    updatedDaysAgo: 'Cập nhật {n} ngày trước',
     daysAgo: 'ngày trước',
     weekly: 'Hàng tuần'
   },

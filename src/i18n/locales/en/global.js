@@ -39,7 +39,8 @@ export default {
     resetFilters: 'Reset all filters'
   },
   ads: {
-    label: 'Advertisement'
+    label: 'Advertisement',
+    disclaimer: 'Ads are provided by advertisers and are not affiliated with this site or the data provider'
   },
   footer: {
     dataSource: 'Data Source',

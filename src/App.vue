@@ -4,15 +4,15 @@
 
     <nav class="navbar" role="navigation" :aria-label="$t('nav.home')">
       <div class="nav-container">
-        <router-link to="/" class="nav-logo" :aria-label="$t('home.title')">
+        <router-link :to="to('Home')" class="nav-logo" :aria-label="$t('home.title')">
           <span class="nav-logo-mark" aria-hidden="true">🚽</span>
           <span class="nav-logo-text">{{ $t('home.title') }}</span>
         </router-link>
         <div class="nav-menu">
-          <router-link to="/" class="nav-link">{{ $t('nav.home') }}</router-link>
-          <router-link to="/map" class="nav-link">{{ $t('nav.map') }}</router-link>
+          <router-link :to="to('Home')" class="nav-link">{{ $t('nav.home') }}</router-link>
+          <router-link :to="to('Map')" class="nav-link">{{ $t('nav.map') }}</router-link>
           <router-link
-            to="/settings"
+            :to="to('Settings')"
             class="nav-icon-link"
             :aria-label="$t('nav.settings')"
             :title="$t('nav.settings')"
@@ -35,7 +35,7 @@
         <span class="footer-label">{{ $t('footer.author') }}</span>
         <a href="https://littlechin.tw" target="_blank" rel="noopener noreferrer">littlechin.tw</a>
         <span class="footer-sep" aria-hidden="true">·</span>
-        <router-link to="/privacy">{{ $t('footer.privacy') }}</router-link>
+        <router-link :to="to('Privacy')">{{ $t('footer.privacy') }}</router-link>
       </p>
     </footer>
   </div>
@@ -45,8 +45,10 @@
 import { watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { SUPPORTED_LOCALES } from './i18n'
+import { useLocalizedTo } from './composables/useLocalizedTo'
 
 const { locale } = useI18n()
+const to = useLocalizedTo()
 
 // 同步 <html lang>（對 SEO 與螢幕閱讀器都重要）
 const syncHtmlLang = (val) => {
@@ -57,14 +59,9 @@ const syncHtmlLang = (val) => {
 }
 syncHtmlLang(locale.value)
 
-// 只有使用者「主動切換」才寫入 localStorage；
-// 由 ?lang= 或瀏覽器語言自動判斷出來的初始值不應該被永久記住
-watch(locale, (val) => {
-  syncHtmlLang(val)
-  if (typeof localStorage !== 'undefined') {
-    localStorage.setItem('locale', val)
-  }
-})
+// 語言由網址決定（router beforeEach 會設定 locale）；
+// 「主動選擇」的語言只在 Settings 的 setLanguage 寫入 localStorage
+watch(locale, syncHtmlLang)
 </script>
 
 <style>

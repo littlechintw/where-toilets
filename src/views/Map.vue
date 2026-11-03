@@ -3,7 +3,7 @@
     <!-- 控制面板 -->
     <div class="control-panel" :class="{ collapsed: isPanelCollapsed }">
       <div class="panel-header">
-        <h2 class="panel-header-title" v-show="!isPanelCollapsed">{{ $t('map.panelTitle') }}</h2>
+        <h2 class="panel-header-title">{{ $t('map.panelTitle') }}</h2>
         <button
           @click="isPanelCollapsed = !isPanelCollapsed"
           class="collapse-btn"
@@ -1191,6 +1191,10 @@ onUnmounted(() => {
   height: 64px;
 }
 
+.control-panel.collapsed .panel-header-title {
+  display: none;
+}
+
 .panel-header-title {
   margin: 0;
   font-size: 0.9rem;
@@ -1925,6 +1929,15 @@ onUnmounted(() => {
 
   .panel-content {
     max-height: 40vh;
+  }
+
+  /* 手機版上下收合：收合時標題仍顯示、按鈕位置不變，箭頭改為朝上（展開中）／朝下（已收合） */
+  .control-panel.collapsed .panel-header-title {
+    display: block;
+  }
+
+  .collapse-btn .material-symbols-outlined {
+    transform: rotate(90deg);
   }
 
   .map-container {

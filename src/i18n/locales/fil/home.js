@@ -2,7 +2,7 @@ export default {
   title: 'Mapa ng Toilet sa Taiwan',
   subtitle: 'Mabilis na hanapin ang malapit na toilet',
   description: 'Hindi opisyal na tool gamit ang open data ng pamahalaan ng Taiwan',
-  badge: 'Hanapan ng Pampublikong Toilet sa Taiwan',
+  dataSource: 'Pinagmulan: Open Data Platform ng Pamahalaan ng Taiwan, Environmental Management Administration, Ministry of Environment, “National Public Toilet Registry”',
   startButton: 'Magsimula',
   learnMore: 'Matuto pa',
   features: {
@@ -35,6 +35,8 @@ export default {
   stats: {
     toilets: 'Bilang ng toilet',
     counties: 'Saklaw na lugar',
+    updatedToday: 'Na-update ngayon',
+    updatedDaysAgo: 'Na-update {n} araw na ang nakalipas',
     daysAgo: 'araw na ang nakalipas',
     weekly: 'Lingguhan'
   },

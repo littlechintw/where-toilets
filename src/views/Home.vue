@@ -2,13 +2,11 @@
   <div class="home">
     <section class="hero">
       <div class="hero-inner">
-        <span class="eyebrow">{{ $t('home.badge') }}</span>
-
         <h1 class="title">{{ $t('home.subtitle') }}</h1>
         <p class="lede">{{ $t('home.description') }}</p>
 
         <div class="actions">
-          <router-link to="/map" class="cta" @click="onCtaClick">
+          <router-link :to="to('Map')" class="cta" @click="onCtaClick">
             <span class="material-symbols-outlined cta-icon" aria-hidden="true">explore</span>
             {{ $t('home.startButton') }}
           </router-link>
@@ -26,23 +24,20 @@
               <strong class="stat-num">{{ stats?.counties?.length || '22' }}</strong>
               <span class="stat-label">{{ $t('home.stats.counties') }}</span>
             </span>
+            <template v-if="updatedDays !== null">
+              <span class="dot" aria-hidden="true">·</span>
+              <span class="stat-item" :title="updatedDate">
+                <i18n-t v-if="updatedDays > 0" keypath="home.stats.updatedDaysAgo" tag="span" class="stat-label">
+                  <template #n><strong class="stat-num">{{ updatedDays }}</strong></template>
+                </i18n-t>
+                <span v-else class="stat-label">{{ $t('home.stats.updatedToday') }}</span>
+              </span>
+            </template>
+          </p>
+          <p class="source-note">
+            <a href="https://data.gov.tw/dataset/30794" target="_blank" rel="noopener noreferrer">{{ $t('home.dataSource') }}</a>
           </p>
         </div>
-
-        <ul class="trust-badges" aria-label="">
-          <li>
-            <span class="material-symbols-outlined trust-icon" aria-hidden="true">check_circle</span>
-            {{ $t('home.trust.free') }}
-          </li>
-          <li>
-            <span class="material-symbols-outlined trust-icon" aria-hidden="true">check_circle</span>
-            {{ $t('home.trust.noSignup') }}
-          </li>
-          <li>
-            <span class="material-symbols-outlined trust-icon" aria-hidden="true">check_circle</span>
-            {{ $t('home.trust.weeklyUpdate') }}
-          </li>
-        </ul>
       </div>
 
       <div class="bg-decor" aria-hidden="true">
@@ -57,12 +52,23 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { trackEvent } from '../utils/analytics'
 import AdSlot from '../components/AdSlot.vue'
 import { AD_SLOTS } from '../config/ads'
+import { useDataMeta } from '../composables/useDataMeta'
+import { useLocalizedTo } from '../composables/useLocalizedTo'
 
 const stats = ref(null)
+const to = useLocalizedTo()
+const { meta, updatedDate } = useDataMeta()
+
+// 以臺灣日曆日計算「N 天前」，避免跨時區誤差
+const updatedDays = computed(() => {
+  if (!meta.value?.last_updated) return null
+  const day = (d) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Taipei' }).format(d)
+  return Math.max(0, Math.round((Date.parse(day(new Date())) - Date.parse(day(new Date(meta.value.last_updated)))) / 86400000))
+})
 
 const onCtaClick = () => {
   trackEvent('cta_get_started', { location: 'home_hero' })
@@ -111,16 +117,27 @@ onMounted(async () => {
   text-align: center;
 }
 
-.eyebrow {
-  display: inline-block;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  color: var(--md-sys-color-on-primary-container);
-  background: var(--md-sys-color-primary-container);
-  padding: 0.5rem 1.2rem;
-  border-radius: var(--radius-pill);
-  margin-bottom: 1.75rem;
+.source-note a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--md-sys-color-outline);
+}
+.source-note a:hover {
+  color: var(--md-sys-color-primary);
+  text-decoration-color: currentColor;
+}
+
+.source-note {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin: 0.85rem 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--md-sys-color-outline-variant);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--md-sys-color-on-surface-variant);
 }
 
 .title {
@@ -129,21 +146,21 @@ onMounted(async () => {
   line-height: 1.15;
   letter-spacing: -0.02em;
   color: var(--md-sys-color-on-surface);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .lede {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--md-sys-color-on-surface-variant);
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 1.75rem;
   max-width: 520px;
 }
 
 .actions {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 /* M3 Extended FAB for CTA */
@@ -180,6 +197,8 @@ onMounted(async () => {
 /* Stats Card - M3 Outlined Card Style */
 .stats-card {
   display: inline-block;
+  max-width: 100%;
+  text-align: center;
   margin: 0.5rem auto 2rem;
   padding: 0.85rem 1.75rem;
   background: var(--md-sys-color-surface-container-low);
@@ -221,36 +240,15 @@ onMounted(async () => {
   font-weight: bold;
 }
 
-/* Trust badges using Material Icons */
-.trust-badges {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0 0;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  gap: 1.25rem;
-  font-size: 0.88rem;
-  color: var(--md-sys-color-on-surface-variant);
-  white-space: nowrap;
-}
-
-.trust-badges li {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  line-height: 1.4;
-  font-weight: 500;
-}
-
-.trust-icon {
-  font-size: 18px;
-  color: var(--md-sys-color-success);
-}
-
 .home-ad {
   flex-shrink: 0;
+}
+
+/* 底下的廣告版位佔了高度，內容會被推到偏上；桌機版在 hero 上方補同樣高度讓內容對整個可視區垂直置中 */
+@media (min-width: 641px) {
+  .hero {
+    padding-top: calc(2.5rem + 8.5rem);
+  }
 }
 
 /* Decorative background blobs */
@@ -302,12 +300,12 @@ onMounted(async () => {
   }
 
   .title {
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
   }
 
   .lede {
-    font-size: 1.02rem;
-    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
   }
 
   .cta {
@@ -317,19 +315,6 @@ onMounted(async () => {
 
   .stats-card {
     padding: 0.75rem 1.25rem;
-  }
-
-  .trust-badges {
-    gap: 0.75rem;
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 440px) {
-  .trust-badges {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem 0.8rem;
   }
 }
 </style>

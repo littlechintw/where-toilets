@@ -1,8 +1,8 @@
 export default {
   title: 'Taiwan Toilet Map',
   subtitle: 'Find Nearby Toilets Quickly',
-  description: 'Using government open data to provide toilet location information across Taiwan',
-  badge: 'Taiwan Public Restroom Finder',
+  description: 'An unofficial tool',
+  dataSource: 'Source: data.gov.tw — Environmental Management Administration, Ministry of Environment, “National Public Toilet Registry”',
   startButton: 'Get Started',
   learnMore: 'Learn More',
   features: {
@@ -35,6 +35,8 @@ export default {
   stats: {
     toilets: 'Toilet Data',
     counties: 'Counties Coverage',
+    updatedToday: 'Updated today',
+    updatedDaysAgo: 'Updated {n} days ago',
     daysAgo: 'days ago updated',
     weekly: 'Weekly'
   },
