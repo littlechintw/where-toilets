@@ -104,9 +104,10 @@ onMounted(async () => {
 }
 
 /* AdSense 沒有廣告可填（新單元前幾小時、或沒有合適廣告）時會標 data-ad-status="unfilled"，
-   整個版位連「廣告」小字一起收起來，不留空白框 */
+   把整個版位（含「廣告」小字）藏起來，但用 visibility 保留空間：
+   若用 display:none 收掉，頁面高度會在載入後突然縮短，造成 CLS（Core Web Vitals 的版面位移）。 */
 .ad-slot:has(ins.adsbygoogle[data-ad-status="unfilled"]) {
-  display: none;
+  visibility: hidden;
 }
 
 .ad-slot-dev-box {

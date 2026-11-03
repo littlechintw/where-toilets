@@ -24,15 +24,14 @@
               <strong class="stat-num">{{ stats?.counties?.length || '22' }}</strong>
               <span class="stat-label">{{ $t('home.stats.counties') }}</span>
             </span>
-            <template v-if="updatedDays !== null">
-              <span class="dot" aria-hidden="true">·</span>
-              <span class="stat-item" :title="updatedDate">
-                <i18n-t v-if="updatedDays > 0" keypath="home.stats.updatedDaysAgo" tag="span" class="stat-label">
-                  <template #n><strong class="stat-num">{{ updatedDays }}</strong></template>
-                </i18n-t>
-                <span v-else class="stat-label">{{ $t('home.stats.updatedToday') }}</span>
-              </span>
-            </template>
+            <!-- 一開始就渲染（資料沒回來時用隱藏的佔位），避免 index.json 載入後多出一項把卡片撐高、整個垂直置中的 hero 跟著位移（CLS） -->
+            <span class="dot" aria-hidden="true" :class="{ 'is-pending': updatedDays === null }">·</span>
+            <span class="stat-item" :class="{ 'is-pending': updatedDays === null }" :title="updatedDate" :aria-hidden="updatedDays === null">
+              <i18n-t v-if="shownDays > 0" keypath="home.stats.updatedDaysAgo" tag="span" class="stat-label">
+                <template #n><strong class="stat-num">{{ shownDays }}</strong></template>
+              </i18n-t>
+              <span v-else class="stat-label">{{ $t('home.stats.updatedToday') }}</span>
+            </span>
           </p>
           <p class="source-note">
             <a href="https://data.gov.tw/dataset/30794" target="_blank" rel="noopener noreferrer">{{ $t('home.dataSource') }}</a>
@@ -64,6 +63,7 @@ const to = useLocalizedTo()
 const { meta, updatedDate } = useDataMeta()
 
 // 以臺灣日曆日計算「N 天前」，避免跨時區誤差
+const shownDays = computed(() => updatedDays.value ?? 1)
 const updatedDays = computed(() => {
   if (!meta.value?.last_updated) return null
   const day = (d) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Taipei' }).format(d)
@@ -233,6 +233,10 @@ onMounted(async () => {
 
 .stat-label {
   font-weight: 500;
+}
+
+.meta .is-pending {
+  visibility: hidden;
 }
 
 .meta .dot {
